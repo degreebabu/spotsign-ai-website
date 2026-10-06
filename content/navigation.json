@@ -90,6 +90,28 @@
     { "role": "Recruiter", "slug": "recruiter", "tagline": "AI resume ranking, candidate scoring & faster hiring" },
     { "role": "Employee", "slug": "employee", "tagline": "Mobile self-service, instant payslips & AI assistance" }
   ],
+  "useCases": [
+    { "name": "Board & Executive Dashboard", "slug": "board-dashboard", "desc": "Real-time C-suite telemetry & labor cost run-rates" },
+    { "name": "Strategic Workforce Planning", "slug": "workforce-planning", "desc": "Model headcount capacity & non-destructive reorgs" },
+    { "name": "Attrition & Retention", "slug": "attrition-retention", "desc": "Predict flight risks before resignations occur" },
+    { "name": "DEI Analytics & Parity", "slug": "dei-analytics", "desc": "Continuous pay equity & promotion representation" },
+    { "name": "Identity & Access Audit", "slug": "identity-audit", "desc": "Automated offboarding asset recovery & access revocation" },
+    { "name": "M&A Integration", "slug": "ma-integration", "desc": "Rapid post-merger entity & payroll consolidation" },
+    { "name": "Payroll Accuracy & Compliance", "slug": "payroll-accuracy", "desc": "Zero-defect salary runs & statutory guardrails" }
+  ],
+  "competitors": [
+    { "name": "Workday", "slug": "workday", "tagline": "AI-native OS vs legacy ERP" },
+    { "name": "SAP SuccessFactors", "slug": "sap", "tagline": "Fast cloud vs heavy ABAP stack" },
+    { "name": "Oracle HCM Cloud", "slug": "oracle", "tagline": "Agile WOS vs database monolith" },
+    { "name": "Rippling", "slug": "rippling", "tagline": "Global + deep factory shifts & piece-rate" },
+    { "name": "Darwinbox", "slug": "darwinbox", "tagline": "Non-destructive digital twin & GL ledger" },
+    { "name": "Keka HR", "slug": "keka", "tagline": "Enterprise multi-entity & complex shifts" },
+    { "name": "BambooHR", "slug": "bamboohr", "tagline": "Full scale enterprise vs SMB HR" },
+    { "name": "Deel", "slug": "deel", "tagline": "Domestic floor shifts & full WOS" },
+    { "name": "HiBob", "slug": "hibob", "tagline": "Dual-workforce shift roster & statutory payroll" },
+    { "name": "Zoho People", "slug": "zoho", "tagline": "Enterprise twin simulator vs modular suite" },
+    { "name": "Gusto", "slug": "gusto", "tagline": "Global 5,000+ staff vs micro-SMB" }
+  ],
   "enterprise": [
     { "name": "Platform Overview", "href": "/platform" },
     { "name": "Security & Architecture", "href": "/security" },
@@ -99,11 +121,16 @@
     { "name": "Request Demo", "href": "/demo" }
   ],
   "resources": [
-    { "name": "Resource Hub", "href": "/resources" },
-    { "name": "HRMS & WOS Guide", "href": "/resources/guides" },
-    { "name": "FAQ Knowledge Base", "href": "/resources/faq" },
-    { "name": "Workforce Glossary", "href": "/resources/glossary" },
-    { "name": "LLM Canonical Spec", "href": "/llm-info" }
+    { "name": "Resource Hub", "href": "/resources", "desc": "All whitepapers, reports, webinars, templates & guides" },
+    { "name": "Industry Reports", "href": "/resources/reports", "desc": "Workforce benchmarks, cost models & operational research" },
+    { "name": "Executive Webinars", "href": "/resources/webinars", "desc": "On-demand strategy sessions & product masterclasses" },
+    { "name": "Case Studies", "href": "/resources/case-studies", "desc": "Enterprise transformation stories & measured ROI" },
+    { "name": "HR & Payroll Templates", "href": "/resources/templates", "desc": "Ready-to-use policy templates, rosters & spreadsheets" },
+    { "name": "Technical Whitepapers", "href": "/resources/whitepapers", "desc": "System architecture, AI security & compliance specs" },
+    { "name": "Articles & Insights", "href": "/resources/articles", "desc": "Best practices for CHROs, CFOs & operations leaders" },
+    { "name": "HRMS & WOS Guide", "href": "/resources/guides", "desc": "Comprehensive evaluation framework for enterprise software" },
+    { "name": "FAQ Knowledge Base", "href": "/resources/faq", "desc": "Answers to technical, security, and migration questions" },
+    { "name": "Workforce Glossary", "href": "/resources/glossary", "desc": "Definitions for 150+ workforce & payroll terms" }
   ],
   "company": [
     { "name": "About Workforce360", "href": "/about" },

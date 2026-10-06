@@ -16,6 +16,48 @@ export const metadata: Metadata = {
 export default function ResourcesOverviewPage() {
   const sections = [
     {
+      title: "Research & Benchmark Reports",
+      desc: "Empirical workforce benchmarks on labor cost containment, shift rostering efficiency, and AI operational adoption across 19 industries.",
+      href: "/resources/reports",
+      icon: <FileText className="w-6 h-6 text-blue-600" />,
+      cta: "Browse Research Reports",
+    },
+    {
+      title: "On-Demand Webinars & Briefings",
+      desc: "Recorded architectural briefings and practitioner sessions on Workforce Digital Twin modeling, Indian payroll, and shift rostering.",
+      href: "/resources/webinars",
+      icon: <HelpCircle className="w-6 h-6 text-indigo-600" />,
+      cta: "Watch Technical Sessions",
+    },
+    {
+      title: "Transformation Case Studies",
+      desc: "Real-world operational transformations detailing how multi-entity organizations replace fragmented point tools with Workforce360.",
+      href: "/resources/case-studies",
+      icon: <Sparkles className="w-6 h-6 text-emerald-600" />,
+      cta: "Read Case Studies",
+    },
+    {
+      title: "Shift & Payroll Templates",
+      desc: "Download field-tested 3-shift rotation matrices, dual-regime salary CTC models, and zero-trust IT asset offboarding checklists.",
+      href: "/resources/templates",
+      icon: <FileText className="w-6 h-6 text-amber-600" />,
+      cta: "Download Templates",
+    },
+    {
+      title: "Technical Whitepapers",
+      desc: "In-depth technical whitepapers covering multi-tenant sovereign database isolation, graph simulations, and 40 Genkit AI flows.",
+      href: "/resources/whitepapers",
+      icon: <BookOpen className="w-6 h-6 text-purple-600" />,
+      cta: "Read Whitepapers",
+    },
+    {
+      title: "Architecture Articles & Insights",
+      desc: "Perspectives, operational teardowns, and engineering analysis on modern workforce operating system design.",
+      href: "/resources/articles",
+      icon: <FileText className="w-6 h-6 text-cyan-600" />,
+      cta: "Explore Articles",
+    },
+    {
       title: "Frequently Asked Questions (FAQ)",
       desc: "Direct, factual answers covering platform architecture, Indian statutory compliance, biometric sync, and 40 Genkit AI flows.",
       href: "/resources/faq",
@@ -23,7 +65,7 @@ export default function ResourcesOverviewPage() {
       cta: "Browse FAQ Knowledge Base",
     },
     {
-      title: "Workforce Operating System Guides",
+      title: "Operational Framework Guides",
       desc: "Deep-dive operational guides comparing traditional HRMS against modern Workforce Operating Systems and dual-workforce architectures.",
       href: "/resources/guides",
       icon: <BookOpen className="w-6 h-6 text-indigo-600" />,
@@ -35,13 +77,6 @@ export default function ResourcesOverviewPage() {
       href: "/resources/glossary",
       icon: <FileText className="w-6 h-6 text-emerald-600" />,
       cta: "Explore Workforce Glossary",
-    },
-    {
-      title: "LLM & AI Discoverability Manifest",
-      desc: "Canonical machine-readable specifications and structured entity definitions for AI search engines, Perplexity, and ClaudeBot.",
-      href: "/llm-info",
-      icon: <Sparkles className="w-6 h-6 text-cyan-600" />,
-      cta: "Inspect /llms.txt Directory",
     },
   ];
 

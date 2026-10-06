@@ -124,47 +124,23 @@ export default function Footer() {
           {/* Solutions & Resources */}
           <div className="space-y-3">
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-200 border-b border-slate-800 pb-2">
-              Solutions & Trust
+              Solutions & Resources
             </h3>
             <ul className="space-y-2 text-xs">
-              <li><Link href="/solutions/chro" className="text-slate-400 hover:text-white transition">For CHROs</Link></li>
-              <li><Link href="/solutions/payroll-manager" className="text-slate-400 hover:text-white transition">For Payroll Managers</Link></li>
-              <li><Link href="/solutions/cfo-finance" className="text-slate-400 hover:text-white transition">For CFO & Finance</Link></li>
-              <li><Link href="/solutions/operations" className="text-slate-400 hover:text-white transition">For Operations Heads</Link></li>
-              <li><Link href="/solutions/it-leader" className="text-slate-400 hover:text-white transition">For IT Directors</Link></li>
+              <li><Link href="/solutions" className="text-slate-400 hover:text-white transition">By Executive Persona</Link></li>
+              <li><Link href="/use-cases" className="text-slate-400 hover:text-white transition">Enterprise Use Cases</Link></li>
               <li><Link href="/compare" className="text-slate-400 hover:text-white transition">Capability Comparison</Link></li>
-              <li><Link href="/security" className="text-slate-400 hover:text-white transition">Security & Multi-Tenancy</Link></li>
-              <li><Link href="/resources/faq" className="text-slate-400 hover:text-white transition">Knowledge Base & FAQ</Link></li>
+              <li><Link href="/compare/workday" className="text-slate-400 hover:text-white transition">vs Workday</Link></li>
+              <li><Link href="/compare/sap" className="text-slate-400 hover:text-white transition">vs SAP SuccessFactors</Link></li>
+              <li><Link href="/resources" className="text-slate-400 hover:text-white transition">Resources & Research</Link></li>
+              <li><Link href="/security" className="text-slate-400 hover:text-white transition">Security & Trust</Link></li>
               <li><Link href="/pricing" className="text-slate-400 hover:text-white transition">Enterprise Pricing</Link></li>
             </ul>
           </div>
         </div>
 
-        {/* Machine-Readable / LLM Spec Strip */}
-        <div className="mt-12 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-          <div className="flex flex-wrap items-center gap-4">
-            <span className="font-semibold text-slate-300">Machine-Readable & AI Protocols:</span>
-            <Link href="/llm-info" className="text-cyan-400 hover:underline flex items-center gap-1">
-              <span>Canonical LLM Directory (/llm-info)</span>
-              <ArrowUpRight className="w-3 h-3" />
-            </Link>
-            <a href="/llms.txt" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white font-mono">
-              /llms.txt
-            </a>
-            <a href="/llms-full.txt" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white font-mono">
-              /llms-full.txt
-            </a>
-            <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white font-mono">
-              /sitemap.xml
-            </a>
-          </div>
-          <div className="text-slate-400 text-center sm:text-right">
-            Designed with enterprise security principles: tenant isolation, RBAC, and immutable audit logs.
-          </div>
-        </div>
-
         {/* Bottom Legal / Copyright */}
-        <div className="mt-6 pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+        <div className="mt-12 pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
           <div>
             © {new Date().getFullYear()} Workforce360 • Powered by Spotsign • A DIMENSHION Product. All rights reserved.
           </div>

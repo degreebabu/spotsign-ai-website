@@ -31,7 +31,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
             <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce-july-2026.vercel.app/dashboard</span>
+            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/dashboard</span>
           </div>
           <div className="flex items-center space-x-3 text-slate-400 text-[11px]">
             <span className="flex items-center gap-1 text-emerald-400">
@@ -175,8 +175,10 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
         {/* Terminal Header */}
         <div className="bg-slate-900/90 px-4 py-3 flex items-center justify-between border-b border-indigo-950 text-xs">
           <div className="flex items-center space-x-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></span>
-            <span className="font-mono text-[11px] text-cyan-300 font-semibold">WORKFORCE DIGITAL TWIN v2.4 • SIMULATION SANDBOX</span>
+            <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
+            <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
+            <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+            <span className="ml-3 font-mono text-[11px] text-cyan-300 font-semibold">workforce360/digital-twin</span>
           </div>
           <span className="text-[10px] bg-indigo-950/80 border border-indigo-700/60 text-indigo-300 px-2 py-0.5 rounded font-mono">
             LIVE GRAPH: 3,482 NODES
@@ -277,7 +279,12 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
     return (
       <div className={`rounded-2xl border border-slate-200 bg-white shadow-xl overflow-hidden text-slate-800 ${className}`}>
         <div className="bg-slate-900 text-slate-300 px-4 py-3 flex items-center justify-between text-xs">
-          <span className="font-semibold text-white">Payroll & Indian Statutory Compliance Sentinel</span>
+          <div className="flex items-center space-x-2">
+            <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
+            <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
+            <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/payroll</span>
+          </div>
           <span className="bg-emerald-950 text-emerald-400 px-2 py-0.5 rounded text-[10px] font-mono border border-emerald-800">
             STATUS: 0 ANOMALIES
           </span>
@@ -332,8 +339,10 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
         {/* Chrome Bar */}
         <div className="bg-slate-900 text-slate-300 px-4 py-3 flex items-center justify-between text-xs">
           <div className="flex items-center space-x-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
-            <span className="font-semibold text-white">AI Recruitment & Applicant Tracking Pipeline</span>
+            <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
+            <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
+            <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/recruitment</span>
           </div>
           <span className="bg-indigo-950 text-cyan-300 px-2 py-0.5 rounded text-[10px] font-mono border border-indigo-800 flex items-center gap-1">
             <Sparkles className="w-3 h-3 text-cyan-400" />
@@ -459,8 +468,10 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
         {/* Chrome Bar */}
         <div className="bg-slate-900 text-slate-300 px-4 py-3 flex items-center justify-between text-xs">
           <div className="flex items-center space-x-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span className="font-semibold text-white">Smart Attendance, Biometric & Geofencing Terminal</span>
+            <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
+            <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
+            <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/attendance</span>
           </div>
           <span className="bg-emerald-950 text-emerald-300 px-2 py-0.5 rounded text-[10px] font-mono border border-emerald-800">
             SYNCED: 42 BIOMETRIC TERMINALS LIVE
@@ -540,7 +551,12 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
   return (
     <div className={`rounded-2xl border border-slate-200/80 bg-white shadow-2xl overflow-hidden text-slate-800 ${className}`}>
       <div className="bg-slate-900 text-slate-400 px-4 py-3 flex items-center justify-between border-b border-slate-800 text-xs">
-        <span className="font-mono text-[11px] text-slate-300">workforce360.enterprise.telemetry/module</span>
+        <div className="flex items-center space-x-2">
+          <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
+          <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
+          <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+          <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/dashboard</span>
+        </div>
         <span className="text-emerald-400 text-[11px]">Live Multi-Tenant Instance</span>
       </div>
       <div className="p-8 text-center text-xs text-slate-500">Enterprise Module Telemetry Configured</div>

@@ -234,7 +234,7 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Solutions Dropdown */}
+            {/* Solutions Mega Menu (Persona & Use Cases) */}
             <div className="relative">
               <button
                 onClick={() => toggleFlyout("solutions")}
@@ -248,21 +248,101 @@ export default function Navbar() {
               </button>
 
               {activeFlyout === "solutions" && (
-                <div className="absolute left-0 mt-3 w-72 bg-white rounded-2xl shadow-elevated-lg border border-slate-200 p-4 animate-in fade-in duration-150">
-                  <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 px-2 pb-2">Solutions by Role</h3>
-                  <div className="space-y-1">
-                    {navData.solutions.map((sol) => (
+                <div className="absolute left-1/2 -translate-x-1/2 mt-3 w-[720px] bg-white rounded-2xl shadow-elevated-lg border border-slate-200 p-6 animate-in fade-in duration-150 grid grid-cols-2 gap-6">
+                  {/* Left Column: By Persona */}
+                  <div>
+                    <div className="flex items-center justify-between pb-2 border-b border-slate-100 mb-3">
+                      <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">By Executive Role / Persona</h3>
+                      <Link href="/solutions" className="text-[11px] font-semibold text-blue-600 hover:underline">
+                        All Roles →
+                      </Link>
+                    </div>
+                    <div className="space-y-1">
+                      {navData.solutions.map((sol) => (
+                        <Link
+                          key={sol.slug}
+                          href={`/solutions/${sol.slug}`}
+                          className="group flex flex-col p-2 rounded-lg hover:bg-slate-50 border border-transparent hover:border-slate-100 transition"
+                        >
+                          <span className="text-xs font-semibold text-slate-800 group-hover:text-blue-600 transition">
+                            For {sol.role}
+                          </span>
+                          <span className="text-[11px] text-slate-500 line-clamp-1">
+                            {sol.tagline}
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Right Column: By Enterprise Use Case */}
+                  <div>
+                    <div className="flex items-center justify-between pb-2 border-b border-slate-100 mb-3">
+                      <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">By Enterprise Use Case</h3>
+                      <Link href="/use-cases" className="text-[11px] font-semibold text-blue-600 hover:underline">
+                        All Use Cases →
+                      </Link>
+                    </div>
+                    <div className="space-y-1">
+                      {navData.useCases.map((uc) => (
+                        <Link
+                          key={uc.slug}
+                          href={`/use-cases/${uc.slug}`}
+                          className="group flex flex-col p-2 rounded-lg hover:bg-slate-50 border border-transparent hover:border-slate-100 transition"
+                        >
+                          <span className="text-xs font-semibold text-slate-800 group-hover:text-blue-600 transition">
+                            {uc.name}
+                          </span>
+                          <span className="text-[11px] text-slate-500 line-clamp-1">
+                            {uc.desc}
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Compare Dropdown */}
+            <div className="relative">
+              <button
+                onClick={() => toggleFlyout("compare")}
+                aria-expanded={activeFlyout === "compare"}
+                className={`px-3 py-2 text-sm font-semibold rounded-md flex items-center gap-1 transition ${
+                  activeFlyout === "compare" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
+                }`}
+              >
+                <span>Compare</span>
+                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "compare" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
+              </button>
+
+              {activeFlyout === "compare" && (
+                <div className="absolute left-1/2 -translate-x-1/2 mt-3 w-[560px] bg-white rounded-2xl shadow-elevated-lg border border-slate-200 p-6 animate-in fade-in duration-150">
+                  <div className="flex items-center justify-between pb-3 border-b border-slate-100 mb-3">
+                    <div>
+                      <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">Platform Comparisons</h3>
+                      <p className="text-[11px] text-slate-500">Architectural & feature breakdowns against legacy and point solutions.</p>
+                    </div>
+                    <Link href="/compare" className="text-xs font-semibold text-blue-600 hover:underline flex items-center gap-1">
+                      <span>Full Matrix</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
+                  </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    {navData.competitors.map((comp) => (
                       <Link
-                        key={sol.slug}
-                        href={`/solutions/${sol.slug}`}
-                        className="group flex flex-col p-2 rounded-lg hover:bg-slate-50 transition"
+                        key={comp.slug}
+                        href={`/compare/${comp.slug}`}
+                        className="group p-2 rounded-lg hover:bg-slate-50 border border-transparent hover:border-slate-100 transition"
                       >
-                        <span className="text-xs font-semibold text-slate-800 group-hover:text-blue-600 transition">
-                          For {sol.role}
-                        </span>
-                        <span className="text-[11px] text-slate-500 line-clamp-1">
-                          {sol.tagline}
-                        </span>
+                        <div className="text-xs font-semibold text-slate-800 group-hover:text-blue-600 transition flex items-center gap-1.5">
+                          <Scale className="w-3 h-3 text-slate-400 group-hover:text-blue-600" />
+                          <span>vs {comp.name}</span>
+                        </div>
+                        <div className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
+                          {comp.tagline}
+                        </div>
                       </Link>
                     ))}
                   </div>
@@ -270,13 +350,50 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Compare */}
-            <Link
-              href="/compare"
-              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition"
-            >
-              Compare
-            </Link>
+            {/* Resources Dropdown */}
+            <div className="relative">
+              <button
+                onClick={() => toggleFlyout("resources")}
+                aria-expanded={activeFlyout === "resources"}
+                className={`px-3 py-2 text-sm font-semibold rounded-md flex items-center gap-1 transition ${
+                  activeFlyout === "resources" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
+                }`}
+              >
+                <span>Resources</span>
+                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "resources" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
+              </button>
+
+              {activeFlyout === "resources" && (
+                <div className="absolute right-0 mt-3 w-[540px] bg-white rounded-2xl shadow-elevated-lg border border-slate-200 p-6 animate-in fade-in duration-150">
+                  <div className="flex items-center justify-between pb-3 border-b border-slate-100 mb-3">
+                    <div>
+                      <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">Knowledge & Research</h3>
+                      <p className="text-[11px] text-slate-500">Research, benchmarks, webinars, guides, and compliance tools.</p>
+                    </div>
+                    <Link href="/resources" className="text-xs font-semibold text-blue-600 hover:underline flex items-center gap-1">
+                      <span>Resource Hub</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
+                  </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    {navData.resources.map((res) => (
+                      <Link
+                        key={res.href}
+                        href={res.href}
+                        className="group p-2 rounded-lg hover:bg-slate-50 border border-transparent hover:border-slate-100 transition"
+                      >
+                        <div className="text-xs font-semibold text-slate-800 group-hover:text-blue-600 transition">
+                          {res.name}
+                        </div>
+                        <div className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
+                          {res.desc}
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
 
             {/* Pricing */}
             <Link
@@ -374,12 +491,33 @@ export default function Navbar() {
           </div>
 
           <div className="space-y-1 pt-2 border-t border-slate-100">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Solutions & Trust</div>
+            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Solutions & Use Cases</div>
             <Link href="/solutions" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
               Solutions by Executive Role
             </Link>
-            <Link href="/compare" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
-              Platform Capability Comparison
+            <Link href="/use-cases" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
+              Enterprise Use Cases (7 Core)
+            </Link>
+          </div>
+
+          <div className="space-y-1 pt-2 border-t border-slate-100">
+            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Comparisons (11 Competitors)</div>
+            <Link href="/compare" className="block px-3 py-1.5 text-xs font-bold text-blue-600">
+              Platform Capability Matrix →
+            </Link>
+            <div className="grid grid-cols-2 gap-1 px-2 pt-1">
+              {navData.competitors.slice(0, 8).map((comp) => (
+                <Link key={comp.slug} href={`/compare/${comp.slug}`} className="text-xs text-slate-600 hover:text-blue-600 py-1">
+                  vs {comp.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-1 pt-2 border-t border-slate-100">
+            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Resources & Trust</div>
+            <Link href="/resources" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
+              Resource Hub (Reports, Webinars, Cases)
             </Link>
             <Link href="/security" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
               Security & Multi-Tenant Trust

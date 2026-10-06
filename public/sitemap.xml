@@ -49,11 +49,36 @@
   <url><loc>https://workforce360.dimension.com/solutions/recruiter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://workforce360.dimension.com/solutions/employee</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://workforce360.dimension.com/compare</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/workday</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/sap</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/oracle</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/rippling</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/darwinbox</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/keka</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/bamboohr</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/deel</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/hibob</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/zoho</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/compare/gusto</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/use-cases</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/use-cases/board-dashboard</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/use-cases/workforce-planning</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/use-cases/attrition-retention</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/use-cases/dei-analytics</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/use-cases/identity-audit</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/use-cases/ma-integration</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/use-cases/payroll-accuracy</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://workforce360.dimension.com/security</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://workforce360.dimension.com/compliance</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://workforce360.dimension.com/pricing</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://workforce360.dimension.com/demo</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://workforce360.dimension.com/resources</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://workforce360.dimension.com/resources</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://workforce360.dimension.com/resources/reports</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://workforce360.dimension.com/resources/webinars</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://workforce360.dimension.com/resources/case-studies</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://workforce360.dimension.com/resources/templates</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://workforce360.dimension.com/resources/whitepapers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://workforce360.dimension.com/resources/articles</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://workforce360.dimension.com/resources/guides</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://workforce360.dimension.com/resources/faq</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://workforce360.dimension.com/resources/glossary</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
