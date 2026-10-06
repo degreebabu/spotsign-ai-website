@@ -62,26 +62,22 @@ export default function Navbar() {
   return (
     <header ref={navRef} className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur border-b border-slate-200 transition-all">
       {/* Top micro-bar for trust */}
-      <div className="hidden lg:block bg-slate-900 text-slate-300 py-1 px-4 text-xs">
+      <div className="hidden lg:block bg-slate-900 text-slate-300 py-1.5 px-4 text-xs">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <span className="font-semibold tracking-wide text-white">Workforce360</span>
-            <span className="text-slate-500">•</span>
+            <span className="text-slate-600">•</span>
             <span className="text-slate-300">The AI-Native Workforce Operating System</span>
-            <span className="text-slate-500">•</span>
+            <span className="text-slate-600">•</span>
             <span className="text-slate-400">Powered by Spotsign</span>
           </div>
           <div className="flex items-center space-x-6">
-            <Link href="/compare" className="text-slate-300 hover:text-white transition flex items-center gap-1">
-              <Scale className="w-3 h-3 text-blue-400" />
-              <span>Platform Comparison</span>
-            </Link>
-            <Link href="/security" className="text-slate-300 hover:text-white transition flex items-center gap-1">
-              <ShieldCheck className="w-3 h-3 text-emerald-400" />
+            <Link href="/security" className="text-slate-300 hover:text-white transition flex items-center gap-1.5 font-medium">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
               <span>Trust & Architecture</span>
             </Link>
-            <Link href="/llm-info" className="text-cyan-400 hover:text-cyan-300 transition text-[11px] font-mono">
-              /llms.txt
+            <Link href="/contact" className="text-slate-400 hover:text-slate-200 transition">
+              Enterprise Sales
             </Link>
           </div>
         </div>
@@ -105,9 +101,9 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Navigation Links */}
+          {/* Desktop Navigation Links: Platform, Solutions, AI & Brain, Digital Twin, Industries, Resources, Pricing */}
           <nav className="hidden lg:flex items-center space-x-1" aria-label="Main Navigation">
-            {/* Platform Mega Menu */}
+            {/* 1. Platform Mega Menu */}
             <div className="relative">
               <button
                 onClick={() => toggleFlyout("platform")}
@@ -170,71 +166,7 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* AI Direct Link */}
-            <Link
-              href="/platform/ai"
-              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition flex items-center gap-1.5"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-              <span>AI & Brain</span>
-            </Link>
-
-            {/* Digital Twin Direct Link */}
-            <Link
-              href="/platform/digital-twin"
-              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition"
-            >
-              Digital Twin
-            </Link>
-
-            {/* Industries Mega Menu (All 19) */}
-            <div className="relative">
-              <button
-                onClick={() => toggleFlyout("industries")}
-                aria-expanded={activeFlyout === "industries"}
-                className={`px-3 py-2 text-sm font-semibold rounded-md flex items-center gap-1 transition ${
-                  activeFlyout === "industries" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
-                }`}
-              >
-                <span>Industries</span>
-                <span className="bg-blue-100 text-blue-700 text-[10px] px-1.5 py-0.5 rounded-full font-bold">19</span>
-                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "industries" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
-              </button>
-
-              {activeFlyout === "industries" && (
-                <div className="absolute left-1/2 -translate-x-1/2 mt-3 w-[840px] bg-white rounded-2xl shadow-elevated-lg border border-slate-200 p-6 animate-in fade-in duration-150">
-                  <div className="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
-                    <div>
-                      <h3 className="text-sm font-bold text-slate-900">19 Pre-Built Industry Vertical Packs</h3>
-                      <p className="text-xs text-slate-500">Configured departments, roles, shift rules, and statutory compliance out of the box.</p>
-                    </div>
-                    <Link href="/industries" className="text-xs font-semibold text-blue-600 hover:underline flex items-center gap-1">
-                      <span>Explore All 19</span>
-                      <ArrowRight className="w-3.5 h-3.5" />
-                    </Link>
-                  </div>
-                  <div className="grid grid-cols-3 gap-3 max-h-[380px] overflow-y-auto pr-2">
-                    {navData.industries.map((ind) => (
-                      <Link
-                        key={ind.slug}
-                        href={`/industries/${ind.slug}`}
-                        className="group p-2 rounded-lg hover:bg-slate-50 border border-transparent hover:border-slate-200 transition"
-                      >
-                        <div className="text-xs font-semibold text-slate-800 group-hover:text-blue-600 transition flex items-center gap-1.5">
-                          <Building2 className="w-3 h-3 text-slate-400 group-hover:text-blue-600" />
-                          <span>{ind.name}</span>
-                        </div>
-                        <div className="text-[10px] text-slate-500 mt-0.5 truncate font-mono">
-                          {ind.highlight}
-                        </div>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Solutions Mega Menu (Persona & Use Cases) */}
+            {/* 2. Solutions Mega Menu (Persona & Use Cases) */}
             <div className="relative">
               <button
                 onClick={() => toggleFlyout("solutions")}
@@ -304,44 +236,62 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Compare Dropdown */}
+            {/* 3. AI & Brain Direct Link */}
+            <Link
+              href="/platform/ai"
+              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition flex items-center gap-1.5"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+              <span>AI & Brain</span>
+            </Link>
+
+            {/* 4. Digital Twin Direct Link */}
+            <Link
+              href="/platform/digital-twin"
+              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition"
+            >
+              Digital Twin
+            </Link>
+
+            {/* 5. Industries Mega Menu (All 19) */}
             <div className="relative">
               <button
-                onClick={() => toggleFlyout("compare")}
-                aria-expanded={activeFlyout === "compare"}
+                onClick={() => toggleFlyout("industries")}
+                aria-expanded={activeFlyout === "industries"}
                 className={`px-3 py-2 text-sm font-semibold rounded-md flex items-center gap-1 transition ${
-                  activeFlyout === "compare" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
+                  activeFlyout === "industries" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
                 }`}
               >
-                <span>Compare</span>
-                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "compare" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
+                <span>Industries</span>
+                <span className="bg-blue-100 text-blue-700 text-[10px] px-1.5 py-0.5 rounded-full font-bold">19</span>
+                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "industries" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
               </button>
 
-              {activeFlyout === "compare" && (
-                <div className="absolute left-1/2 -translate-x-1/2 mt-3 w-[560px] bg-white rounded-2xl shadow-elevated-lg border border-slate-200 p-6 animate-in fade-in duration-150">
-                  <div className="flex items-center justify-between pb-3 border-b border-slate-100 mb-3">
+              {activeFlyout === "industries" && (
+                <div className="absolute left-1/2 -translate-x-1/2 mt-3 w-[840px] bg-white rounded-2xl shadow-elevated-lg border border-slate-200 p-6 animate-in fade-in duration-150">
+                  <div className="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
                     <div>
-                      <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">Platform Comparisons</h3>
-                      <p className="text-[11px] text-slate-500">Architectural & feature breakdowns against legacy and point solutions.</p>
+                      <h3 className="text-sm font-bold text-slate-900">19 Pre-Built Industry Vertical Packs</h3>
+                      <p className="text-xs text-slate-500">Configured departments, roles, shift rules, and statutory compliance out of the box.</p>
                     </div>
-                    <Link href="/compare" className="text-xs font-semibold text-blue-600 hover:underline flex items-center gap-1">
-                      <span>Full Matrix</span>
+                    <Link href="/industries" className="text-xs font-semibold text-blue-600 hover:underline flex items-center gap-1">
+                      <span>Explore All 19</span>
                       <ArrowRight className="w-3.5 h-3.5" />
                     </Link>
                   </div>
-                  <div className="grid grid-cols-2 gap-2">
-                    {navData.competitors.map((comp) => (
+                  <div className="grid grid-cols-3 gap-3 max-h-[380px] overflow-y-auto pr-2">
+                    {navData.industries.map((ind) => (
                       <Link
-                        key={comp.slug}
-                        href={`/compare/${comp.slug}`}
-                        className="group p-2 rounded-lg hover:bg-slate-50 border border-transparent hover:border-slate-100 transition"
+                        key={ind.slug}
+                        href={`/industries/${ind.slug}`}
+                        className="group p-2 rounded-lg hover:bg-slate-50 border border-transparent hover:border-slate-200 transition"
                       >
                         <div className="text-xs font-semibold text-slate-800 group-hover:text-blue-600 transition flex items-center gap-1.5">
-                          <Scale className="w-3 h-3 text-slate-400 group-hover:text-blue-600" />
-                          <span>vs {comp.name}</span>
+                          <Building2 className="w-3 h-3 text-slate-400 group-hover:text-blue-600" />
+                          <span>{ind.name}</span>
                         </div>
-                        <div className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
-                          {comp.tagline}
+                        <div className="text-[10px] text-slate-500 mt-0.5 truncate font-mono">
+                          {ind.highlight}
                         </div>
                       </Link>
                     ))}
@@ -350,7 +300,7 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Resources Dropdown */}
+            {/* 6. Resources Dropdown */}
             <div className="relative">
               <button
                 onClick={() => toggleFlyout("resources")}
@@ -395,7 +345,7 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Pricing */}
+            {/* 7. Pricing */}
             <Link
               href="/pricing"
               className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition"
@@ -404,7 +354,7 @@ export default function Navbar() {
             </Link>
           </nav>
 
-          {/* Desktop Right CTAs */}
+          {/* 8. Desktop Right CTAs: Request a Demo */}
           <div className="hidden lg:flex items-center space-x-3">
             <Link
               href="/demo"
@@ -431,16 +381,9 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-8 max-h-[85vh] overflow-y-auto space-y-4 shadow-xl">
           <div className="space-y-1">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2 pt-2">Platform Pillars</div>
+            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2 pt-2">Platform</div>
             <Link href="/platform" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
               Platform Architecture Overview
-            </Link>
-            <Link href="/platform/digital-twin" className="block px-3 py-2 text-sm font-medium text-blue-600 rounded-md hover:bg-slate-100 flex items-center justify-between">
-              <span>Workforce Digital Twin Simulator</span>
-              <Sparkles className="w-4 h-4" />
-            </Link>
-            <Link href="/platform/ai" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
-              AI Workforce Intelligence (40 Genkit Flows)
             </Link>
             <Link href="/platform/hris" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
               Core HR & HRIS
@@ -454,46 +397,12 @@ export default function Navbar() {
             <Link href="/platform/payroll" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
               Enterprise Payroll & Piece-Rate Engine
             </Link>
-            <Link href="/platform/tax-compliance" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
-              Statutory Tax (TDS, PF, ESIC, Form 16)
-            </Link>
-            <Link href="/platform/recruitment" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
-              AI Recruitment ATS & Candidate Scoring
-            </Link>
-            <Link href="/platform/performance" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
-              Performance, OKRs & 9-Box Calibration
-            </Link>
-            <Link href="/platform/it-assets" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
-              IT Asset Governance & Offboarding Lock
-            </Link>
-            <Link href="/platform/finance" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
-              Workforce Finance & General Ledger Sync
-            </Link>
           </div>
 
           <div className="space-y-1 pt-2 border-t border-slate-100">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Featured Industry Packs (19 Total)</div>
-            <Link href="/industries/shipping-maritime" className="block px-3 py-1.5 text-xs font-medium text-slate-700 hover:text-blue-600">
-              Shipping & Maritime (STCW Rest Hours)
-            </Link>
-            <Link href="/industries/seafood-processing" className="block px-3 py-1.5 text-xs font-medium text-slate-700 hover:text-blue-600">
-              Seafood Processing (Piece-Rate Gangs)
-            </Link>
-            <Link href="/industries/manufacturing" className="block px-3 py-1.5 text-xs font-medium text-slate-700 hover:text-blue-600">
-              Manufacturing (3-Shift Rotas & Muster)
-            </Link>
-            <Link href="/industries/healthcare" className="block px-3 py-1.5 text-xs font-medium text-slate-700 hover:text-blue-600">
-              Healthcare & Hospitals (On-Call Rotas)
-            </Link>
-            <Link href="/industries" className="block px-3 py-2 text-xs font-bold text-blue-600">
-              View All 19 Vertical Packs →
-            </Link>
-          </div>
-
-          <div className="space-y-1 pt-2 border-t border-slate-100">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Solutions & Use Cases</div>
+            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Solutions</div>
             <Link href="/solutions" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
-              Solutions by Executive Role
+              Solutions by Executive Role (8 Roles)
             </Link>
             <Link href="/use-cases" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
               Enterprise Use Cases (7 Core)
@@ -501,17 +410,28 @@ export default function Navbar() {
           </div>
 
           <div className="space-y-1 pt-2 border-t border-slate-100">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Comparisons (11 Competitors)</div>
-            <Link href="/compare" className="block px-3 py-1.5 text-xs font-bold text-blue-600">
-              Platform Capability Matrix →
+            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Intelligence & Flagship</div>
+            <Link href="/platform/ai" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100 flex items-center justify-between">
+              <span>AI & Brain (40 Genkit Flows)</span>
+              <Sparkles className="w-4 h-4 text-indigo-600" />
             </Link>
-            <div className="grid grid-cols-2 gap-1 px-2 pt-1">
-              {navData.competitors.slice(0, 8).map((comp) => (
-                <Link key={comp.slug} href={`/compare/${comp.slug}`} className="text-xs text-slate-600 hover:text-blue-600 py-1">
-                  vs {comp.name}
-                </Link>
-              ))}
-            </div>
+            <Link href="/platform/digital-twin" className="block px-3 py-2 text-sm font-medium text-blue-600 rounded-md hover:bg-slate-100 flex items-center justify-between">
+              <span>Digital Twin Simulator</span>
+              <Sparkles className="w-4 h-4 text-blue-600" />
+            </Link>
+          </div>
+
+          <div className="space-y-1 pt-2 border-t border-slate-100">
+            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Industries (19 Packs)</div>
+            <Link href="/industries/shipping-maritime" className="block px-3 py-1.5 text-xs font-medium text-slate-700 hover:text-blue-600">
+              Shipping & Maritime (STCW Rest Hours)
+            </Link>
+            <Link href="/industries/manufacturing" className="block px-3 py-1.5 text-xs font-medium text-slate-700 hover:text-blue-600">
+              Manufacturing (3-Shift Rotas & Muster)
+            </Link>
+            <Link href="/industries" className="block px-3 py-2 text-xs font-bold text-blue-600">
+              View All 19 Vertical Packs →
+            </Link>
           </div>
 
           <div className="space-y-1 pt-2 border-t border-slate-100">
@@ -519,11 +439,11 @@ export default function Navbar() {
             <Link href="/resources" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
               Resource Hub (Reports, Webinars, Cases)
             </Link>
-            <Link href="/security" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
-              Security & Multi-Tenant Trust
-            </Link>
             <Link href="/pricing" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
               Enterprise Plans & Pricing
+            </Link>
+            <Link href="/security" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
+              Trust & Architecture
             </Link>
           </div>
 
@@ -532,7 +452,7 @@ export default function Navbar() {
               href="/demo"
               className="block w-full text-center py-3 rounded-lg bg-blue-600 text-white font-semibold shadow-md"
             >
-              Request an Enterprise Demo
+              Request a Demo
             </Link>
           </div>
         </div>

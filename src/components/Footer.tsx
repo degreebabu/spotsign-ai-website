@@ -40,9 +40,9 @@ export default function Footer() {
 
       {/* Main Footer Links */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {/* Brand Info */}
-          <div className="col-span-2 space-y-4">
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white font-bold text-lg shadow-md">
                 W
@@ -69,7 +69,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* People & Work Pillars */}
+          {/* 1. People & Work */}
           <div className="space-y-3">
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-200 border-b border-slate-800 pb-2">
               People & Work
@@ -86,7 +86,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Money & Intelligence */}
+          {/* 2. Money & Intelligence */}
           <div className="space-y-3">
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-200 border-b border-slate-800 pb-2">
               Money & Intelligence
@@ -103,25 +103,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Industries (Top Verticals) */}
-          <div className="space-y-3">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-200 border-b border-slate-800 pb-2">
-              19 Industry Packs
-            </h3>
-            <ul className="space-y-2 text-xs">
-              <li><Link href="/industries/shipping-maritime" className="text-slate-400 hover:text-white transition">Shipping & Maritime (STCW)</Link></li>
-              <li><Link href="/industries/seafood-processing" className="text-slate-400 hover:text-white transition">Seafood (Piece-Rate)</Link></li>
-              <li><Link href="/industries/logistics-freight" className="text-slate-400 hover:text-white transition">Logistics & Freight</Link></li>
-              <li><Link href="/industries/manufacturing" className="text-slate-400 hover:text-white transition">Manufacturing (3-Shift)</Link></li>
-              <li><Link href="/industries/chemical-hazardous" className="text-slate-400 hover:text-white transition">Chemical (EHS Safety)</Link></li>
-              <li><Link href="/industries/healthcare" className="text-slate-400 hover:text-white transition">Healthcare & Hospitals</Link></li>
-              <li><Link href="/industries/hospitality" className="text-slate-400 hover:text-white transition">Hospitality & Hotels</Link></li>
-              <li><Link href="/industries/retail-ecommerce" className="text-slate-400 hover:text-white transition">Retail & E-Commerce</Link></li>
-              <li><Link href="/industries" className="text-blue-400 hover:underline flex items-center gap-1 font-semibold">View All 19 Packs →</Link></li>
-            </ul>
-          </div>
-
-          {/* Solutions & Resources */}
+          {/* 3. Solutions & Resources */}
           <div className="space-y-3">
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-200 border-b border-slate-800 pb-2">
               Solutions & Resources
@@ -129,12 +111,35 @@ export default function Footer() {
             <ul className="space-y-2 text-xs">
               <li><Link href="/solutions" className="text-slate-400 hover:text-white transition">By Executive Persona</Link></li>
               <li><Link href="/use-cases" className="text-slate-400 hover:text-white transition">Enterprise Use Cases</Link></li>
-              <li><Link href="/compare" className="text-slate-400 hover:text-white transition">Capability Comparison</Link></li>
+              <li><Link href="/resources" className="text-slate-400 hover:text-white transition">Resource Hub</Link></li>
+              <li><Link href="/resources/reports" className="text-slate-400 hover:text-white transition">Industry Reports</Link></li>
+              <li><Link href="/resources/webinars" className="text-slate-400 hover:text-white transition">Executive Webinars</Link></li>
+              <li><Link href="/resources/case-studies" className="text-slate-400 hover:text-white transition">Customer Case Studies</Link></li>
+              <li><Link href="/resources/templates" className="text-slate-400 hover:text-white transition">HR & Payroll Templates</Link></li>
+              <li><Link href="/resources/whitepapers" className="text-slate-400 hover:text-white transition">Technical Whitepapers</Link></li>
+              <li><Link href="/resources/faq" className="text-slate-400 hover:text-white transition">Knowledge Base & FAQ</Link></li>
+              <li><Link href="/resources/glossary" className="text-slate-400 hover:text-white transition">Workforce Glossary</Link></li>
+            </ul>
+          </div>
+
+          {/* 4. Compare */}
+          <div className="space-y-3">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-200 border-b border-slate-800 pb-2">
+              Compare
+            </h3>
+            <ul className="space-y-2 text-xs">
+              <li><Link href="/compare" className="text-blue-400 hover:underline font-semibold">Capability Matrix →</Link></li>
               <li><Link href="/compare/workday" className="text-slate-400 hover:text-white transition">vs Workday</Link></li>
               <li><Link href="/compare/sap" className="text-slate-400 hover:text-white transition">vs SAP SuccessFactors</Link></li>
-              <li><Link href="/resources" className="text-slate-400 hover:text-white transition">Resources & Research</Link></li>
-              <li><Link href="/security" className="text-slate-400 hover:text-white transition">Security & Trust</Link></li>
-              <li><Link href="/pricing" className="text-slate-400 hover:text-white transition">Enterprise Pricing</Link></li>
+              <li><Link href="/compare/oracle" className="text-slate-400 hover:text-white transition">vs Oracle HCM Cloud</Link></li>
+              <li><Link href="/compare/rippling" className="text-slate-400 hover:text-white transition">vs Rippling</Link></li>
+              <li><Link href="/compare/darwinbox" className="text-slate-400 hover:text-white transition">vs Darwinbox</Link></li>
+              <li><Link href="/compare/keka" className="text-slate-400 hover:text-white transition">vs Keka HR</Link></li>
+              <li><Link href="/compare/bamboohr" className="text-slate-400 hover:text-white transition">vs BambooHR</Link></li>
+              <li><Link href="/compare/deel" className="text-slate-400 hover:text-white transition">vs Deel</Link></li>
+              <li><Link href="/compare/hibob" className="text-slate-400 hover:text-white transition">vs HiBob</Link></li>
+              <li><Link href="/compare/zoho" className="text-slate-400 hover:text-white transition">vs Zoho People</Link></li>
+              <li><Link href="/compare/gusto" className="text-slate-400 hover:text-white transition">vs Gusto</Link></li>
             </ul>
           </div>
         </div>
