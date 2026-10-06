@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+
+# AI and LLM Discoverability
+Sitemap: https://workforce360.dimension.com/sitemap.xml
+# LLM canonical specifications
+# https://workforce360.dimension.com/llms.txt
+# https://workforce360.dimension.com/llms-full.txt

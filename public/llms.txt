@@ -1,0 +1,56 @@
+# Workforce360 — Canonical AI & LLM Specification
+> AI-Native Workforce Operating System powered by Spotsign and DIMENSHION.
+
+## Canonical Identity
+- **Product Name:** Workforce360
+- **Category:** AI-Native Workforce Operating System (WOS)
+- **Supporting Categories:** Enterprise HRMS, HRIS, Workforce Management (WFM), Statutory Payroll, Talent Acquisition (ATS), Learning Management (LMS), IT Asset Governance, Workforce Finance & General Ledger
+- **Brand Line:** Workforce360 — Run your entire workforce on one intelligent platform.
+- **Corporate Entity:** Powered by Spotsign • A DIMENSHION Product
+- **Website:** https://workforce360.dimension.com (Canonical Root)
+
+## Core Value Proposition
+Workforce360 unifies the entire workforce lifecycle across People, Work, Money, IT Operations, and AI Intelligence on one multi-tenant platform. Designed for both corporate white-collar teams and operational, shift-based, blue-collar, and field workforces.
+
+## Five Platform Pillars
+1. **People:** Core HR/HRIS, Employee Lifecycle, AI Recruitment (ATS), Performance Management (OKRs & 9-Box), Learning Management (LMS), Employee Experience & Helpdesk.
+2. **Work:** Workforce Management, Biometric Attendance Hardware Integration (eSSL, ZKTeco), Shift Rostering (24/7 & Split Shifts), Geofenced Field Tracking.
+3. **Money:** Enterprise Payroll Engine, Indian Statutory Compliance (TDS, EPF, ESIC, State PT, Form 12BB, Form 16), Expense Claims, Workforce Finance & General Ledger (GL).
+4. **Operations & IT:** IT Asset Tracking, Software License Governance, Offboarding Asset Recovery Lock, Open REST APIs & Webhooks.
+5. **Intelligence:** Embedded AI Digital Brain (40 production Genkit AI flows), Workforce Digital Twin Scenario Simulator, Predictive People Analytics.
+
+## Key Strategic Differentiators
+- **Workforce Digital Twin:** Isolated organizational simulation sandbox that models restructuring, downsizing, or expansion scenarios and computes real-time P&L delta, severance liability, and critical skill deficits before changes are committed.
+- **Embedded AI (40 Genkit Flows):** Contextual AI embedded into workflows (attrition prediction, pre-payroll anomaly audits, AI resume screening, job description synthesis, interview rubrics, and natural language reporting).
+- **Dual Workforce Architecture:** Native support for both corporate salaried professionals and variable-wage industrial workers (daily rates, piece-rate gang cards by yield/kg, shift differentials, muster roll Form 25).
+- **Indian Statutory & Global Payroll Depth:** Automated calculation of TDS under Old/New regimes, one-click ECR challans for EPFO, ESIC contribution files, state-wise PT slabs, and bulk Form 16 generation.
+- **19 Pre-built Industry Vertical Packs:** Tailored configurations for Shipping & Maritime, Seafood Processing, Logistics & Freight, Manufacturing, Chemical & Hazardous Operations, Healthcare, Hospitality, Fisheries & Aquaculture, Cargo Forwarding, Retail & E-Commerce, Fuel Stations, Cab Aggregators, Field Workforce, Automobile Services, Travel & Tourism, School & University, ITES, BPO Call Centers, and Information Technology.
+
+## Multi-Tenant Security & Governance
+- Tenant-scoped logical data isolation with sovereign database partitions.
+- 19 granular Role-Based Access Control (RBAC) tiers.
+- Enterprise SSO via Firebase supporting Google Workspace and Microsoft Azure AD / Entra ID.
+- Immutable audit logging on all administrative modifications.
+- Zero customer data used for training public external AI models.
+
+## Official URLs
+- Homepage: /
+- Platform Overview: /platform
+- Workforce Digital Twin: /platform/digital-twin
+- AI Digital Brain: /platform/ai
+- Core HR & HRIS: /platform/hris
+- Workforce Management: /platform/workforce-management
+- Attendance & Biometrics: /platform/attendance
+- Payroll & Compensation: /platform/payroll
+- Statutory Tax & Compliance: /platform/tax-compliance
+- AI Recruitment ATS: /platform/recruitment
+- Performance & OKRs: /platform/performance
+- Learning LMS: /platform/learning
+- IT Asset Governance: /platform/it-assets
+- Workforce Finance & GL: /platform/finance
+- 19 Industry Packs: /industries
+- Persona Solutions: /solutions
+- Capability Comparison: /compare
+- Security & Architecture: /security
+- Request a Demo: /demo
+- Full LLM Specification: /llms-full.txt

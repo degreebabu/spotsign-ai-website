@@ -1,0 +1,954 @@
+Workforce360 — Master Website Content, SEO/GEO/AEO Blueprint & Antigravity Build Prompt
+Powered by Spotsign • A DIMENSHION product | Prepared October 2026
+Purpose: Create a premium, enterprise-grade, multi-page public website for Workforce360. The site should position Workforce360 as an AI-native Workforce Operating System that combines HRMS/HRIS, HCM, workforce management, payroll, statutory compliance, talent, finance, IT operations, industry operations and AI intelligence in one multi-tenant platform.
+1. Source & Research Basis
+Primary source: the uploaded Workforce360 Platform Analysis & Audit Report (August 2026). It describes the platform as an all-in-one, AI-native, multi-tenant Workforce Operating System, with 277+ dynamic routes in one audit section, 40 Genkit AI flows, 19 granular RBAC tiers and 19 industry vertical packs. The report also documents Core HR, WFM, payroll/tax, compensation, performance, ATS, lifecycle, LMS, engagement/ethics, IT assets, spend/travel, finance/GL, industry operations, multi-tenant governance and AI/Digital Brain capabilities. See the report's executive and architecture sections. fileciteturn2file2
+Current dashboard reference: https://workforce-july-2026.vercel.app/dashboard
+Reference website to inspect during build: https://workforce360-8e1b4d8c.base44.app
+Competitor/inspiration references: https://www.keka.com/ ; https://www.oracle.com/in/human-capital-management/ ; https://www.workday.com/en-in/homepage.html
+Important: the Base44 reference site timed out during this review, so its live page copy could not be independently extracted. Antigravity should open and inspect it during implementation. The PDF itself contains Base44-related design references and screenshots. Do not invent Base44 copy; use it as a layout/reference source only.
+2. Recommended Positioning
+Primary category: AI-native Workforce Operating System (WOS)
+Supporting categories: Enterprise HRMS • HRIS • HCM • Workforce Management • Payroll & Compliance • Talent Platform • Workforce Intelligence
+Brand line: Workforce360 — The AI-Native Workforce Operating System
+Descriptor: One workforce platform for people, payroll, talent, operations, finance, IT and intelligence.
+Powered by line: Powered by Spotsign • A DIMENSHION product
+3. Core Messaging Architecture
+Master value proposition
+Workforce360 connects the entire workforce lifecycle—from hiring and onboarding to attendance, payroll, performance, learning, expenses, IT assets and exit—on one AI-native platform built for modern enterprises and complex operational workforces.
+Differentiation
+AI-native, not AI-added: AI is embedded across HR workflows, talent acquisition, payroll intelligence, workforce planning and employee support.
+HRMS + Workforce Operations: Built for both corporate employees and variable/blue-collar, shift-based and field workforces.
+Payroll + Tax + Finance: Payroll, statutory compliance, tax, expenses and financial workflows can operate from a connected data model.
+Digital Brain + Digital Twin: Conversational assistance, prediction, forecasting and scenario modelling for workforce decisions.
+Industry-aware: 19 specialized vertical packs are described in the platform architecture.
+Multi-tenant SaaS: Tenant isolation, role-based entitlements, licensing and platform governance are part of the architecture. fileciteturn4file6
+Messaging rule
+Never market Workforce360 as 'just another HRMS'. Lead with Workforce Operating System, then explain that HRMS/HRIS/HCM/WFM/payroll/talent/finance/IT capabilities are unified underneath.
+4. Website Sitemap
+/ — Home
+/platform — Workforce360 Platform
+/platform/ai — AI Workforce Intelligence / Digital Brain
+/platform/digital-twin — Workforce Digital Twin
+/platform/hris — Core HR / HRIS
+/platform/workforce-management — Time, Attendance & Workforce Management
+/platform/payroll — Payroll & Compensation
+/platform/tax-compliance — Tax & Statutory Compliance
+/platform/recruitment — AI Recruitment / ATS
+/platform/performance — Performance, OKRs & Talent
+/platform/learning — Learning Management System
+/platform/employee-experience — Employee Experience, Engagement & Helpdesk
+/platform/it-assets — IT Asset & Software Management
+/platform/finance — Finance, General Ledger, Spend & Billing
+/platform/lifecycle — Employee Lifecycle / Onboarding / Offboarding
+/platform/analytics — Workforce Analytics & Reporting
+/industries — Industries
+/industries/manufacturing
+/industries/logistics
+/industries/shipping-maritime
+/industries/seafood-aquaculture
+/industries/healthcare
+/industries/hospitality
+/industries/retail
+/industries/automobile
+/industries/fuel-stations
+/industries/cab-transport
+/industries/field-workforce
+/industries/travel-tourism
+/industries/school-university
+/industries/ites
+/industries/bpo
+/industries/information-technology
+/industries/chemical-hazardous
+/industries/cargo-freight
+/industries/fisheries-aquaculture
+/solutions — Solutions by Role
+/solutions/hr-leaders
+/solutions/payroll-teams
+/solutions/finance-leaders
+/solutions/operations
+/solutions/it-teams
+/solutions/employees
+/solutions/managers
+/integrations — Integrations
+/security — Security & Trust
+/compliance — Compliance
+/pricing — Plans / Request Pricing
+/demo — Request a Demo
+/resources — Resources
+/resources/guides
+/resources/hrms
+/resources/payroll
+/resources/workforce-management
+/resources/ai-in-hr
+/about — About Workforce360
+/contact — Contact
+5. Global Navigation
+Products: Platform | AI & Digital Brain | HRMS/HRIS | Workforce Management | Payroll & Tax | Talent | Finance & IT
+Solutions: HR Leaders | Payroll | Finance | Operations | IT | Managers | Employees
+Industries: Manufacturing | Logistics | Maritime | Seafood | Healthcare | Hospitality | Retail | IT/ITES | BPO | Education | More
+Resources: Guides | Product Resources | HRMS Guide | Payroll & Compliance | AI in HR | Workforce Intelligence
+Company: About | Security | Compliance | Contact
+Primary CTA: Request a Demo
+Secondary CTA: Explore Workforce360
+6. HOME PAGE — FULL CONTENT
+Hero
+Eyebrow: AI-NATIVE WORKFORCE OPERATING SYSTEM
+H1: Run your entire workforce on one intelligent platform.
+Subheadline: Workforce360 brings HR, payroll, attendance, talent, compliance, finance, IT operations and workforce intelligence together—powered by AI and designed for both corporate and operational workforces.
+Primary CTA: Request a Demo
+Secondary CTA: Explore the Platform
+Trust line: Powered by Spotsign • A DIMENSHION product
+Hero proof strip
+AI-native workforce intelligence
+Multi-tenant enterprise architecture
+Global + India-focused payroll and compliance capabilities
+19 specialized industry packs
+Role-based workforce experiences
+Section: One platform. Every workforce workflow.
+From the first candidate interaction to final settlement, Workforce360 connects the systems that traditionally live in separate HR, payroll, attendance, talent, finance and IT applications.
+Hire — AI-powered recruitment, resume scoring, job descriptions and interview enablement.
+Onboard — Structured onboarding, documents, tasks and pre-boarding workflows.
+Work — Attendance, shifts, geofencing, biometrics, rosters, field workforce and workforce operations.
+Pay — Payroll, wages, tax, deductions, expenses, advances and exit settlements.
+Grow — Performance, OKRs, reviews, calibration, learning, skills and internal mobility.
+Support — Employee helpdesk, policies, engagement, recognition and AI assistance.
+Operate — IT assets, software licenses, travel, spend, finance and operational workflows.
+Plan — Workforce forecasting, Digital Twin simulations, analytics and executive intelligence.
+Section: AI that works across the workforce
+Workforce360's Digital Brain brings AI into the flow of work—not as a separate chatbot, but as intelligence across recruitment, employee support, payroll, workforce planning, compliance and decision-making.
+Ask — Get contextual answers about policies, leave, payslips and workforce information.
+Predict — Surface workforce risks such as potential attrition and payroll anomalies.
+Forecast — Model future headcount demand and workforce requirements.
+Generate — Create job descriptions, interview questions, reports and learning content.
+Recommend — Turn workforce data into next-best actions and decision support.
+Simulate — Use Digital Twin scenarios to evaluate organizational changes before execution.
+Section: Built for every workforce
+Corporate and knowledge workers
+Blue-collar and variable wage workforces
+Shift-based and 24/7 operations
+Field and distributed teams
+Contractors and contingent workers
+Multi-location and multi-entity organizations
+Industry-specific operational workforces
+Section: The Workforce360 advantage
+One workforce data foundation
+Connected HR + payroll + operations
+AI embedded across workflows
+Industry-aware configuration
+Granular role-based access
+Multi-tenant architecture
+Operational and financial visibility
+Section: Built for complex industries
+Workforce360 is designed to adapt to industry-specific workforce rules, roles, schedules, compliance requirements and operational workflows. The platform architecture describes 19 specialized industry packs. fileciteturn6file9
+Section: Security & governance
+Enterprise access control, tenant isolation, role-based entitlements and audit-oriented controls are part of the platform architecture. The report describes tenant-scoped data paths, role resolution, licensing controls and audit logging. fileciteturn4file6
+Final CTA
+H2: Your workforce is more than HR. Run it as one system.
+CTA: Request a Workforce360 Demo
+Secondary: Explore all capabilities
+7. PRODUCT / PLATFORM CONTENT
+Core HR & HRIS
+H1: A single source of truth for your workforce.
+Manage employee records, organization structures, positions, cost centers, documents, roles and lifecycle data from one connected HR foundation.
+Key capabilities:
+Employee master profiles
+Organization structure and reporting relationships
+Interactive organizational views
+Employee documents and records
+Roles and permissions
+Custom workforce data
+Lifecycle history and governance
+Employee self-service
+Workforce Management
+H1: Know who is working, where they are and what happens next.
+Connect attendance, shifts, rosters, geofencing, biometric devices, regularization and workforce scheduling for office, field and operational teams.
+Key capabilities:
+Biometric attendance integrations
+Mobile GPS and geofencing
+Shift templates and roster scheduling
+Attendance regularization
+Shift swapping
+Overtime and comp-off workflows
+Field workforce tracking
+Fatigue-aware operational scheduling
+Payroll & Compensation
+H1: Payroll that connects time, pay, tax and finance.
+Run payroll with attendance, overtime, deductions, expenses, advances and compensation data connected to downstream finance and compliance workflows.
+Key capabilities:
+Monthly payroll processing
+Salary structures and components
+Variable pay and wages
+Blue-collar / piece-rate wage concepts
+Pre-payroll variance checks
+Payslip generation
+Full & Final settlement
+Bank payout file generation
+Compensation planning
+Tax & Compliance
+H1: Make payroll and statutory compliance easier to manage.
+Workforce360 includes a deep tax and statutory layer designed around Indian payroll compliance, with multi-country tax architecture described in the platform audit.
+Key capabilities:
+TDS and income-tax workflows
+EPF / ESIC / Professional Tax concepts
+Form 12BB and Form 16 workflows
+GST and reconciliation capabilities
+Tax regime support
+Statutory sections and deductions
+Compliance reporting
+Industry-aware tax configurations
+AI Recruitment & ATS
+H1: Recruit smarter with AI-powered talent acquisition.
+Move from job requisition to shortlist, interviews and offers with AI-assisted job descriptions, resume review, candidate-fit scoring and interview enablement.
+Key capabilities:
+Job posting management
+AI job description generation
+AI resume review
+Candidate-fit scoring
+Skills differential analysis
+AI interview question generation
+ATS Kanban pipeline
+Interview scheduling
+Career portal
+Offer workflows
+Performance & Talent
+H1: Turn performance data into continuous growth.
+Connect goals, KRAs, reviews, calibration, feedback and talent development so performance becomes an ongoing management system.
+Key capabilities:
+KRA templates
+Goal and OKR workflows
+Review cycles
+Evaluation configuration
+Bell curve normalization
+9-box calibration
+PIP workflows
+360-degree feedback concepts
+Continuous 1-on-1s
+Skills and career pathways
+Learning Management
+H1: Build skills, compliance and career growth into the employee journey.
+Manage courses, learning paths, compliance training, assessments and certificates in one connected learning environment.
+Key capabilities:
+Course catalog
+Learning paths
+Course player
+SCORM-compatible learning
+Mandatory compliance training
+Assessments
+Certification
+Learning analytics
+AI course generation
+Employee Experience
+H1: Give employees one place to get work done.
+Connect helpdesk, policies, recognition, engagement, pulse surveys and self-service with AI assistance.
+Key capabilities:
+Employee self-service
+AI HR assistant
+Helpdesk ticketing
+SLA-oriented support workflows
+Pulse surveys
+Recognition and kudos
+Policy access
+Announcements and company communication
+IT Asset Management
+H1: Connect people operations with IT operations.
+Track devices, software licenses, access requests and onboarding/offboarding technology workflows from the workforce record.
+Key capabilities:
+Device inventory
+Software license tracking
+IT access requests
+Asset lifecycle
+Onboarding provisioning concepts
+Offboarding recovery
+Role-based app entitlements
+License governance
+Finance, Spend & Billing
+H1: Connect workforce costs to finance.
+Bring payroll, expenses, corporate cards, travel, loans, invoicing and general-ledger workflows closer together.
+Key capabilities:
+General ledger
+Accounts payable
+Accounts receivable
+Expense claims
+Corporate spend
+Corporate cards
+Travel desk
+Loan management
+Vendor invoice matching
+Commercial invoicing
+Lifecycle Management
+H1: Every employee moment, connected.
+Manage onboarding, pre-boarding, resignations, clearance, full-and-final settlement and alumni workflows as one lifecycle.
+Key capabilities:
+Onboarding templates
+Pre-boarding
+Document collection
+Resignation workflows
+Multi-department clearance
+Full & Final settlement
+Alumni directory
+Rehire workflows
+Analytics & Reporting
+H1: Turn workforce data into decisions.
+Give HR, finance, operations and business leaders a connected view of workforce costs, productivity, talent, compliance and operational performance.
+Key capabilities:
+Workforce dashboards
+Payroll analytics
+Attendance analytics
+Performance analytics
+Recruitment analytics
+Tax/compliance reporting
+Industry reports
+AI-assisted report generation
+8. AI & DIGITAL BRAIN PAGE
+H1: AI that understands your workforce—and helps you act.
+Workforce360 combines conversational AI, predictive intelligence, generative workflows, forecasting and Digital Twin simulation across the workforce lifecycle.
+AI capability pillars
+AI HR Concierge — contextual policy, leave, payslip and workforce answers.
+AI Talent Intelligence — resume review, candidate fit, job descriptions and interview questions.
+AI Workforce Forecasting — headcount demand forecasting and staffing signals.
+AI Payroll Intelligence — anomaly detection, compliance checks and payroll risk signals.
+AI Learning — course and learning-content generation.
+AI Reporting — natural-language report definition and workforce insight generation.
+AI Tax Intelligence — tax slab and statutory configuration assistance described in the platform architecture.
+AI Digital Twin — model organizational changes and estimate workforce, financial and skills impact.
+The platform audit describes 40 production Genkit AI flows, including the AI HR Assistant, employee attrition prediction, workforce demand forecasting, resume review, job-description generation and interview-question generation. fileciteturn3file1
+CTA
+See how Workforce360 AI can move your HR team from answering requests to making better workforce decisions.
+9. DIGITAL TWIN PAGE
+H1: Model workforce decisions before you make them.
+The Workforce Digital Twin connects organizational, operational and financial context so leaders can explore restructuring scenarios before committing change.
+Model headcount changes
+Explore organizational restructuring
+Estimate salary and severance impact
+Identify skills gaps
+Understand operational impact
+Stage approved changes through workflows
+The source architecture describes a Digital Twin Simulator that can model scenarios such as departmental headcount reduction or business-unit consolidation and calculate P&L delta, severance impact and skills deficit. fileciteturn2file0
+10. INDUSTRIES — 19 VERTICALS
+Shipping & Maritime
+Crew CDC tracking, STCW rest-hours compliance, vessel charter billing and port-disbursement workflows.
+Seafood Processing
+Catch landing, piece-rate processing, cold-chain workflows, thermal-break scheduling and yield reporting.
+Logistics & Freight
+Fleet operations, dispatch, volumetric freight, driver logs, trip allowances, demurrage and OTD reporting.
+Manufacturing & Production
+Factory operations, rotating shifts, overtime, plant safety, muster-roll and production workforce workflows.
+Chemical & Hazardous Operations
+EHS, hazardous material workflows, lab operations, safety controls and exposure-break concepts.
+Hospital & Healthcare
+Clinical and support workforce scheduling, on-call rosters, nurse staffing and license-renewal workflows.
+Hotel & Hospitality
+Front desk, housekeeping, F&B, kitchen, banquets, security and split-shift workforce management.
+Fisheries & Aquaculture
+Harvesting, vessel fleet, hatchery and feed management with catch settlement and safety certification workflows.
+Cargo & Freight Forwarding
+Ocean/air cargo, customs, documentation, bill-of-lading/air-waybill billing and container tracking.
+Retail & E-Commerce
+Store workforce, inventory support, cashiers, fulfillment and peak-hour scheduling.
+Petrol Pump / Fuel Station
+Forecourt, lube bay, cash office, convenience store, meter reconciliation and fuel-loss tracking.
+Cab & Transport Aggregators
+Driver onboarding, KYC, vehicle inspection, permits, trip commissions and safety auditing.
+Field Workforce Management
+Field sales, technical service, installation, GPS routes, geofenced check-ins and per-visit payouts.
+Automobile & Auto Services
+Service bays, parts, paint/body, diagnostics, technician productivity and tool registry.
+Travel & Tourism
+Tour operations, ticketing, guiding, concierge, itinerary allowances and seasonal workforce management.
+School / University
+Academic faculty, student affairs, administration, transport and facilities with term calendars and substitutions.
+IT Enabled Services (ITES)
+Data processing, content moderation, QA, tech support, SLA accuracy, seat utilization and shift allowances.
+BPO / Call Centers
+Inbound/outbound support, WFM, training, adherence, shrinkage, rotational shifts and incentive payouts.
+Information Technology (IT)
+Software engineering, product, DevOps, QA, design, client delivery, sprint velocity and T&M billing.
+11. SOLUTIONS BY ROLE
+CHRO / HR Leader
+Workforce planning, organization design, talent, performance, employee experience and executive workforce intelligence.
+HR Team
+Employee records, onboarding, policies, attendance, performance, learning, helpdesk and analytics.
+Payroll Team
+Payroll runs, payroll audits, tax, statutory deductions, payslips, settlements and bank disbursement workflows.
+Finance Leader
+Workforce cost visibility, payroll-to-GL, expenses, spend, invoicing, payables, receivables and reporting.
+Operations Leader
+Rostering, attendance, field workforce, fatigue controls, fleet/transport and industry operations.
+IT Leader
+Devices, software licenses, access requests, provisioning and offboarding asset recovery.
+Recruiter
+AI-assisted job descriptions, resume scoring, candidate pipelines, interview scheduling and offers.
+Manager
+Team attendance, leave approvals, performance, 1-on-1s, roster and workforce actions.
+Employee
+Self-service, leave, attendance, payslips, tax, learning, support and AI assistance.
+12. SECURITY & TRUST PAGE
+H1: Enterprise workforce data deserves enterprise-grade control.
+Multi-tenant data isolation architecture
+Role-based access control and module entitlements
+Tenant-aware access resolution
+Audit-oriented activity tracking
+Authentication through Firebase Auth architecture
+Google and Microsoft OAuth support described in the audit
+MFA-oriented capabilities
+License and tenant lifecycle controls
+PWA/mobile architecture for workforce access
+Do not claim specific certifications (SOC 2, ISO 27001, GDPR certification, etc.) unless the business provides evidence. Competitor certification claims must not be copied.
+13. INTEGRATIONS PAGE
+Position integrations around an open workforce data layer rather than claiming a fixed integration count unless verified.
+Biometric devices: eSSL, ZKTeco, Matrix and Realtime device concepts are described in the source.
+Google and Microsoft authentication
+Finance and bank file workflows
+ERP / webhook ingestion
+Maps and geofencing
+SCORM learning content
+API-ready architecture
+Future connector marketplace
+14. COMPARISON PAGE — SAFE COMPETITIVE POSITIONING
+H1: One workforce platform. Fewer disconnected systems.
+Use competitor comparisons to explain categories, not to make unverifiable superiority claims.
+Workday / Oracle / SAP SuccessFactors: enterprise HCM benchmark; Workforce360 differentiates around India-aware statutory depth, industrial workforce operations, integrated finance/GL concepts, industry packs and AI/Digital Twin positioning.
+Keka / Zoho People: strong HR/payroll/attendance benchmarks; Workforce360 extends the story into industrial operations, finance/GL, industry-specific packs and Digital Twin intelligence.
+Rippling: HR + IT operations benchmark; Workforce360 adds India statutory and industrial workforce positioning.
+Deel: global hiring/contractor benchmark; Workforce360 focuses more deeply on workforce operations, payroll, workplace and industry operations.
+UKG/Kronos: workforce management benchmark; Workforce360 combines WFM with HR, talent, payroll, finance and AI.
+Lattice / 15Five: performance/engagement benchmark; Workforce360 connects performance to broader HR, payroll and workforce operations.
+The uploaded audit contains a 12-pillar benchmark matrix and competitive comparisons across Workday, Deel, UKG, Rippling and Keka. fileciteturn4file8
+15. SEO / GEO / AEO KEYWORD STRATEGY
+Primary commercial keywords
+AI HRMS software
+AI-powered HRMS
+AI HR software
+AI workforce management software
+workforce operating system
+workforce management platform
+enterprise HRMS software
+HRIS software India
+HCM software India
+payroll software India
+payroll and HR software
+employee management software
+attendance and payroll software
+AI recruitment software
+applicant tracking system India
+performance management software
+employee engagement software
+learning management system for employees
+HR payroll compliance software India
+Secondary / long-tail keywords
+best AI HRMS for mid-market enterprises
+HRMS for manufacturing companies
+HRMS for logistics companies
+HRMS for hospitals
+HRMS for IT companies
+payroll software with attendance integration
+payroll software with Indian statutory compliance
+HR software for blue collar workforce
+HR software for shift workers
+workforce scheduling software India
+biometric attendance payroll integration
+AI resume screening software
+AI workforce planning software
+digital twin workforce planning
+employee lifecycle management software
+Keyword usage rules
+One primary intent per page.
+Use exact commercial phrase in title/H1 where natural.
+Use related semantic terms throughout copy.
+Write answer-first sections for AEO.
+Use short definitions, comparison tables, FAQs and explicit entity names.
+Avoid keyword stuffing.
+Create internal links between HRMS, payroll, attendance, AI, industries and role pages.
+16. GEO / AEO CONTENT PATTERN
+Every major product page should contain: Definition → Who it is for → Problems solved → Key capabilities → How it works → AI capabilities → Industry use cases → Integrations → Security → FAQs → CTA.
+Featured-snippet answer blocks
+Example: What is Workforce360? Workforce360 is an AI-native Workforce Operating System that combines HRMS, HRIS, workforce management, payroll, tax compliance, talent, finance, IT operations and workforce intelligence in one multi-tenant platform.
+Example: What is an AI workforce operating system? An AI workforce operating system connects workforce data and workflows across HR, payroll, operations, talent and business systems, then applies AI to answer questions, automate actions, surface risks, forecast demand and support workforce decisions.
+17. FAQ BANK
+What is Workforce360?
+Workforce360 is an AI-native Workforce Operating System combining HRMS, HRIS, HCM, workforce management, payroll, compliance, talent, finance, IT operations and workforce intelligence.
+Is Workforce360 an HRMS or HCM platform?
+It includes the capabilities expected from modern HRMS and HCM platforms, but is positioned more broadly as a Workforce Operating System because it also connects workforce operations, finance, IT and industry-specific workflows.
+Does Workforce360 support Indian payroll?
+Yes. The platform architecture describes Indian payroll and statutory capabilities including TDS, EPF, ESIC, Professional Tax, GST, Form 12BB and Form 16 workflows.
+Does Workforce360 support attendance and biometric devices?
+Yes. The platform includes biometric device integration concepts, mobile attendance, geofencing, shifts, regularization and workforce scheduling.
+Does Workforce360 use AI?
+Yes. The source describes 40 production Genkit AI flows spanning conversational assistance, predictive intelligence, workforce forecasting, recruitment and other workflows.
+Can Workforce360 support blue-collar workers?
+Yes. The platform is explicitly designed to support variable and blue-collar workforces, including piece-rate/daily-rate concepts, shift scheduling and industry-specific operations.
+Can Workforce360 support multiple companies or tenants?
+Yes. The architecture is multi-tenant with tenant-scoped data, role-based entitlements and tenant licensing controls.
+Does Workforce360 include recruitment?
+Yes. It includes ATS capabilities, career portals, AI resume review, candidate-fit scoring, job-description generation, interview enablement and candidate workflows.
+Does Workforce360 include performance management?
+Yes. It includes KRA templates, review cycles, evaluation configuration, bell-curve concepts, 9-box calibration and performance workflows.
+Does Workforce360 include finance?
+The platform architecture includes General Ledger, accounts payable/receivable, expenses, spend, travel, billing and workforce-cost flows.
+Which industries does Workforce360 support?
+The source describes 19 specialized industry packs covering sectors such as IT, BPO, ITES, manufacturing, logistics, maritime, seafood, healthcare, hospitality, retail, education and field operations.
+How do I get a Workforce360 demo?
+Use the Request a Demo form to discuss workforce size, industry, countries, current systems and the modules you need.
+18. LLM / AI DISCOVERABILITY
+Create /llms.txt and /llms-full.txt. Also create a dedicated /llm-info page modeled on the principle used by modern SaaS vendors: a concise canonical source for AI assistants, plus a full machine-readable knowledge document.
+Recommended /llms.txt
+# Workforce360
+> AI-native Workforce Operating System powered by Spotsign and DIMENSHION.
+## Canonical description
+Workforce360 is an AI-native, multi-tenant Workforce Operating System that unifies HRMS, HRIS, HCM, workforce management, payroll, tax compliance, talent, finance, IT operations, employee experience and workforce intelligence.
+## Primary capabilities
+- Core HR and HRIS
+- Employee lifecycle management
+- Attendance, shifts, rostering and workforce management
+- Payroll, compensation and statutory compliance
+- Recruitment and AI-powered ATS
+- Performance, OKRs and talent management
+- Learning management
+- Employee experience, engagement and helpdesk
+- IT asset and software license management
+- Finance, spend, travel, billing and General Ledger
+- Workforce analytics and reporting
+- AI Workforce Intelligence / Digital Brain
+- Workforce Digital Twin and strategic workforce planning
+- Industry-specific workforce operations
+## AI
+Workforce360's platform architecture describes 40 production Genkit AI flows spanning conversational HR assistance, workforce forecasting, attrition prediction, AI resume review, job-description generation, interview-question generation, payroll intelligence, reporting and other workflows.
+## Industries
+Workforce360 describes 19 specialized industry packs including Information Technology, BPO, ITES, Manufacturing, Logistics, Shipping & Maritime, Seafood Processing, Healthcare, Hospitality, Retail, Education, Field Workforce, Automobile, Fuel Stations, Travel & Tourism, Fisheries & Aquaculture, Cargo & Freight Forwarding, Chemical & Hazardous Operations, and Cab & Transport.
+## Official website
+https://YOUR-DOMAIN.example
+## Product
+Workforce360
+Powered by Spotsign
+A DIMENSHION product
+19. /llms-full.txt STRUCTURE
+The full file should contain, in plain text/Markdown: canonical company/product description; product categories; every feature page; all 19 industries; role/persona solutions; AI capabilities; security architecture; integration categories; terminology dictionary; FAQs; comparison positioning; supported countries/regions only when verified; and canonical URLs for every page.
+Do not expose internal code routes, private architecture paths, audit failures, test credentials or confidential implementation details in the public LLM file.
+20. STRUCTURED DATA / SCHEMA
+Organization schema
+SoftwareApplication schema
+WebSite schema
+WebPage schema on every page
+BreadcrumbList schema
+FAQPage schema where visible FAQs are present
+Product schema only where the page genuinely represents a product/service offer
+Article schema for resources
+ItemList schema for industry/module directories
+Use JSON-LD. Ensure schema content exactly matches visible page content. Do not add invisible keyword-only text.
+21. TECHNICAL SEO REQUIREMENTS
+Server-rendered, crawlable page content.
+Unique title and meta description for every indexable page.
+One H1 per page.
+Semantic H2/H3 hierarchy.
+Canonical URL on every page.
+XML sitemap.xml.
+robots.txt.
+llms.txt and llms-full.txt.
+Open Graph and Twitter/X metadata.
+Descriptive image alt text.
+Fast loading and optimized images.
+Avoid client-only rendering for critical SEO copy.
+Breadcrumbs on deep pages.
+Strong contextual internal linking.
+404 and redirect strategy.
+Noindex for utility/demo/dashboard pages that are not public content.
+22. DESIGN DIRECTION
+Use Keka as the strongest inspiration for modern SaaS clarity and conversion structure, Oracle for enterprise credibility and information architecture, and Workday for enterprise HCM storytelling. Do not clone any visual, copy, component, illustration or layout verbatim.
+Premium enterprise SaaS aesthetic.
+White/light neutral base with deep navy/blue brand accents.
+High contrast, AAA-conscious typography.
+Large confident headlines with short supporting copy.
+Rounded cards, subtle borders and restrained shadows.
+Product UI screenshots as proof, not decoration.
+Dark AI/Digital Brain sections for visual contrast.
+Sticky navigation with clear Request a Demo CTA.
+Mega menu for platform categories.
+Interactive module explorer.
+Industry selector/filter.
+Persona selector.
+Comparison tables.
+FAQ accordions.
+Subtle motion; no distracting animations.
+23. IMAGE / PRODUCT VISUAL SYSTEM
+Prioritize real Workforce360 dashboard screenshots from the provided dashboard/reference app.
+Create polished product mockups showing HRIS, payroll, attendance, ATS, performance, AI assistant, Digital Twin and analytics.
+Use diagrams for platform architecture and connected workflows.
+Use industry-specific imagery only where it supports the content.
+Avoid generic smiling-office-stock imagery as the primary visual language.
+Every product visual should reinforce a specific claim.
+24. CONVERSION SYSTEM
+Primary CTA: Request a Demo
+Secondary CTA: Explore the Platform
+AI CTA: See Workforce AI in Action
+Industry CTA: Explore [Industry] Solution
+Payroll CTA: See Payroll & Compliance
+Enterprise CTA: Talk to an Expert
+Use short lead forms with progressive qualification rather than long forms.
+25. ANTIGRAVITY — MASTER BUILD PROMPT
+You are the lead product designer, UX architect, senior frontend engineer, SEO/AEO/GEO strategist and B2B SaaS website copywriter.
+Build a production-quality, multi-page public marketing website for:
+WORKFORCE360
+AI-NATIVE WORKFORCE OPERATING SYSTEM
+Powered by Spotsign • A DIMENSHION product
+SOURCE REFERENCES
+1. Existing dashboard: https://workforce-july-2026.vercel.app/dashboard
+2. Existing reference website: https://workforce360-8e1b4d8c.base44.app
+3. Uploaded Workforce360 platform audit/feature PDF supplied with this project.
+4. Inspiration only: https://www.keka.com/
+5. Inspiration only: https://www.oracle.com/in/human-capital-management/
+6. Inspiration only: https://www.workday.com/en-in/homepage.html
+FIRST: inspect the existing Workforce360 dashboard and reference website. Inventory:
+- navigation
+- visual language
+- product terminology
+- module names
+- dashboard screenshots
+- colors
+- cards
+- charts
+- icons
+- workflows
+- user roles
+- industry packs
+- AI experiences
+Do NOT copy competitor websites. Use them only for information architecture, enterprise storytelling, UX quality and conversion patterns.
+BUSINESS POSITIONING
+Do not position Workforce360 as merely another HRMS.
+Primary category: AI-native Workforce Operating System.
+Supporting categories: HRMS, HRIS, HCM, Workforce Management, Payroll & Compliance, Talent Platform, Workforce Intelligence.
+CORE MESSAGE
+“Run your entire workforce on one intelligent platform.”
+Supporting statement:
+“Workforce360 brings HR, payroll, attendance, talent, compliance, finance, IT operations and workforce intelligence together—powered by AI and designed for both corporate and operational workforces.”
+WEBSITE GOALS
+1. Establish enterprise credibility.
+2. Explain the product clearly to HR, payroll, finance, operations, IT and business leaders.
+3. Rank for high-intent HRMS, HRIS, HCM, payroll, workforce management and AI HR software searches.
+4. Be highly discoverable by Google, AI assistants, LLMs and answer engines.
+5. Convert qualified enterprise visitors into demo requests.
+6. Make the breadth of Workforce360 understandable without overwhelming visitors.
+SITE STRUCTURE
+Create:
+/
+/platform
+/platform/ai
+/platform/digital-twin
+/platform/hris
+/platform/workforce-management
+/platform/payroll
+/platform/tax-compliance
+/platform/recruitment
+/platform/performance
+/platform/learning
+/platform/employee-experience
+/platform/it-assets
+/platform/finance
+/platform/lifecycle
+/platform/analytics
+/industries
+/industries/manufacturing
+/industries/logistics
+/industries/shipping-maritime
+/industries/seafood-aquaculture
+/industries/healthcare
+/industries/hospitality
+/industries/retail
+/industries/automobile
+/industries/fuel-stations
+/industries/cab-transport
+/industries/field-workforce
+/industries/travel-tourism
+/industries/school-university
+/industries/ites
+/industries/bpo
+/industries/information-technology
+/industries/chemical-hazardous
+/industries/cargo-freight
+/industries/fisheries-aquaculture
+/solutions
+/solutions/hr-leaders
+/solutions/payroll-teams
+/solutions/finance-leaders
+/solutions/operations
+/solutions/it-teams
+/solutions/employees
+/solutions/managers
+/integrations
+/security
+/compliance
+/pricing
+/demo
+/resources
+/resources/guides
+/resources/hrms
+/resources/payroll
+/resources/workforce-management
+/resources/ai-in-hr
+/about
+/contact
+/llm-info
+HOME PAGE
+Hero:
+Eyebrow: AI-NATIVE WORKFORCE OPERATING SYSTEM
+H1: Run your entire workforce on one intelligent platform.
+Subheadline: Workforce360 brings HR, payroll, attendance, talent, compliance, finance, IT operations and workforce intelligence together—powered by AI and designed for both corporate and operational workforces.
+CTA: Request a Demo
+CTA: Explore the Platform
+HOME SECTIONS
+1. Platform overview
+2. One platform / every workforce workflow
+3. AI Workforce Intelligence / Digital Brain
+4. Digital Twin
+5. Core HRMS/HRIS
+6. Workforce management
+7. Payroll and statutory compliance
+8. AI recruitment
+9. Performance and talent
+10. Learning
+11. Employee experience
+12. IT assets
+13. Finance/spend
+14. Industry packs
+15. Security and governance
+16. Role/persona solutions
+17. FAQ
+18. Final demo CTA
+PRODUCT PAGE TEMPLATE
+Every product page must include:
+- Breadcrumb
+- Eyebrow
+- H1
+- 1-2 sentence value proposition
+- Product UI visual
+- “What it solves”
+- “Key capabilities”
+- “How it works”
+- “AI inside the workflow”
+- “Who uses it”
+- Industry use cases
+- Integrations
+- Security/governance
+- FAQ
+- CTA
+AI PAGE
+Position AI as embedded intelligence:
+- AI HR Concierge
+- AI resume review
+- AI job description generation
+- AI interview question generation
+- Workforce demand forecasting
+- Attrition-risk intelligence
+- Payroll anomaly detection
+- AI report generation
+- AI learning/course generation
+- Digital Twin simulation
+DIGITAL TWIN PAGE
+Explain:
+- organizational graph
+- operational graph
+- financial graph
+- scenario modelling
+- headcount changes
+- restructuring
+- salary burn
+- severance impact
+- skills deficit
+- staged workflow execution
+INDUSTRY PAGES
+Create 19 industry pages using the exact industry names from the project content document.
+Each page needs:
+- industry-specific hero
+- workforce challenges
+- relevant Workforce360 modules
+- role examples
+- industry workflows
+- compliance/operational examples
+- reporting
+- CTA
+IMPORTANT CONTENT ACCURACY RULES
+- Treat the uploaded PDF as the authoritative source for platform capabilities.
+- Do not silently invent modules or integrations.
+- If a feature is described as an architecture/recommended enhancement rather than verified capability, label it “planned”, “available in roadmap”, or omit it from a hard product claim.
+- Do not expose internal code routes or internal audit failures in marketing copy.
+- Do not claim certifications unless evidence is provided.
+- Do not claim customer counts, revenue, market share, awards, uptime or performance percentages unless provided by the business.
+- Avoid absolute “better than Workday/Keka/Oracle” claims. Use “designed to”, “combines”, “brings together”, or “built for”.
+SEO / GEO / AEO
+Implement:
+- unique metadata for every page
+- canonical URLs
+- breadcrumbs
+- JSON-LD
+- Organization
+- SoftwareApplication
+- WebSite
+- WebPage
+- BreadcrumbList
+- FAQPage
+- Article
+- ItemList
+- XML sitemap
+- robots.txt
+- /llms.txt
+- /llms-full.txt
+- /llm-info
+Answer-first content:
+Use explicit definitions and concise answers such as:
+“What is Workforce360?”
+“What is an AI workforce operating system?”
+“What does Workforce360 include?”
+“Does Workforce360 support Indian payroll?”
+“Does Workforce360 support biometric attendance?”
+“Who is Workforce360 for?”
+KEYWORD STRATEGY
+Primary:
+AI HRMS software
+AI HR software
+AI workforce management software
+workforce operating system
+enterprise HRMS
+HRIS software India
+HCM software India
+payroll software India
+AI recruitment software
+workforce management platform
+Secondary:
+HR software for manufacturing
+HRMS for logistics
+HRMS for hospitals
+HRMS for IT companies
+blue collar workforce software
+shift workforce management
+biometric attendance payroll
+AI resume screening
+AI workforce planning
+digital twin workforce planning
+DESIGN
+- premium enterprise SaaS
+- modern and spacious
+- deep navy/blue accents
+- white/light neutral base
+- dark AI sections
+- high contrast
+- rounded cards
+- subtle borders
+- restrained shadows
+- product UI screenshots
+- clean diagrams
+- polished micro-interactions
+- responsive desktop/tablet/mobile
+- accessibility-conscious
+- keyboard navigation
+- visible focus states
+- no excessive gradients
+- no gimmicky animations
+NAVIGATION
+Header:
+Logo: Workforce360
+Products mega menu
+AI
+Industries
+Solutions
+Resources
+Security
+Pricing
+Request Demo
+Footer:
+Product
+Industries
+Solutions
+Resources
+Company
+Security
+Legal
+Contact
+Powered by Spotsign • A DIMENSHION product
+TECHNICAL REQUIREMENTS
+Use a modern Next.js/React architecture suitable for production.
+Use reusable components:
+Navbar
+MegaMenu
+Hero
+LogoStrip
+FeatureGrid
+ProductShowcase
+AISection
+IndustryCards
+PersonaCards
+ComparisonTable
+FAQ
+CTA
+Footer
+Breadcrumbs
+SEOHead/metadata
+Schema components
+Use server-rendered content for SEO-critical copy.
+Do not hide primary content behind client-only effects.
+Optimize images.
+Use semantic HTML.
+Generate sitemap and robots.
+Add structured data.
+Add internal links.
+Create an XML sitemap that includes only public indexable pages.
+CONTENT FILES
+Create:
+content/site-content.md
+content/seo-metadata.json
+content/faq.json
+content/industries.json
+content/products.json
+public/llms.txt
+public/llms-full.txt
+Also create a /llm-info page with canonical product information.
+CONVERSION
+Primary CTA: Request a Demo
+Secondary CTA: Explore Platform
+Use short lead form:
+Name
+Work email
+Company
+Company size
+Industry
+Country
+What do you want to solve?
+SUCCESS CRITERIA
+The final website should feel like a credible enterprise SaaS company, not a generated template.
+It must be substantially richer than the existing reference website.
+Every product capability should have a logical home.
+The user should understand Workforce360 within 10 seconds, explore the platform within 30 seconds, and reach a demo CTA from every major page.
+The site must be SEO-friendly, AI/LLM-friendly, fast, accessible and mobile-first.
+Before finalizing, run a content audit:
+- no orphan pages
+- no duplicate H1s
+- no duplicate metadata
+- no broken internal links
+- all CTAs work
+- all industry pages linked
+- all product pages linked
+- FAQ schema matches visible FAQs
+- llms.txt and llms-full.txt are present
+- sitemap is valid
+- robots.txt is valid
+- images have alt text
+- no unsupported product claims
+26. FINAL IMPLEMENTATION CHECKLIST
+Inspect both Workforce360 reference URLs before design decisions.
+Use the uploaded PDF as the capability source of truth.
+Create the complete multi-page sitemap.
+Create all product pages and all 19 industry pages.
+Create role/persona solution pages.
+Implement AI and Digital Twin as first-class product pillars.
+Use product UI screenshots throughout.
+Implement SEO metadata per page.
+Implement JSON-LD.
+Implement sitemap.xml and robots.txt.
+Implement llms.txt and llms-full.txt.
+Create /llm-info.
+Create comprehensive FAQ content.
+Implement strong internal linking.
+Ensure every major page has a demo CTA.
+Perform mobile/accessibility/SEO/link/content QA before delivery.
+27. Important source note
+The uploaded report contains multiple audit snapshots with different build-health statements—for example, an early executive section reports 80 remaining TypeScript errors, while a later tenant onboarding audit states 0 TypeScript errors and production-ready onboarding. These are internal engineering audit states, not appropriate public marketing claims. The website prompt therefore intentionally focuses on externally meaningful product capabilities and avoids exposing contradictory internal QA status. fileciteturn3file9
+The report's architecture also explicitly positions Workforce360 as an AI-native, multi-tenant Workforce Operating System combining global HCM, industrial workforce management, global hiring/compliance, IT provisioning, financial ERP/ledger and AI Digital Brain/Digital Twin capabilities. fileciteturn4file3

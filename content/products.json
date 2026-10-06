@@ -1,0 +1,1441 @@
+{
+  "products": {
+    "hris": {
+      "id": "hris",
+      "slug": "hris",
+      "pillar": "people",
+      "badge": "FOUNDATIONAL DATA LAYER",
+      "title": "A Single Source of Truth for Your Entire Workforce",
+      "subtitle": "Unify employee master records, organizational reporting hierarchies, multi-entity cost centers, and compliance documentation under one enterprise data model.",
+      "metaTitle": "Core HRMS & HRIS Software | Workforce360 Enterprise Platform",
+      "metaDescription": "Consolidate employee profiles, organizational hierarchies, multi-entity compliance records, and self-service workflows with Workforce360's enterprise Core HRIS.",
+      "whatItSolves": "Fragmented employee records across legacy spreadsheets, disconnected subsidiary directories, and lagging organization chart updates that lead to security vulnerabilities and payroll discrepancies.",
+      "howItWorks": "Workforce360 maintains an immutable, effective-dated employee timeline. Whenever promotions, reporting changes, or entity transfers occur, downstream payroll, access control, and compliance records update automatically.",
+      "capabilities": [
+        {
+          "title": "Comprehensive Employee Master Profiles",
+          "desc": "Maintain 150+ custom fields covering personal details, bank data, emergency contacts, statutory identity (PAN, Aadhaar, UAN), and compensation histories."
+        },
+        {
+          "title": "Dynamic Organizational Hierarchy Visualizer",
+          "desc": "Interactive tree visualization of multi-entity reporting lines with matrix manager support, dotted-line reporting, and instant organizational export."
+        },
+        {
+          "title": "Effective-Dated Record History",
+          "desc": "Audit past, present, and future-dated organizational changes with rollback safeguards and complete administrative audit logs."
+        },
+        {
+          "title": "Multi-Entity & Branch Hierarchy",
+          "desc": "Manage multiple corporate entities, sister companies, regional factories, and remote offices with sovereign legal entity isolation."
+        },
+        {
+          "title": "Digital Document Vault with Expiry Alerts",
+          "desc": "Store signed employment contracts, certificates, and statutory records with automated alerts for passport, visa, or license expirations."
+        },
+        {
+          "title": "Granular Role-Based Access Control (RBAC)",
+          "desc": "19 pre-configured permission tiers ensuring strict separation between Super Admins, HR Managers, Finance Reviewers, and Employees."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "AI HR Concierge",
+          "desc": "Natural language assistant that instantly answers employee queries regarding company policies, leave entitlements, and company directories."
+        },
+        {
+          "title": "Automated Profile Anomaly Detection",
+          "desc": "Flags missing statutory identifiers, duplicate bank records, and contradictory manager assignments before payroll cutoff."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Record Access Latency",
+          "val": "< 50ms"
+        },
+        {
+          "label": "Audit Trail Retention",
+          "val": "100% Immutable"
+        },
+        {
+          "label": "RBAC Security Tiers",
+          "val": "19 Granular Levels"
+        }
+      ],
+      "personas": [
+        "hr-leader",
+        "chro",
+        "it-leader"
+      ],
+      "industries": [
+        "information-technology",
+        "manufacturing",
+        "healthcare",
+        "retail-ecommerce"
+      ],
+      "faqs": [
+        {
+          "q": "Does Workforce360 support multiple legal entities under one parent tenant?",
+          "a": "Yes. Workforce360 supports multi-entity corporate structures with independent tax IDs, currency settings, and cost-center allocations while maintaining unified group-level visibility."
+        },
+        {
+          "q": "How does effective dating work for promotions and transfers?",
+          "a": "You can schedule promotions, department transfers, and compensation changes to take effect on a future calendar date. Downstream payroll and access permissions update automatically when that date arrives."
+        },
+        {
+          "q": "Can custom fields be added without software code changes?",
+          "a": "Yes. Administrators can configure custom text, date, numerical, and document fields directly through the administrative console."
+        }
+      ]
+    },
+    "digital-twin": {
+      "id": "digital-twin",
+      "slug": "digital-twin",
+      "pillar": "intelligence",
+      "badge": "STRATEGIC WORKFORCE SIMULATION",
+      "title": "Model Workforce Restructuring Before You Commit the Change",
+      "subtitle": "The Workforce Digital Twin combines organizational structure, compensation data, and operational skills graphs so leadership can simulate restructuring, expansion, and cost optimization scenarios without risking live operations.",
+      "metaTitle": "Workforce Digital Twin & Restructuring Simulator | Workforce360",
+      "metaDescription": "Simulate organizational changes, calculate real-time P&L delta, severance liability, and skill gap deficits with Workforce360's embedded Workforce Digital Twin.",
+      "whatItSolves": "Executive leadership making high-stakes workforce reductions, expansions, or M&A integrations based on static spreadsheets that fail to account for hidden severance liabilities, critical skill deficits, and downstream operational bottlenecks.",
+      "howItWorks": "The Digital Twin Simulator creates an isolated digital snapshot of your organizational graph, compensation ledger, and operational shifts. You apply scenario levers (e.g., -10% departmental headcount or consolidation of regional branches), and the simulation engine computes financial delta, severance impact, and operational deficits in real time.",
+      "capabilities": [
+        {
+          "title": "Headcount & Reorg Simulation Engine",
+          "desc": "Model departmental downsizing, merger consolidations, or rapid hiring ramp-ups in an isolated sandbox environment."
+        },
+        {
+          "title": "Real-Time P&L Delta & Run-Rate Projection",
+          "desc": "Instantly project the monthly and annualized payroll savings versus one-time severance and notice-period expenditures."
+        },
+        {
+          "title": "Skills Deficit & Critical Role Vulnerability",
+          "desc": "Identifies single-point-of-failure roles and critical institutional competencies that would be lost under proposed workforce cuts."
+        },
+        {
+          "title": "Severance & Statutory Gratuity Liability Calculator",
+          "desc": "Accurately computes statutory severance, accrued leave encashment, and notice payouts across corporate tenures."
+        },
+        {
+          "title": "Staged Workflow Execution",
+          "desc": "Once a strategic scenario is approved by executive leadership, the transition plan can be converted into staged HR tasks and offboarding queues."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Predictive Operational Impact Scoring",
+          "desc": "Genkit AI evaluates whether the projected reduction in shift supervisors will trigger overtime spikes or factory muster shortages."
+        },
+        {
+          "title": "Recommended Transition Staging",
+          "desc": "Generates phased restructuring timelines that minimize business disruption and maximize institutional knowledge retention."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Scenario Computation Time",
+          "val": "Real-time (< 2s)"
+        },
+        {
+          "label": "P&L Projection Horizon",
+          "val": "1 to 36 Months"
+        },
+        {
+          "label": "Operational Variables Modeled",
+          "val": "24+ Dimensions"
+        }
+      ],
+      "personas": [
+        "chro",
+        "cfo-finance",
+        "operations"
+      ],
+      "industries": [
+        "information-technology",
+        "manufacturing",
+        "logistics-freight",
+        "hospitality"
+      ],
+      "faqs": [
+        {
+          "q": "Does the Digital Twin modify actual live employee records during simulation?",
+          "a": "Never. Simulations execute inside an isolated virtual sandbox. Live operational data is only modified when an authorized executive formally approves and executes a staged transition plan."
+        },
+        {
+          "q": "What financial variables are accounted for during severance calculations?",
+          "a": "The engine factors in gross salary, statutory gratuity liabilities based on verified tenure, accrued paid leave encashment, notice period compensations, and applicable bonus reserves."
+        },
+        {
+          "q": "Can the simulator model cross-departmental hiring and reallocation?",
+          "a": "Yes. You can model reallocating talent from sunsetting business units into expanding product lines, comparing re-skilling costs against new recruitment spend."
+        }
+      ]
+    },
+    "ai": {
+      "id": "ai",
+      "slug": "ai",
+      "pillar": "intelligence",
+      "badge": "40 PRODUCTION GENKIT AI FLOWS",
+      "title": "Embedded AI Intelligence Across Every Workforce Workflow",
+      "subtitle": "Workforce360 does not treat AI as a disconnected chatbot. We embed 40 purpose-built Google Genkit AI flows directly into recruitment, payroll variance audits, workforce forecasting, and employee assistance.",
+      "metaTitle": "AI Workforce Intelligence & Digital Brain | Workforce360",
+      "metaDescription": "Discover Workforce360's Digital Brain: 40 production Genkit AI flows powering attrition prediction, payroll anomaly detection, AI resume screening, and demand forecasting.",
+      "whatItSolves": "HR and operational teams drowning in repetitive administrative tasks, missing subtle payroll errors before disbursement, and lacking the predictive signals needed to preempt top-talent resignations.",
+      "howItWorks": "Our Digital Brain operates securely within your multi-tenant environment using Google Genkit. As transactions, attendance punches, and evaluations occur, background intelligence flows evaluate patterns to alert managers, draft documentation, and surface risks.",
+      "capabilities": [
+        {
+          "title": "AI HR Concierge",
+          "desc": "24/7 conversational support for staff answering complex queries about leave rules, insurance claims, and tax deductions."
+        },
+        {
+          "title": "Attrition Risk Telemetry",
+          "desc": "Predictive models that evaluate tenure patterns, compensation benchmarks, and engagement dips to alert managers before critical talent departs."
+        },
+        {
+          "title": "Pre-Payroll Anomaly Detection",
+          "desc": "Autonomous audits that flag abnormal overtime spikes, negative net pays, unexpected bank account updates, and ghost worker signals."
+        },
+        {
+          "title": "Workforce Demand & Roster Forecasting",
+          "desc": "Predicts future shift staffing requirements based on historical seasonal trends, production outputs, and leave histories."
+        },
+        {
+          "title": "AI Job Description & Interview Rubric Synthesis",
+          "desc": "Generates tailored role specifications and competency-based interview scorecards aligned with corporate benchmarks."
+        },
+        {
+          "title": "Natural Language Report Generation",
+          "desc": "Ask executive queries in plain English (e.g., 'Show total overtime cost by department for Q3') and receive instant tabular charts."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Autonomous Background Sentinel",
+          "desc": "Continuously audits operational telemetry without human prompting to prevent compliance breaches."
+        },
+        {
+          "title": "Contextual Resume Scoring & Gap Analysis",
+          "desc": "Scores incoming candidates against job requisitions and highlights specific missing certifications."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Production Genkit Flows",
+          "val": "40 Flows"
+        },
+        {
+          "label": "Payroll Anomaly Detection Speed",
+          "val": "Instant Pre-Run"
+        },
+        {
+          "label": "HR Ticket Deflection Rate",
+          "val": "Up to 68%"
+        }
+      ],
+      "personas": [
+        "chro",
+        "hr-leader",
+        "payroll-manager",
+        "recruiter"
+      ],
+      "industries": [
+        "information-technology",
+        "bpo-call-centers",
+        "manufacturing",
+        "healthcare"
+      ],
+      "faqs": [
+        {
+          "q": "Are company employee records used to train public AI models?",
+          "a": "Never. All Genkit AI flows operate within strict enterprise tenant boundaries with zero data sharing across external foundation models."
+        },
+        {
+          "q": "Does AI make autonomous hiring or firing decisions?",
+          "a": "No. Workforce360 adheres to strict human-in-the-loop governance. AI provides predictive recommendations, anomaly flags, and drafting assistance\u2014all binding decisions require explicit manager approval."
+        },
+        {
+          "q": "Can the AI Assistant handle complex Indian statutory tax queries?",
+          "a": "Yes. The AI Concierge understands the differences between the Old and New tax regimes, Section 80C exemptions, and Form 12BB requirements, guiding employees with precision."
+        }
+      ]
+    },
+    "workforce-management": {
+      "id": "workforce-management",
+      "slug": "workforce-management",
+      "pillar": "work",
+      "badge": "DESK, FIELD & FLOOR OPERATIONS",
+      "title": "Precision Scheduling, Rostering, and Time Tracking Everywhere",
+      "subtitle": "From corporate offices and 24/7 hospital rotations to 3-shift factory lines and maritime vessels, Workforce360 manages shifts, overtime limits, and attendance without operational friction.",
+      "metaTitle": "Workforce Management & Shift Scheduling Software | Workforce360",
+      "metaDescription": "Manage complex rotational shifts, overtime policies, fatigue rules, and operational attendance across office, field, and factory teams with Workforce360 WFM.",
+      "whatItSolves": "Roster chaos, unexpected shift absenteeism, uncontrolled overtime costs, and non-compliance with statutory rest-hour mandates (e.g., Factories Act 48-hour caps, Maritime STCW rules).",
+      "howItWorks": "Supervisors build rotational shift templates or allow auto-rostering based on fatigue constraints. Employees receive real-time schedule alerts on mobile, request shift swaps, and punch in via geofenced biometric methods.",
+      "capabilities": [
+        {
+          "title": "Rotational & Split-Shift Scheduling",
+          "desc": "Configurable scheduling templates supporting 24/7 rotational shifts, split shifts for hospitality, and night shifts with allowances."
+        },
+        {
+          "title": "Automated Overtime & Comp-Off Engine",
+          "desc": "Configurable overtime calculation formulas with pre-approval workflows, monthly caps, and compensatory-off credit automation."
+        },
+        {
+          "title": "Shift Swapping & Open Shift Bidding",
+          "desc": "Empower staff to exchange shifts with qualified peers within supervisor-defined skill and overtime guardrails."
+        },
+        {
+          "title": "Fatigue Management & Statutory Rest Floor Guardrails",
+          "desc": "Built-in rule engines preventing scheduled shifts that violate Factories Act weekly limits or maritime STCW 77-hour rest mandates."
+        },
+        {
+          "title": "Attendance Regularization Workflows",
+          "desc": "Multi-tier approval workflows with GPS audit stamps for missed punches, on-duty approvals, and half-day regularizations."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Smart Shift Roster Auto-Balancing",
+          "desc": "Algorithms optimize roster allocation based on historical employee reliability scores and expected customer footfall."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Shift Coverage Improvement",
+          "val": "99.4%"
+        },
+        {
+          "label": "Overtime Leakage Prevention",
+          "val": "Up to 18%"
+        },
+        {
+          "label": "Roster Generation Time",
+          "val": "Minutes vs Days"
+        }
+      ],
+      "personas": [
+        "operations",
+        "hr-leader",
+        "employee"
+      ],
+      "industries": [
+        "manufacturing",
+        "healthcare",
+        "hospitality",
+        "shipping-maritime",
+        "bpo-call-centers"
+      ],
+      "faqs": [
+        {
+          "q": "Can supervisors view real-time floor attendance from their mobile devices?",
+          "a": "Yes. Operational heads have live roster dashboards displaying who is checked in, who is on break, and who is absent with automated replacement suggestions."
+        },
+        {
+          "q": "How does Workforce360 handle night shift roll-over across midnight?",
+          "a": "The platform includes midnight-crossing shift logic, properly assigning attendance hours, night shift allowances, and statutory rest intervals to the correct operational shift date."
+        }
+      ]
+    },
+    "attendance": {
+      "id": "attendance",
+      "slug": "attendance",
+      "pillar": "work",
+      "badge": "MULTI-MODAL TIME CAPTURE",
+      "title": "Biometric, Facial Check-in, and Geofenced Time Attendance",
+      "subtitle": "Capture every punch with zero latency and complete fraud prevention using hardware biometric integrations, mobile facial recognition, and GPS boundary validation.",
+      "metaTitle": "Biometric Attendance & Geofenced Time Tracking | Workforce360",
+      "metaDescription": "Eliminate buddy punching with Workforce360's biometric hardware sync (eSSL, ZKTeco), mobile facial check-in with liveness detection, and GPS geofencing.",
+      "whatItSolves": "Buddy punching, ghost worker attendance fraud, manual muster-roll reconciliation delays, and disconnected biometric hardware logs that stall payroll.",
+      "howItWorks": "Hardware devices (eSSL, ZKTeco, Matrix, Realtime) stream punch events in real time to the cloud engine. Field workers check in via the mobile PWA with GPS boundary checks and camera liveness validation.",
+      "capabilities": [
+        {
+          "title": "Direct Biometric Device Hardware Sync",
+          "desc": "Pre-built connectors for industry-standard biometric terminals (eSSL, ZKTeco, Matrix, Realtime) with offline buffering."
+        },
+        {
+          "title": "Mobile Facial Recognition with Liveness Detection",
+          "desc": "Camera-based selfie check-in with anti-spoofing algorithms preventing photo or video playback fraud."
+        },
+        {
+          "title": "High-Precision GPS Geofencing",
+          "desc": "Enforce attendance check-ins only within designated project sites, factory boundaries, or client office radiuses."
+        },
+        {
+          "title": "Automated Muster Roll Generation",
+          "desc": "Instantly compiles statutory Form 25 muster rolls, daily wage registers, and shift presence summaries."
+        },
+        {
+          "title": "Grace Period & Late-Mark Policies",
+          "desc": "Configurable grace periods (e.g., 15 minutes) with automated deduction rules after 3 consecutive late marks."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Geo-Anomaly Flagging",
+          "desc": "Detects impossible travel velocities between consecutive attendance punches to catch location-spoofing attempts."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Punch Sync Latency",
+          "val": "< 5 seconds"
+        },
+        {
+          "label": "Device Compatibility",
+          "val": "All Major Hardware"
+        },
+        {
+          "label": "Buddy Punching Defect Rate",
+          "val": "0.0%"
+        }
+      ],
+      "personas": [
+        "operations",
+        "payroll-manager",
+        "employee"
+      ],
+      "industries": [
+        "manufacturing",
+        "retail-ecommerce",
+        "field-workforce",
+        "healthcare"
+      ],
+      "faqs": [
+        {
+          "q": "What happens if a factory experiences internet downtime?",
+          "a": "Biometric terminals cache punches locally. Once connectivity is restored, the synchronization agent securely flushes all buffered punches to the cloud ledger without data loss."
+        },
+        {
+          "q": "Can employees check in when visiting off-site client locations?",
+          "a": "Yes. The On-Duty (OD) mobile check-in feature captures timestamped GPS coordinates and optional client signatures for immediate manager validation."
+        }
+      ]
+    },
+    "payroll": {
+      "id": "payroll",
+      "slug": "payroll",
+      "pillar": "money",
+      "badge": "END-TO-END PAYROLL ENGINE",
+      "title": "Payroll That Connects Time, Pay, Tax, and General Ledger",
+      "subtitle": "Process multi-entity payroll in minutes with continuous data integration from attendance, overtime, expense reimbursements, piece-rate wages, and Indian statutory deduction rules.",
+      "metaTitle": "Enterprise Payroll Software India | Workforce360 Platform",
+      "metaDescription": "Run automated payroll connected to attendance, overtime, piece-rate wages, Indian statutory compliance (TDS, PF, ESIC, PT), and General Ledger accounting.",
+      "whatItSolves": "Manual spreadsheet payroll formulas that trigger calculation errors, delayed disbursement dates, compliance penalty notices, and disconnected accounting reconciliations.",
+      "howItWorks": "At month-end, Workforce360 locks finalized attendance and overtime records, applies configured salary structures, executes statutory deductions (TDS, EPF, ESIC, PT), runs variance checks, and outputs bank disbursement files with automated payslips.",
+      "capabilities": [
+        {
+          "title": "Flexible Salary Structure Architect",
+          "desc": "Configure unlimited compensation components (Basic, HRA, Special Allowance, PF, Gratuity, Bonus) with formula-based logic."
+        },
+        {
+          "title": "Industrial Blue-Collar & Piece-Rate Wage Engine",
+          "desc": "Native support for daily-rate, shift-rate, and piece-rate gang earnings (e.g., filleting yield, production units) within standard payroll runs."
+        },
+        {
+          "title": "Automated Pre-Payroll Variance Audit",
+          "desc": "Flags month-over-month salary deviations exceeding thresholds (e.g., +/- 10%), unexpected gross pay spikes, and newly added bank accounts."
+        },
+        {
+          "title": "Bank Payout File Generation",
+          "desc": "One-click generation of encrypted bank disbursement batch files formatted for HDFC, ICICI, SBI, Axis, and standard NACH protocols."
+        },
+        {
+          "title": "Comprehensive Full & Final (F&F) Settlement",
+          "desc": "Automated settlement accounting factoring in notice period shortfalls, leave encashment, gratuity eligibility, and company asset recoveries."
+        },
+        {
+          "title": "Multi-Country Currency Architecture",
+          "desc": "Multi-currency engines supporting dual-currency tax accounting for multinational operations (India, UAE, US, UK)."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "AI Payroll Anomaly Sentinel",
+          "desc": "Autonomous audits scan the payroll ledger for ghost employees, duplicate PAN records, and unapproved compensation revisions."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Payroll Processing Time",
+          "val": "< 10 Minutes"
+        },
+        {
+          "label": "Variance Audit Coverage",
+          "val": "100% Transactions"
+        },
+        {
+          "label": "Direct Bank Integrations",
+          "val": "All Major Indian Banks"
+        }
+      ],
+      "personas": [
+        "payroll-manager",
+        "cfo-finance",
+        "hr-leader"
+      ],
+      "industries": [
+        "manufacturing",
+        "seafood-processing",
+        "information-technology",
+        "logistics-freight"
+      ],
+      "faqs": [
+        {
+          "q": "Can Workforce360 process payroll for both salaried corporate staff and variable factory workers in the same run?",
+          "a": "Yes. Our dual-workforce engine allows processing salaried corporate employees alongside daily-rated and piece-rate industrial workers within unified or segregated batches."
+        },
+        {
+          "q": "How does the system ensure bank file security?",
+          "a": "Bank files are generated in cryptographically hashed or bank-specific encrypted formats with strict dual-authorization controls before export."
+        }
+      ]
+    },
+    "tax-compliance": {
+      "id": "tax-compliance",
+      "slug": "tax-compliance",
+      "pillar": "money",
+      "badge": "STATUTORY TAX ENGINE",
+      "title": "Make Payroll and Statutory Compliance Effortless",
+      "subtitle": "Built from the ground up for Indian statutory depth with support for TDS Section 192, EPF, ESIC, State-wise Professional Tax, Form 12BB, Form 16, and GST reconciliations.",
+      "metaTitle": "Statutory Compliance & Indian Payroll Tax Software | Workforce360",
+      "metaDescription": "Automate TDS deductions, EPF ECR challans, ESIC filing, Form 12BB proof verification, and Form 16 generation with Workforce360 statutory compliance.",
+      "whatItSolves": "Regulatory fines, missed filing deadlines, erroneous TDS withholding under dual tax regimes, and weeks spent verifying employee investment proofs manually.",
+      "howItWorks": "Employees declare investments and choose Old or New tax regimes in the self-service portal. The compliance engine dynamically projects annualized tax, withholds exact monthly TDS, and generates ready-to-upload statutory challan files.",
+      "capabilities": [
+        {
+          "title": "Automated TDS Calculation & Dual Regime Support",
+          "desc": "Dynamic income tax projections under Section 115BAC (New Regime) and Old Regime with automatic best-regime tax comparisons."
+        },
+        {
+          "title": "Form 12BB Digital Investment Declaration & Verification",
+          "desc": "Employees submit proofs for 80C, 80D, HRA rent receipts, and home loans with bulk HR approval workflows and digital audit stamps."
+        },
+        {
+          "title": "Statutory ECR & Return File Generation",
+          "desc": "Generates valid Electronic Challan cum Return (ECR) text files for EPFO, ESIC monthly contribution files, and State Professional Tax reports."
+        },
+        {
+          "title": "Automated Form 16 Part A & Part B Generation",
+          "desc": "Bulk generation of digitally signed Form 16 PDF certificates containing TRACES Part A data merged with system-calculated Part B details."
+        },
+        {
+          "title": "State-Wise Professional Tax (PT) Slabs",
+          "desc": "Pre-configured PT slabs across all Indian states with automated monthly, half-yearly, and February adjustment deductions."
+        },
+        {
+          "title": "Labor Welfare Fund (LWF) Management",
+          "desc": "Maintains state-specific employee and employer contribution rules with compliance reporting."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Automated Investment Proof OCR & Verification",
+          "desc": "Extracts landlord PAN, rent amounts, and insurance premium dates from uploaded PDF receipts, flagging discrepancies against declared values."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Challan Generation Time",
+          "val": "1-Click Export"
+        },
+        {
+          "label": "State PT Coverage",
+          "val": "All Indian States"
+        },
+        {
+          "label": "Form 16 Generation Rate",
+          "val": "1,000s in Minutes"
+        }
+      ],
+      "personas": [
+        "payroll-manager",
+        "cfo-finance"
+      ],
+      "industries": [
+        "information-technology",
+        "manufacturing",
+        "retail-ecommerce",
+        "healthcare"
+      ],
+      "faqs": [
+        {
+          "q": "Are Indian tax slabs and surcharge rates updated automatically when the Union Budget changes?",
+          "a": "Yes. Statutory tax tables, standard deduction caps, and rebate thresholds under Section 87A are updated in the cloud engine without customer maintenance."
+        },
+        {
+          "q": "How does the system prevent HRA fraud?",
+          "a": "The system validates landlord PAN formatting, cross-references monthly rent thresholds against statutory limits, and prevents overlapping rental periods."
+        }
+      ]
+    },
+    "recruitment": {
+      "id": "recruitment",
+      "slug": "recruitment",
+      "pillar": "people",
+      "badge": "AI-POWERED TALENT ACQUISITION",
+      "title": "Recruit Smarter with AI-Assisted Candidate Intelligence",
+      "subtitle": "Accelerate time-to-hire with modern Kanban candidate pipelines, automated job posting distribution, AI resume screening, candidate-fit scoring, and interview question synthesis.",
+      "metaTitle": "AI Recruitment Software & ATS Platform | Workforce360",
+      "metaDescription": "Screen resumes in seconds, score candidate competency fit, auto-generate interview rubrics, and manage hiring pipelines with Workforce360's AI ATS.",
+      "whatItSolves": "Recruiters sifting through hundreds of unqualified resumes, delayed interview scheduling, inconsistent evaluation rubrics across managers, and drop-offs during offer letter stages.",
+      "howItWorks": "Publish openings to internal career portals. As resumes arrive, Genkit AI parses skills and generates a fit scorecard against requisition criteria. Recruiters move candidates across Kanban stages, trigger interview invites, and issue offers that seamlessly transition into onboarding.",
+      "capabilities": [
+        {
+          "title": "Kanban ATS Pipeline Management",
+          "desc": "Drag-and-drop applicant tracking across Sourced, Screened, Interview, Offered, and Hired stages with custom stage gates."
+        },
+        {
+          "title": "Contextual AI Resume Scoring",
+          "desc": "Evaluates candidate CVs against role specifications, ranking applicants based on verified technical skills, tenure stability, and domain fit."
+        },
+        {
+          "title": "AI Job Description Generator",
+          "desc": "Generates compelling, inclusive job descriptions aligned with departmental benchmarks in seconds."
+        },
+        {
+          "title": "Structured Interview Rubrics & Questions",
+          "desc": "Produces customized competency-based interview questions tailored to the candidate's specific background and role gaps."
+        },
+        {
+          "title": "Branded External Career Portal",
+          "desc": "Mobile-responsive, SEO-optimized public career portal with department filters, location search, and one-click applications."
+        },
+        {
+          "title": "Digital Offer Letter & Pre-Onboarding Queue",
+          "desc": "Generate offer letters with dynamic salary annexures and transition accepted candidates directly into pre-boarding."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Skill Differential Breakdown",
+          "desc": "Visual breakdown comparing required competencies versus candidate experience to guide hiring managers during final rounds."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Time to First Screen",
+          "val": "Reduced by 75%"
+        },
+        {
+          "label": "Resume Parsing Speed",
+          "val": "< 3s per CV"
+        },
+        {
+          "label": "Offer-to-Onboard Handshake",
+          "val": "1-Click Transition"
+        }
+      ],
+      "personas": [
+        "recruiter",
+        "hr-leader",
+        "chro"
+      ],
+      "industries": [
+        "information-technology",
+        "bpo-call-centers",
+        "healthcare",
+        "retail-ecommerce"
+      ],
+      "faqs": [
+        {
+          "q": "Does the AI resume score eliminate candidates automatically without human review?",
+          "a": "No. The system acts as a decision-support copilot, ranking candidates and highlighting relevant skills so recruiters can prioritize high-signal candidates without biased automated rejections."
+        },
+        {
+          "q": "Can interviewers submit candidate feedback on mobile?",
+          "a": "Yes. Panel interviewers receive structured evaluation cards on mobile with standard 5-point rubrics and mandatory feedback prompts."
+        }
+      ]
+    },
+    "performance": {
+      "id": "performance",
+      "slug": "performance",
+      "pillar": "people",
+      "badge": "CONTINUOUS PERFORMANCE & TALENT",
+      "title": "Turn Performance Data into Continuous Growth",
+      "subtitle": "Connect KRAs, corporate OKRs, 360-degree feedback, 9-box talent calibration, and Performance Improvement Plans (PIPs) directly to compensation and succession planning.",
+      "metaTitle": "Performance Management & 9-Box Calibration Software | Workforce360",
+      "metaDescription": "Manage OKRs, 360 reviews, Bell Curve normalization, 9-box talent matrices, and PIP workflows with Workforce360 Performance & Talent.",
+      "whatItSolves": "Annual once-a-year review cycles that demotivate staff, subjective manager appraisals lacking objective metrics, and disconnected review scores that fail to inform compensation reviews or promotions.",
+      "howItWorks": "Set cascading OKRs at company, team, and individual levels. Conduct quarterly reviews, 1-on-1 check-ins, and 360\u00b0 peer feedback. HR leadership conducts talent calibration across 9-box grids to normalize ratings and plan succession.",
+      "capabilities": [
+        {
+          "title": "Cascading Goals & OKRs",
+          "desc": "Align individual employee milestones to corporate strategic objectives with progress tracking and milestone check-ins."
+        },
+        {
+          "title": "Multi-Rater 360-Degree Feedback",
+          "desc": "Gather peer, manager, and direct-report perspectives with configurable anonymity controls and competency rubrics."
+        },
+        {
+          "title": "9-Box Talent Matrix & Succession Planning",
+          "desc": "Evaluate organizational bench strength by plotting performance versus leadership potential to identify future leaders."
+        },
+        {
+          "title": "Bell Curve Normalization & Calibration Workflows",
+          "desc": "Interactive calibration sessions allowing department heads to normalize rating distributions and avoid manager grading bias."
+        },
+        {
+          "title": "Structured Performance Improvement Plans (PIPs)",
+          "desc": "Configurable PIP sub-modules with documented milestone reviews, timeline checklists, and objective clearance criteria."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Review Synthesis & Feedback Sentiment",
+          "desc": "Summarizes multiple peer evaluation notes into constructive, bias-free executive feedback summaries."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Review Cycle Completion Rate",
+          "val": "96%+"
+        },
+        {
+          "label": "Calibration Session Efficiency",
+          "val": "2x Faster"
+        },
+        {
+          "label": "OKR Alignment Visibility",
+          "val": "Real-time"
+        }
+      ],
+      "personas": [
+        "chro",
+        "hr-leader",
+        "employee"
+      ],
+      "industries": [
+        "information-technology",
+        "bpo-call-centers",
+        "information-technology",
+        "retail-ecommerce"
+      ],
+      "faqs": [
+        {
+          "q": "Can performance review scores feed directly into annual salary revision increments?",
+          "a": "Yes. Final calibrated review ratings can link directly into compensation planning and payroll salary revision cycles."
+        },
+        {
+          "q": "Are continuous 1-on-1 agendas tracked in the platform?",
+          "a": "Yes. Managers and employees can maintain private recurring 1-on-1 agendas, shared action items, and talking points."
+        }
+      ]
+    },
+    "learning": {
+      "id": "learning",
+      "slug": "learning",
+      "pillar": "people",
+      "badge": "ENTERPRISE LEARNING & SKILLS",
+      "title": "Build the Capabilities Your Business Needs Next",
+      "subtitle": "Deliver mandatory compliance certifications, technical learning pathways, SCORM courses, and AI-generated training modules directly inside the employee workflow.",
+      "metaTitle": "Enterprise LMS & Employee Training Software | Workforce360",
+      "metaDescription": "Deliver SCORM learning paths, mandatory statutory compliance training, assessments, and AI-generated courses with Workforce360 LMS.",
+      "whatItSolves": "Disjointed third-party LMS platforms that employees never log into, untracked mandatory statutory training (e.g., POSH, workplace safety), and lack of visibility into workforce skill readiness.",
+      "howItWorks": "Assign learning paths automatically based on role, location, or department. Employees complete courses on desktop or mobile, take automated quizzes, and earn verifiable completion certificates that update their employee skill profile.",
+      "capabilities": [
+        {
+          "title": "SCORM-Ready Course Player & Content Library",
+          "desc": "Upload standard SCORM 1.2 / 2004 packages, video modules, and PDF training documents with granular progress tracking."
+        },
+        {
+          "title": "Mandatory Statutory & Compliance Training Tracks",
+          "desc": "Automated assignment of POSH, safety compliance, and cybersecurity courses with recurring annual renewal triggers."
+        },
+        {
+          "title": "Dynamic Assessments & Verifiable Certificates",
+          "desc": "Question banks with randomized quizzes, passing score thresholds, and automated PDF certification issuance."
+        },
+        {
+          "title": "AI Course Curriculum & Quiz Generator",
+          "desc": "Input topic guidelines and allow Genkit AI to draft learning objectives, lesson summaries, and multiple-choice assessment questions."
+        },
+        {
+          "title": "Skills Matrix & Credential Tracking",
+          "desc": "Maintains an active employee skills repository directly connected to career pathing and organizational talent bench."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Contextual Learning Recommendations",
+          "desc": "Suggests training modules to employees based on identified skill gaps from their recent performance reviews."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Compliance Training Completion",
+          "val": "98.7%"
+        },
+        {
+          "label": "Course Generation Time",
+          "val": "< 60 seconds"
+        },
+        {
+          "label": "SCORM Compatibility",
+          "val": "100% Compliant"
+        }
+      ],
+      "personas": [
+        "hr-leader",
+        "chro",
+        "employee"
+      ],
+      "industries": [
+        "healthcare",
+        "shipping-maritime",
+        "chemical-hazardous",
+        "information-technology"
+      ],
+      "faqs": [
+        {
+          "q": "Can industry certifications like maritime STCW or food safety HACCP be tracked in LMS?",
+          "a": "Yes. Specialized industry packs include certification expiration trackers with automated renewal reminders sent to both workers and supervisors."
+        }
+      ]
+    },
+    "employee-experience": {
+      "id": "employee-experience",
+      "slug": "employee-experience",
+      "pillar": "people",
+      "badge": "EMPLOYEE SELF-SERVICE & HELPDESK",
+      "title": "Give Every Employee One Place to Get Work Done",
+      "subtitle": "Modern self-service portal, internal helpdesk with SLA tracking, company announcements, policy repositories, and peer recognition powered by a 24/7 AI HR Concierge.",
+      "metaTitle": "Employee Experience & HR Helpdesk Software | Workforce360",
+      "metaDescription": "Empower your workforce with self-service leave, payslip downloads, HR helpdesk ticketing, pulse surveys, and AI concierge support with Workforce360.",
+      "whatItSolves": "HR teams overwhelmed by routine employee inquiries regarding leave balances, payslip copies, and tax forms, leading to poor employee satisfaction.",
+      "howItWorks": "Employees access an intuitive web and PWA mobile portal. They view attendance, download payslips, submit tax proofs, raise helpdesk tickets with automated SLA routing, and receive instant policy answers from the AI Concierge.",
+      "capabilities": [
+        {
+          "title": "Unified Self-Service Dashboard",
+          "desc": "Instant view of leave balances, attendance status, upcoming holidays, and one-click payslip downloads."
+        },
+        {
+          "title": "Multi-Department Helpdesk Ticketing",
+          "desc": "Route employee tickets to HR, IT, or Payroll with automated SLA tracking, priority queues, and resolution escalations."
+        },
+        {
+          "title": "24/7 Conversational AI HR Concierge",
+          "desc": "Instant answers to employee policy questions, leave rules, and tax deductions without human HR intervention."
+        },
+        {
+          "title": "Pulse Surveys & Sentiment Telemetry",
+          "desc": "Deploy anonymous pulse surveys and monitor workforce sentiment trends across teams and departments."
+        },
+        {
+          "title": "Company Announcements & Policy Vault",
+          "desc": "Publish centralized corporate announcements, handbooks, and policy updates with mandatory read-acknowledgment."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Ticket Sentiment & Urgency Scoring",
+          "desc": "Prioritizes urgent employee grievances and routes sensitive tickets directly to designated HR leaders."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "HR Ticket Deflection",
+          "val": "Up to 68%"
+        },
+        {
+          "label": "First Response Time",
+          "val": "Instant (< 3s)"
+        },
+        {
+          "label": "Mobile PWA Adoption",
+          "val": "94%+"
+        }
+      ],
+      "personas": [
+        "employee",
+        "hr-leader"
+      ],
+      "industries": [
+        "information-technology",
+        "retail-ecommerce",
+        "hospitality",
+        "manufacturing"
+      ],
+      "faqs": [
+        {
+          "q": "Can employees access the portal on their smartphones without downloading an app store package?",
+          "a": "Yes. Workforce360 is built with modern Progressive Web App (PWA) architecture, allowing employees to add the app to their home screen with zero app store friction."
+        }
+      ]
+    },
+    "it-assets": {
+      "id": "it-assets",
+      "slug": "it-assets",
+      "pillar": "operations",
+      "badge": "IT & WORKFORCE HARDWARE GOVERNANCE",
+      "title": "Connect People Operations with Technology Operations",
+      "subtitle": "Track corporate laptops, monitors, software licenses, and cloud accounts from the employee master record\u2014ensuring automated provisioning at onboarding and 100% asset recovery at exit.",
+      "metaTitle": "IT Asset & Software License Management | Workforce360",
+      "metaDescription": "Track company hardware, software licenses, access provisioning, and offboarding asset recovery directly from employee records with Workforce360.",
+      "whatItSolves": "Lost company laptops during employee departures, zombie software licenses continuing to bill month after month, and new hires waiting days for IT equipment.",
+      "howItWorks": "Every hardware asset (serial number, model, warranty) and software subscription is mapped directly to the employee record. When onboarding, IT receives provisioning tickets; when offboarding, F&F settlement is locked until asset clearance is certified.",
+      "capabilities": [
+        {
+          "title": "Hardware Asset Registry & Assignment",
+          "desc": "Track laptops, phones, monitors, and peripherals with serial numbers, purchase dates, warranty tracking, and assignment histories."
+        },
+        {
+          "title": "Software License & SaaS Subscription Governance",
+          "desc": "Track paid seats across corporate tools, identifying unassigned licenses and eliminating SaaS spend waste."
+        },
+        {
+          "title": "Automated Onboarding IT Provisioning Queues",
+          "desc": "Generates hardware prep and software account creation checklists when an offer letter is accepted."
+        },
+        {
+          "title": "Strict Offboarding Asset Recovery Lock",
+          "desc": "Ensures Full & Final payroll settlements cannot be disbursed until IT confirms physical return of all assigned equipment."
+        },
+        {
+          "title": "Digital Asset Handover Sign-off",
+          "desc": "Employees digitally sign acknowledgment forms with camera verification when receiving high-value IT equipment."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Unused License Detection",
+          "desc": "Flags allocated software seats with zero employee activity for 60+ days to recommend subscription downgrades."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Asset Loss at Exit",
+          "val": "0.0% with F&F Lock"
+        },
+        {
+          "label": "SaaS Spend Optimization",
+          "val": "Up to 22% Savings"
+        },
+        {
+          "label": "Onboarding IT Readiness",
+          "val": "Day 1 Ready"
+        }
+      ],
+      "personas": [
+        "it-leader",
+        "hr-leader",
+        "cfo-finance"
+      ],
+      "industries": [
+        "information-technology",
+        "bpo-call-centers",
+        "information-technology"
+      ],
+      "faqs": [
+        {
+          "q": "Can IT managers upload vendor invoices and warranty documents to assets?",
+          "a": "Yes. Each asset record contains a document attachment vault for purchase orders, invoices, and extended warranty certificates."
+        }
+      ]
+    },
+    "finance": {
+      "id": "finance",
+      "slug": "finance",
+      "pillar": "money",
+      "badge": "WORKFORCE COST & GENERAL LEDGER",
+      "title": "Connect Workforce Costs Directly to Financial General Ledger",
+      "subtitle": "Bridge the gap between HR and Finance with real-time payroll journal entries, multi-cost-center allocation, AP invoice matching, and travel expense management.",
+      "metaTitle": "Workforce Finance & General Ledger Integration | Workforce360",
+      "metaDescription": "Sync payroll journal entries into General Ledger, allocate costs by department, and manage workforce expenses with Workforce360 Finance.",
+      "whatItSolves": "Finance teams manually keying payroll summaries into ERP journals days after month-end, delayed expense reimbursements, and lack of real-time visibility into workforce run-rates.",
+      "howItWorks": "Once payroll is finalized, Workforce360 generates balanced double-entry accounting journals mapped to your corporate chart of accounts, exporting to SAP, Oracle, Tally, or NetSuite via APIs or direct ledger integration.",
+      "capabilities": [
+        {
+          "title": "Automated Payroll Journal Entry Generation",
+          "desc": "Generates balanced debit/credit journals for salaries payable, tax withholding accounts, PF liabilities, and employer contributions."
+        },
+        {
+          "title": "Multi-Dimension Cost Center Allocation",
+          "desc": "Splits employee compensation across project codes, client accounts, branches, and regional cost centers for accurate unit economics."
+        },
+        {
+          "title": "Accounts Payable & Vendor Workforce Invoicing",
+          "desc": "Match contract staffing agency invoices against verified muster-roll attendance hours before releasing payments."
+        },
+        {
+          "title": "Corporate Spend & Card Integration",
+          "desc": "Track company card transactions with receipt upload workflows and automated policy validation."
+        },
+        {
+          "title": "Real-Time Headcount Budget vs Actual Run-Rate",
+          "desc": "Continuous comparison of budgeted salary allocations against actual gross disbursements to prevent department budget overruns."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Variance & Leakage Prediction",
+          "desc": "Forecasts month-end workforce expenditure deviations before payroll run based on mid-month overtime trends."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "GL Journal Sync Time",
+          "val": "< 60 seconds"
+        },
+        {
+          "label": "Cost Allocation Accuracy",
+          "val": "100% Balanced"
+        },
+        {
+          "label": "Month-End Close Acceleration",
+          "val": "3-5 Days Faster"
+        }
+      ],
+      "personas": [
+        "cfo-finance",
+        "payroll-manager"
+      ],
+      "industries": [
+        "information-technology",
+        "manufacturing",
+        "logistics-freight",
+        "retail-ecommerce"
+      ],
+      "faqs": [
+        {
+          "q": "Can journals be configured to match our existing Chart of Accounts (COA)?",
+          "a": "Yes. Finance administrators can configure exact account codes for Basic Pay, HRA, PF Payable, TDS Withholding, and Bank Clearing accounts."
+        }
+      ]
+    },
+    "expenses": {
+      "id": "expenses",
+      "slug": "expenses",
+      "pillar": "money",
+      "badge": "SPEND & TRAVEL REIMBURSEMENT",
+      "title": "Expense Management and Travel Reimbursement with Zero Friction",
+      "subtitle": "Eliminate paper receipts with mobile receipt capture, automated travel per diem calculations, multi-level manager approvals, and direct reimbursement through payroll.",
+      "metaTitle": "Employee Expense & Travel Management Software | Workforce360",
+      "metaDescription": "Manage expense claims, travel per diems, receipt approvals, and seamless payroll reimbursements with Workforce360 Expenses.",
+      "whatItSolves": "Lost physical receipts, delayed reimbursements causing employee frustration, out-of-policy travel expenditures, and manual finance verification bottlenecks.",
+      "howItWorks": "Employees snap receipt photos on mobile. The system parses amounts and categorizes claims according to company travel policy. Once approved by managers, reimbursements disburse directly in the next payroll cycle or via separate bank files.",
+      "capabilities": [
+        {
+          "title": "Mobile Receipt OCR & Rapid Claim Submission",
+          "desc": "Extracts vendor, amount, date, and tax details from uploaded receipts, pre-filling claim lines in seconds."
+        },
+        {
+          "title": "Configurable Travel Per Diems & City Slabs",
+          "desc": "Enforces city-tier per diem limits (Tier 1 vs Tier 2 cities) with automated calculation based on travel itinerary dates."
+        },
+        {
+          "title": "Multi-Tier Approval Workflows",
+          "desc": "Route claims based on department, project code, or spend amount thresholds with instant push notifications."
+        },
+        {
+          "title": "Direct Payroll Reimbursement Integration",
+          "desc": "Disburse approved non-taxable expense claims alongside monthly salary or through separate interim bank batches."
+        },
+        {
+          "title": "Policy Violation Auto-Flagging",
+          "desc": "Flags claims that exceed meal caps, weekend expenses without business justification, and duplicate receipt uploads."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Receipt Fraud & Duplicate Detection",
+          "desc": "Identifies duplicate claims submitted across different employees or multiple expense reports using image matching."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Claim Processing Time",
+          "val": "Under 48 Hours"
+        },
+        {
+          "label": "Duplicate Claim Catch Rate",
+          "val": "100%"
+        },
+        {
+          "label": "Receipt OCR Accuracy",
+          "val": "99.2%"
+        }
+      ],
+      "personas": [
+        "cfo-finance",
+        "employee",
+        "payroll-manager"
+      ],
+      "industries": [
+        "field-workforce",
+        "information-technology",
+        "logistics-freight"
+      ],
+      "faqs": [
+        {
+          "q": "Can managers approve expense reports on mobile?",
+          "a": "Yes. Managers review receipt images and approve or reject specific line items with a single tap in the PWA portal."
+        }
+      ]
+    },
+    "employee-lifecycle": {
+      "id": "employee-lifecycle",
+      "slug": "employee-lifecycle",
+      "pillar": "people",
+      "badge": "ONBOARDING TO FULL & FINAL",
+      "title": "Every Employee Moment, Connected from Day One to Departure",
+      "subtitle": "Automate pre-boarding paperwork, structured 30-60-90 day orientation checklists, internal transfers, resignations, multi-department clearances, and full-and-final settlements.",
+      "metaTitle": "Employee Lifecycle & Onboarding Management | Workforce360",
+      "metaDescription": "Streamline pre-boarding, orientation, internal mobility, resignation clearance, and Full & Final settlements with Workforce360 Lifecycle.",
+      "whatItSolves": "Disjointed onboarding experiences where new hires fill out repetitive paperwork on day one, and stressful resignation clearances where assets go unrecovered and final settlements drag on for months.",
+      "howItWorks": "Candidates upload documents before their start date in pre-boarding. On day one, accounts and orientation tasks are ready. At resignation, an automated multi-department clearance workflow (IT, Finance, Admin, Manager) ensures complete sign-off before instant F&F calculation.",
+      "capabilities": [
+        {
+          "title": "Self-Guided Digital Pre-Boarding",
+          "desc": "Allow new hires to submit bank details, PF nominations, and ID proofs from home before their official start date."
+        },
+        {
+          "title": "Automated 30-60-90 Day Onboarding Checklists",
+          "desc": "Assign role-specific onboarding tasks to new hires, buddies, and managers with milestone completion tracking."
+        },
+        {
+          "title": "Structured Resignation & Notice Period Tracking",
+          "desc": "Employees submit formal resignations with configured notice period countdowns, buy-out calculations, and counter-offer tracking."
+        },
+        {
+          "title": "Multi-Department No-Objection Clearance",
+          "desc": "Parallel clearance workflows requiring sign-off from IT (hardware), Finance (advances), Admin (access cards), and HR."
+        },
+        {
+          "title": "Automated Full & Final (F&F) Statement Generation",
+          "desc": "Computes exact settlement balances: unpaid salary, leave encashment, gratuity, notice recovery, and deductions into a downloadable statement."
+        },
+        {
+          "title": "Alumni Network & Rehire Continuity",
+          "desc": "Maintain former employee contact vaults and enable one-click profile reactivation when boomerang employees rejoin."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Exit Interview Sentiment Synthesis",
+          "desc": "Analyzes confidential exit survey narratives to surface underlying departmental attrition trends and management patterns."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Onboarding Completion Time",
+          "val": "Day 1 Productive"
+        },
+        {
+          "label": "F&F Settlement Turnaround",
+          "val": "< 5 Days"
+        },
+        {
+          "label": "Clearance Bottlenecks",
+          "val": "Zero Lost Handshakes"
+        }
+      ],
+      "personas": [
+        "hr-leader",
+        "chro",
+        "employee"
+      ],
+      "industries": [
+        "information-technology",
+        "bpo-call-centers",
+        "healthcare",
+        "manufacturing"
+      ],
+      "faqs": [
+        {
+          "q": "How does Workforce360 calculate gratuity during Full & Final settlement?",
+          "a": "The system verifies whether the employee has achieved 5 continuous years of tenure (or applicable industry thresholds) and computes statutory gratuity using standard formulas based on last drawn basic pay."
+        }
+      ]
+    },
+    "analytics": {
+      "id": "analytics",
+      "slug": "analytics",
+      "pillar": "intelligence",
+      "badge": "ENTERPRISE WORKFORCE TELEMETRY",
+      "title": "Turn Workforce Data into Strategic Executive Clarity",
+      "subtitle": "Unified executive dashboards combining headcount, turnover velocity, payroll run-rates, overtime spikes, roster adherence, and natural-language query reporting.",
+      "metaTitle": "Workforce Analytics & People Telemetry Platform | Workforce360",
+      "metaDescription": "Gain real-time executive visibility into headcount, turnover, compensation run-rates, and operational productivity with Workforce360 Analytics.",
+      "whatItSolves": "Executives making critical talent and operational decisions based on stale, month-old HR spreadsheets that fail to correlate headcount costs with operational performance.",
+      "howItWorks": "Our continuous data pipeline aggregates data across HRIS, Attendance, Payroll, ATS, and Finance into executive dashboards with deep drill-down capabilities by department, geography, and cost center.",
+      "capabilities": [
+        {
+          "title": "Executive C-Suite Workforce Cockpit",
+          "desc": "Live high-level metrics for total headcount, active headcount, monthly payroll run-rate, and annualized turnover rate."
+        },
+        {
+          "title": "Overtime & Shift Cost Variance Breakdown",
+          "desc": "Isolate the exact departments and factories driving overtime expenditure spikes with root-cause drill-downs."
+        },
+        {
+          "title": "Talent Diversity & Gender Inclusion Telemetry",
+          "desc": "Monitor workforce demographics, promotion velocity, and pay parity across organizational tiers."
+        },
+        {
+          "title": "Recruitment Velocity & Funnel Conversion Analytics",
+          "desc": "Track time-to-hire, source effectiveness, agency yield, and offer-acceptance ratios."
+        },
+        {
+          "title": "Custom Report Builder & Scheduled Email Dispatch",
+          "desc": "Build bespoke multi-table reports and schedule automated executive exports in Excel, CSV, or PDF formats."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Natural Language Executive Queries",
+          "desc": "Type questions like 'Compare tech department turnover in Q2 vs Q3' and receive instant data tables and visualizations."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Report Refresh Latency",
+          "val": "Real-time"
+        },
+        {
+          "label": "Pre-built Executive Dashboards",
+          "val": "30+ Templates"
+        },
+        {
+          "label": "Export Formats",
+          "val": "PDF, XLSX, CSV"
+        }
+      ],
+      "personas": [
+        "chro",
+        "cfo-finance",
+        "operations"
+      ],
+      "industries": [
+        "information-technology",
+        "manufacturing",
+        "logistics-freight",
+        "retail-ecommerce"
+      ],
+      "faqs": [
+        {
+          "q": "Can regional managers be restricted to seeing only their team's analytics?",
+          "a": "Yes. Analytics dashboards inherit strict role-based access entitlements\u2014regional supervisors only see data for their branch, while C-suite leaders see the full enterprise picture."
+        }
+      ]
+    },
+    "integrations": {
+      "id": "integrations",
+      "slug": "integrations",
+      "pillar": "operations",
+      "badge": "OPEN WORKFORCE DATA LAYER",
+      "title": "Connect Seamlessly with Your Existing Enterprise Stack",
+      "subtitle": "Workforce360 integrates with biometric time hardware, enterprise identity providers, commercial banks, ERP general ledgers, and developer REST APIs.",
+      "metaTitle": "Enterprise Integrations & Biometric Hardware Sync | Workforce360",
+      "metaDescription": "Connect biometric hardware (eSSL, ZKTeco), Google/Microsoft OAuth, major banks, ERP ledgers, and webhooks with Workforce360's open data platform.",
+      "whatItSolves": "Data silos where employee records must be re-entered in separate systems for door access, identity provisioning, payroll disbursement, and financial accounting.",
+      "howItWorks": "Our secure integration architecture provides plug-and-play connectors for hardware terminals, standard SCIM identity provisioning, bank disbursement protocols, and open REST APIs with webhook triggers.",
+      "capabilities": [
+        {
+          "title": "Biometric Hardware Gateways",
+          "desc": "Pre-configured synchronization agents for eSSL, ZKTeco, Matrix, Realtime, and Suprema biometric devices."
+        },
+        {
+          "title": "Enterprise SSO & Identity Federation",
+          "desc": "Native integration with Google Workspace, Microsoft Azure AD / Entra ID, and Okta via Firebase authentication."
+        },
+        {
+          "title": "Direct Corporate Banking Gateways",
+          "desc": "Seamless payment file processing and direct API payout connectors for HDFC, ICICI, SBI, and Axis Bank."
+        },
+        {
+          "title": "ERP & Financial Ledger Webhooks",
+          "desc": "Automated journal syncing with SAP, Oracle NetSuite, Microsoft Dynamics, and Tally."
+        },
+        {
+          "title": "Comprehensive REST APIs & Webhooks",
+          "desc": "Developer-friendly APIs allowing custom integrations with internal systems, learning platforms, and field devices."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Data Harmonization & Mapping Copilot",
+          "desc": "Intelligently suggests field mappings when importing historical employee data from legacy spreadsheets or legacy HRMS."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Biometric Devices Supported",
+          "val": "100+ Models"
+        },
+        {
+          "label": "API Response Time",
+          "val": "< 120ms"
+        },
+        {
+          "label": "SSO Providers",
+          "val": "Google & Microsoft OAuth"
+        }
+      ],
+      "personas": [
+        "it-leader",
+        "operations",
+        "cfo-finance"
+      ],
+      "industries": [
+        "information-technology",
+        "manufacturing",
+        "logistics-freight"
+      ],
+      "faqs": [
+        {
+          "q": "Do you provide developer documentation for building custom API integrations?",
+          "a": "Yes. Comprehensive API documentation, OpenAPI specs, and sandbox testing credentials are available for enterprise customers."
+        }
+      ]
+    },
+    "field-workforce": {
+      "id": "field-workforce",
+      "slug": "field-workforce",
+      "pillar": "work",
+      "badge": "GPS ROUTES & MILESTONE TRACKING",
+      "title": "Field Workforce Operations, GPS Geofencing, and Route Tracking",
+      "subtitle": "Empower roaming field sales, installation technicians, and service engineers with battery-efficient location tracking, geofenced customer check-ins, and milestone-based payouts.",
+      "metaTitle": "Field Workforce Management Software & GPS Route Tracking | Workforce360",
+      "metaDescription": "Track mobile field technicians, verify GPS geofenced customer check-ins, and automate travel reimbursements with Workforce360 Field Operations.",
+      "whatItSolves": "Lack of visibility into roaming field staff, unverified customer visit claims, manual mileage calculation disputes, and delayed job ticket completion reporting.",
+      "howItWorks": "Field personnel check in via the mobile PWA inside designated client GPS radiuses. The system records location breadcrumbs efficiently, tracks travel distances for automated reimbursement, and credits per-visit completion milestones directly into payroll.",
+      "capabilities": [
+        {
+          "title": "Geofenced Client Check-In with Photo Verification",
+          "desc": "Validates staff attendance only when physically within customer site boundaries with optional storefront or meter photos."
+        },
+        {
+          "title": "Automated Travel Distance & Mileage Reimbursement",
+          "desc": "Measures exact GPS travel distances between customer waypoints, calculating fuel allowances automatically without odometer disputes."
+        },
+        {
+          "title": "Daily Beat & Route Sequence Optimization",
+          "desc": "Organizes daily customer visit queues to minimize transit time and maximize face-to-face client hours."
+        },
+        {
+          "title": "Offline-Capable Job Ticket Submissions",
+          "desc": "Allows technicians to capture signatures, parts used, and work completion notes in basements or rural areas without active signal."
+        },
+        {
+          "title": "Per-Visit & Milestone Piece-Rate Incentives",
+          "desc": "Credits variable piece-rate completion bonuses directly into monthly wage registers upon supervisor sign-off."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "Route Anomaly & Speed Velocity Sentinel",
+          "desc": "Flags impossible travel speeds and location-spoofing attempts to protect field operational integrity."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Visit Verification Accuracy",
+          "val": "100% Geofenced"
+        },
+        {
+          "label": "Mileage Claim Disputes",
+          "val": "Eliminated"
+        },
+        {
+          "label": "Battery Consumption",
+          "val": "< 4% Daily"
+        }
+      ],
+      "personas": [
+        "operations",
+        "payroll-manager",
+        "employee"
+      ],
+      "industries": [
+        "field-workforce",
+        "logistics-freight",
+        "telecom",
+        "retail-ecommerce"
+      ],
+      "faqs": [
+        {
+          "q": "Does background GPS tracking drain the employee phone battery?",
+          "a": "No. Our PWA uses intelligent, event-based geofence triggers and significant-motion APIs rather than continuous high-drain satellite polling, consuming less than 4% battery per work shift."
+        },
+        {
+          "q": "Can managers assign emergency visits on the fly?",
+          "a": "Yes. Dispatchers can push high-priority field service tickets to the nearest available technician with real-time route directions."
+        }
+      ]
+    },
+    "talent": {
+      "id": "talent",
+      "slug": "talent",
+      "pillar": "people",
+      "badge": "STRATEGIC TALENT & SUCCESSION",
+      "title": "Talent Management, Competency Frameworks, and Succession Planning",
+      "subtitle": "Map organizational capability benchmarks, build 9-box succession pipelines, and align internal talent mobility with future strategic workforce demand.",
+      "metaTitle": "Enterprise Talent Management & Succession Planning Software | Workforce360",
+      "metaDescription": "Calibrate bench strength, map employee competency matrices, and plan leadership succession with Workforce360 Talent Management.",
+      "whatItSolves": "Critical leadership vacancies with zero qualified internal successors, unmeasured organizational skill deficits, and talented employees departing due to lack of transparent career paths.",
+      "howItWorks": "Workforce360 maintains continuous competency graphs across all employees. Leadership visualizes organizational depth across 9-box matrices, identifies flight-risk critical talent, and stages succession readiness pipelines.",
+      "capabilities": [
+        {
+          "title": "9-Box Talent Calibration Matrix",
+          "desc": "Plots employee performance review ratings against future leadership potential to identify high-potentials and retention priorities."
+        },
+        {
+          "title": "Succession Bench Depth Pipelines",
+          "desc": "Designate Ready Now, Ready in 1 Year, and Emergency backup candidates for all critical enterprise positions."
+        },
+        {
+          "title": "Role Competency Ladders & Skill Matrices",
+          "desc": "Defines transparent capability expectations across technical, leadership, and operational job families."
+        },
+        {
+          "title": "Internal Talent Mobility & Project Marketplace",
+          "desc": "Matches verified employee competencies with open internal positions and cross-functional project pods."
+        },
+        {
+          "title": "Flight-Risk Succession Safeguards",
+          "desc": "Alerts leadership when high-potential candidates in single-point-of-failure roles show early attrition telemetry."
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "title": "AI Bench Strength & Readiness Scoring",
+          "desc": "Synthesizes past performance milestones, learning certifications, and peer reviews to recommend candidates for promotion pipelines."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Succession Coverage for Key Roles",
+          "val": "98.5%"
+        },
+        {
+          "label": "Internal Mobility Promotion Rate",
+          "val": "+35%"
+        },
+        {
+          "label": "Leadership Vacancy Fill Time",
+          "val": "< 14 Days"
+        }
+      ],
+      "personas": [
+        "chro",
+        "hr-leader",
+        "employee"
+      ],
+      "industries": [
+        "information-technology",
+        "manufacturing",
+        "healthcare",
+        "information-technology"
+      ],
+      "faqs": [
+        {
+          "q": "How does succession planning connect with the Workforce Digital Twin?",
+          "a": "The Digital Twin simulation engine directly imports talent succession graphs, calculating whether proposed departmental restructures will eliminate critical leadership successors."
+        },
+        {
+          "q": "Can managers maintain private succession notes?",
+          "a": "Yes. Strict RBAC controls ensure succession nominations and calibration notes remain confidential to authorized C-suite and HR leaders."
+        }
+      ]
+    }
+  }
+}

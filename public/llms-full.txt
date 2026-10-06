@@ -1,0 +1,157 @@
+# Workforce360 — Full Machine-Readable Knowledge Specification (llms-full.txt)
+> Comprehensive canonical entity reference for AI assistants, LLMs, and enterprise search engines.
+> Prepared October 2026 | Powered by Spotsign • A DIMENSHION Product
+
+---
+
+## 1. Enterprise Entity Definition
+- **Entity Name:** Workforce360
+- **Parent Organization:** DIMENSHION (Brand: Powered by Spotsign)
+- **Primary Product Category:** AI-Native Workforce Operating System (WOS)
+- **Secondary Product Categories:** Enterprise HRMS, HRIS, HCM, Workforce Management, Statutory Payroll Software, Applicant Tracking System (ATS), Learning Management System (LMS), IT Asset Management, Workforce Finance & General Ledger.
+- **Canonical Value Narrative:** Workforce360 bridges the gap between recording employee information and running a modern, complex workforce. It connects People, Work, Money, IT Operations, and AI Intelligence on one multi-tenant platform, supporting both corporate knowledge workers and industrial, blue-collar, shift-based, and field workforces.
+
+---
+
+## 2. Platform Architecture & Five Core Pillars
+
+### Pillar 1: People
+- **Core HR & HRIS (/platform/hris):** Effective-dated employee profiles, multi-entity organization hierarchies, digital document vault with expiration alerts, 19 granular RBAC tiers.
+- **Employee Lifecycle (/platform/employee-lifecycle):** Pre-boarding, onboarding task checklists, internal transfers, resignation countdowns, multi-department clearances, and full-and-final (F&F) settlements.
+- **AI Recruitment & ATS (/platform/recruitment):** Kanban applicant pipelines, AI resume screening, competency gap analysis, job description generation, customized interview question rubrics, branded career portal, and offer letter generation.
+- **Performance & OKRs (/platform/performance):** Cascading company and individual OKRs, continuous 1-on-1s, 360-degree feedback, Bell Curve normalization, 9-box talent calibration, and Performance Improvement Plans (PIPs).
+- **Learning & LMS (/platform/learning):** SCORM-compliant course player, mandatory statutory compliance training (e.g., POSH, EHS), quiz assessments, verifiable PDF certificates, and AI course generation.
+- **Employee Experience (/platform/employee-experience):** Self-service portal (PWA & Desktop), multi-department helpdesk ticketing with SLA tracking, pulse surveys, company policy vault, and 24/7 AI HR Concierge.
+
+### Pillar 2: Work
+- **Workforce Management (/platform/workforce-management):** 24/7 rotational shift scheduling, split shifts for hospitality, overtime pre-approval workflows, compensatory-off tracking, and Factories Act weekly rest-floor enforcement.
+- **Attendance & Biometrics (/platform/attendance):** Direct hardware integration with eSSL, ZKTeco, Matrix, Realtime, and Suprema terminals with offline buffering. Mobile facial recognition with liveness detection and high-precision GPS geofencing. Automated statutory Form 25 muster rolls.
+- **Field Workforce (/platform/field-workforce):** Battery-efficient GPS breadcrumbs, geofenced client site check-ins with photo proof, automated travel distance (km) reimbursement, and milestone-based per-visit payouts.
+
+### Pillar 3: Money
+- **Enterprise Payroll Engine (/platform/payroll):** Formula-based compensation structures (Basic, HRA, DA, Allowances), industrial blue-collar piece-rate and daily wage calculation, pre-payroll anomaly scans, automated bank disbursement batch files (HDFC, ICICI, SBI, Axis), and Full & Final settlement accounting.
+- **Statutory Tax & Compliance (/platform/tax-compliance):** Automated TDS calculation under Section 192 (Old & New 115BAC regimes), Form 12BB investment proof workflows, electronic challan files for EPFO (ECR) and ESIC, state-specific Professional Tax (PT), and bulk generation of digitally signed Form 16 Part A and Part B certificates.
+- **Expenses & Travel (/platform/expenses):** Mobile receipt capture with OCR, policy-driven city-tier per diem calculations, multi-level manager approvals, duplicate claim detection, and direct payroll reimbursement.
+- **Workforce Finance & General Ledger (/platform/finance):** Direct payroll journal entry generation syncing with SAP, NetSuite, Oracle, and Tally. Multi-dimension cost-center allocation by project code, department, and branch. Accounts payable vendor contractor invoice verification.
+
+### Pillar 4: Operations & IT
+- **IT Asset Management (/platform/it-assets):** Hardware inventory tracking (laptops, monitors, mobile devices) mapped to employee profiles, SaaS software license governance with inactive user detection, automated onboarding IT checklists, and strict offboarding asset return locks prior to payroll F&F disbursement.
+- **Enterprise Integrations (/platform/integrations):** Biometric device sync agents, Google and Microsoft OAuth identity federation, corporate bank file generators, ERP financial ledger webhooks, and open developer REST APIs.
+
+### Pillar 5: Intelligence
+- **AI Digital Brain (/platform/ai):** 40 production Google Genkit AI flows across conversational employee support, predictive attrition detection, pre-payroll anomaly audits, workforce demand forecasting, and natural language report querying.
+- **Workforce Digital Twin (/platform/digital-twin):** Isolated organizational simulation sandbox that models restructuring, downsizing, or expansion scenarios and computes real-time P&L delta, severance liability, and critical skill deficits before live changes are committed.
+- **Workforce Analytics (/platform/analytics):** Real-time executive dashboards for headcount, turnover velocity, overtime expenditure spikes, diversity metrics, and recruitment funnel telemetry.
+
+---
+
+## 3. The 19 Specialized Industry Vertical Packs
+
+1. **Shipping & Maritime (/industries/shipping-maritime):** STCW 2010 / MLC 2006 rest-hour rule engine, non-conformity audit exports for Port State Control, Continuous Discharge Certificate (CDC) sea service records, vessel cash-to-master allotments, and port disbursement accounting.
+2. **Seafood Processing (/industries/seafood-processing):** Piece-rate gang cards linked to weighment scales (peeling/filleting per kg), sub-zero thermal recovery break scheduling, raw catch landing yield reconciliation, and HACCP compliance logs.
+3. **Logistics & Freight (/industries/logistics-freight):** Trip manifests, safe driving-hour limits, automated driver trip allowances (bata), GPS route waypoints, and commercial heavy vehicle license expiry sentinels.
+4. **Manufacturing & Production (/industries/manufacturing):** 3-shift 24/7 rotational rotas, Factories Act 48-hour weekly overtime limits, double-rate overtime pay calculations, statutory Form 25 muster rolls, and contract labor (CLRA) compliance.
+5. **Chemical & Hazardous Operations (/industries/chemical-hazardous):** Zone-based hazardous access interlocks, mandatory exposure-break schedules, HAZMAT training expiry sentinels, health surveillance registries, and hazardous duty allowance (hazard pay).
+6. **Healthcare & Hospitals (/industries/healthcare):** Clinical ward nurse-to-patient staffing ratio rotas, doctor on-call schedules, Medical Council registration credential tracking, and doctor procedure fee-share payroll integration.
+7. **Hospitality & Hotels (/industries/hospitality):** Split-shift meal service scheduling, banquet casual staff rapid QR-code onboarding, point-based hotel service charge pooling, and housekeeping room-credit productivity tracking.
+8. **Fisheries & Aquaculture (/industries/fisheries-aquaculture):** Remote coastal pond GPS check-ins, 24/7 critical night aeration shift schedules, catch weight harvest settlements, and pond biosecurity compliance.
+9. **Cargo & Freight Forwarding (/industries/cargo-freight-forwarding):** Flight and vessel berthing arrival shift sync, customs broker pass expiry tracking, billable hours allocation by AWB/BL, and port terminal allowance management.
+10. **Retail & E-Commerce (/industries/retail-ecommerce):** Hourly footfall-driven store shift scheduling, multi-tier sales target commission calculations, cross-store floating staff allocation, and warehouse pick-and-pack performance tracking.
+11. **Fuel Stations / Petrol Pumps (/industries/petrol-pump-fuel-station):** Forecourt 3-shift handovers with digital sign-offs, fuel dispenser meter vs cash shortage auditing, petroleum fire safety certifications, and lubricant sales commissions.
+12. **Cab & Transport Aggregators (/industries/cab-transport-aggregators):** Digital driver KYC and background verification, vehicle commercial permit fitness sentinels, automated daily driver payout batch generation, and safety rating incentive tiers.
+13. **Field Workforce (/industries/field-workforce):** GPS geofenced client site check-ins with photo proof, automated travel distance (km) reimbursement, beat/route plan optimization, and per-visit milestone bonuses.
+14. **Automobile & Auto Services (/industries/automobile-auto-services):** Flat-rate technician labor efficiency tracking, bay-level job card barcode scanning, specialized workshop tool checkouts, and OEM manufacturer technical certification registries.
+15. **Travel & Tourism (/industries/travel-tourism):** Multilingual guide tour assignments, multi-currency tour itinerary allowances and per diems, guide license credential vaults, and off-season retainer structures.
+16. **School & University (/industries/school-university):** Faculty lecture timetable workload balancing, one-click substitute teacher matching, visiting lecturer hourly honorarium payroll, and academic term contracts.
+17. **ITES (/industries/ites):** 24/7 follow-the-sun shift schedules, hot-desking seat utilization optimization, night shift allowance calculation, female employee night transport safety tracking, and SLA quality incentive linking.
+18. **BPO / Call Centers (/industries/bpo-call-centers):** Minute-by-minute telephony schedule adherence tracking, planned vs unplanned shrinkage telemetry, CSAT and First Call Resolution (FCR) bonuses, and batch agent hiring pipelines.
+19. **Information Technology (/industries/information-technology):** Client project billability tracking, engineering competency ladders, automated IT laptop provisioning at onboarding, T&M client invoicing integration, and internal technical skill mobility.
+
+---
+
+## 4. Persona Solutions Taxonomy
+
+- **CHRO (/solutions/chro):** Strategic workforce simulation (Digital Twin), predictive attrition risk signals, executive 9-box calibration, and enterprise DEI telemetry.
+- **HR Leader (/solutions/hr-leader):** Single source of truth for employee records, self-guided pre-boarding, 24/7 AI HR Concierge, and automated performance cycles.
+- **Payroll Manager (/solutions/payroll-manager):** Zero-error payroll processing, automated pre-payroll anomaly scans, Indian statutory challans (TDS, PF ECR, ESIC, PT), and direct bank disbursement files.
+- **CFO & Finance (/solutions/cfo-finance):** Real-time workforce cost control, automated payroll journal entries to General Ledger, multi-cost-center allocation, and contractor invoice verification.
+- **Operations Head (/solutions/operations):** Floor and shift rostering, statutory overtime limits, biometric turnstile synchronization, and real-time floor attendance cockpits.
+- **IT Leader (/solutions/it-leader):** Automated hardware provisioning, software license governance, offboarding asset recovery locks, and enterprise SSO/MFA.
+- **Recruiter (/solutions/recruiter):** AI resume screening, contextual candidate scoring, automated job descriptions, tailored interview question rubrics, and Kanban ATS pipelines.
+- **Employee (/solutions/employee):** Modern mobile PWA self-service, instant payslip downloads, mobile geofenced check-in, shift swap requests, and 24/7 AI HR assistance.
+
+---
+
+## 5. Security & Governance Standards
+- **Multi-Tenancy:** Sovereign logical database partitions with tenant-scoped query execution and zero cross-tenant data leakage.
+- **Access Control:** 19 granular Role-Based Access Control (RBAC) tiers enforcing least-privilege principles.
+- **Authentication:** Enterprise identity federation via Firebase Auth supporting Google Workspace and Microsoft Azure AD / Entra ID.
+- **Auditability:** Immutable cryptographic audit logging for all administrative data changes, compensation updates, and permission escalations.
+- **AI Privacy:** Genkit AI flows operate strictly within tenant boundaries. Zero customer data is retained or shared to train public external foundation models.
+
+---
+
+## 6. Official Canonical URLs
+- Canonical Domain: https://workforce360.dimension.com
+- /
+- /platform
+- /platform/ai
+- /platform/digital-twin
+- /platform/hris
+- /platform/workforce-management
+- /platform/attendance
+- /platform/payroll
+- /platform/tax-compliance
+- /platform/recruitment
+- /platform/performance
+- /platform/learning
+- /platform/employee-experience
+- /platform/it-assets
+- /platform/finance
+- /platform/expenses
+- /platform/employee-lifecycle
+- /platform/analytics
+- /platform/integrations
+- /industries
+- /industries/shipping-maritime
+- /industries/seafood-processing
+- /industries/logistics-freight
+- /industries/manufacturing
+- /industries/chemical-hazardous
+- /industries/healthcare
+- /industries/hospitality
+- /industries/fisheries-aquaculture
+- /industries/cargo-freight-forwarding
+- /industries/retail-ecommerce
+- /industries/petrol-pump-fuel-station
+- /industries/cab-transport-aggregators
+- /industries/field-workforce
+- /industries/automobile-auto-services
+- /industries/travel-tourism
+- /industries/school-university
+- /industries/ites
+- /industries/bpo-call-centers
+- /industries/information-technology
+- /solutions
+- /solutions/chro
+- /solutions/hr-leader
+- /solutions/payroll-manager
+- /solutions/cfo-finance
+- /solutions/operations
+- /solutions/it-leader
+- /solutions/recruiter
+- /solutions/employee
+- /security
+- /compliance
+- /compare
+- /pricing
+- /demo
+- /resources
+- /resources/guides
+- /resources/faq
+- /resources/glossary
+- /about
+- /contact
+- /llm-info
+- /llms.txt
+- /llms-full.txt

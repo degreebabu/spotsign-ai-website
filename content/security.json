@@ -1,0 +1,42 @@
+{
+  "title": "Enterprise Trust, Security & Multi-Tenant Architecture",
+  "subtitle": "Workforce360 is engineered with tenant-scoped isolation, 19 granular RBAC tiers, enterprise identity federation, and immutable audit telemetry.",
+  "governanceStatement": "We believe enterprise trust requires absolute transparency. Rather than displaying unverified third-party badges, we detail the exact cryptographic, architectural, and data governance controls protecting your workforce data.",
+  "principles": [
+    {
+      "title": "Multi-Tenant Sovereign Data Isolation",
+      "desc": "Every customer tenant operates within strictly isolated logical partitions. All database queries, file storage objects, and Genkit AI prompts enforce tenant-scoped keys at the infrastructure level, preventing cross-tenant data leakage."
+    },
+    {
+      "title": "19 Granular RBAC Security Tiers",
+      "desc": "Fine-grained entitlement matrix providing 19 pre-configured permission profiles ranging from Platform Super Admins and HR Managers to Shift Supervisors, Finance Auditors, and Self-Service Employees."
+    },
+    {
+      "title": "Enterprise Identity Federation & SSO",
+      "desc": "Built-in integration with Google Workspace, Microsoft Azure AD / Entra ID, and corporate SAML identity providers via secure Firebase Auth with mandatory Multi-Factor Authentication (MFA) enforcement."
+    },
+    {
+      "title": "Immutable Transaction Audit Logging",
+      "desc": "Every administrative action—including salary revisions, bank account updates, permission escalations, and employee profile modifications—is cryptographically stamped with user ID, IP address, and timestamp."
+    },
+    {
+      "title": "Data Encryption in Transit & at Rest",
+      "desc": "All public and internal network communications are encrypted using TLS 1.3. Persistent database records and stored employee documents are encrypted at rest using industry-standard AES-256."
+    },
+    {
+      "title": "Isolated AI Model Execution Boundaries",
+      "desc": "All 40 Genkit AI flows process workforce telemetry exclusively within the customer's enterprise tenant context. Zero customer data is retained, shared, or utilized to train external public foundation models."
+    }
+  ],
+  "rbacTiers": [
+    { "role": "Super Admin", "scope": "Global tenant provisioning, license governance, and cross-module configuration." },
+    { "role": "HR Director / CHRO", "scope": "Full organizational visibility, strategic Digital Twin sandbox, and executive talent calibration." },
+    { "role": "HR Manager", "scope": "Employee master records, onboarding approvals, policy publications, and performance reviews." },
+    { "role": "Payroll Admin", "scope": "Salary structure configuration, monthly payroll processing, statutory tax locks, and bank exports." },
+    { "role": "Finance Controller", "scope": "General ledger journal sync, expense claim approvals, cost center mapping, and vendor invoice audits." },
+    { "role": "Shift Operations Supervisor", "scope": "Floor roster scheduling, overtime pre-approvals, attendance regularization, and muster rolls." },
+    { "role": "Recruitment Lead", "scope": "Requisitions, applicant tracking pipelines, AI resume reviews, and offer letter generation." },
+    { "role": "IT Systems Admin", "scope": "Hardware inventory assignment, software license allocation, and offboarding asset recovery locks." },
+    { "role": "Standard Employee", "scope": "Personal profile self-service, leave requests, shift swap proposals, and payslip downloads." }
+  ]
+}

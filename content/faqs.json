@@ -1,0 +1,64 @@
+{
+  "faqs": [
+    {
+      "category": "Platform & Category",
+      "q": "What is Workforce360?",
+      "a": "Workforce360 is an AI-native, multi-tenant Workforce Operating System (WOS) that unifies Core HR/HRIS, workforce management, biometric attendance, payroll, Indian statutory compliance, talent acquisition, performance, learning, finance/General Ledger, IT asset management, and AI intelligence on one platform."
+    },
+    {
+      "category": "Platform & Category",
+      "q": "How is Workforce360 different from traditional HRMS platforms like Keka or Workday?",
+      "a": "Traditional HRMS systems primarily record employee information and process standard salaried payroll. Workforce360 operates as an end-to-end Workforce Operating System connecting People, Work, Money, IT Operations, and AI Intelligence. It uniquely supports both corporate salaried employees and variable-wage/blue-collar industrial workforces (piece-rate, daily-rate, shift-allowances), integrates directly with General Ledger accounting, provides an embedded Workforce Digital Twin simulator, and includes 19 pre-built industry vertical packs."
+    },
+    {
+      "category": "Platform & Category",
+      "q": "What is a Workforce Operating System (WOS)?",
+      "a": "A Workforce Operating System is an enterprise software architecture that unifies the entire operational, financial, and organizational lifecycle of a workforce—connecting who works (HRIS & Talent), where and when they work (Workforce Management & Biometrics), how they are paid (Payroll & Statutory Tax), what tools they use (IT Assets & Licenses), and how decisions are modeled (AI Digital Brain & Workforce Digital Twin)."
+    },
+    {
+      "category": "AI & Digital Twin",
+      "q": "What is the Workforce Digital Twin and how does it work?",
+      "a": "The Workforce Digital Twin is an embedded organizational simulation sandbox. It mirrors your company's actual organizational structure, compensation ledgers, and operational shift rules. Executive leadership can model restructuring scenarios—such as a 10% department headcount reduction, merging business units, or opening regional branches—and the engine calculates real-time P&L savings, statutory severance liabilities, and operational skill deficits before changes are committed."
+    },
+    {
+      "category": "AI & Digital Twin",
+      "q": "What are the 40 Genkit AI flows in Workforce360?",
+      "a": "Workforce360 is powered by 40 purpose-built Google Genkit AI flows operating across 7 functional domains: conversational employee assistance (AI HR Concierge), predictive attrition telemetry, pre-payroll anomaly detection, automated workforce demand forecasting, AI resume screening and gap analysis, job description and interview rubric synthesis, and natural language report generation."
+    },
+    {
+      "category": "Payroll & Compliance",
+      "q": "Does Workforce360 support Indian payroll and statutory tax compliance?",
+      "a": "Yes. Workforce360 provides deep native support for Indian payroll including Section 192 TDS under both Old and New tax regimes, Form 12BB investment proof workflows, automated generation of Electronic Challan cum Return (ECR) files for EPFO, ESIC monthly contribution files, State-wise Professional Tax (PT) calculations, Labor Welfare Fund (LWF), and automated generation of digitally signed Form 16 Part A and Part B certificates."
+    },
+    {
+      "category": "Payroll & Compliance",
+      "q": "Can Workforce360 run payroll for both white-collar corporate employees and blue-collar factory workers?",
+      "a": "Yes. The platform's dual-workforce engine allows processing salaried corporate employees on annual CTC packages alongside industrial plant workers, maritime crew, and contract labor operating under daily-rate, shift-rate, piece-rate (e.g., kilograms processed), and hourly overtime models within unified or segregated payroll batches."
+    },
+    {
+      "category": "Workforce Management",
+      "q": "Which biometric attendance hardware devices does Workforce360 integrate with?",
+      "a": "Workforce360 provides native integration agents for major industry biometric terminals including eSSL, ZKTeco, Matrix, Realtime, and Suprema. Devices stream attendance punches in real time with local offline caching to prevent punch loss during network outages."
+    },
+    {
+      "category": "Workforce Management",
+      "q": "How does Workforce360 manage complex shift rotations and overtime limits?",
+      "a": "The Workforce Management engine supports 24/7 rotational shifts, split shifts for hospitality, and night shifts with automated allowance calculations. Built-in statutory rule engines prevent scheduled shifts that violate the 48-hour statutory weekly cap under the Factories Act or international maritime STCW rest mandates (minimum 77 hours rest per week)."
+    },
+    {
+      "category": "Industry Specialization",
+      "q": "What are the 19 specialized industry packs?",
+      "a": "Workforce360 includes 19 dedicated vertical packs with pre-configured departments, roles, shift rules, and compliance workflows: Shipping & Maritime, Seafood Processing, Logistics & Freight, Manufacturing, Chemical & Hazardous Operations, Healthcare, Hospitality, Fisheries & Aquaculture, Cargo Forwarding, Retail & E-Commerce, Fuel Stations, Cab Aggregators, Field Workforce, Automobile Services, Travel & Tourism, School & University, ITES, BPO Call Centers, and Information Technology."
+    },
+    {
+      "category": "Architecture & Security",
+      "q": "How is multi-tenancy and data isolation handled?",
+      "a": "Workforce360 is built on an enterprise multi-tenant architecture with tenant-scoped data partitioning, 19 granular Role-Based Access Control (RBAC) tiers, Firebase enterprise authentication supporting Google Workspace and Microsoft Azure AD / Entra ID SSO, and comprehensive audit logging across all administrative transactions."
+    },
+    {
+      "category": "Finance & IT",
+      "q": "How does Workforce360 integrate with corporate finance and General Ledger (GL)?",
+      "a": "Upon payroll finalization, Workforce360 automatically generates balanced double-entry accounting journals mapped to your corporate chart of accounts (COA), posting salary expenditures, statutory liabilities, and cost-center allocations directly into ERP systems like SAP, Oracle NetSuite, Microsoft Dynamics, or Tally."
+    }
+  ]
+}

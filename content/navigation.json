@@ -1,0 +1,112 @@
+{
+  "brand": {
+    "name": "Workforce360",
+    "poweredBy": "Powered by Spotsign • A DIMENSHION Product",
+    "tagline": "The AI-Native Workforce Operating System"
+  },
+  "pillars": [
+    {
+      "id": "people",
+      "name": "People",
+      "description": "Hire, govern, evaluate, and develop your workforce.",
+      "items": [
+        { "name": "Core HR & HRIS", "href": "/platform/hris", "desc": "Single source of truth for employee records & org structures" },
+        { "name": "Employee Lifecycle", "href": "/platform/employee-lifecycle", "desc": "Pre-boarding, onboarding, clearance & full-and-final settlement" },
+        { "name": "AI Recruitment & ATS", "href": "/platform/recruitment", "desc": "Kanban pipelines, AI resume scoring & candidate evaluation" },
+        { "name": "Performance & OKRs", "href": "/platform/performance", "desc": "KRAs, 360° reviews, 9-box talent matrix & calibration" },
+        { "name": "Learning & LMS", "href": "/platform/learning", "desc": "SCORM-ready paths, compliance modules & AI course creation" },
+        { "name": "Employee Experience", "href": "/platform/employee-experience", "desc": "Self-service portal, helpdesk ticketing & AI HR concierge" }
+      ]
+    },
+    {
+      "id": "work",
+      "name": "Work",
+      "description": "Plan, schedule, track, and optimize work across desk, field, and floor.",
+      "items": [
+        { "name": "Workforce Management", "href": "/platform/workforce-management", "desc": "Shift scheduling, overtime rules & operational rosters" },
+        { "name": "Attendance & Biometrics", "href": "/platform/attendance", "desc": "Facial check-in, eSSL/ZKTeco device sync & GPS geofencing" },
+        { "name": "Field Workforce", "href": "/platform/field-workforce", "desc": "Route tracking, per-visit milestones & distributed check-ins" }
+      ]
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "description": "Connect compensation, attendance, tax, expenses, and general ledger.",
+      "items": [
+        { "name": "Payroll Engine", "href": "/platform/payroll", "desc": "Automated salary processing, piece-rate wages & variance audits" },
+        { "name": "Tax & Compliance", "href": "/platform/tax-compliance", "desc": "TDS, EPF, ESIC, PT, Form 12BB & Form 16 workflows" },
+        { "name": "Expenses & Travel", "href": "/platform/expenses", "desc": "Policy-enforced reimbursements, per diems & trip approvals" },
+        { "name": "Workforce Finance & GL", "href": "/platform/finance", "desc": "Direct payroll-to-GL journal syncing, AP matching & cost centers" }
+      ]
+    },
+    {
+      "id": "operations",
+      "name": "Operations & IT",
+      "description": "Manage physical technology, enterprise access, and industry ops.",
+      "items": [
+        { "name": "IT Asset Management", "href": "/platform/it-assets", "desc": "Hardware inventory, software licenses & offboarding recovery" },
+        { "name": "Integrations", "href": "/platform/integrations", "desc": "Biometric hardware, ERP webhooks, Google/MS OAuth & APIs" }
+      ]
+    },
+    {
+      "id": "intelligence",
+      "name": "Intelligence",
+      "description": "Predict workforce risk, simulate reorgs, and automate actions.",
+      "items": [
+        { "name": "AI Digital Brain", "href": "/platform/ai", "desc": "40 Genkit AI flows across HR, recruiting, attrition & payroll anomalies" },
+        { "name": "Workforce Digital Twin", "href": "/platform/digital-twin", "desc": "Simulate organizational restructuring, P&L delta & severance before change" },
+        { "name": "Workforce Analytics", "href": "/platform/analytics", "desc": "Executive headcount, attrition signals & operational telemetry" }
+      ]
+    }
+  ],
+  "industries": [
+    { "name": "Shipping & Maritime", "slug": "shipping-maritime", "highlight": "STCW Rest-Hours, CDC Sea Service" },
+    { "name": "Seafood Processing", "slug": "seafood-processing", "highlight": "Piece-Rate Gangs, Thermal Breaks" },
+    { "name": "Logistics & Freight", "slug": "logistics-freight", "highlight": "Trip Allowances, Demurrage" },
+    { "name": "Manufacturing", "slug": "manufacturing", "highlight": "3-Shift Rotas, Muster Rolls, Overtime" },
+    { "name": "Chemical & Hazardous", "slug": "chemical-hazardous", "highlight": "EHS Protocols, Exposure Breaks" },
+    { "name": "Healthcare & Hospitals", "slug": "healthcare", "highlight": "Clinical On-Call, Nurse Ratios" },
+    { "name": "Hospitality & Hotels", "slug": "hospitality", "highlight": "Split Shifts, Seasonal Workforce" },
+    { "name": "Fisheries & Aquaculture", "slug": "fisheries-aquaculture", "highlight": "Catch Settlements, Hatcheries" },
+    { "name": "Cargo & Freight Forwarding", "slug": "cargo-freight-forwarding", "highlight": "Customs Staff, Container Logs" },
+    { "name": "Retail & E-Commerce", "slug": "retail-ecommerce", "highlight": "Store Shifts, Peak Season Staffing" },
+    { "name": "Fuel Stations / Petrol Pumps", "slug": "petrol-pump-fuel-station", "highlight": "Forecourt Shifts, Meter Reconciliation" },
+    { "name": "Cab & Transport Aggregators", "slug": "cab-transport-aggregators", "highlight": "Driver KYC, Permits & Daily Payouts" },
+    { "name": "Field Workforce", "slug": "field-workforce", "highlight": "GPS Geofencing, Per-Visit Models" },
+    { "name": "Automobile & Auto Services", "slug": "automobile-auto-services", "highlight": "Service Bays, Tool Registries" },
+    { "name": "Travel & Tourism", "slug": "travel-tourism", "highlight": "Tour Allowances, Guide Rostering" },
+    { "name": "School & University", "slug": "school-university", "highlight": "Faculty Rostering, Substitute Rotas" },
+    { "name": "ITES", "slug": "ites", "highlight": "Seat Utilization, Night Allowances" },
+    { "name": "BPO / Call Centers", "slug": "bpo-call-centers", "highlight": "Shrinkage Controls, Rotational Shifts" },
+    { "name": "Information Technology", "slug": "information-technology", "highlight": "Agile Sprints, T&M Billability" }
+  ],
+  "solutions": [
+    { "role": "CHRO", "slug": "chro", "tagline": "Strategic workforce planning & digital twin modeling" },
+    { "role": "HR Leader", "slug": "hr-leader", "tagline": "Unified employee lifecycle, policy & performance" },
+    { "role": "Payroll Manager", "slug": "payroll-manager", "tagline": "Error-free payroll, statutory compliance & fast settlement" },
+    { "role": "CFO & Finance", "slug": "cfo-finance", "tagline": "Real-time workforce cost control & GL ledger accuracy" },
+    { "role": "Operations Head", "slug": "operations", "tagline": "Precise shift scheduling, overtime controls & floor adherence" },
+    { "role": "IT Leader", "slug": "it-leader", "tagline": "Automated hardware provisioning & software license governance" },
+    { "role": "Recruiter", "slug": "recruiter", "tagline": "AI resume ranking, candidate scoring & faster hiring" },
+    { "role": "Employee", "slug": "employee", "tagline": "Mobile self-service, instant payslips & AI assistance" }
+  ],
+  "enterprise": [
+    { "name": "Platform Overview", "href": "/platform" },
+    { "name": "Security & Architecture", "href": "/security" },
+    { "name": "Compliance & Trust", "href": "/compliance" },
+    { "name": "Capability Comparison", "href": "/compare" },
+    { "name": "Pricing", "href": "/pricing" },
+    { "name": "Request Demo", "href": "/demo" }
+  ],
+  "resources": [
+    { "name": "Resource Hub", "href": "/resources" },
+    { "name": "HRMS & WOS Guide", "href": "/resources/guides" },
+    { "name": "FAQ Knowledge Base", "href": "/resources/faq" },
+    { "name": "Workforce Glossary", "href": "/resources/glossary" },
+    { "name": "LLM Canonical Spec", "href": "/llm-info" }
+  ],
+  "company": [
+    { "name": "About Workforce360", "href": "/about" },
+    { "name": "Contact Enterprise Sales", "href": "/contact" }
+  ]
+}

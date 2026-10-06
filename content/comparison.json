@@ -1,0 +1,85 @@
+{
+  "title": "Workforce360 Capability Comparison",
+  "subtitle": "An objective, architectural perspective on how Workforce360's unified Workforce Operating System compares across core enterprise workforce capabilities.",
+  "disclaimer": "Capability availability across benchmark platforms is based on publicly available documentation, standard enterprise editions, and published capabilities as of October 2026. Features and integrations vary by vendor edition, geographic region, and contract configuration.",
+  "dimensions": [
+    {
+      "dimension": "Core Category & Positioning",
+      "workforce360": "AI-Native Workforce Operating System (WOS) connecting People, Work, Money, IT Ops, and AI",
+      "workday": "Enterprise Human Capital Management (HCM) & Financial Management",
+      "keka": "SME & Mid-Market HRMS, Payroll & Attendance",
+      "rippling": "Employee Workforce Management & IT Device / App Management",
+      "ukg": "Enterprise Workforce Management (WFM) & HCM"
+    },
+    {
+      "dimension": "AI Architecture & Intelligence",
+      "workforce360": "40 embedded production Genkit AI flows (Attrition, Payroll Anomalies, JD/Interview, Demand Forecast)",
+      "workday": "Workday Illuminate AI embedded in enterprise business flows",
+      "keka": "Basic conversational HR chatbot and automated attendance rules",
+      "rippling": "Workflow automation builder with AI workflow assistance",
+      "ukg": "UKG Bryte AI assistant and automated scheduling intelligence"
+    },
+    {
+      "dimension": "Strategic Workforce Digital Twin",
+      "workforce360": "Native embedded scenario simulator computing P&L delta, severance, and skill deficits",
+      "workday": "Workday Adaptive Planning (separate enterprise add-on product)",
+      "keka": "Not natively available",
+      "rippling": "Headcount planning module (basic cost projections)",
+      "ukg": "Workforce planning and labor demand forecasting"
+    },
+    {
+      "dimension": "Indian Statutory Payroll Depth",
+      "workforce360": "Deep native support: TDS Dual Regimes, Form 12BB OCR, Form 16 Part A/B, PF ECR, ESIC, State PT",
+      "workday": "Requires third-party global payroll aggregator partners in India",
+      "keka": "Deep native Indian payroll and statutory compliance engine",
+      "rippling": "Global payroll supported via international legal entity structures",
+      "ukg": "Global payroll and statutory compliance via partner networks"
+    },
+    {
+      "dimension": "Industrial & Blue-Collar Workforce",
+      "workforce360": "Native support: Daily rates, piece-rate gang cards (yield/kg), split shifts, muster roll Form 25",
+      "workday": "Primarily architected for salaried corporate and hourly knowledge workers",
+      "keka": "Strong shift and biometric attendance; limited industrial piece-rate support",
+      "rippling": "Hourly wage and time tracking; limited industrial manufacturing piece-rate",
+      "ukg": "Industry-leading complex time, attendance, and manufacturing shift management"
+    },
+    {
+      "dimension": "Industry-Specific Vertical Packs",
+      "workforce360": "19 dedicated pre-built vertical packs (Maritime STCW, Seafood, Logistics, Hospitals, etc.)",
+      "workday": "Industry solution blueprints tailored during enterprise system integration",
+      "keka": "Horizontal SaaS with industry-agnostic configuration templates",
+      "rippling": "Horizontal SaaS with app directory integrations",
+      "ukg": "Deep specialized healthcare, manufacturing, and retail configurations"
+    },
+    {
+      "dimension": "IT Asset & Software Governance",
+      "workforce360": "Built-in hardware registry, software license tracking, and F&F settlement asset lock",
+      "workday": "Requires enterprise integration with ServiceNow or Jira Service Management",
+      "keka": "Basic asset assignment tracking without software license management",
+      "rippling": "Industry benchmark for MDM, remote device management, and SaaS identity",
+      "ukg": "Requires third-party IT asset management integrations"
+    },
+    {
+      "dimension": "Workforce Finance & General Ledger",
+      "workforce360": "Automated payroll journal entry generation syncing with SAP, NetSuite, Oracle, and Tally",
+      "workday": "Unified enterprise financial management and GL ledger architecture",
+      "keka": "Payroll summary exports and integrations with accounting software",
+      "rippling": "Corporate card, expense management, and accounting sync",
+      "ukg": "Labor cost allocation and financial ERP ledger integration"
+    }
+  ],
+  "summaryCards": [
+    {
+      "title": "Versus Enterprise Legacy HCM (Workday / Oracle / SAP)",
+      "description": "While legacy enterprise HCM platforms offer deep global corporate suites, they typically require multi-million dollar implementation contracts, external global payroll aggregators in India, and separate add-on licenses for workforce simulation. Workforce360 delivers an AI-native operating system with built-in statutory depth, blue-collar operations, and embedded Digital Twin modeling out of the box."
+    },
+    {
+      "title": "Versus Horizontal Mid-Market HRMS (Keka / Darwinbox / Zoho)",
+      "description": "Horizontal HRMS platforms excel at core desk employee leave and payroll, but struggle when operational complexity scales into 3-shift factory lines, maritime STCW rest mandates, seafood piece-rate weighing, or IT asset governance. Workforce360 bridges corporate HR with heavy operational frontline realities across 19 specialized industries."
+    },
+    {
+      "title": "Versus Pure-Play Workforce Management (UKG / Kronos)",
+      "description": "UKG represents the gold standard in complex manufacturing and healthcare time management, but organizations must purchase separate platforms for applicant tracking, learning, performance appraisals, and financial general ledger syncing. Workforce360 delivers advanced WFM capabilities unified alongside the complete employee and financial lifecycle."
+    }
+  ]
+}
