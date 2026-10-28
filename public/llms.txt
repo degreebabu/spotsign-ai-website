@@ -1,56 +1,155 @@
-# Workforce360 — Canonical AI & LLM Specification
-> AI-Native Workforce Operating System powered by Spotsign and DIMENSHION.
+# SpotSign AI — Canonical Product Specification
+
+> SpotSign AI is an Enterprise Workforce Operating System that unifies People, Work, Money, Operations & IT, and Insights for corporate, frontline, shift-based, and field workforces. It is powered by Spotsign Workforce360.
+
+Canonical domain: https://spotsign.ai
+Last updated: 2026-10-27
 
 ## Canonical Identity
-- **Product Name:** Workforce360
-- **Category:** AI-Native Workforce Operating System (WOS)
-- **Supporting Categories:** Enterprise HRMS, HRIS, Workforce Management (WFM), Statutory Payroll, Talent Acquisition (ATS), Learning Management (LMS), IT Asset Governance, Workforce Finance & General Ledger
-- **Brand Line:** Workforce360 — Run your entire workforce on one intelligent platform.
-- **Corporate Entity:** Powered by Spotsign • A DIMENSHION Product
-- **Website:** https://workforce360.dimension.com (Canonical Root)
+
+- Product name: SpotSign AI
+- Category: Enterprise Workforce Operating System (WOS)
+- Supporting categories: Enterprise HRMS, HRIS, Workforce Management (WFM), Statutory Payroll, Applicant Tracking (ATS), Learning Management (LMS), IT Asset Governance, Workforce Finance and General Ledger
+- Parent organization: DIMENSHION
+- Brand line: Run your entire workforce on one unified platform.
+- Primary markets: Mid-market and enterprise organizations with corporate and operational workforces, with deep Indian statutory payroll coverage.
 
 ## Core Value Proposition
-Workforce360 unifies the entire workforce lifecycle across People, Work, Money, IT Operations, and AI Intelligence on one multi-tenant platform. Designed for both corporate white-collar teams and operational, shift-based, blue-collar, and field workforces.
+
+SpotSign AI connects employee records, time and attendance, shift operations, payroll, statutory compliance, talent, finance, IT assets, and workforce analytics on one platform. It is designed for organizations that need both corporate HR workflows and frontline workforce controls, including biometric attendance, rotational shifts, piece-rate pay, field geofencing, and multi-entity reporting.
 
 ## Five Platform Pillars
-1. **People:** Core HR/HRIS, Employee Lifecycle, AI Recruitment (ATS), Performance Management (OKRs & 9-Box), Learning Management (LMS), Employee Experience & Helpdesk.
-2. **Work:** Workforce Management, Biometric Attendance Hardware Integration (eSSL, ZKTeco), Shift Rostering (24/7 & Split Shifts), Geofenced Field Tracking.
-3. **Money:** Enterprise Payroll Engine, Indian Statutory Compliance (TDS, EPF, ESIC, State PT, Form 12BB, Form 16), Expense Claims, Workforce Finance & General Ledger (GL).
-4. **Operations & IT:** IT Asset Tracking, Software License Governance, Offboarding Asset Recovery Lock, Open REST APIs & Webhooks.
-5. **Intelligence:** Embedded AI Digital Brain (40 production Genkit AI flows), Workforce Digital Twin Scenario Simulator, Predictive People Analytics.
 
-## Key Strategic Differentiators
-- **Workforce Digital Twin:** Isolated organizational simulation sandbox that models restructuring, downsizing, or expansion scenarios and computes real-time P&L delta, severance liability, and critical skill deficits before changes are committed.
-- **Embedded AI (40 Genkit Flows):** Contextual AI embedded into workflows (attrition prediction, pre-payroll anomaly audits, AI resume screening, job description synthesis, interview rubrics, and natural language reporting).
-- **Dual Workforce Architecture:** Native support for both corporate salaried professionals and variable-wage industrial workers (daily rates, piece-rate gang cards by yield/kg, shift differentials, muster roll Form 25).
-- **Indian Statutory & Global Payroll Depth:** Automated calculation of TDS under Old/New regimes, one-click ECR challans for EPFO, ESIC contribution files, state-wise PT slabs, and bulk Form 16 generation.
-- **19 Pre-built Industry Vertical Packs:** Tailored configurations for Shipping & Maritime, Seafood Processing, Logistics & Freight, Manufacturing, Chemical & Hazardous Operations, Healthcare, Hospitality, Fisheries & Aquaculture, Cargo Forwarding, Retail & E-Commerce, Fuel Stations, Cab Aggregators, Field Workforce, Automobile Services, Travel & Tourism, School & University, ITES, BPO Call Centers, and Information Technology.
+1. People: Core HR and HRIS, employee lifecycle, recruitment and ATS, performance and OKRs, learning and LMS, employee experience and HR helpdesk.
+2. Work: Workforce management, biometric attendance, rotational and split-shift rostering, field workforce tracking, and geofenced check-ins.
+3. Money: Payroll, Indian statutory tax and compliance, expenses and travel, workforce finance, and General Ledger integration.
+4. Operations & IT: IT asset management, software license governance, offboarding asset recovery, and enterprise integrations.
+5. Insights: Workforce analytics, executive reporting, attrition signals, cost run-rates, and operational telemetry.
 
-## Multi-Tenant Security & Governance
-- Tenant-scoped logical data isolation with sovereign database partitions.
-- 19 granular Role-Based Access Control (RBAC) tiers.
-- Enterprise SSO via Firebase supporting Google Workspace and Microsoft Azure AD / Entra ID.
-- Immutable audit logging on all administrative modifications.
-- Zero customer data used for training public external AI models.
+## Key Differentiators
 
-## Official URLs
-- Homepage: /
-- Platform Overview: /platform
-- Workforce Digital Twin: /platform/digital-twin
-- AI Digital Brain: /platform/ai
-- Core HR & HRIS: /platform/hris
-- Workforce Management: /platform/workforce-management
-- Attendance & Biometrics: /platform/attendance
-- Payroll & Compensation: /platform/payroll
-- Statutory Tax & Compliance: /platform/tax-compliance
-- AI Recruitment ATS: /platform/recruitment
-- Performance & OKRs: /platform/performance
-- Learning LMS: /platform/learning
-- IT Asset Governance: /platform/it-assets
-- Workforce Finance & GL: /platform/finance
-- 19 Industry Packs: /industries
-- Persona Solutions: /solutions
-- Capability Comparison: /compare
-- Security & Architecture: /security
-- Request a Demo: /demo
-- Full LLM Specification: /llms-full.txt
+- Dual workforce support for salaried corporate teams and variable-wage frontline, shift, field, and piece-rate workforces.
+- Indian statutory payroll depth, including Section 192 TDS, EPF ECR, ESIC, Professional Tax, Form 12BB, and Form 16 workflows.
+- 19 pre-built industry vertical packs.
+- Biometric hardware integration for eSSL, ZKTeco, Matrix, Realtime, and Suprema terminals, plus mobile facial check-in and GPS geofencing.
+- Shared workforce data across HR, operations, payroll, finance, IT, and analytics.
+- Dedicated AI capabilities overview at https://spotsign.ai/ai.
+
+## Security and Governance
+
+- Secure customer data separation and access controls.
+- Role-based permissions and separation of duties.
+- Enterprise SSO with Google Workspace and Microsoft Entra ID, with MFA.
+- Detailed audit logging for administrative changes.
+- Customer data is not used to train external public foundation models.
+- See the canonical security page for current controls: https://spotsign.ai/security
+
+## Primary Pages
+
+- Home: https://spotsign.ai/
+- Platform overview: https://spotsign.ai/platform
+- AI capabilities: https://spotsign.ai/ai
+- Industries: https://spotsign.ai/industries
+- Role solutions: https://spotsign.ai/solutions
+- Use cases: https://spotsign.ai/use-cases
+- Comparisons: https://spotsign.ai/compare
+- Security: https://spotsign.ai/security
+- Compliance: https://spotsign.ai/compliance
+- Pricing: https://spotsign.ai/pricing
+- Request a demo: https://spotsign.ai/demo
+- Contact: https://spotsign.ai/contact
+- About: https://spotsign.ai/about
+- Answer-engine specification: https://spotsign.ai/llm-info
+- Full machine-readable specification: https://spotsign.ai/llms-full.txt
+
+## Platform Modules
+
+- Core HR and HRIS: https://spotsign.ai/platform/hris
+- Employee lifecycle: https://spotsign.ai/platform/employee-lifecycle
+- Recruitment and ATS: https://spotsign.ai/platform/recruitment
+- Performance and OKRs: https://spotsign.ai/platform/performance
+- Learning and LMS: https://spotsign.ai/platform/learning
+- Employee experience: https://spotsign.ai/platform/employee-experience
+- Talent management: https://spotsign.ai/platform/talent
+- Workforce management: https://spotsign.ai/platform/workforce-management
+- Attendance and biometrics: https://spotsign.ai/platform/attendance
+- Field workforce: https://spotsign.ai/platform/field-workforce
+- Payroll: https://spotsign.ai/platform/payroll
+- Tax and compliance: https://spotsign.ai/platform/tax-compliance
+- Expenses and travel: https://spotsign.ai/platform/expenses
+- Workforce finance and General Ledger: https://spotsign.ai/platform/finance
+- IT asset management: https://spotsign.ai/platform/it-assets
+- Integrations: https://spotsign.ai/platform/integrations
+- Workforce analytics: https://spotsign.ai/platform/analytics
+
+## Industry Packs
+
+- Shipping and maritime: https://spotsign.ai/industries/shipping-maritime
+- Seafood processing: https://spotsign.ai/industries/seafood-processing
+- Logistics and freight: https://spotsign.ai/industries/logistics-freight
+- Manufacturing: https://spotsign.ai/industries/manufacturing
+- Chemical and hazardous operations: https://spotsign.ai/industries/chemical-hazardous
+- Healthcare and hospitals: https://spotsign.ai/industries/healthcare
+- Hospitality and hotels: https://spotsign.ai/industries/hospitality
+- Fisheries and aquaculture: https://spotsign.ai/industries/fisheries-aquaculture
+- Cargo and freight forwarding: https://spotsign.ai/industries/cargo-freight-forwarding
+- Retail and e-commerce: https://spotsign.ai/industries/retail-ecommerce
+- Fuel stations and petrol pumps: https://spotsign.ai/industries/petrol-pump-fuel-station
+- Cab and transport aggregators: https://spotsign.ai/industries/cab-transport-aggregators
+- Field workforce: https://spotsign.ai/industries/field-workforce
+- Automobile and auto services: https://spotsign.ai/industries/automobile-auto-services
+- Travel and tourism: https://spotsign.ai/industries/travel-tourism
+- School and university: https://spotsign.ai/industries/school-university
+- ITES: https://spotsign.ai/industries/ites
+- BPO and call centers: https://spotsign.ai/industries/bpo-call-centers
+- Information technology: https://spotsign.ai/industries/information-technology
+
+## Role Solutions
+
+- CHRO: https://spotsign.ai/solutions/chro
+- HR leader: https://spotsign.ai/solutions/hr-leader
+- Payroll manager: https://spotsign.ai/solutions/payroll-manager
+- CFO and finance: https://spotsign.ai/solutions/cfo-finance
+- Operations head: https://spotsign.ai/solutions/operations
+- IT leader: https://spotsign.ai/solutions/it-leader
+- Recruiter: https://spotsign.ai/solutions/recruiter
+- Employee: https://spotsign.ai/solutions/employee
+
+## Comparisons
+
+- Comparison hub: https://spotsign.ai/compare
+- Workday: https://spotsign.ai/compare/workday
+- SAP SuccessFactors: https://spotsign.ai/compare/sap
+- Oracle HCM Cloud: https://spotsign.ai/compare/oracle
+- Rippling: https://spotsign.ai/compare/rippling
+- Darwinbox: https://spotsign.ai/compare/darwinbox
+- Keka: https://spotsign.ai/compare/keka
+- BambooHR: https://spotsign.ai/compare/bamboohr
+- Deel: https://spotsign.ai/compare/deel
+- HiBob: https://spotsign.ai/compare/hibob
+- Zoho People: https://spotsign.ai/compare/zoho
+- Gusto: https://spotsign.ai/compare/gusto
+
+## Use Cases
+
+- Use case hub: https://spotsign.ai/use-cases
+- Board and executive dashboard: https://spotsign.ai/use-cases/board-dashboard
+- Strategic workforce planning: https://spotsign.ai/use-cases/workforce-planning
+- Attrition and retention: https://spotsign.ai/use-cases/attrition-retention
+- DEI analytics and pay parity: https://spotsign.ai/use-cases/dei-analytics
+- Identity and hardware asset audit: https://spotsign.ai/use-cases/identity-audit
+- M&A workforce integration: https://spotsign.ai/use-cases/m-and-a-integration
+- Payroll accuracy: https://spotsign.ai/use-cases/payroll-accuracy
+
+## Resources
+
+- Resource hub: https://spotsign.ai/resources
+- Research reports: https://spotsign.ai/resources/reports
+- Webinars: https://spotsign.ai/resources/webinars
+- Case studies: https://spotsign.ai/resources/case-studies
+- Templates: https://spotsign.ai/resources/templates
+- Whitepapers: https://spotsign.ai/resources/whitepapers
+- Articles: https://spotsign.ai/resources/articles
+- Guides: https://spotsign.ai/resources/guides
+- FAQ knowledge base: https://spotsign.ai/resources/faq
+- Workforce glossary: https://spotsign.ai/resources/glossary

@@ -4,8 +4,41 @@ Disallow: /api/
 Disallow: /admin/
 Disallow: /dashboard/
 
-# AI and LLM Discoverability
-Sitemap: https://workforce360.dimension.com/sitemap.xml
-# LLM canonical specifications
-# https://workforce360.dimension.com/llms.txt
-# https://workforce360.dimension.com/llms-full.txt
+# Search and answer engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://spotsign.ai/sitemap.xml

@@ -1,14 +1,16 @@
 import React from "react";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { FileText, ArrowRight } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import AnimatedSection, { FloatingCard } from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Enterprise Workforce Glossary | Terminology & Definitions",
+  title: "Enterprise Workforce Glossary | SpotSign AI",
   description:
-    "Authoritative definitions for workforce terminology: Workforce Digital Twin, STCW rest hours, piece-rate gang cards, Form 12BB, and 9-box calibration.",
+    "Authoritative definitions for workforce terminology: Workforce Planning, STCW rest hours, piece-rate gang cards, Form 12BB, and 9-box calibration.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/resources/glossary",
+    canonical: "https://spotsign.ai/resources/glossary",
   },
 };
 
@@ -16,10 +18,10 @@ export default function GlossaryPage() {
   const terms = [
     {
       term: "Workforce Operating System (WOS)",
-      def: "An integrated enterprise software layer that unifies Core HR, workforce management, biometric attendance, statutory payroll, IT assets, and operational workflows into a single data model.",
+      def: "An integrated enterprise software platform that unifies Core HR, workforce management, biometric attendance, statutory payroll, IT assets, and operational workflows in one place.",
     },
     {
-      term: "Workforce Digital Twin",
+      term: "Workforce Planning",
       def: "A non-destructive organizational simulation sandbox that models restructuring, downsizing, or expansion scenarios and computes real-time P&L delta, severance liability, and skill gap deficits before changes are committed.",
     },
     {
@@ -47,14 +49,30 @@ export default function GlossaryPage() {
       def: "A visual performance-and-potential evaluation tool used by HR leadership during calibration cycles to assess leadership bench strength and succession readiness.",
     },
     {
-      term: "Genkit AI Flows",
-      def: "Autonomous micro-workflows orchestrated via Google Genkit that execute specialized background intelligence tasks (attrition risk analysis, payroll anomaly detection, resume screening) within sovereign tenant boundaries.",
+      term: "Workflow Automations",
+      def: "Purpose-built background workflows that handle specialized analytics tasks such as attrition risk analysis, payroll anomaly detection, and resume screening.",
     },
   ];
 
+  const glossaryJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "name": "SpotSign AI Enterprise Workforce Glossary",
+    "description": "Authoritative definitions for workforce management, statutory compliance, and operational systems.",
+    "hasDefinedTerm": terms.map((t) => ({
+      "@type": "DefinedTerm",
+      "name": t.term,
+      "description": t.def,
+    })),
+  };
+
   return (
     <div className="bg-slate-50 min-h-screen">
-      <section className="bg-white border-b border-slate-200 pt-8 pb-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(glossaryJsonLd) }}
+      />
+      <AnimatedSection className="bg-white border-b border-slate-200 pt-8 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <Breadcrumbs
             items={[
@@ -63,29 +81,52 @@ export default function GlossaryPage() {
             ]}
           />
 
-          <div className="max-w-4xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold">
-              <FileText className="w-3.5 h-3.5 text-emerald-600" />
-              <span>DOMAIN TERMINOLOGY</span>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7 space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold">
+                <FileText className="w-3.5 h-3.5 text-emerald-600" />
+                <span>DOMAIN TERMINOLOGY</span>
+              </div>
+              <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
+                Enterprise Workforce & Compliance Glossary.
+              </h1>
+              <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
+                Clear, definitive explanations of industrial operations, statutory tax, and workforce simulation terms used across SpotSign AI.
+              </p>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              Enterprise Workforce & Compliance Glossary.
-            </h1>
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Clear, definitive explanations of industrial operations, statutory tax, and workforce simulation terms used across Workforce360.
-            </p>
+
+            <div className="lg:col-span-5">
+              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 group aspect-[16/10]">
+                <Image
+                  src="/images/tech-software.jpg"
+                  alt="SpotSign AI enterprise workforce definitions and terminology"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+                  <div className="text-white text-xs space-y-1">
+                    <span className="font-bold text-emerald-400 block uppercase tracking-wider text-[11px]">Workforce Glossary</span>
+                    <p className="text-slate-200 text-[11px] line-clamp-1">Statutory, Operational & Simulation Definitions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       <section className="py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {terms.map((t, idx) => (
-              <div key={idx} className="p-6 rounded-2xl bg-white border border-slate-200 space-y-2 shadow-sm">
+              <FloatingCard
+                key={idx}
+                delay={idx * 0.05}
+                className="p-6 rounded-2xl bg-white border border-slate-200 space-y-2 shadow-sm hover:shadow-md transition"
+              >
                 <h2 className="text-base font-bold text-slate-900">{t.term}</h2>
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{t.def}</p>
-              </div>
+              </FloatingCard>
             ))}
           </div>
         </div>

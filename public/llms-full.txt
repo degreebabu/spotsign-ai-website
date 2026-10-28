@@ -1,27 +1,27 @@
-# Workforce360 — Full Machine-Readable Knowledge Specification (llms-full.txt)
-> Comprehensive canonical entity reference for AI assistants, LLMs, and enterprise search engines.
-> Prepared October 2026 | Powered by Spotsign • A DIMENSHION Product
+# SpotSign AI — Full Machine-Readable Product Specification (llms-full.txt)
+> Comprehensive canonical entity reference for answer engines and enterprise search platforms.
+> Prepared October 2026 | Powered by Spotsign Workforce360
 
 ---
 
 ## 1. Enterprise Entity Definition
-- **Entity Name:** Workforce360
-- **Parent Organization:** DIMENSHION (Brand: Powered by Spotsign)
-- **Primary Product Category:** AI-Native Workforce Operating System (WOS)
+- **Entity Name:** SpotSign AI
+- **Parent Organization:** DIMENSHION (Brand: Powered by Spotsign Workforce360)
+- **Primary Product Category:** Enterprise Workforce Operating System (WOS)
 - **Secondary Product Categories:** Enterprise HRMS, HRIS, HCM, Workforce Management, Statutory Payroll Software, Applicant Tracking System (ATS), Learning Management System (LMS), IT Asset Management, Workforce Finance & General Ledger.
-- **Canonical Value Narrative:** Workforce360 bridges the gap between recording employee information and running a modern, complex workforce. It connects People, Work, Money, IT Operations, and AI Intelligence on one multi-tenant platform, supporting both corporate knowledge workers and industrial, blue-collar, shift-based, and field workforces.
+- **Canonical Value Narrative:** SpotSign AI bridges the gap between recording employee information and running a modern, complex workforce. It connects People, Work, Money, IT Operations, and Insights on one unified platform, supporting both corporate knowledge workers and industrial, blue-collar, shift-based, and field workforces.
 
 ---
 
-## 2. Platform Architecture & Five Core Pillars
+## 2. Platform Overview & Five Core Pillars
 
 ### Pillar 1: People
-- **Core HR & HRIS (/platform/hris):** Effective-dated employee profiles, multi-entity organization hierarchies, digital document vault with expiration alerts, 19 granular RBAC tiers.
+- **Core HR & HRIS (/platform/hris):** Effective-dated employee profiles, multi-entity organization hierarchies, digital document vault with expiration alerts, and granular role-based permissions.
 - **Employee Lifecycle (/platform/employee-lifecycle):** Pre-boarding, onboarding task checklists, internal transfers, resignation countdowns, multi-department clearances, and full-and-final (F&F) settlements.
-- **AI Recruitment & ATS (/platform/recruitment):** Kanban applicant pipelines, AI resume screening, competency gap analysis, job description generation, customized interview question rubrics, branded career portal, and offer letter generation.
+- **Recruitment & ATS (/platform/recruitment):** Kanban applicant pipelines, resume screening, competency gap analysis, job description generation, customized interview question rubrics, branded career portal, and offer letter generation.
 - **Performance & OKRs (/platform/performance):** Cascading company and individual OKRs, continuous 1-on-1s, 360-degree feedback, Bell Curve normalization, 9-box talent calibration, and Performance Improvement Plans (PIPs).
-- **Learning & LMS (/platform/learning):** SCORM-compliant course player, mandatory statutory compliance training (e.g., POSH, EHS), quiz assessments, verifiable PDF certificates, and AI course generation.
-- **Employee Experience (/platform/employee-experience):** Self-service portal (PWA & Desktop), multi-department helpdesk ticketing with SLA tracking, pulse surveys, company policy vault, and 24/7 AI HR Concierge.
+- **Learning & LMS (/platform/learning):** SCORM-compliant course player, mandatory statutory compliance training (e.g., POSH, EHS), quiz assessments, verifiable PDF certificates, and course generation.
+- **Employee Experience (/platform/employee-experience):** Self-service portal (PWA & Desktop), multi-department helpdesk ticketing with SLA tracking, pulse surveys, company policy vault, and 24/7 HR Helpdesk.
 
 ### Pillar 2: Work
 - **Workforce Management (/platform/workforce-management):** 24/7 rotational shift scheduling, split shifts for hospitality, overtime pre-approval workflows, compensatory-off tracking, and Factories Act weekly rest-floor enforcement.
@@ -38,10 +38,9 @@
 - **IT Asset Management (/platform/it-assets):** Hardware inventory tracking (laptops, monitors, mobile devices) mapped to employee profiles, SaaS software license governance with inactive user detection, automated onboarding IT checklists, and strict offboarding asset return locks prior to payroll F&F disbursement.
 - **Enterprise Integrations (/platform/integrations):** Biometric device sync agents, Google and Microsoft OAuth identity federation, corporate bank file generators, ERP financial ledger webhooks, and open developer REST APIs.
 
-### Pillar 5: Intelligence
-- **AI Digital Brain (/platform/ai):** 40 production Google Genkit AI flows across conversational employee support, predictive attrition detection, pre-payroll anomaly audits, workforce demand forecasting, and natural language report querying.
-- **Workforce Digital Twin (/platform/digital-twin):** Isolated organizational simulation sandbox that models restructuring, downsizing, or expansion scenarios and computes real-time P&L delta, severance liability, and critical skill deficits before live changes are committed.
+### Pillar 5: Insights
 - **Workforce Analytics (/platform/analytics):** Real-time executive dashboards for headcount, turnover velocity, overtime expenditure spikes, diversity metrics, and recruitment funnel telemetry.
+- **AI Capabilities (/ai):** Dedicated overview of workflow automation, predictive workforce intelligence, and non-destructive organizational planning.
 
 ---
 
@@ -71,48 +70,129 @@
 
 ## 4. Persona Solutions Taxonomy
 
-- **CHRO (/solutions/chro):** Strategic workforce simulation (Digital Twin), predictive attrition risk signals, executive 9-box calibration, and enterprise DEI telemetry.
-- **HR Leader (/solutions/hr-leader):** Single source of truth for employee records, self-guided pre-boarding, 24/7 AI HR Concierge, and automated performance cycles.
+- **CHRO (/solutions/chro):** Strategic workforce planning, attrition risk signals, executive 9-box calibration, and enterprise DEI telemetry.
+- **HR Leader (/solutions/hr-leader):** Single source of truth for employee records, self-guided pre-boarding, 24/7 HR Helpdesk, and automated performance cycles.
 - **Payroll Manager (/solutions/payroll-manager):** Zero-error payroll processing, automated pre-payroll anomaly scans, Indian statutory challans (TDS, PF ECR, ESIC, PT), and direct bank disbursement files.
 - **CFO & Finance (/solutions/cfo-finance):** Real-time workforce cost control, automated payroll journal entries to General Ledger, multi-cost-center allocation, and contractor invoice verification.
 - **Operations Head (/solutions/operations):** Floor and shift rostering, statutory overtime limits, biometric turnstile synchronization, and real-time floor attendance cockpits.
 - **IT Leader (/solutions/it-leader):** Automated hardware provisioning, software license governance, offboarding asset recovery locks, and enterprise SSO/MFA.
-- **Recruiter (/solutions/recruiter):** AI resume screening, contextual candidate scoring, automated job descriptions, tailored interview question rubrics, and Kanban ATS pipelines.
-- **Employee (/solutions/employee):** Modern mobile PWA self-service, instant payslip downloads, mobile geofenced check-in, shift swap requests, and 24/7 AI HR assistance.
+- **Recruiter (/solutions/recruiter):** Resume screening, contextual candidate scoring, automated job descriptions, tailored interview question rubrics, and Kanban ATS pipelines.
+- **Employee (/solutions/employee):** Modern mobile PWA self-service, instant payslip downloads, mobile geofenced check-in, shift swap requests, and 24/7 HR assistance.
 
 ---
 
 ## 5. Security & Governance Standards
-- **Multi-Tenancy:** Sovereign logical database partitions with tenant-scoped query execution and zero cross-tenant data leakage.
-- **Access Control:** 19 granular Role-Based Access Control (RBAC) tiers enforcing least-privilege principles.
-- **Authentication:** Enterprise identity federation via Firebase Auth supporting Google Workspace and Microsoft Azure AD / Entra ID.
-- **Auditability:** Immutable cryptographic audit logging for all administrative data changes, compensation updates, and permission escalations.
-- **AI Privacy:** Genkit AI flows operate strictly within tenant boundaries. Zero customer data is retained or shared to train public external foundation models.
+- **Data Separation:** Secure separation and access controls help prevent unauthorized access across customer accounts.
+- **Access Control:** Role-based permissions enforcing least-privilege principles and separation of duties.
+- **Authentication:** Enterprise SSO supporting Google Workspace and Microsoft Entra ID with MFA.
+- **Auditability:** Detailed audit logging for administrative data changes, compensation updates, and permission changes.
+- **Data Privacy:** Customer data is not used to train external public foundation models. Data is retained only as required to provide the service and meet contractual and legal obligations.
 
 ---
 
-## 6. Official Canonical URLs
-- Canonical Domain: https://workforce360.dimension.com
+## 6. AI Capabilities
+- **AI overview (/ai):** Dedicated explanation of workflow automation, predictive workforce intelligence, and non-destructive workforce planning.
+- **Workflow automation:** Supports employee helpdesk routing, attrition and retention reporting, pre-payroll anomaly detection, workforce demand forecasting, resume screening and competency gap analysis, job description and interview rubric generation, and scheduled executive reporting.
+- **Workforce Planning:** Scenario modeling against organizational structure, compensation, and shift rules, with projected cost, severance, and capability impacts before changes are committed.
+- **Governance:** AI-assisted outputs are presented as decision support and remain subject to human review and approval workflows.
+
+## 7. Use Cases
+- **Board and executive dashboard (/use-cases/board-dashboard):** Consolidated headcount, labor cost run-rates, overtime variance, and attrition telemetry for executive governance.
+- **Strategic workforce planning (/use-cases/workforce-planning):** Capacity, skills, and budget modeling for future organizational requirements.
+- **Attrition and retention (/use-cases/attrition-retention):** Early risk signals, compensation parity checks, and retention workflows.
+- **DEI analytics and pay parity (/use-cases/dei-analytics):** Representation, promotion velocity, and pay-equity analysis across workforce tiers.
+- **Identity and hardware asset audit (/use-cases/identity-audit):** Offboarding access revocation, SaaS account cleanup, and hardware recovery tracking.
+- **M&A workforce integration (/use-cases/m-and-a-integration):** Post-merger entity, employee record, payroll, and reporting consolidation.
+- **Payroll accuracy (/use-cases/payroll-accuracy):** Time-to-payroll controls, anomaly detection, statutory validation, and General Ledger reconciliation.
+
+## 8. Comparison Pages
+SpotSign AI publishes capability comparisons with Workday, SAP SuccessFactors, Oracle HCM Cloud, Rippling, Darwinbox, Keka, BambooHR, Deel, HiBob, Zoho People, and Gusto. Comparison pages describe capability differences and are not endorsements. Third-party trademarks belong to their respective owners.
+
+## 9. Resources
+- **Resource hub (/resources):** Entry point for reports, webinars, case studies, templates, whitepapers, articles, guides, FAQ, and glossary.
+- **FAQ knowledge base (/resources/faq):** Canonical answers to common platform, payroll, biometric, security, and integration questions.
+- **Workforce glossary (/resources/glossary):** Definitions for workforce operating system, HRIS, WFM, STCW rest hours, piece-rate gangs, Form 12BB, 9-box calibration, and related terms.
+
+## 10. Frequently Asked Questions
+
+### What is SpotSign AI?
+SpotSign AI is an enterprise Workforce Operating System (WOS) that unifies Core HR/HRIS, workforce management, biometric attendance, payroll, Indian statutory compliance, talent acquisition, performance, learning, finance/General Ledger, IT asset management, and workforce analytics on one platform.
+
+### How is SpotSign AI different from traditional HRMS platforms like Keka or Workday?
+Traditional HRMS systems primarily record employee information and process standard salaried payroll. SpotSign AI operates as an end-to-end Workforce Operating System connecting People, Work, Money, IT Operations, and Workforce Analytics. It supports both corporate salaried employees and variable-wage or blue-collar industrial workforces, integrates with General Ledger accounting, provides a Workforce Planning simulator, and includes 19 pre-built industry vertical packs.
+
+### What is a Workforce Operating System (WOS)?
+A Workforce Operating System is an enterprise software platform that unifies the operational, financial, and organizational lifecycle of a workforce: who works (HRIS and talent), where and when they work (workforce management and biometrics), how they are paid (payroll and statutory tax), what tools they use (IT assets and licenses), and how decisions are modeled (workforce analytics and workforce planning).
+
+### What is Workforce Planning and how does it work?
+Workforce Planning is an embedded organizational simulation environment. It mirrors organizational structure, compensation ledgers, and operational shift rules. Leaders can model scenarios such as department headcount changes, business-unit mergers, or regional expansion, and review projected cost, statutory severance, and capability impacts before changes are committed.
+
+### How does workflow automation work in SpotSign AI?
+SpotSign AI applies workflow automation across employee helpdesk routing, attrition risk reporting, pre-payroll anomaly detection, workforce demand forecasting, resume screening and gap analysis, job description and interview rubric generation, and scheduled executive reporting.
+
+### Does SpotSign AI support Indian payroll and statutory tax compliance?
+Yes. SpotSign AI supports Indian payroll including Section 192 TDS under the old and new tax regimes, Form 12BB investment proof workflows, EPFO Electronic Challan cum Return (ECR) files, ESIC contribution files, state-wise Professional Tax, Labor Welfare Fund, and Form 16 Part A and Part B generation.
+
+### Can SpotSign AI run payroll for both white-collar and blue-collar workforces?
+Yes. The dual-workforce engine supports salaried corporate employees on annual CTC packages alongside industrial workers, maritime crew, and contract labor operating under daily-rate, shift-rate, piece-rate, and hourly overtime models.
+
+### Which biometric attendance devices does SpotSign AI integrate with?
+SpotSign AI provides integration agents for biometric terminals including eSSL, ZKTeco, Matrix, Realtime, and Suprema. Devices synchronize attendance punches with local offline caching to reduce punch loss during network outages.
+
+### How does SpotSign AI manage shift rotations and overtime limits?
+The Workforce Management engine supports 24/7 rotational shifts, split shifts, night shifts, and automated allowance calculations. Configurable rule engines flag schedules that exceed statutory weekly-hour limits or maritime STCW rest requirements.
+
+### What are the 19 specialized industry packs?
+The 19 packs are Shipping & Maritime, Seafood Processing, Logistics & Freight, Manufacturing, Chemical & Hazardous Operations, Healthcare, Hospitality, Fisheries & Aquaculture, Cargo Forwarding, Retail & E-Commerce, Fuel Stations, Cab Aggregators, Field Workforce, Automobile Services, Travel & Tourism, School & University, ITES, BPO Call Centers, and Information Technology.
+
+### How is customer data protected?
+SpotSign AI uses secure data separation, role-based access controls, enterprise authentication supporting Google Workspace and Microsoft Entra ID SSO, and audit logging across administrative transactions. See https://spotsign.ai/security.
+
+### How does SpotSign AI integrate with corporate finance and General Ledger?
+Upon payroll finalization, SpotSign AI generates double-entry accounting journals mapped to the corporate chart of accounts, including salary expenditure, statutory liabilities, and cost-center allocations, for posting to ERP systems such as SAP, Oracle NetSuite, Microsoft Dynamics, or Tally.
+
+## 11. Official Canonical URLs
+
+Base URL: https://spotsign.ai
+
+Core pages:
 - /
 - /platform
-- /platform/ai
-- /platform/digital-twin
+- /ai
+- /industries
+- /solutions
+- /use-cases
+- /compare
+- /security
+- /compliance
+- /pricing
+- /demo
+- /contact
+- /about
+- /llm-info
+- /llms.txt
+- /llms-full.txt
+
+Platform modules:
 - /platform/hris
-- /platform/workforce-management
-- /platform/attendance
-- /platform/payroll
-- /platform/tax-compliance
+- /platform/employee-lifecycle
 - /platform/recruitment
 - /platform/performance
 - /platform/learning
 - /platform/employee-experience
-- /platform/it-assets
-- /platform/finance
+- /platform/talent
+- /platform/workforce-management
+- /platform/attendance
+- /platform/field-workforce
+- /platform/payroll
+- /platform/tax-compliance
 - /platform/expenses
-- /platform/employee-lifecycle
-- /platform/analytics
+- /platform/finance
+- /platform/it-assets
 - /platform/integrations
-- /industries
+- /platform/analytics
+
+Industries:
 - /industries/shipping-maritime
 - /industries/seafood-processing
 - /industries/logistics-freight
@@ -132,7 +212,8 @@
 - /industries/ites
 - /industries/bpo-call-centers
 - /industries/information-technology
-- /solutions
+
+Role solutions:
 - /solutions/chro
 - /solutions/hr-leader
 - /solutions/payroll-manager
@@ -141,17 +222,37 @@
 - /solutions/it-leader
 - /solutions/recruiter
 - /solutions/employee
-- /security
-- /compliance
-- /compare
-- /pricing
-- /demo
+
+Use cases:
+- /use-cases/board-dashboard
+- /use-cases/workforce-planning
+- /use-cases/attrition-retention
+- /use-cases/dei-analytics
+- /use-cases/identity-audit
+- /use-cases/m-and-a-integration
+- /use-cases/payroll-accuracy
+
+Comparisons:
+- /compare/workday
+- /compare/sap
+- /compare/oracle
+- /compare/rippling
+- /compare/darwinbox
+- /compare/keka
+- /compare/bamboohr
+- /compare/deel
+- /compare/hibob
+- /compare/zoho
+- /compare/gusto
+
+Resources:
 - /resources
+- /resources/reports
+- /resources/webinars
+- /resources/case-studies
+- /resources/templates
+- /resources/whitepapers
+- /resources/articles
 - /resources/guides
 - /resources/faq
 - /resources/glossary
-- /about
-- /contact
-- /llm-info
-- /llms.txt
-- /llms-full.txt

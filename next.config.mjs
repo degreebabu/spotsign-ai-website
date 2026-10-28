@@ -30,6 +30,8 @@ const nextConfig = {
       { source: '/competitorhibob', destination: '/compare/hibob', permanent: true },
       { source: '/CompetitorGusto', destination: '/compare/gusto', permanent: true },
       { source: '/competitor-gusto', destination: '/compare/gusto', permanent: true },
+      { source: '/platform/ai', destination: '/ai', permanent: true },
+      { source: '/platform/digital-twin', destination: '/platform/analytics', permanent: true },
       // Legacy use-case redirects
       { source: '/UseCaseBoardDashboard', destination: '/use-cases/board-dashboard', permanent: true },
       { source: '/use-case-board-dashboard', destination: '/use-cases/board-dashboard', permanent: true },

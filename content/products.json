@@ -4,13 +4,13 @@
       "id": "hris",
       "slug": "hris",
       "pillar": "people",
-      "badge": "FOUNDATIONAL DATA LAYER",
+      "badge": "CORE HR RECORDS",
       "title": "A Single Source of Truth for Your Entire Workforce",
-      "subtitle": "Unify employee master records, organizational reporting hierarchies, multi-entity cost centers, and compliance documentation under one enterprise data model.",
-      "metaTitle": "Core HRMS & HRIS Software | Workforce360 Enterprise Platform",
-      "metaDescription": "Consolidate employee profiles, organizational hierarchies, multi-entity compliance records, and self-service workflows with Workforce360's enterprise Core HRIS.",
+      "subtitle": "Unify employee master records, organizational reporting hierarchies, multi-entity cost centers, and compliance documentation on one connected platform.",
+      "metaTitle": "Core HRMS & HRIS Software | SpotSign AI Enterprise Platform",
+      "metaDescription": "Consolidate employee profiles, organizational hierarchies, multi-entity compliance records, and self-service workflows with SpotSign AI's enterprise Core HRIS.",
       "whatItSolves": "Fragmented employee records across legacy spreadsheets, disconnected subsidiary directories, and lagging organization chart updates that lead to security vulnerabilities and payroll discrepancies.",
-      "howItWorks": "Workforce360 maintains an immutable, effective-dated employee timeline. Whenever promotions, reporting changes, or entity transfers occur, downstream payroll, access control, and compliance records update automatically.",
+      "howItWorks": "SpotSign AI maintains an immutable, effective-dated employee timeline. Whenever promotions, reporting changes, or entity transfers occur, downstream payroll, access control, and compliance records update automatically.",
       "capabilities": [
         {
           "title": "Comprehensive Employee Master Profiles",
@@ -26,25 +26,15 @@
         },
         {
           "title": "Multi-Entity & Branch Hierarchy",
-          "desc": "Manage multiple corporate entities, sister companies, regional factories, and remote offices with sovereign legal entity isolation."
+          "desc": "Manage multiple corporate entities, sister companies, regional factories, and remote offices with secure separation between legal entities."
         },
         {
           "title": "Digital Document Vault with Expiry Alerts",
           "desc": "Store signed employment contracts, certificates, and statutory records with automated alerts for passport, visa, or license expirations."
         },
         {
-          "title": "Granular Role-Based Access Control (RBAC)",
-          "desc": "19 pre-configured permission tiers ensuring strict separation between Super Admins, HR Managers, Finance Reviewers, and Employees."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "AI HR Concierge",
-          "desc": "Natural language assistant that instantly answers employee queries regarding company policies, leave entitlements, and company directories."
-        },
-        {
-          "title": "Automated Profile Anomaly Detection",
-          "desc": "Flags missing statutory identifiers, duplicate bank records, and contradictory manager assignments before payroll cutoff."
+          "title": "Granular Role-Based Access Control",
+          "desc": "Pre-configured permission profiles ensuring strict separation between administrators, HR managers, finance reviewers, and employees."
         }
       ],
       "metrics": [
@@ -57,8 +47,8 @@
           "val": "100% Immutable"
         },
         {
-          "label": "RBAC Security Tiers",
-          "val": "19 Granular Levels"
+          "label": "Access Controls",
+          "val": "Granular Permissions"
         }
       ],
       "personas": [
@@ -74,8 +64,8 @@
       ],
       "faqs": [
         {
-          "q": "Does Workforce360 support multiple legal entities under one parent tenant?",
-          "a": "Yes. Workforce360 supports multi-entity corporate structures with independent tax IDs, currency settings, and cost-center allocations while maintaining unified group-level visibility."
+          "q": "Does SpotSign AI support multiple legal entities under one parent organization?",
+          "a": "Yes. SpotSign AI supports multi-entity corporate structures with independent tax IDs, currency settings, and cost-center allocations while maintaining unified group-level visibility."
         },
         {
           "q": "How does effective dating work for promotions and transfers?",
@@ -87,186 +77,15 @@
         }
       ]
     },
-    "digital-twin": {
-      "id": "digital-twin",
-      "slug": "digital-twin",
-      "pillar": "intelligence",
-      "badge": "STRATEGIC WORKFORCE SIMULATION",
-      "title": "Model Workforce Restructuring Before You Commit the Change",
-      "subtitle": "The Workforce Digital Twin combines organizational structure, compensation data, and operational skills graphs so leadership can simulate restructuring, expansion, and cost optimization scenarios without risking live operations.",
-      "metaTitle": "Workforce Digital Twin & Restructuring Simulator | Workforce360",
-      "metaDescription": "Simulate organizational changes, calculate real-time P&L delta, severance liability, and skill gap deficits with Workforce360's embedded Workforce Digital Twin.",
-      "whatItSolves": "Executive leadership making high-stakes workforce reductions, expansions, or M&A integrations based on static spreadsheets that fail to account for hidden severance liabilities, critical skill deficits, and downstream operational bottlenecks.",
-      "howItWorks": "The Digital Twin Simulator creates an isolated digital snapshot of your organizational graph, compensation ledger, and operational shifts. You apply scenario levers (e.g., -10% departmental headcount or consolidation of regional branches), and the simulation engine computes financial delta, severance impact, and operational deficits in real time.",
-      "capabilities": [
-        {
-          "title": "Headcount & Reorg Simulation Engine",
-          "desc": "Model departmental downsizing, merger consolidations, or rapid hiring ramp-ups in an isolated sandbox environment."
-        },
-        {
-          "title": "Real-Time P&L Delta & Run-Rate Projection",
-          "desc": "Instantly project the monthly and annualized payroll savings versus one-time severance and notice-period expenditures."
-        },
-        {
-          "title": "Skills Deficit & Critical Role Vulnerability",
-          "desc": "Identifies single-point-of-failure roles and critical institutional competencies that would be lost under proposed workforce cuts."
-        },
-        {
-          "title": "Severance & Statutory Gratuity Liability Calculator",
-          "desc": "Accurately computes statutory severance, accrued leave encashment, and notice payouts across corporate tenures."
-        },
-        {
-          "title": "Staged Workflow Execution",
-          "desc": "Once a strategic scenario is approved by executive leadership, the transition plan can be converted into staged HR tasks and offboarding queues."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Predictive Operational Impact Scoring",
-          "desc": "Genkit AI evaluates whether the projected reduction in shift supervisors will trigger overtime spikes or factory muster shortages."
-        },
-        {
-          "title": "Recommended Transition Staging",
-          "desc": "Generates phased restructuring timelines that minimize business disruption and maximize institutional knowledge retention."
-        }
-      ],
-      "metrics": [
-        {
-          "label": "Scenario Computation Time",
-          "val": "Real-time (< 2s)"
-        },
-        {
-          "label": "P&L Projection Horizon",
-          "val": "1 to 36 Months"
-        },
-        {
-          "label": "Operational Variables Modeled",
-          "val": "24+ Dimensions"
-        }
-      ],
-      "personas": [
-        "chro",
-        "cfo-finance",
-        "operations"
-      ],
-      "industries": [
-        "information-technology",
-        "manufacturing",
-        "logistics-freight",
-        "hospitality"
-      ],
-      "faqs": [
-        {
-          "q": "Does the Digital Twin modify actual live employee records during simulation?",
-          "a": "Never. Simulations execute inside an isolated virtual sandbox. Live operational data is only modified when an authorized executive formally approves and executes a staged transition plan."
-        },
-        {
-          "q": "What financial variables are accounted for during severance calculations?",
-          "a": "The engine factors in gross salary, statutory gratuity liabilities based on verified tenure, accrued paid leave encashment, notice period compensations, and applicable bonus reserves."
-        },
-        {
-          "q": "Can the simulator model cross-departmental hiring and reallocation?",
-          "a": "Yes. You can model reallocating talent from sunsetting business units into expanding product lines, comparing re-skilling costs against new recruitment spend."
-        }
-      ]
-    },
-    "ai": {
-      "id": "ai",
-      "slug": "ai",
-      "pillar": "intelligence",
-      "badge": "40 PRODUCTION GENKIT AI FLOWS",
-      "title": "Embedded AI Intelligence Across Every Workforce Workflow",
-      "subtitle": "Workforce360 does not treat AI as a disconnected chatbot. We embed 40 purpose-built Google Genkit AI flows directly into recruitment, payroll variance audits, workforce forecasting, and employee assistance.",
-      "metaTitle": "AI Workforce Intelligence & Digital Brain | Workforce360",
-      "metaDescription": "Discover Workforce360's Digital Brain: 40 production Genkit AI flows powering attrition prediction, payroll anomaly detection, AI resume screening, and demand forecasting.",
-      "whatItSolves": "HR and operational teams drowning in repetitive administrative tasks, missing subtle payroll errors before disbursement, and lacking the predictive signals needed to preempt top-talent resignations.",
-      "howItWorks": "Our Digital Brain operates securely within your multi-tenant environment using Google Genkit. As transactions, attendance punches, and evaluations occur, background intelligence flows evaluate patterns to alert managers, draft documentation, and surface risks.",
-      "capabilities": [
-        {
-          "title": "AI HR Concierge",
-          "desc": "24/7 conversational support for staff answering complex queries about leave rules, insurance claims, and tax deductions."
-        },
-        {
-          "title": "Attrition Risk Telemetry",
-          "desc": "Predictive models that evaluate tenure patterns, compensation benchmarks, and engagement dips to alert managers before critical talent departs."
-        },
-        {
-          "title": "Pre-Payroll Anomaly Detection",
-          "desc": "Autonomous audits that flag abnormal overtime spikes, negative net pays, unexpected bank account updates, and ghost worker signals."
-        },
-        {
-          "title": "Workforce Demand & Roster Forecasting",
-          "desc": "Predicts future shift staffing requirements based on historical seasonal trends, production outputs, and leave histories."
-        },
-        {
-          "title": "AI Job Description & Interview Rubric Synthesis",
-          "desc": "Generates tailored role specifications and competency-based interview scorecards aligned with corporate benchmarks."
-        },
-        {
-          "title": "Natural Language Report Generation",
-          "desc": "Ask executive queries in plain English (e.g., 'Show total overtime cost by department for Q3') and receive instant tabular charts."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Autonomous Background Sentinel",
-          "desc": "Continuously audits operational telemetry without human prompting to prevent compliance breaches."
-        },
-        {
-          "title": "Contextual Resume Scoring & Gap Analysis",
-          "desc": "Scores incoming candidates against job requisitions and highlights specific missing certifications."
-        }
-      ],
-      "metrics": [
-        {
-          "label": "Production Genkit Flows",
-          "val": "40 Flows"
-        },
-        {
-          "label": "Payroll Anomaly Detection Speed",
-          "val": "Instant Pre-Run"
-        },
-        {
-          "label": "HR Ticket Deflection Rate",
-          "val": "Up to 68%"
-        }
-      ],
-      "personas": [
-        "chro",
-        "hr-leader",
-        "payroll-manager",
-        "recruiter"
-      ],
-      "industries": [
-        "information-technology",
-        "bpo-call-centers",
-        "manufacturing",
-        "healthcare"
-      ],
-      "faqs": [
-        {
-          "q": "Are company employee records used to train public AI models?",
-          "a": "Never. All Genkit AI flows operate within strict enterprise tenant boundaries with zero data sharing across external foundation models."
-        },
-        {
-          "q": "Does AI make autonomous hiring or firing decisions?",
-          "a": "No. Workforce360 adheres to strict human-in-the-loop governance. AI provides predictive recommendations, anomaly flags, and drafting assistance\u2014all binding decisions require explicit manager approval."
-        },
-        {
-          "q": "Can the AI Assistant handle complex Indian statutory tax queries?",
-          "a": "Yes. The AI Concierge understands the differences between the Old and New tax regimes, Section 80C exemptions, and Form 12BB requirements, guiding employees with precision."
-        }
-      ]
-    },
     "workforce-management": {
       "id": "workforce-management",
       "slug": "workforce-management",
       "pillar": "work",
       "badge": "DESK, FIELD & FLOOR OPERATIONS",
       "title": "Precision Scheduling, Rostering, and Time Tracking Everywhere",
-      "subtitle": "From corporate offices and 24/7 hospital rotations to 3-shift factory lines and maritime vessels, Workforce360 manages shifts, overtime limits, and attendance without operational friction.",
-      "metaTitle": "Workforce Management & Shift Scheduling Software | Workforce360",
-      "metaDescription": "Manage complex rotational shifts, overtime policies, fatigue rules, and operational attendance across office, field, and factory teams with Workforce360 WFM.",
+      "subtitle": "From corporate offices and 24/7 hospital rotations to 3-shift factory lines and maritime vessels, SpotSign AI manages shifts, overtime limits, and attendance without operational friction.",
+      "metaTitle": "Workforce Management & Shift Scheduling Software | SpotSign AI",
+      "metaDescription": "Manage complex rotational shifts, overtime policies, fatigue rules, and operational attendance across office, field, and factory teams with SpotSign AI WFM.",
       "whatItSolves": "Roster chaos, unexpected shift absenteeism, uncontrolled overtime costs, and non-compliance with statutory rest-hour mandates (e.g., Factories Act 48-hour caps, Maritime STCW rules).",
       "howItWorks": "Supervisors build rotational shift templates or allow auto-rostering based on fatigue constraints. Employees receive real-time schedule alerts on mobile, request shift swaps, and punch in via geofenced biometric methods.",
       "capabilities": [
@@ -289,12 +108,6 @@
         {
           "title": "Attendance Regularization Workflows",
           "desc": "Multi-tier approval workflows with GPS audit stamps for missed punches, on-duty approvals, and half-day regularizations."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Smart Shift Roster Auto-Balancing",
-          "desc": "Algorithms optimize roster allocation based on historical employee reliability scores and expected customer footfall."
         }
       ],
       "metrics": [
@@ -329,7 +142,7 @@
           "a": "Yes. Operational heads have live roster dashboards displaying who is checked in, who is on break, and who is absent with automated replacement suggestions."
         },
         {
-          "q": "How does Workforce360 handle night shift roll-over across midnight?",
+          "q": "How does SpotSign AI handle night shift roll-over across midnight?",
           "a": "The platform includes midnight-crossing shift logic, properly assigning attendance hours, night shift allowances, and statutory rest intervals to the correct operational shift date."
         }
       ]
@@ -341,8 +154,8 @@
       "badge": "MULTI-MODAL TIME CAPTURE",
       "title": "Biometric, Facial Check-in, and Geofenced Time Attendance",
       "subtitle": "Capture every punch with zero latency and complete fraud prevention using hardware biometric integrations, mobile facial recognition, and GPS boundary validation.",
-      "metaTitle": "Biometric Attendance & Geofenced Time Tracking | Workforce360",
-      "metaDescription": "Eliminate buddy punching with Workforce360's biometric hardware sync (eSSL, ZKTeco), mobile facial check-in with liveness detection, and GPS geofencing.",
+      "metaTitle": "Biometric Attendance & Geofenced Time Tracking | SpotSign AI",
+      "metaDescription": "Eliminate buddy punching with SpotSign AI's biometric hardware sync (eSSL, ZKTeco), mobile facial check-in with liveness detection, and GPS geofencing.",
       "whatItSolves": "Buddy punching, ghost worker attendance fraud, manual muster-roll reconciliation delays, and disconnected biometric hardware logs that stall payroll.",
       "howItWorks": "Hardware devices (eSSL, ZKTeco, Matrix, Realtime) stream punch events in real time to the cloud engine. Field workers check in via the mobile PWA with GPS boundary checks and camera liveness validation.",
       "capabilities": [
@@ -365,12 +178,6 @@
         {
           "title": "Grace Period & Late-Mark Policies",
           "desc": "Configurable grace periods (e.g., 15 minutes) with automated deduction rules after 3 consecutive late marks."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Geo-Anomaly Flagging",
-          "desc": "Detects impossible travel velocities between consecutive attendance punches to catch location-spoofing attempts."
         }
       ],
       "metrics": [
@@ -416,10 +223,10 @@
       "badge": "END-TO-END PAYROLL ENGINE",
       "title": "Payroll That Connects Time, Pay, Tax, and General Ledger",
       "subtitle": "Process multi-entity payroll in minutes with continuous data integration from attendance, overtime, expense reimbursements, piece-rate wages, and Indian statutory deduction rules.",
-      "metaTitle": "Enterprise Payroll Software India | Workforce360 Platform",
+      "metaTitle": "Enterprise Payroll Software India | SpotSign AI Platform",
       "metaDescription": "Run automated payroll connected to attendance, overtime, piece-rate wages, Indian statutory compliance (TDS, PF, ESIC, PT), and General Ledger accounting.",
       "whatItSolves": "Manual spreadsheet payroll formulas that trigger calculation errors, delayed disbursement dates, compliance penalty notices, and disconnected accounting reconciliations.",
-      "howItWorks": "At month-end, Workforce360 locks finalized attendance and overtime records, applies configured salary structures, executes statutory deductions (TDS, EPF, ESIC, PT), runs variance checks, and outputs bank disbursement files with automated payslips.",
+      "howItWorks": "At month-end, SpotSign AI locks finalized attendance and overtime records, applies configured salary structures, executes statutory deductions (TDS, EPF, ESIC, PT), runs variance checks, and outputs bank disbursement files with automated payslips.",
       "capabilities": [
         {
           "title": "Flexible Salary Structure Architect",
@@ -442,14 +249,8 @@
           "desc": "Automated settlement accounting factoring in notice period shortfalls, leave encashment, gratuity eligibility, and company asset recoveries."
         },
         {
-          "title": "Multi-Country Currency Architecture",
+          "title": "Multi-Country Currency Support",
           "desc": "Multi-currency engines supporting dual-currency tax accounting for multinational operations (India, UAE, US, UK)."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "AI Payroll Anomaly Sentinel",
-          "desc": "Autonomous audits scan the payroll ledger for ghost employees, duplicate PAN records, and unapproved compensation revisions."
         }
       ],
       "metrics": [
@@ -479,12 +280,12 @@
       ],
       "faqs": [
         {
-          "q": "Can Workforce360 process payroll for both salaried corporate staff and variable factory workers in the same run?",
+          "q": "Can SpotSign AI process payroll for both salaried corporate staff and variable factory workers in the same run?",
           "a": "Yes. Our dual-workforce engine allows processing salaried corporate employees alongside daily-rated and piece-rate industrial workers within unified or segregated batches."
         },
         {
           "q": "How does the system ensure bank file security?",
-          "a": "Bank files are generated in cryptographically hashed or bank-specific encrypted formats with strict dual-authorization controls before export."
+          "a": "Bank files are generated in secure, bank-specific encrypted formats with strict dual-authorization controls before export."
         }
       ]
     },
@@ -495,8 +296,8 @@
       "badge": "STATUTORY TAX ENGINE",
       "title": "Make Payroll and Statutory Compliance Effortless",
       "subtitle": "Built from the ground up for Indian statutory depth with support for TDS Section 192, EPF, ESIC, State-wise Professional Tax, Form 12BB, Form 16, and GST reconciliations.",
-      "metaTitle": "Statutory Compliance & Indian Payroll Tax Software | Workforce360",
-      "metaDescription": "Automate TDS deductions, EPF ECR challans, ESIC filing, Form 12BB proof verification, and Form 16 generation with Workforce360 statutory compliance.",
+      "metaTitle": "Statutory Compliance & Indian Payroll Tax Software | SpotSign AI",
+      "metaDescription": "Automate TDS deductions, EPF ECR challans, ESIC filing, Form 12BB proof verification, and Form 16 generation with SpotSign AI statutory compliance.",
       "whatItSolves": "Regulatory fines, missed filing deadlines, erroneous TDS withholding under dual tax regimes, and weeks spent verifying employee investment proofs manually.",
       "howItWorks": "Employees declare investments and choose Old or New tax regimes in the self-service portal. The compliance engine dynamically projects annualized tax, withholds exact monthly TDS, and generates ready-to-upload statutory challan files.",
       "capabilities": [
@@ -523,12 +324,6 @@
         {
           "title": "Labor Welfare Fund (LWF) Management",
           "desc": "Maintains state-specific employee and employer contribution rules with compliance reporting."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Automated Investment Proof OCR & Verification",
-          "desc": "Extracts landlord PAN, rent amounts, and insurance premium dates from uploaded PDF receipts, flagging discrepancies against declared values."
         }
       ],
       "metrics": [
@@ -570,24 +365,24 @@
       "id": "recruitment",
       "slug": "recruitment",
       "pillar": "people",
-      "badge": "AI-POWERED TALENT ACQUISITION",
-      "title": "Recruit Smarter with AI-Assisted Candidate Intelligence",
-      "subtitle": "Accelerate time-to-hire with modern Kanban candidate pipelines, automated job posting distribution, AI resume screening, candidate-fit scoring, and interview question synthesis.",
-      "metaTitle": "AI Recruitment Software & ATS Platform | Workforce360",
-      "metaDescription": "Screen resumes in seconds, score candidate competency fit, auto-generate interview rubrics, and manage hiring pipelines with Workforce360's AI ATS.",
+      "badge": "TALENT ACQUISITION",
+      "title": "Recruit Smarter with Assisted Candidate Screening",
+      "subtitle": "Accelerate time-to-hire with modern Kanban candidate pipelines, automated job posting distribution, resume screening, candidate-fit scoring, and interview question synthesis.",
+      "metaTitle": "Recruitment Software & ATS Platform | SpotSign AI",
+      "metaDescription": "Screen resumes in seconds, score candidate competency fit, auto-generate interview rubrics, and manage hiring pipelines with SpotSign AI's ATS.",
       "whatItSolves": "Recruiters sifting through hundreds of unqualified resumes, delayed interview scheduling, inconsistent evaluation rubrics across managers, and drop-offs during offer letter stages.",
-      "howItWorks": "Publish openings to internal career portals. As resumes arrive, Genkit AI parses skills and generates a fit scorecard against requisition criteria. Recruiters move candidates across Kanban stages, trigger interview invites, and issue offers that seamlessly transition into onboarding.",
+      "howItWorks": "Publish openings to internal career portals. As resumes arrive, automated screening parses skills and generates a fit scorecard against requisition criteria. Recruiters move candidates across Kanban stages, trigger interview invites, and issue offers that seamlessly transition into onboarding.",
       "capabilities": [
         {
           "title": "Kanban ATS Pipeline Management",
           "desc": "Drag-and-drop applicant tracking across Sourced, Screened, Interview, Offered, and Hired stages with custom stage gates."
         },
         {
-          "title": "Contextual AI Resume Scoring",
+          "title": "Contextual Resume Scoring",
           "desc": "Evaluates candidate CVs against role specifications, ranking applicants based on verified technical skills, tenure stability, and domain fit."
         },
         {
-          "title": "AI Job Description Generator",
+          "title": "Job Description Generator",
           "desc": "Generates compelling, inclusive job descriptions aligned with departmental benchmarks in seconds."
         },
         {
@@ -601,12 +396,6 @@
         {
           "title": "Digital Offer Letter & Pre-Onboarding Queue",
           "desc": "Generate offer letters with dynamic salary annexures and transition accepted candidates directly into pre-boarding."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Skill Differential Breakdown",
-          "desc": "Visual breakdown comparing required competencies versus candidate experience to guide hiring managers during final rounds."
         }
       ],
       "metrics": [
@@ -636,8 +425,8 @@
       ],
       "faqs": [
         {
-          "q": "Does the AI resume score eliminate candidates automatically without human review?",
-          "a": "No. The system acts as a decision-support copilot, ranking candidates and highlighting relevant skills so recruiters can prioritize high-signal candidates without biased automated rejections."
+          "q": "Does the resume score eliminate candidates automatically without human review?",
+          "a": "No. The system acts as a decision-support layer, ranking candidates and highlighting relevant skills so recruiters can prioritize high-signal candidates without biased automated rejections."
         },
         {
           "q": "Can interviewers submit candidate feedback on mobile?",
@@ -652,10 +441,10 @@
       "badge": "CONTINUOUS PERFORMANCE & TALENT",
       "title": "Turn Performance Data into Continuous Growth",
       "subtitle": "Connect KRAs, corporate OKRs, 360-degree feedback, 9-box talent calibration, and Performance Improvement Plans (PIPs) directly to compensation and succession planning.",
-      "metaTitle": "Performance Management & 9-Box Calibration Software | Workforce360",
-      "metaDescription": "Manage OKRs, 360 reviews, Bell Curve normalization, 9-box talent matrices, and PIP workflows with Workforce360 Performance & Talent.",
+      "metaTitle": "Performance Management & 9-Box Calibration Software | SpotSign AI",
+      "metaDescription": "Manage OKRs, 360 reviews, Bell Curve normalization, 9-box talent matrices, and PIP workflows with SpotSign AI Performance & Talent.",
       "whatItSolves": "Annual once-a-year review cycles that demotivate staff, subjective manager appraisals lacking objective metrics, and disconnected review scores that fail to inform compensation reviews or promotions.",
-      "howItWorks": "Set cascading OKRs at company, team, and individual levels. Conduct quarterly reviews, 1-on-1 check-ins, and 360\u00b0 peer feedback. HR leadership conducts talent calibration across 9-box grids to normalize ratings and plan succession.",
+      "howItWorks": "Set cascading OKRs at company, team, and individual levels. Conduct quarterly reviews, 1-on-1 check-ins, and 360° peer feedback. HR leadership conducts talent calibration across 9-box grids to normalize ratings and plan succession.",
       "capabilities": [
         {
           "title": "Cascading Goals & OKRs",
@@ -676,12 +465,6 @@
         {
           "title": "Structured Performance Improvement Plans (PIPs)",
           "desc": "Configurable PIP sub-modules with documented milestone reviews, timeline checklists, and objective clearance criteria."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Review Synthesis & Feedback Sentiment",
-          "desc": "Summarizes multiple peer evaluation notes into constructive, bias-free executive feedback summaries."
         }
       ],
       "metrics": [
@@ -726,9 +509,9 @@
       "pillar": "people",
       "badge": "ENTERPRISE LEARNING & SKILLS",
       "title": "Build the Capabilities Your Business Needs Next",
-      "subtitle": "Deliver mandatory compliance certifications, technical learning pathways, SCORM courses, and AI-generated training modules directly inside the employee workflow.",
-      "metaTitle": "Enterprise LMS & Employee Training Software | Workforce360",
-      "metaDescription": "Deliver SCORM learning paths, mandatory statutory compliance training, assessments, and AI-generated courses with Workforce360 LMS.",
+      "subtitle": "Deliver mandatory compliance certifications, technical learning pathways, SCORM courses, and pre-built training modules directly inside the employee workflow.",
+      "metaTitle": "Enterprise LMS & Employee Training Software | SpotSign AI",
+      "metaDescription": "Deliver SCORM learning paths, mandatory statutory compliance training, assessments, and pre-built courses with SpotSign AI LMS.",
       "whatItSolves": "Disjointed third-party LMS platforms that employees never log into, untracked mandatory statutory training (e.g., POSH, workplace safety), and lack of visibility into workforce skill readiness.",
       "howItWorks": "Assign learning paths automatically based on role, location, or department. Employees complete courses on desktop or mobile, take automated quizzes, and earn verifiable completion certificates that update their employee skill profile.",
       "capabilities": [
@@ -745,18 +528,12 @@
           "desc": "Question banks with randomized quizzes, passing score thresholds, and automated PDF certification issuance."
         },
         {
-          "title": "AI Course Curriculum & Quiz Generator",
-          "desc": "Input topic guidelines and allow Genkit AI to draft learning objectives, lesson summaries, and multiple-choice assessment questions."
+          "title": "Course Curriculum & Quiz Generator",
+          "desc": "Input topic guidelines and let the platform draft learning objectives, lesson summaries, and multiple-choice assessment questions."
         },
         {
           "title": "Skills Matrix & Credential Tracking",
           "desc": "Maintains an active employee skills repository directly connected to career pathing and organizational talent bench."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Contextual Learning Recommendations",
-          "desc": "Suggests training modules to employees based on identified skill gaps from their recent performance reviews."
         }
       ],
       "metrics": [
@@ -797,11 +574,11 @@
       "pillar": "people",
       "badge": "EMPLOYEE SELF-SERVICE & HELPDESK",
       "title": "Give Every Employee One Place to Get Work Done",
-      "subtitle": "Modern self-service portal, internal helpdesk with SLA tracking, company announcements, policy repositories, and peer recognition powered by a 24/7 AI HR Concierge.",
-      "metaTitle": "Employee Experience & HR Helpdesk Software | Workforce360",
-      "metaDescription": "Empower your workforce with self-service leave, payslip downloads, HR helpdesk ticketing, pulse surveys, and AI concierge support with Workforce360.",
+      "subtitle": "Modern self-service portal, internal helpdesk with SLA tracking, company announcements, policy repositories, and peer recognition powered by a 24/7 HR Helpdesk.",
+      "metaTitle": "Employee Experience & HR Helpdesk Software | SpotSign AI",
+      "metaDescription": "Empower your workforce with self-service leave, payslip downloads, HR helpdesk ticketing, pulse surveys, and HR helpdesk support with SpotSign AI.",
       "whatItSolves": "HR teams overwhelmed by routine employee inquiries regarding leave balances, payslip copies, and tax forms, leading to poor employee satisfaction.",
-      "howItWorks": "Employees access an intuitive web and PWA mobile portal. They view attendance, download payslips, submit tax proofs, raise helpdesk tickets with automated SLA routing, and receive instant policy answers from the AI Concierge.",
+      "howItWorks": "Employees access an intuitive web and PWA mobile portal. They view attendance, download payslips, submit tax proofs, raise helpdesk tickets with automated SLA routing, and receive instant policy answers from the HR Helpdesk.",
       "capabilities": [
         {
           "title": "Unified Self-Service Dashboard",
@@ -812,22 +589,16 @@
           "desc": "Route employee tickets to HR, IT, or Payroll with automated SLA tracking, priority queues, and resolution escalations."
         },
         {
-          "title": "24/7 Conversational AI HR Concierge",
+          "title": "24/7 Conversational HR Helpdesk",
           "desc": "Instant answers to employee policy questions, leave rules, and tax deductions without human HR intervention."
         },
         {
-          "title": "Pulse Surveys & Sentiment Telemetry",
-          "desc": "Deploy anonymous pulse surveys and monitor workforce sentiment trends across teams and departments."
+          "title": "Pulse Surveys & Engagement Trends",
+          "desc": "Deploy anonymous pulse surveys and track employee engagement trends across teams and departments."
         },
         {
           "title": "Company Announcements & Policy Vault",
           "desc": "Publish centralized corporate announcements, handbooks, and policy updates with mandatory read-acknowledgment."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Ticket Sentiment & Urgency Scoring",
-          "desc": "Prioritizes urgent employee grievances and routes sensitive tickets directly to designated HR leaders."
         }
       ],
       "metrics": [
@@ -857,7 +628,7 @@
       "faqs": [
         {
           "q": "Can employees access the portal on their smartphones without downloading an app store package?",
-          "a": "Yes. Workforce360 is built with modern Progressive Web App (PWA) architecture, allowing employees to add the app to their home screen with zero app store friction."
+          "a": "Yes. SpotSign AI is built as a Progressive Web App (PWA), allowing employees to add the app to their home screen with zero app store friction."
         }
       ]
     },
@@ -867,9 +638,9 @@
       "pillar": "operations",
       "badge": "IT & WORKFORCE HARDWARE GOVERNANCE",
       "title": "Connect People Operations with Technology Operations",
-      "subtitle": "Track corporate laptops, monitors, software licenses, and cloud accounts from the employee master record\u2014ensuring automated provisioning at onboarding and 100% asset recovery at exit.",
-      "metaTitle": "IT Asset & Software License Management | Workforce360",
-      "metaDescription": "Track company hardware, software licenses, access provisioning, and offboarding asset recovery directly from employee records with Workforce360.",
+      "subtitle": "Track corporate laptops, monitors, software licenses, and cloud accounts from the employee master record—ensuring automated provisioning at onboarding and 100% asset recovery at exit.",
+      "metaTitle": "IT Asset & Software License Management | SpotSign AI",
+      "metaDescription": "Track company hardware, software licenses, access provisioning, and offboarding asset recovery directly from employee records with SpotSign AI.",
       "whatItSolves": "Lost company laptops during employee departures, zombie software licenses continuing to bill month after month, and new hires waiting days for IT equipment.",
       "howItWorks": "Every hardware asset (serial number, model, warranty) and software subscription is mapped directly to the employee record. When onboarding, IT receives provisioning tickets; when offboarding, F&F settlement is locked until asset clearance is certified.",
       "capabilities": [
@@ -892,12 +663,6 @@
         {
           "title": "Digital Asset Handover Sign-off",
           "desc": "Employees digitally sign acknowledgment forms with camera verification when receiving high-value IT equipment."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Unused License Detection",
-          "desc": "Flags allocated software seats with zero employee activity for 60+ days to recommend subscription downgrades."
         }
       ],
       "metrics": [
@@ -938,10 +703,10 @@
       "badge": "WORKFORCE COST & GENERAL LEDGER",
       "title": "Connect Workforce Costs Directly to Financial General Ledger",
       "subtitle": "Bridge the gap between HR and Finance with real-time payroll journal entries, multi-cost-center allocation, AP invoice matching, and travel expense management.",
-      "metaTitle": "Workforce Finance & General Ledger Integration | Workforce360",
-      "metaDescription": "Sync payroll journal entries into General Ledger, allocate costs by department, and manage workforce expenses with Workforce360 Finance.",
+      "metaTitle": "Workforce Finance & General Ledger Integration | SpotSign AI",
+      "metaDescription": "Sync payroll journal entries into General Ledger, allocate costs by department, and manage workforce expenses with SpotSign AI Finance.",
       "whatItSolves": "Finance teams manually keying payroll summaries into ERP journals days after month-end, delayed expense reimbursements, and lack of real-time visibility into workforce run-rates.",
-      "howItWorks": "Once payroll is finalized, Workforce360 generates balanced double-entry accounting journals mapped to your corporate chart of accounts, exporting to SAP, Oracle, Tally, or NetSuite via APIs or direct ledger integration.",
+      "howItWorks": "Once payroll is finalized, SpotSign AI generates balanced double-entry accounting journals mapped to your corporate chart of accounts, exporting to SAP, Oracle, Tally, or NetSuite via APIs or direct ledger integration.",
       "capabilities": [
         {
           "title": "Automated Payroll Journal Entry Generation",
@@ -962,12 +727,6 @@
         {
           "title": "Real-Time Headcount Budget vs Actual Run-Rate",
           "desc": "Continuous comparison of budgeted salary allocations against actual gross disbursements to prevent department budget overruns."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Variance & Leakage Prediction",
-          "desc": "Forecasts month-end workforce expenditure deviations before payroll run based on mid-month overtime trends."
         }
       ],
       "metrics": [
@@ -1008,8 +767,8 @@
       "badge": "SPEND & TRAVEL REIMBURSEMENT",
       "title": "Expense Management and Travel Reimbursement with Zero Friction",
       "subtitle": "Eliminate paper receipts with mobile receipt capture, automated travel per diem calculations, multi-level manager approvals, and direct reimbursement through payroll.",
-      "metaTitle": "Employee Expense & Travel Management Software | Workforce360",
-      "metaDescription": "Manage expense claims, travel per diems, receipt approvals, and seamless payroll reimbursements with Workforce360 Expenses.",
+      "metaTitle": "Employee Expense & Travel Management Software | SpotSign AI",
+      "metaDescription": "Manage expense claims, travel per diems, receipt approvals, and seamless payroll reimbursements with SpotSign AI Expenses.",
       "whatItSolves": "Lost physical receipts, delayed reimbursements causing employee frustration, out-of-policy travel expenditures, and manual finance verification bottlenecks.",
       "howItWorks": "Employees snap receipt photos on mobile. The system parses amounts and categorizes claims according to company travel policy. Once approved by managers, reimbursements disburse directly in the next payroll cycle or via separate bank files.",
       "capabilities": [
@@ -1022,7 +781,7 @@
           "desc": "Enforces city-tier per diem limits (Tier 1 vs Tier 2 cities) with automated calculation based on travel itinerary dates."
         },
         {
-          "title": "Multi-Tier Approval Workflows",
+          "title": "Multi-Level Approval Workflows",
           "desc": "Route claims based on department, project code, or spend amount thresholds with instant push notifications."
         },
         {
@@ -1032,12 +791,6 @@
         {
           "title": "Policy Violation Auto-Flagging",
           "desc": "Flags claims that exceed meal caps, weekend expenses without business justification, and duplicate receipt uploads."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Receipt Fraud & Duplicate Detection",
-          "desc": "Identifies duplicate claims submitted across different employees or multiple expense reports using image matching."
         }
       ],
       "metrics": [
@@ -1078,8 +831,8 @@
       "badge": "ONBOARDING TO FULL & FINAL",
       "title": "Every Employee Moment, Connected from Day One to Departure",
       "subtitle": "Automate pre-boarding paperwork, structured 30-60-90 day orientation checklists, internal transfers, resignations, multi-department clearances, and full-and-final settlements.",
-      "metaTitle": "Employee Lifecycle & Onboarding Management | Workforce360",
-      "metaDescription": "Streamline pre-boarding, orientation, internal mobility, resignation clearance, and Full & Final settlements with Workforce360 Lifecycle.",
+      "metaTitle": "Employee Lifecycle & Onboarding Management | SpotSign AI",
+      "metaDescription": "Streamline pre-boarding, orientation, internal mobility, resignation clearance, and Full & Final settlements with SpotSign AI Lifecycle.",
       "whatItSolves": "Disjointed onboarding experiences where new hires fill out repetitive paperwork on day one, and stressful resignation clearances where assets go unrecovered and final settlements drag on for months.",
       "howItWorks": "Candidates upload documents before their start date in pre-boarding. On day one, accounts and orientation tasks are ready. At resignation, an automated multi-department clearance workflow (IT, Finance, Admin, Manager) ensures complete sign-off before instant F&F calculation.",
       "capabilities": [
@@ -1106,12 +859,6 @@
         {
           "title": "Alumni Network & Rehire Continuity",
           "desc": "Maintain former employee contact vaults and enable one-click profile reactivation when boomerang employees rejoin."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Exit Interview Sentiment Synthesis",
-          "desc": "Analyzes confidential exit survey narratives to surface underlying departmental attrition trends and management patterns."
         }
       ],
       "metrics": [
@@ -1141,7 +888,7 @@
       ],
       "faqs": [
         {
-          "q": "How does Workforce360 calculate gratuity during Full & Final settlement?",
+          "q": "How does SpotSign AI calculate gratuity during Full & Final settlement?",
           "a": "The system verifies whether the employee has achieved 5 continuous years of tenure (or applicable industry thresholds) and computes statutory gratuity using standard formulas based on last drawn basic pay."
         }
       ]
@@ -1149,12 +896,12 @@
     "analytics": {
       "id": "analytics",
       "slug": "analytics",
-      "pillar": "intelligence",
-      "badge": "ENTERPRISE WORKFORCE TELEMETRY",
+      "pillar": "insights",
+      "badge": "ENTERPRISE WORKFORCE REPORTING",
       "title": "Turn Workforce Data into Strategic Executive Clarity",
-      "subtitle": "Unified executive dashboards combining headcount, turnover velocity, payroll run-rates, overtime spikes, roster adherence, and natural-language query reporting.",
-      "metaTitle": "Workforce Analytics & People Telemetry Platform | Workforce360",
-      "metaDescription": "Gain real-time executive visibility into headcount, turnover, compensation run-rates, and operational productivity with Workforce360 Analytics.",
+      "subtitle": "Unified executive dashboards combining headcount, turnover velocity, payroll run-rates, overtime spikes, roster adherence, and self-service report filtering.",
+      "metaTitle": "Workforce Analytics & People Insights Platform | SpotSign AI",
+      "metaDescription": "Gain real-time executive visibility into headcount, turnover, compensation run-rates, and operational productivity with SpotSign AI Analytics.",
       "whatItSolves": "Executives making critical talent and operational decisions based on stale, month-old HR spreadsheets that fail to correlate headcount costs with operational performance.",
       "howItWorks": "Our continuous data pipeline aggregates data across HRIS, Attendance, Payroll, ATS, and Finance into executive dashboards with deep drill-down capabilities by department, geography, and cost center.",
       "capabilities": [
@@ -1167,7 +914,7 @@
           "desc": "Isolate the exact departments and factories driving overtime expenditure spikes with root-cause drill-downs."
         },
         {
-          "title": "Talent Diversity & Gender Inclusion Telemetry",
+          "title": "Talent Diversity & Gender Inclusion Analytics",
           "desc": "Monitor workforce demographics, promotion velocity, and pay parity across organizational tiers."
         },
         {
@@ -1177,12 +924,6 @@
         {
           "title": "Custom Report Builder & Scheduled Email Dispatch",
           "desc": "Build bespoke multi-table reports and schedule automated executive exports in Excel, CSV, or PDF formats."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Natural Language Executive Queries",
-          "desc": "Type questions like 'Compare tech department turnover in Q2 vs Q3' and receive instant data tables and visualizations."
         }
       ],
       "metrics": [
@@ -1213,7 +954,7 @@
       "faqs": [
         {
           "q": "Can regional managers be restricted to seeing only their team's analytics?",
-          "a": "Yes. Analytics dashboards inherit strict role-based access entitlements\u2014regional supervisors only see data for their branch, while C-suite leaders see the full enterprise picture."
+          "a": "Yes. Analytics dashboards inherit strict role-based access entitlements—regional supervisors only see data for their branch, while C-suite leaders see the full enterprise picture."
         }
       ]
     },
@@ -1221,13 +962,13 @@
       "id": "integrations",
       "slug": "integrations",
       "pillar": "operations",
-      "badge": "OPEN WORKFORCE DATA LAYER",
+      "badge": "OPEN WORKFORCE INTEGRATION",
       "title": "Connect Seamlessly with Your Existing Enterprise Stack",
-      "subtitle": "Workforce360 integrates with biometric time hardware, enterprise identity providers, commercial banks, ERP general ledgers, and developer REST APIs.",
-      "metaTitle": "Enterprise Integrations & Biometric Hardware Sync | Workforce360",
-      "metaDescription": "Connect biometric hardware (eSSL, ZKTeco), Google/Microsoft OAuth, major banks, ERP ledgers, and webhooks with Workforce360's open data platform.",
+      "subtitle": "SpotSign AI integrates with biometric time hardware, enterprise identity providers, commercial banks, ERP general ledgers, and developer REST APIs.",
+      "metaTitle": "Enterprise Integrations & Biometric Hardware Sync | SpotSign AI",
+      "metaDescription": "Connect biometric hardware (eSSL, ZKTeco), Google/Microsoft OAuth, major banks, ERP ledgers, and webhooks with SpotSign AI's open data platform.",
       "whatItSolves": "Data silos where employee records must be re-entered in separate systems for door access, identity provisioning, payroll disbursement, and financial accounting.",
-      "howItWorks": "Our secure integration architecture provides plug-and-play connectors for hardware terminals, standard SCIM identity provisioning, bank disbursement protocols, and open REST APIs with webhook triggers.",
+      "howItWorks": "Our secure integration layer provides plug-and-play connectors for hardware terminals, standard SCIM identity provisioning, bank disbursement protocols, and open REST APIs with webhook triggers.",
       "capabilities": [
         {
           "title": "Biometric Hardware Gateways",
@@ -1248,12 +989,6 @@
         {
           "title": "Comprehensive REST APIs & Webhooks",
           "desc": "Developer-friendly APIs allowing custom integrations with internal systems, learning platforms, and field devices."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "Data Harmonization & Mapping Copilot",
-          "desc": "Intelligently suggests field mappings when importing historical employee data from legacy spreadsheets or legacy HRMS."
         }
       ],
       "metrics": [
@@ -1294,8 +1029,8 @@
       "badge": "GPS ROUTES & MILESTONE TRACKING",
       "title": "Field Workforce Operations, GPS Geofencing, and Route Tracking",
       "subtitle": "Empower roaming field sales, installation technicians, and service engineers with battery-efficient location tracking, geofenced customer check-ins, and milestone-based payouts.",
-      "metaTitle": "Field Workforce Management Software & GPS Route Tracking | Workforce360",
-      "metaDescription": "Track mobile field technicians, verify GPS geofenced customer check-ins, and automate travel reimbursements with Workforce360 Field Operations.",
+      "metaTitle": "Field Workforce Management Software & GPS Route Tracking | SpotSign AI",
+      "metaDescription": "Track mobile field technicians, verify GPS geofenced customer check-ins, and automate travel reimbursements with SpotSign AI Field Operations.",
       "whatItSolves": "Lack of visibility into roaming field staff, unverified customer visit claims, manual mileage calculation disputes, and delayed job ticket completion reporting.",
       "howItWorks": "Field personnel check in via the mobile PWA inside designated client GPS radiuses. The system records location breadcrumbs efficiently, tracks travel distances for automated reimbursement, and credits per-visit completion milestones directly into payroll.",
       "capabilities": [
@@ -1320,12 +1055,6 @@
           "desc": "Credits variable piece-rate completion bonuses directly into monthly wage registers upon supervisor sign-off."
         }
       ],
-      "aiCapabilities": [
-        {
-          "title": "Route Anomaly & Speed Velocity Sentinel",
-          "desc": "Flags impossible travel speeds and location-spoofing attempts to protect field operational integrity."
-        }
-      ],
       "metrics": [
         {
           "label": "Visit Verification Accuracy",
@@ -1348,13 +1077,13 @@
       "industries": [
         "field-workforce",
         "logistics-freight",
-        "telecom",
+        "information-technology",
         "retail-ecommerce"
       ],
       "faqs": [
         {
           "q": "Does background GPS tracking drain the employee phone battery?",
-          "a": "No. Our PWA uses intelligent, event-based geofence triggers and significant-motion APIs rather than continuous high-drain satellite polling, consuming less than 4% battery per work shift."
+          "a": "No. Our PWA uses event-based geofence triggers and significant-motion APIs rather than continuous high-drain satellite polling, consuming less than 4% battery per work shift."
         },
         {
           "q": "Can managers assign emergency visits on the fly?",
@@ -1369,10 +1098,10 @@
       "badge": "STRATEGIC TALENT & SUCCESSION",
       "title": "Talent Management, Competency Frameworks, and Succession Planning",
       "subtitle": "Map organizational capability benchmarks, build 9-box succession pipelines, and align internal talent mobility with future strategic workforce demand.",
-      "metaTitle": "Enterprise Talent Management & Succession Planning Software | Workforce360",
-      "metaDescription": "Calibrate bench strength, map employee competency matrices, and plan leadership succession with Workforce360 Talent Management.",
+      "metaTitle": "Enterprise Talent Management & Succession Planning Software | SpotSign AI",
+      "metaDescription": "Calibrate bench strength, map employee competency matrices, and plan leadership succession with SpotSign AI Talent Management.",
       "whatItSolves": "Critical leadership vacancies with zero qualified internal successors, unmeasured organizational skill deficits, and talented employees departing due to lack of transparent career paths.",
-      "howItWorks": "Workforce360 maintains continuous competency graphs across all employees. Leadership visualizes organizational depth across 9-box matrices, identifies flight-risk critical talent, and stages succession readiness pipelines.",
+      "howItWorks": "SpotSign AI maintains continuous competency graphs across all employees. Leadership visualizes organizational depth across 9-box matrices, identifies flight-risk critical talent, and stages succession readiness pipelines.",
       "capabilities": [
         {
           "title": "9-Box Talent Calibration Matrix",
@@ -1392,13 +1121,7 @@
         },
         {
           "title": "Flight-Risk Succession Safeguards",
-          "desc": "Alerts leadership when high-potential candidates in single-point-of-failure roles show early attrition telemetry."
-        }
-      ],
-      "aiCapabilities": [
-        {
-          "title": "AI Bench Strength & Readiness Scoring",
-          "desc": "Synthesizes past performance milestones, learning certifications, and peer reviews to recommend candidates for promotion pipelines."
+          "desc": "Alerts leadership when high-potential candidates in single-point-of-failure roles show early attrition signals."
         }
       ],
       "metrics": [
@@ -1428,12 +1151,12 @@
       ],
       "faqs": [
         {
-          "q": "How does succession planning connect with the Workforce Digital Twin?",
-          "a": "The Digital Twin simulation engine directly imports talent succession graphs, calculating whether proposed departmental restructures will eliminate critical leadership successors."
+          "q": "How does succession planning connect with Workforce Planning?",
+          "a": "The Workforce Planning simulation engine directly imports talent succession graphs, calculating whether proposed departmental restructures will eliminate critical leadership successors."
         },
         {
           "q": "Can managers maintain private succession notes?",
-          "a": "Yes. Strict RBAC controls ensure succession nominations and calibration notes remain confidential to authorized C-suite and HR leaders."
+          "a": "Yes. Strict role-based access controls ensure succession nominations and calibration notes remain confidential to authorized C-suite and HR leaders."
         }
       ]
     }

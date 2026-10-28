@@ -5,22 +5,22 @@ import { Newspaper, ArrowRight, Clock, User } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Workforce Architecture Articles & Industry Insights | Workforce360",
+  title: "Workforce Operations Articles & Industry Insights | SpotSign AI",
   description:
-    "Insights on workforce operating system design, shift management, Indian statutory payroll, piece-rate operations, and AI intelligence.",
+    "Insights on workforce operating system design, shift management, Indian statutory payroll, piece-rate operations, and workforce analytics.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/resources/articles",
+    canonical: "https://spotsign.ai/resources/articles",
   },
 };
 
 export default function ArticlesPage() {
   const articles = [
     {
-      category: "ARCHITECTURE",
+      category: "OPERATIONS",
       title: "Why Traditional HRMS Platforms Fail Operational Workforces",
       desc: "An exploration of why recording employee profiles is fundamentally different from orchestrating rotating shifts, biometric timeclocks, and piece-rate tallies on the plant floor.",
       readTime: "6 Min Read",
-      author: "Platform Architecture Team",
+      author: "Platform Team",
     },
     {
       category: "COMPLIANCE",
@@ -30,11 +30,11 @@ export default function ArticlesPage() {
       author: "Payroll Compliance Desk",
     },
     {
-      category: "AI & SIMULATION",
-      title: "How Chief People Officers Use Digital Twins for Restructuring",
+      category: "PLANNING & SIMULATION",
+      title: "How Chief People Officers Use Workforce Planning for Restructuring",
       desc: "A walkthrough of modeling organizational consolidation, severance reserves, and flight risks non-destructively before presenting to the board.",
       readTime: "5 Min Read",
-      author: "Workforce Intelligence Lab",
+      author: "Workforce Analytics Lab",
     },
     {
       category: "FRONTLINE WFM",
@@ -62,10 +62,10 @@ export default function ArticlesPage() {
               <span>PRACTITIONER INSIGHTS</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              Workforce Architecture Articles & Insights.
+              Workforce Operations Articles & Insights.
             </h1>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Perspectives, operational teardowns, and engineering analysis from the team building the AI-Native Workforce Operating System.
+              Perspectives, operational teardowns, and practical analysis from the team building the Enterprise Workforce Operating System.
             </p>
           </div>
         </div>

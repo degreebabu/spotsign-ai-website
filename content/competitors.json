@@ -5,39 +5,71 @@
       "slug": "workday",
       "legacySlug": "CompetitorWorkday",
       "badge": "ENTERPRISE HCM BENCHMARK",
-      "title": "Workforce360 vs Workday",
-      "headline": "Workforce360 vs Workday: The AI-Native Workforce Operating System",
-      "subtitle": "Workday was built 20 years ago as an ERP-adjacent financial and HR database. Workforce360 is built from day one as an AI-native Operating System that unifies desk, floor, shifts, statutory payroll, and non-destructive Digital Twin simulation.",
-      "summary": "While Workday excels at corporate financial consolidation and heavy white-collar HR administration, enterprises struggle with its massive multi-million dollar implementation cycles, lack of native shift/piece-rate floor support, rigid reporting, and bolted-on AI. Workforce360 delivers an agile, AI-native operating layer connecting People, Work, Money, Ops, and Intelligence out of the box.",
-      "metaTitle": "Workforce360 vs Workday | Enterprise Architecture & Capability Comparison",
-      "metaDescription": "Detailed architectural comparison between Workforce360 and Workday across AI workflows, frontline shift operations, Indian statutory payroll, implementation speed, and Digital Twin scenario modeling.",
+      "title": "SpotSign AI vs Workday",
+      "headline": "SpotSign AI vs Workday: The Enterprise Workforce Operating System",
+      "subtitle": "Workday was built 20 years ago as an ERP-adjacent financial and HR system. SpotSign AI is built from day one as an enterprise operating system that unifies desk, floor, shifts, statutory payroll, and non-destructive Workforce Planning simulation.",
+      "summary": "While Workday excels at corporate financial consolidation and heavy white-collar HR administration, enterprises struggle with its massive multi-million dollar implementation cycles, lack of native shift/piece-rate floor support, rigid reporting, and bolt-on add-ons. SpotSign AI delivers an agile enterprise platform connecting People, Work, Money, Operations, and Insights out of the box.",
+      "metaTitle": "SpotSign AI vs Workday | Enterprise Capability Comparison",
+      "metaDescription": "Compare SpotSign AI and Workday across workflow automation, frontline shift operations, Indian statutory payroll, implementation speed, and workforce planning.",
       "keyDifferences": [
         {
-          "title": "AI-Native Architecture vs Bolted-On Chatbots",
-          "desc": "Workday attempts to retrofit LLM add-ons onto a 2005 proprietary architecture. Workforce360 runs 40 dedicated Genkit AI flows natively inside daily attendance, ATS screening, attrition modeling, and payroll auditing."
+          "title": "Unified Platform vs Bolt-On Add-Ons",
+          "desc": "Workday relies on add-on tools and custom extensions built on a legacy platform. SpotSign AI runs workflow automation natively inside daily attendance, ATS screening, attrition risk reporting, and payroll auditing."
         },
         {
           "title": "Dual Workforce Support (Desk + Floor & Shifts)",
-          "desc": "Workday requires expensive third-party bolt-ons for biometric factory timeclocks, maritime STCW logs, and piece-rate tallies. Workforce360 natively supports corporate monthly staff alongside 3-shift plant workers and field staff."
+          "desc": "Workday requires expensive third-party bolt-ons for biometric factory timeclocks, maritime STCW logs, and piece-rate tallies. SpotSign AI natively supports corporate monthly staff alongside 3-shift plant workers and field staff."
         },
         {
-          "title": "Workforce Digital Twin vs Static Headcount Reports",
-          "desc": "Workday reports historical headcount and budget snapshots. Workforce360's Workforce Digital Twin allows C-suite executives to simulate restructurings, severance liability reserves, and P&L impacts before committing."
+          "title": "Workforce Planning vs Static Headcount Reports",
+          "desc": "Workday reports historical headcount and budget snapshots. SpotSign AI's Workforce Planning allows C-suite executives to simulate restructurings, severance liability reserves, and P&L impacts before committing."
         },
         {
           "title": "Implementation Velocity & TCO",
-          "desc": "Workday deployments average 12–18 months with systems integrators charging 3–5x software fees. Workforce360 deploys in 4–8 weeks with 19 pre-built industry vertical packs."
+          "desc": "Workday deployments average 12–18 months with systems integrators charging 3–5x software fees. SpotSign AI deploys in 4–8 weeks with 19 pre-built industry vertical packs."
         }
       ],
       "matrix": [
-        { "capability": "Workforce Operating System (People+Work+Money+Ops+Intelligence)", "w360": "Unified single layer", "competitor": "Fragmented modules + partner marketplace" },
-        { "capability": "Workforce Digital Twin Scenario Simulator", "w360": "Native non-destructive simulation sandbox", "competitor": "Requires Prism Analytics / external modeling" },
-        { "capability": "Frontline Shift, Biometric & Geofenced Time Tracking", "w360": "Built-in (eSSL, ZKTeco, GPS muster)", "competitor": "Requires Workday Time Tracking bolt-on or third-party" },
-        { "capability": "Deep Indian Statutory Payroll (PF, ESIC, PT, TDS, Form 16)", "w360": "Native automated dual-regime engine", "competitor": "Requires third-party Indian payroll aggregator" },
-        { "capability": "Embedded AI Workflows", "w360": "40 specialized Genkit production flows", "competitor": "Generic generative AI assistant add-ons" },
-        { "capability": "Industry-Specific Vertical Packs", "w360": "19 pre-configured industry models", "competitor": "Generic templates requiring custom SI build" },
-        { "capability": "Average Deployment Timeline", "w360": "4 to 8 Weeks", "competitor": "12 to 18 Months" },
-        { "capability": "IT Hardware & Software Asset Governance", "w360": "Native serial audit & offboarding lock", "competitor": "Requires external ITSM/MDM integration" }
+        {
+          "capability": "Workforce Operating System (People+Work+Money+Ops+Insights)",
+          "w360": "Unified single platform",
+          "competitor": "Fragmented modules + partner marketplace"
+        },
+        {
+          "capability": "Workforce Planning Scenario Simulator",
+          "w360": "Native non-destructive simulation sandbox",
+          "competitor": "Requires Prism Analytics / external modeling"
+        },
+        {
+          "capability": "Frontline Shift, Biometric & Geofenced Time Tracking",
+          "w360": "Built-in (eSSL, ZKTeco, GPS muster)",
+          "competitor": "Requires Workday Time Tracking bolt-on or third-party"
+        },
+        {
+          "capability": "Deep Indian Statutory Payroll (PF, ESIC, PT, TDS, Form 16)",
+          "w360": "Native automated dual-regime engine",
+          "competitor": "Requires third-party Indian payroll aggregator"
+        },
+        {
+          "capability": "Embedded Workflow Automation",
+          "w360": "Native embedded workflows",
+          "competitor": "Generic HR self-service add-ons"
+        },
+        {
+          "capability": "Industry-Specific Vertical Packs",
+          "w360": "19 pre-configured industry models",
+          "competitor": "Generic templates requiring custom SI build"
+        },
+        {
+          "capability": "Average Deployment Timeline",
+          "w360": "4 to 8 Weeks",
+          "competitor": "12 to 18 Months"
+        },
+        {
+          "capability": "IT Hardware & Software Asset Governance",
+          "w360": "Native serial audit & offboarding lock",
+          "competitor": "Requires external ITSM/MDM integration"
+        }
       ],
       "migrationBenefits": [
         "Eliminate 70% of integration maintenance costs across disjointed timeclock and payroll vendors.",
@@ -50,36 +82,56 @@
       "slug": "sap",
       "legacySlug": "CompetitorSAP",
       "badge": "ENTERPRISE ERP HCM BENCHMARK",
-      "title": "Workforce360 vs SAP SuccessFactors",
-      "headline": "Workforce360 vs SAP SuccessFactors: Operating System vs Legacy ERP",
-      "subtitle": "SAP SuccessFactors was assembled via acquisitions and remains tied to complex ABAP/NetWeaver ERP backends. Workforce360 offers a modern, high-velocity cloud Workforce Operating System built for agility and intelligence.",
-      "summary": "Organizations choosing between Workforce360 and SAP SuccessFactors find that SAP requires extensive ABAP consulting, heavy middleware integration, and multi-year implementation cycles. Workforce360 delivers native AI intelligence, modern UX, and real-time operational synchronization at a fraction of the total cost.",
-      "metaTitle": "Workforce360 vs SAP SuccessFactors | Architectural Comparison",
-      "metaDescription": "Compare Workforce360 against SAP SuccessFactors across user experience, AI capabilities, dual frontline workforce support, Indian statutory payroll, and TCO.",
+      "title": "SpotSign AI vs SAP SuccessFactors",
+      "headline": "SpotSign AI vs SAP SuccessFactors: Operating System vs Legacy ERP",
+      "subtitle": "SAP SuccessFactors was assembled via acquisitions and remains tied to complex ABAP/NetWeaver ERP backends. SpotSign AI offers a modern, high-velocity cloud Workforce Operating System built for agility and operational insight.",
+      "summary": "Organizations choosing between SpotSign AI and SAP SuccessFactors find that SAP requires extensive ABAP consulting, heavy middleware integration, and multi-year implementation cycles. SpotSign AI delivers native workforce analytics, modern UX, and real-time operational synchronization at a fraction of the total cost.",
+      "metaTitle": "SpotSign AI vs SAP SuccessFactors | Capability Comparison",
+      "metaDescription": "Compare SpotSign AI against SAP SuccessFactors across user experience, capabilities, dual frontline workforce support, Indian statutory payroll, and TCO.",
       "keyDifferences": [
         {
-          "title": "Modern Microservices vs Legacy Acquired Architecture",
-          "desc": "SuccessFactors consists of disparate acquired platforms (Plateau LMS, Jobs2Web, Infohrm) stitched together. Workforce360 is built from scratch as a unified, cohesive cloud stack."
+          "title": "Unified Cloud Platform vs Legacy Acquired Products",
+          "desc": "SuccessFactors includes acquired products (Plateau LMS, Jobs2Web, Infohrm) joined together. SpotSign AI is built from scratch as a unified, cohesive cloud platform."
         },
         {
           "title": "Consumer-Grade SaaS UX vs Administrative Complexity",
-          "desc": "Employees and shift supervisors embrace Workforce360's intuitive interface on mobile and desktop without extensive training seminars."
+          "desc": "Employees and shift supervisors embrace SpotSign AI's intuitive interface on mobile and desktop without extensive training seminars."
         },
         {
           "title": "Native Indian Payroll Sentinel",
           "desc": "Complete Indian statutory rules (TDS, PF, ESIC, State PT, Form 16) calculated natively with direct GL balanced journal posting into any ERP including SAP S/4HANA."
         },
         {
-          "title": "40 Genkit AI Workflows vs Static Rules",
-          "desc": "Dynamic attrition prediction, automated resume screening, and demand forecasting built into daily manager workflows."
+          "title": "Workflow Automation vs Static Rules",
+          "desc": "Dynamic attrition risk reporting, automated resume screening, and demand forecasting built into daily manager workflows."
         }
       ],
       "matrix": [
-        { "capability": "Architecture & Data Model", "w360": "Unified cloud operating layer", "competitor": "Multi-database acquired module stack" },
-        { "capability": "Digital Twin Scenario Simulation", "w360": "Built-in interactive sandbox", "competitor": "Requires SAP Analytics Cloud custom model" },
-        { "capability": "Frontline & Biometric Integration", "w360": "Native sync with physical terminals", "competitor": "Requires SAP Time Management / Kronos" },
-        { "capability": "Deployment Speed", "w360": "4 to 6 Weeks", "competitor": "9 to 15 Months" },
-        { "capability": "Indian Statutory Tax & Filing", "w360": "Native 1-click ECR & Form 16", "competitor": "Complex localization configuration" }
+        {
+          "capability": "Automation & Reporting",
+          "w360": "Unified cloud platform",
+          "competitor": "Disconnected acquired products"
+        },
+        {
+          "capability": "Workforce Planning Scenario Simulation",
+          "w360": "Built-in interactive sandbox",
+          "competitor": "Requires SAP Analytics Cloud custom model"
+        },
+        {
+          "capability": "Frontline & Biometric Integration",
+          "w360": "Native sync with physical terminals",
+          "competitor": "Requires SAP Time Management / Kronos"
+        },
+        {
+          "capability": "Deployment Speed",
+          "w360": "4 to 6 Weeks",
+          "competitor": "9 to 15 Months"
+        },
+        {
+          "capability": "Indian Statutory Tax & Filing",
+          "w360": "Native 1-click ECR & Form 16",
+          "competitor": "Complex localization configuration"
+        }
       ],
       "migrationBenefits": [
         "Can operate standalone or synchronize two-way journals directly into existing SAP S/4HANA systems.",
@@ -91,32 +143,48 @@
       "name": "Oracle HCM",
       "slug": "oracle",
       "legacySlug": "CompetitorOracle",
-      "badge": "DATABASE ERP COMPARISON",
-      "title": "Workforce360 vs Oracle Fusion HCM",
-      "headline": "Workforce360 vs Oracle HCM Cloud: Agility and Operational Intelligence",
-      "subtitle": "Oracle Cloud HCM delivers massive database power for global enterprises but struggles with frontline operational flexibility, high configuration overhead, and cumbersome mobile experiences.",
-      "summary": "Workforce360 replaces Oracle HCM's heavyweight administration with a fast, intelligent workforce operating layer designed for both corporate leadership and floor operators.",
-      "metaTitle": "Workforce360 vs Oracle HCM Cloud | Capability & Agility Benchmark",
-      "metaDescription": "Architectural benchmark comparing Workforce360 with Oracle Cloud HCM on usability, AI recruitment, frontline scheduling, and implementation complexity.",
+      "badge": "ERP HCM COMPARISON",
+      "title": "SpotSign AI vs Oracle Fusion HCM",
+      "headline": "SpotSign AI vs Oracle HCM Cloud: Agility and Operational Insight",
+      "subtitle": "Oracle Cloud HCM delivers extensive enterprise capability for global organizations but struggles with frontline operational flexibility, high configuration overhead, and cumbersome mobile experiences.",
+      "summary": "SpotSign AI replaces Oracle HCM's heavyweight administration with a fast, unified workforce platform designed for both corporate leadership and floor operators.",
+      "metaTitle": "SpotSign AI vs Oracle HCM Cloud | Capability & Agility Benchmark",
+      "metaDescription": "Capability benchmark comparing SpotSign AI with Oracle Cloud HCM on usability, recruitment, frontline scheduling, and implementation complexity.",
       "keyDifferences": [
         {
           "title": "Operational Simplicity vs Administrative Overhead",
-          "desc": "Oracle HCM requires dedicated administrators to manage Fast Formulas and security profiles. Workforce360 provides intuitive 19-tier RBAC and straightforward policy rules."
+          "desc": "Oracle HCM requires dedicated administrators to manage Fast Formulas and security profiles. SpotSign AI provides intuitive role-based permissions and straightforward policy rules."
         },
         {
           "title": "True Frontline Operational Support",
           "desc": "Native support for rotating shifts, geofenced beats, piece-rate wages, and maritime rest-hour compliance without expensive custom scripting."
         },
         {
-          "title": "Workforce Digital Twin Sandbox",
+          "title": "Workforce Planning Sandbox",
           "desc": "Model future organizational structures, talent gaps, and financial impacts in a visual sandbox before executing real-world changes."
         }
       ],
       "matrix": [
-        { "capability": "Platform Complexity", "w360": "Low admin overhead, self-service config", "competitor": "Requires specialized certified consultants" },
-        { "capability": "AI Workflows", "w360": "40 specialized Genkit production flows", "competitor": "Oracle AI add-ons requiring OCI infrastructure" },
-        { "capability": "Shift & Floor Attendance", "w360": "Native biometric & geofence terminals", "competitor": "Requires Oracle Time & Labor add-on" },
-        { "capability": "Time to First Value", "w360": "30 Days", "competitor": "180+ Days" }
+        {
+          "capability": "Platform Complexity",
+          "w360": "Low admin overhead, self-service config",
+          "competitor": "Requires specialized certified consultants"
+        },
+        {
+          "capability": "Workflow Automation",
+          "w360": "Native embedded workflows",
+          "competitor": "Oracle add-ons requiring extra infrastructure"
+        },
+        {
+          "capability": "Shift & Floor Attendance",
+          "w360": "Native biometric & geofence terminals",
+          "competitor": "Requires Oracle Time & Labor add-on"
+        },
+        {
+          "capability": "Time to First Value",
+          "w360": "30 Days",
+          "competitor": "180+ Days"
+        }
       ],
       "migrationBenefits": [
         "Free HR teams from maintaining Oracle Fast Formulas and custom reporting scripts.",
@@ -129,37 +197,57 @@
       "slug": "rippling",
       "legacySlug": "CompetitorRippling",
       "badge": "MODERN SAAS BENCHMARK",
-      "title": "Workforce360 vs Rippling",
-      "headline": "Workforce360 vs Rippling: Built for Complex Global & Operational Workforces",
-      "subtitle": "Rippling revolutionized modern IT + HR for US tech companies. Workforce360 extends that unified vision into physical industries, 3-shift factory floors, deep Indian statutory payroll, and strategic Digital Twin simulation.",
-      "summary": "While Rippling is fantastic for venture-backed US startups and remote knowledge workers, it lacks deep Indian statutory compliance (Section 192, EPFO ECR, ESIC, State PT, Form 16), factory floor shift rostering, piece-rate payroll, and industrial safety packs. Workforce360 unifies IT + HR + Payroll for both corporate and industrial organizations.",
-      "metaTitle": "Workforce360 vs Rippling | Enterprise & Operational Comparison",
-      "metaDescription": "How Workforce360 compares with Rippling across Indian statutory payroll, blue-collar shift management, industrial packs, and Digital Twin scenario modeling.",
+      "title": "SpotSign AI vs Rippling",
+      "headline": "SpotSign AI vs Rippling: Built for Complex Global & Operational Workforces",
+      "subtitle": "Rippling revolutionized modern IT + HR for US tech companies. SpotSign AI extends that unified vision into physical industries, 3-shift factory floors, deep Indian statutory payroll, and strategic Workforce Planning simulation.",
+      "summary": "While Rippling is fantastic for venture-backed US startups and remote knowledge workers, it lacks deep Indian statutory compliance (Section 192, EPFO ECR, ESIC, State PT, Form 16), factory floor shift rostering, piece-rate payroll, and industrial safety packs. SpotSign AI unifies IT + HR + Payroll for both corporate and industrial organizations.",
+      "metaTitle": "SpotSign AI vs Rippling | Enterprise & Operational Comparison",
+      "metaDescription": "Compare SpotSign AI and Rippling across Indian statutory payroll, frontline shift management, industry packs, and workforce planning.",
       "keyDifferences": [
         {
           "title": "Deep Indian Statutory Engine vs US-Centric Payroll",
-          "desc": "Rippling relies on third-party integrations for Indian statutory compliance. Workforce360 natively computes Section 192 TDS, dual regimes, EPFO ECR, ESIC, and Form 16 Part A/B."
+          "desc": "Rippling relies on third-party integrations for Indian statutory compliance. SpotSign AI natively computes Section 192 TDS, dual regimes, EPFO ECR, ESIC, and Form 16 Part A/B."
         },
         {
           "title": "Industrial Frontline Roster & Muster vs Desk Only",
-          "desc": "Rippling excels at white-collar Slack/laptop provisioning. Workforce360 provisions laptops AND manages 24/7 rotating shifts, biometric palm scanners, and hazard exposure limits."
+          "desc": "Rippling excels at white-collar Slack/laptop provisioning. SpotSign AI provisions laptops AND manages 24/7 rotating shifts, biometric palm scanners, and hazard exposure limits."
         },
         {
-          "title": "Strategic Workforce Digital Twin",
-          "desc": "Workforce360 models restructuring scenarios with severance reserves and P&L impact, beyond basic workflow automation."
+          "title": "Strategic Workforce Planning",
+          "desc": "SpotSign AI models restructuring scenarios with severance reserves and P&L impact, beyond basic automation rules."
         }
       ],
       "matrix": [
-        { "capability": "Indian Statutory Payroll Depth", "w360": "Complete native engine (PF, ESIC, PT, TDS)", "competitor": "Basic global payroll via third parties" },
-        { "capability": "Blue-Collar & 3-Shift Plant Floor", "w360": "Native 24/7 rostering & muster hardware", "competitor": "Primarily office & remote knowledge workers" },
-        { "capability": "IT Asset & Identity Governance", "w360": "Built-in hardware serial & offboarding lock", "competitor": "Built-in IT Cloud & MDM" },
-        { "capability": "Workforce Digital Twin Simulator", "w360": "Native real-time scenario simulation", "competitor": "Not available" },
-        { "capability": "Industry Vertical Packs", "w360": "19 specialized industry domains", "competitor": "Generic tech & professional services" }
+        {
+          "capability": "Indian Statutory Payroll Depth",
+          "w360": "Complete native engine (PF, ESIC, PT, TDS)",
+          "competitor": "Basic global payroll via third parties"
+        },
+        {
+          "capability": "Blue-Collar & 3-Shift Plant Floor",
+          "w360": "Native 24/7 rostering & muster hardware",
+          "competitor": "Primarily office & remote knowledge workers"
+        },
+        {
+          "capability": "IT Asset & Identity Governance",
+          "w360": "Built-in hardware serial & offboarding lock",
+          "competitor": "Built-in IT Cloud & MDM"
+        },
+        {
+          "capability": "Workforce Planning Simulator",
+          "w360": "Native real-time scenario simulation",
+          "competitor": "Not available"
+        },
+        {
+          "capability": "Industry Vertical Packs",
+          "w360": "19 specialized industry domains",
+          "competitor": "Generic tech & professional services"
+        }
       ],
       "migrationBenefits": [
         "Retain the modern IT-HR unification that makes Rippling popular while gaining full Indian compliance.",
         "Unify corporate software developers and factory technicians on one single platform.",
-        "Gain native C-suite organizational simulation through the Workforce Digital Twin."
+        "Gain native C-suite organizational simulation through Workforce Planning."
       ]
     },
     "keka": {
@@ -167,42 +255,66 @@
       "slug": "keka",
       "legacySlug": "CompetitorKeka",
       "badge": "MID-MARKET HRMS BENCHMARK",
-      "title": "Workforce360 vs Keka",
-      "headline": "Workforce360 vs Keka: Beyond an HRMS to an Enterprise Operating System",
-      "subtitle": "Keka is a popular mid-market HRMS for Indian IT companies. Workforce360 provides enterprise-grade scalability, Workforce Digital Twin scenario simulation, 40 specialized Genkit AI workflows, and support for complex industrial floors.",
-      "summary": "Keka offers user-friendly HR and payroll for Indian small-to-midsize businesses. However, enterprise organizations outgrow Keka due to rigid org hierarchies, lack of scenario modeling, limited IT asset governance, and inability to handle piece-rate or multi-shift heavy industry. Workforce360 scales seamlessly from 500 to 50,000+ employees.",
-      "metaTitle": "Workforce360 vs Keka | Mid-Market vs Enterprise Operating System",
-      "metaDescription": "Compare Workforce360 and Keka: Discover why enterprise organizations graduate from Keka to Workforce360 for Digital Twin simulation, AI workflows, and industrial shift support.",
+      "title": "SpotSign AI vs Keka",
+      "headline": "SpotSign AI vs Keka: Beyond an HRMS to an Enterprise Operating System",
+      "subtitle": "Keka is a popular mid-market HRMS for Indian IT companies. SpotSign AI provides enterprise-grade scalability, Workforce Planning scenario simulation, specialized workflow automation, and support for complex industrial floors.",
+      "summary": "Keka offers user-friendly HR and payroll for Indian small-to-midsize businesses. However, enterprise organizations outgrow Keka due to rigid org hierarchies, lack of scenario modeling, limited IT asset governance, and inability to handle piece-rate or multi-shift heavy industry. SpotSign AI scales seamlessly from 500 to 50,000+ employees.",
+      "metaTitle": "SpotSign AI vs Keka | Mid-Market vs Enterprise Operating System",
+      "metaDescription": "Compare SpotSign AI and Keka for workforce planning, workflow automation, industrial shift support, and enterprise HR scale.",
       "keyDifferences": [
         {
           "title": "Operating System vs Traditional HRMS",
-          "desc": "Keka is an employee record and payroll tool. Workforce360 connects People, Work, Money, IT Operations, and AI Intelligence into an integrated operating system."
+          "desc": "Keka is an employee record and payroll tool. SpotSign AI connects People, Work, Money, IT Operations, and Workforce Analytics into an integrated operating system."
         },
         {
-          "title": "Workforce Digital Twin Simulator",
-          "desc": "Keka has no organizational simulation. Workforce360 lets executive leadership model restructuring, headcount additions, and cost impacts non-destructively."
+          "title": "Workforce Planning Simulator",
+          "desc": "Keka has no organizational simulation. SpotSign AI lets executive leadership model restructuring, headcount additions, and cost impacts non-destructively."
         },
         {
-          "title": "40 Genkit AI Flows vs Basic Automation",
-          "desc": "Workforce360 embeds AI across recruitment, interview kit generation, anomaly detection, attrition forecasting, and course building."
+          "title": "Workflow Automation vs Basic Automation",
+          "desc": "SpotSign AI embeds across recruitment, interview kit generation, anomaly detection, attrition risk reporting, and course building."
         },
         {
           "title": "IT Asset & Software Governance",
-          "desc": "Workforce360 tracks hardware inventory and locks F&F settlements until IT equipment is returned. Keka lacks comprehensive IT asset governance."
+          "desc": "SpotSign AI tracks hardware inventory and locks F&F settlements until IT equipment is returned. Keka lacks comprehensive IT asset governance."
         }
       ],
       "matrix": [
-        { "capability": "Target Scale", "w360": "Mid-market to Large Enterprise (500–50,000+)", "competitor": "SMB to Mid-Market (50–1,500)" },
-        { "capability": "Workforce Digital Twin", "w360": "Native real-time simulation sandbox", "competitor": "Not supported" },
-        { "capability": "Genkit AI Workflows", "w360": "40 production flows across 7 stages", "competitor": "Basic AI assistant / chatbot" },
-        { "capability": "IT Asset & License Management", "w360": "Integrated with offboarding lock", "competitor": "Limited basic asset logging" },
-        { "capability": "Industrial & Piece-Rate Models", "w360": "Supported across 19 vertical packs", "competitor": "Limited primarily to desk/salaried" },
-        { "capability": "Indian Statutory Compliance", "w360": "Advanced automated dual-regime engine", "competitor": "Standard Indian payroll" }
+        {
+          "capability": "Target Scale",
+          "w360": "Mid-market to Large Enterprise (500–50,000+)",
+          "competitor": "SMB to Mid-Market (50–1,500)"
+        },
+        {
+          "capability": "Workforce Planning",
+          "w360": "Native real-time simulation sandbox",
+          "competitor": "Not supported"
+        },
+        {
+          "capability": "Workflow Automations",
+          "w360": "40 production flows across 7 stages",
+          "competitor": "Basic HR self-service"
+        },
+        {
+          "capability": "IT Asset & License Management",
+          "w360": "Integrated with offboarding lock",
+          "competitor": "Limited basic asset logging"
+        },
+        {
+          "capability": "Industrial & Piece-Rate Models",
+          "w360": "Supported across 19 vertical packs",
+          "competitor": "Limited primarily to desk/salaried"
+        },
+        {
+          "capability": "Indian Statutory Compliance",
+          "w360": "Advanced automated dual-regime engine",
+          "competitor": "Standard Indian payroll"
+        }
       ],
       "migrationBenefits": [
-        "Upgrade to enterprise architecture without losing the clean UX your team appreciates.",
-        "Bring HR, Payroll, IT, and Finance onto a single database with zero double-entry.",
-        "Equip the C-suite with predictive attrition and Digital Twin scenario modeling."
+        "Upgrade to an enterprise workforce platform without losing the clean UX your team appreciates.",
+        "Bring HR, Payroll, IT, and Finance onto a single platform with zero double-entry.",
+        "Equip the C-suite with attrition risk reporting and workforce planning scenario modeling."
       ]
     },
     "darwinbox": {
@@ -210,20 +322,20 @@
       "slug": "darwinbox",
       "legacySlug": "CompetitorDarwinbox",
       "badge": "ASIAN ENTERPRISE HCM COMPARISON",
-      "title": "Workforce360 vs Darwinbox",
-      "headline": "Workforce360 vs Darwinbox: AI-Native Innovation vs Enterprise HR Portal",
-      "subtitle": "Darwinbox built a strong mobile-first HCM presence across Asia. Workforce360 takes the next leap: combining modern EX with native IT asset governance, non-destructive Digital Twin simulation, and 40 Genkit AI flows.",
-      "summary": "Both platforms serve large enterprises across Asia. However, Workforce360 differentiates with true unified IT asset governance, embedded Genkit AI workflows that execute inside daily operations, and the Workforce Digital Twin simulator for strategic scenario planning.",
-      "metaTitle": "Workforce360 vs Darwinbox | Enterprise Comparison",
-      "metaDescription": "Architectural comparison of Workforce360 and Darwinbox across AI flows, Digital Twin simulation, IT governance, and vertical industry depth.",
+      "title": "SpotSign AI vs Darwinbox",
+      "headline": "SpotSign AI vs Darwinbox: Enterprise Innovation vs Enterprise HR Portal",
+      "subtitle": "Darwinbox built a strong mobile-first HCM presence across Asia. SpotSign AI takes the next leap: combining modern EX with native IT asset governance, non-destructive Workforce Planning simulation, and workflow automation.",
+      "summary": "Both platforms serve large enterprises across Asia. However, SpotSign AI differentiates with true unified IT asset governance, embedded workflow automations that execute inside daily operations, and Workforce Planning simulator for strategic scenario planning.",
+      "metaTitle": "SpotSign AI vs Darwinbox | Enterprise Comparison",
+      "metaDescription": "Capability comparison of SpotSign AI and Darwinbox across workflow automations, Workforce Planning simulation, IT governance, and vertical industry depth.",
       "keyDifferences": [
         {
-          "title": "Digital Twin Scenario Simulation",
-          "desc": "Workforce360 provides a visual simulation sandbox allowing executives to model headcount changes, severance reserves, and P&L impact. Darwinbox only offers retrospective reporting."
+          "title": "Workforce Planning Scenario Simulation",
+          "desc": "SpotSign AI provides a visual simulation sandbox allowing executives to model headcount changes, severance reserves, and P&L impact. Darwinbox only offers retrospective reporting."
         },
         {
           "title": "IT Asset Governance & Offboarding Security",
-          "desc": "Workforce360 binds IT asset returns directly into the automated Full & Final settlement workflow, eliminating equipment loss."
+          "desc": "SpotSign AI binds IT asset returns directly into the automated Full & Final settlement workflow, eliminating equipment loss."
         },
         {
           "title": "19 Pre-Configured Vertical Packs",
@@ -231,10 +343,26 @@
         }
       ],
       "matrix": [
-        { "capability": "Workforce Digital Twin", "w360": "Native simulation sandbox", "competitor": "Not supported" },
-        { "capability": "IT Asset Management", "w360": "Native serial audit & offboarding lock", "competitor": "Requires external IT integration" },
-        { "capability": "AI Intelligence", "w360": "40 specialized Genkit production flows", "competitor": "Conversational voice/bot assistant" },
-        { "capability": "Vertical Industry Specialization", "w360": "19 deep vertical packs", "competitor": "Broad cross-industry templates" }
+        {
+          "capability": "Workforce Planning",
+          "w360": "Native simulation sandbox",
+          "competitor": "Not supported"
+        },
+        {
+          "capability": "IT Asset Management",
+          "w360": "Native serial audit & offboarding lock",
+          "competitor": "Requires external IT integration"
+        },
+        {
+          "capability": "Workforce Analytics",
+          "w360": "Native embedded workflows",
+          "competitor": "Basic self-service portal"
+        },
+        {
+          "capability": "Vertical Industry Specialization",
+          "w360": "19 deep vertical packs",
+          "competitor": "Broad cross-industry templates"
+        }
       ],
       "migrationBenefits": [
         "Modernize from an HR-only portal to a complete Workforce Operating System.",
@@ -247,31 +375,47 @@
       "slug": "zoho",
       "legacySlug": "CompetitorZoho",
       "badge": "SUITE VS SPECIALIZED WOS",
-      "title": "Workforce360 vs Zoho People",
-      "headline": "Workforce360 vs Zoho People: Deep Enterprise WOS vs Broad Suite Module",
-      "subtitle": "Zoho People is part of the sprawling Zoho One suite. Workforce360 is a dedicated, deep, AI-native Workforce Operating System built specifically for enterprise scale, shift complexity, and strategic planning.",
-      "summary": "Zoho People works well for small businesses already locked into Zoho One. However, enterprise organizations with complex shift rotations, high compliance stakes, or large frontline workforces find Zoho's modules disconnected, requiring multiple separate Zoho apps (People, Payroll, Recruit, Expense, Inventory). Workforce360 unifies all of this natively.",
-      "metaTitle": "Workforce360 vs Zoho People | Deep Enterprise WOS Benchmark",
-      "metaDescription": "Compare Workforce360 and Zoho People: Why complex and enterprise organizations choose Workforce360 over the fragmented Zoho One suite.",
+      "title": "SpotSign AI vs Zoho People",
+      "headline": "SpotSign AI vs Zoho People: Deep Enterprise WOS vs Broad Suite Module",
+      "subtitle": "Zoho People is part of the sprawling Zoho One suite. SpotSign AI is a dedicated, deep, enterprise workforce operating system built specifically for enterprise scale, shift complexity, and strategic planning.",
+      "summary": "Zoho People works well for small businesses already locked into Zoho One. However, enterprise organizations with complex shift rotations, high compliance stakes, or large frontline workforces find Zoho's modules disconnected, requiring multiple separate Zoho apps (People, Payroll, Recruit, Expense, Inventory). SpotSign AI unifies all of this natively.",
+      "metaTitle": "SpotSign AI vs Zoho People | Deep Enterprise WOS Benchmark",
+      "metaDescription": "Compare SpotSign AI and Zoho People: Why complex and enterprise organizations choose SpotSign AI over the fragmented Zoho One suite.",
       "keyDifferences": [
         {
-          "title": "Single Operating Layer vs Fragmented Suite Apps",
-          "desc": "Zoho splits HR, Payroll, Recruitment, and IT into distinct apps with separate logins and sync delays. Workforce360 unites them natively in one interface."
+          "title": "Unified Platform vs Fragmented Suite Apps",
+          "desc": "Zoho splits HR, Payroll, Recruitment, and IT into distinct apps with separate logins and sync delays. SpotSign AI unites them natively in one interface."
         },
         {
           "title": "Complex Roster & Industrial Support",
-          "desc": "Zoho People struggles with 3-shift 24/7 manufacturing plants, piece-rate calculation, and maritime STCW rules. Workforce360 handles them out of the box."
+          "desc": "Zoho People struggles with 3-shift 24/7 manufacturing plants, piece-rate calculation, and maritime STCW rules. SpotSign AI handles them out of the box."
         },
         {
-          "title": "Workforce Digital Twin",
-          "desc": "Zoho offers basic BI dashboards. Workforce360 provides non-destructive organizational simulation."
+          "title": "Workforce Planning",
+          "desc": "Zoho offers basic BI dashboards. SpotSign AI provides non-destructive organizational simulation."
         }
       ],
       "matrix": [
-        { "capability": "Platform Integration", "w360": "Unified single data model", "competitor": "Multiple separate Zoho applications" },
-        { "capability": "Shift Scheduling & Overtime Guardrails", "w360": "Advanced 3-shift rotational rosters", "competitor": "Basic shift assignments" },
-        { "capability": "Digital Twin Simulation", "w360": "Built-in interactive sandbox", "competitor": "Not available" },
-        { "capability": "AI Workflows", "w360": "40 specialized Genkit production flows", "competitor": "Zia generic assistant" }
+        {
+          "capability": "Platform Integration",
+          "w360": "Unified single platform",
+          "competitor": "Multiple separate Zoho applications"
+        },
+        {
+          "capability": "Shift Scheduling & Overtime Guardrails",
+          "w360": "Advanced 3-shift rotational rosters",
+          "competitor": "Basic shift assignments"
+        },
+        {
+          "capability": "Workforce Planning Simulation",
+          "w360": "Built-in interactive sandbox",
+          "competitor": "Not available"
+        },
+        {
+          "capability": "Workflow Automation",
+          "w360": "Native embedded workflows",
+          "competitor": "Basic HR portal"
+        }
       ],
       "migrationBenefits": [
         "Consolidate 5+ separate Zoho subscriptions into one unified Workforce Operating System.",
@@ -284,31 +428,47 @@
       "slug": "deel",
       "legacySlug": "CompetitorDeel",
       "badge": "GLOBAL EOR VS DOMESTIC & HYBRID WOS",
-      "title": "Workforce360 vs Deel",
-      "headline": "Workforce360 vs Deel: Complete Workforce Operations vs Contractor EOR",
-      "subtitle": "Deel is renowned for international contractor hiring and Employer of Record (EOR) services. Workforce360 is built for organizations that need to RUN their primary domestic and frontline workforce day-in, day-out.",
-      "summary": "Deel is primarily an international contractor and EOR facilitator. When organizations need to manage physical factory shifts, daily attendance, complex Indian statutory payroll, IT assets, and talent performance for their core workforce, Deel falls short. Workforce360 provides the operational backbone where work actually happens.",
-      "metaTitle": "Workforce360 vs Deel | Operating System vs Global EOR",
-      "metaDescription": "Compare Workforce360 and Deel: Operational workforce management, biometric shifts, and domestic payroll depth vs global contractor EOR.",
+      "title": "SpotSign AI vs Deel",
+      "headline": "SpotSign AI vs Deel: Complete Workforce Operations vs Contractor EOR",
+      "subtitle": "Deel is renowned for international contractor hiring and Employer of Record (EOR) services. SpotSign AI is built for organizations that need to RUN their primary domestic and frontline workforce day-in, day-out.",
+      "summary": "Deel is primarily an international contractor and EOR facilitator. When organizations need to manage physical factory shifts, daily attendance, complex Indian statutory payroll, IT assets, and talent performance for their core workforce, Deel falls short. SpotSign AI provides the operational backbone where work actually happens.",
+      "metaTitle": "SpotSign AI vs Deel | Operating System vs Global EOR",
+      "metaDescription": "Compare SpotSign AI and Deel: Operational workforce management, biometric shifts, and domestic payroll depth vs global contractor EOR.",
       "keyDifferences": [
         {
           "title": "Daily Operational Workforce vs Remote Contractor Invoicing",
-          "desc": "Deel manages international contracts and cross-border payments. Workforce360 manages 24/7 rotational shifts, biometric timeclocks, ATS hiring, performance appraisals, and IT governance."
+          "desc": "Deel manages international contracts and cross-border payments. SpotSign AI manages 24/7 rotational shifts, biometric timeclocks, ATS hiring, performance appraisals, and IT governance."
         },
         {
           "title": "Indian Statutory Payroll Engine",
-          "desc": "Workforce360 calculates Section 192 TDS, dual regimes, Form 12BB proofs, EPFO ECR files, and Form 16 Part A/B natively."
+          "desc": "SpotSign AI calculates Section 192 TDS, dual regimes, Form 12BB proofs, EPFO ECR files, and Form 16 Part A/B natively."
         },
         {
-          "title": "Workforce Digital Twin",
+          "title": "Workforce Planning",
           "desc": "Simulate organizational restructuring and P&L impact before executing headcount changes."
         }
       ],
       "matrix": [
-        { "capability": "Primary Focus", "w360": "Core workforce operations (People+Work+Money+Ops)", "competitor": "International hiring, EOR & contractor payouts" },
-        { "capability": "Shift Scheduling & Biometric Attendance", "w360": "Native eSSL/ZKTeco & GPS tracking", "competitor": "Basic manual timesheet submission" },
-        { "capability": "Indian Statutory Depth", "w360": "Complete native statutory engine", "competitor": "Standard localized payroll partners" },
-        { "capability": "Digital Twin Simulation", "w360": "Built-in interactive sandbox", "competitor": "Not supported" }
+        {
+          "capability": "Primary Focus",
+          "w360": "Core workforce operations (People+Work+Money+Ops)",
+          "competitor": "International hiring, EOR & contractor payouts"
+        },
+        {
+          "capability": "Shift Scheduling & Biometric Attendance",
+          "w360": "Native eSSL/ZKTeco & GPS tracking",
+          "competitor": "Basic manual timesheet submission"
+        },
+        {
+          "capability": "Indian Statutory Depth",
+          "w360": "Complete native statutory engine",
+          "competitor": "Standard localized payroll partners"
+        },
+        {
+          "capability": "Workforce Planning Simulation",
+          "w360": "Built-in interactive sandbox",
+          "competitor": "Not supported"
+        }
       ],
       "migrationBenefits": [
         "Gain full visibility and control over your primary physical and corporate workforce.",
@@ -321,36 +481,52 @@
       "slug": "bamboohr",
       "legacySlug": "CompetitorBambooHR",
       "badge": "SMB HRIS VS ENTERPRISE WOS",
-      "title": "Workforce360 vs BambooHR",
-      "headline": "Workforce360 vs BambooHR: Enterprise Operating System vs Small Business HR",
-      "subtitle": "BambooHR is beloved by small office teams for employee records and time off. Workforce360 is engineered for organizations with complex operations, industrial shifts, deep statutory compliance, and strategic AI.",
-      "summary": "BambooHR is an excellent lightweight HRIS for small office environments (under 200 employees). As organizations scale or add operational shifts, factory floors, and complex statutory requirements, BambooHR lacks the necessary depth. Workforce360 provides an enterprise-ready operating system that handles both corporate and deskless workforces.",
-      "metaTitle": "Workforce360 vs BambooHR | Scaling from SMB HRIS to Enterprise WOS",
-      "metaDescription": "Explore why growing companies transition from BambooHR to Workforce360 for shift scheduling, Indian statutory payroll, IT governance, and Digital Twin simulation.",
+      "title": "SpotSign AI vs BambooHR",
+      "headline": "SpotSign AI vs BambooHR: Enterprise Operating System vs Small Business HR",
+      "subtitle": "BambooHR is beloved by small office teams for employee records and time off. SpotSign AI is engineered for organizations with complex operations, industrial shifts, deep statutory compliance, and strategic.",
+      "summary": "BambooHR is an excellent lightweight HRIS for small office environments (under 200 employees). As organizations scale or add operational shifts, factory floors, and complex statutory requirements, BambooHR lacks the necessary depth. SpotSign AI provides an enterprise-ready operating system that handles both corporate and deskless workforces.",
+      "metaTitle": "SpotSign AI vs BambooHR | Scaling from SMB HRIS to Enterprise WOS",
+      "metaDescription": "Compare BambooHR and SpotSign AI for shift scheduling, Indian statutory payroll, IT governance, and workforce planning at enterprise scale.",
       "keyDifferences": [
         {
           "title": "Enterprise Scale vs SMB Focus",
-          "desc": "BambooHR is built for small office teams. Workforce360 scales to tens of thousands of employees across corporate offices, factories, retail outlets, and field beats."
+          "desc": "BambooHR is built for small office teams. SpotSign AI scales to tens of thousands of employees across corporate offices, factories, retail outlets, and field beats."
         },
         {
           "title": "Dual Workforce Engine",
-          "desc": "Workforce360 natively supports hourly shifts, piece-rate wages, overtime guardrails, and biometric terminals that BambooHR cannot handle."
+          "desc": "SpotSign AI natively supports hourly shifts, piece-rate wages, overtime guardrails, and biometric terminals that BambooHR cannot handle."
         },
         {
-          "title": "Workforce Digital Twin & AI",
-          "desc": "Workforce360 features 40 specialized Genkit AI workflows and live organizational scenario simulation."
+          "title": "Workforce Planning & Analytics",
+          "desc": "SpotSign AI features specialized workflow automation and live organizational scenario simulation."
         }
       ],
       "matrix": [
-        { "capability": "Target Organization Size", "w360": "Mid-Market to Large Enterprise (500–50,000+)", "competitor": "Small Business (20–250)" },
-        { "capability": "Frontline Shift Operations", "w360": "Native 24/7 rotational shifts & bio-sync", "competitor": "Basic time tracking for office workers" },
-        { "capability": "Indian Statutory Payroll", "w360": "Native TDS, PF, ESIC, State PT, Form 16", "competitor": "US-only payroll (partners elsewhere)" },
-        { "capability": "Digital Twin Simulation", "w360": "Built-in interactive sandbox", "competitor": "Not supported" }
+        {
+          "capability": "Target Organization Size",
+          "w360": "Mid-Market to Large Enterprise (500–50,000+)",
+          "competitor": "Small Business (20–250)"
+        },
+        {
+          "capability": "Frontline Shift Operations",
+          "w360": "Native 24/7 rotational shifts & bio-sync",
+          "competitor": "Basic time tracking for office workers"
+        },
+        {
+          "capability": "Indian Statutory Payroll",
+          "w360": "Native TDS, PF, ESIC, State PT, Form 16",
+          "competitor": "US-only payroll (partners elsewhere)"
+        },
+        {
+          "capability": "Workforce Planning Simulation",
+          "w360": "Built-in interactive sandbox",
+          "competitor": "Not supported"
+        }
       ],
       "migrationBenefits": [
         "Graduate from small-business HR tools without sacrificing ease of use.",
         "Consolidate external shift scheduling and payroll add-ons into one system.",
-        "Unlock executive scenario modeling and predictive attrition insights."
+        "Unlock executive scenario modeling and attrition risk analytics."
       ]
     },
     "hibob": {
@@ -358,31 +534,47 @@
       "slug": "hibob",
       "legacySlug": "CompetitorHiBob",
       "badge": "CULTURE TECH VS WORKFORCE OS",
-      "title": "Workforce360 vs HiBob (Bob)",
-      "headline": "Workforce360 vs HiBob: Complete Workforce Operating System vs Culture Platform",
-      "subtitle": "HiBob focuses heavily on culture, social feeds, and modern desk workers. Workforce360 delivers complete workforce execution: connecting People, Work, Money, IT Operations, and Intelligence across both office and operational frontline workforces.",
-      "summary": "HiBob is great for remote tech cultures and white-collar engagement. However, for organizations managing physical plants, rotating shifts, field teams, hardware assets, and complex statutory tax rules, HiBob lacks operational muscle. Workforce360 delivers modern engagement alongside enterprise operational rigor.",
-      "metaTitle": "Workforce360 vs HiBob | Operational Depth & Enterprise Architecture",
-      "metaDescription": "Compare Workforce360 and HiBob (Bob): Culture and engagement features vs complete operational execution, shifts, payroll, and Digital Twin modeling.",
+      "title": "SpotSign AI vs HiBob (Bob)",
+      "headline": "SpotSign AI vs HiBob: Complete Workforce Operating System vs Culture Platform",
+      "subtitle": "HiBob focuses heavily on culture, social feeds, and modern desk workers. SpotSign AI delivers complete workforce execution: connecting People, Work, Money, IT Operations, and Insights across both office and operational frontline workforces.",
+      "summary": "HiBob is great for remote tech cultures and white-collar engagement. However, for organizations managing physical plants, rotating shifts, field teams, hardware assets, and complex statutory tax rules, HiBob lacks operational muscle. SpotSign AI delivers modern engagement alongside enterprise operational rigor.",
+      "metaTitle": "SpotSign AI vs HiBob | Operational Depth & Enterprise Capability",
+      "metaDescription": "Compare SpotSign AI and HiBob (Bob): Culture and engagement features vs complete operational execution, shifts, payroll, and Workforce Planning modeling.",
       "keyDifferences": [
         {
           "title": "Operational Execution vs Social Feeds",
-          "desc": "HiBob prioritizes social feeds and cultural engagement for tech workers. Workforce360 focuses on operational execution: shift scheduling, overtime limits, biometric muster, and payroll accuracy."
+          "desc": "HiBob prioritizes social feeds and cultural engagement for tech workers. SpotSign AI focuses on operational execution: shift scheduling, overtime limits, biometric muster, and payroll accuracy."
         },
         {
           "title": "Native Indian Statutory Payroll & GL Sync",
-          "desc": "Workforce360 includes complete statutory payroll and double-entry GL journal posting. HiBob requires third-party payroll engines."
+          "desc": "SpotSign AI includes complete statutory payroll and double-entry GL journal posting. HiBob requires third-party payroll engines."
         },
         {
-          "title": "Workforce Digital Twin Sandbox",
+          "title": "Workforce Planning Sandbox",
           "desc": "Model restructuring scenarios, severance reserves, and financial impact in real time."
         }
       ],
       "matrix": [
-        { "capability": "Workforce Focus", "w360": "Desk + Shift + Floor + Field", "competitor": "Primarily desk & remote knowledge workers" },
-        { "capability": "Shift Scheduling & Biometrics", "w360": "Full 3-shift rosters & hardware terminals", "competitor": "Basic office attendance" },
-        { "capability": "Indian Statutory Engine", "w360": "Native dual-regime TDS, PF, ESIC, Form 16", "competitor": "Requires external payroll integration" },
-        { "capability": "Digital Twin Simulation", "w360": "Built-in interactive sandbox", "competitor": "Not supported" }
+        {
+          "capability": "Workforce Focus",
+          "w360": "Desk + Shift + Floor + Field",
+          "competitor": "Primarily desk & remote knowledge workers"
+        },
+        {
+          "capability": "Shift Scheduling & Biometrics",
+          "w360": "Full 3-shift rosters & hardware terminals",
+          "competitor": "Basic office attendance"
+        },
+        {
+          "capability": "Indian Statutory Engine",
+          "w360": "Native dual-regime TDS, PF, ESIC, Form 16",
+          "competitor": "Requires external payroll integration"
+        },
+        {
+          "capability": "Workforce Planning Simulation",
+          "w360": "Built-in interactive sandbox",
+          "competitor": "Not supported"
+        }
       ],
       "migrationBenefits": [
         "Bridge the gap between corporate culture and physical frontline operations.",
@@ -395,36 +587,52 @@
       "slug": "gusto",
       "legacySlug": "CompetitorGusto",
       "badge": "SMB PAYROLL VS ENTERPRISE WOS",
-      "title": "Workforce360 vs Gusto",
-      "headline": "Workforce360 vs Gusto: Scaling Beyond Small Business US Payroll",
-      "subtitle": "Gusto is an intuitive payroll solution for US small businesses. Workforce360 is an enterprise-grade Workforce Operating System engineered for complex multi-entity, multi-shift organizations with advanced AI and global statutory depth.",
-      "summary": "Gusto is tailor-made for small US companies with simple payroll needs. When companies expand internationally, add shift workers, or require enterprise IT governance and scenario planning, Gusto cannot scale with them. Workforce360 delivers an enterprise platform capable of running thousands of employees across diverse operational environments.",
-      "metaTitle": "Workforce360 vs Gusto | Small Business Payroll vs Enterprise WOS",
-      "metaDescription": "Why enterprises choose Workforce360 over Gusto for multi-shift operations, Indian statutory compliance, IT asset governance, and Digital Twin simulation.",
+      "title": "SpotSign AI vs Gusto",
+      "headline": "SpotSign AI vs Gusto: Scaling Beyond Small Business US Payroll",
+      "subtitle": "Gusto is an intuitive payroll solution for US small businesses. SpotSign AI is an enterprise-grade Workforce Operating System engineered for complex multi-entity, multi-shift organizations with advanced and global statutory depth.",
+      "summary": "Gusto is tailor-made for small US companies with simple payroll needs. When companies expand internationally, add shift workers, or require enterprise IT governance and scenario planning, Gusto cannot scale with them. SpotSign AI delivers an enterprise platform capable of running thousands of employees across diverse operational environments.",
+      "metaTitle": "SpotSign AI vs Gusto | Small Business Payroll vs Enterprise WOS",
+      "metaDescription": "Why enterprises choose SpotSign AI over Gusto for multi-shift operations, Indian statutory compliance, IT asset governance, and Workforce Planning simulation.",
       "keyDifferences": [
         {
           "title": "Enterprise Scale vs US SMB Payroll",
-          "desc": "Gusto is restricted to US small businesses. Workforce360 scales across global enterprises with multi-entity support and complex regulatory compliance."
+          "desc": "Gusto is restricted to US small businesses. SpotSign AI scales across global enterprises with multi-entity support and complex regulatory compliance."
         },
         {
-          "title": "Complete 5-Pillar Operating Layer",
-          "desc": "Workforce360 unifies People, Work, Money, IT Operations, and Intelligence. Gusto is primarily a payroll and benefits tool."
+          "title": "Complete 5-Pillar Platform",
+          "desc": "SpotSign AI unifies People, Work, Money, IT Operations, and Insights. Gusto is primarily a payroll and benefits tool."
         },
         {
-          "title": "Workforce Digital Twin & 40 Genkit AI Flows",
-          "desc": "Predictive attrition, automated interview kits, and non-destructive organizational simulation."
+          "title": "Workforce Planning & Workflow Automation",
+          "desc": "Attrition risk analytics, automated interview kits, and non-destructive organizational simulation."
         }
       ],
       "matrix": [
-        { "capability": "Target Market", "w360": "Mid-Market to Large Enterprise", "competitor": "US Small Business (1–100)" },
-        { "capability": "Indian Statutory Payroll", "w360": "Native TDS, PF, ESIC, State PT, Form 16", "competitor": "Not supported (US only)" },
-        { "capability": "Shift Scheduling & Biometric Attendance", "w360": "Native 24/7 rotating rosters & bio-sync", "competitor": "Basic time tracking" },
-        { "capability": "Digital Twin Simulation", "w360": "Built-in interactive sandbox", "competitor": "Not supported" }
+        {
+          "capability": "Target Market",
+          "w360": "Mid-Market to Large Enterprise",
+          "competitor": "US Small Business (1–100)"
+        },
+        {
+          "capability": "Indian Statutory Payroll",
+          "w360": "Native TDS, PF, ESIC, State PT, Form 16",
+          "competitor": "Not supported (US only)"
+        },
+        {
+          "capability": "Shift Scheduling & Biometric Attendance",
+          "w360": "Native 24/7 rotating rosters & bio-sync",
+          "competitor": "Basic time tracking"
+        },
+        {
+          "capability": "Workforce Planning Simulation",
+          "w360": "Built-in interactive sandbox",
+          "competitor": "Not supported"
+        }
       ],
       "migrationBenefits": [
         "Scale effortlessly past 100 employees without platform limitations.",
         "Manage complex shifts and industrial teams alongside corporate staff.",
-        "Access powerful C-suite scenario modeling and AI recruitment workflows."
+        "Access powerful C-suite scenario modeling and recruitment workflows."
       ]
     }
   }

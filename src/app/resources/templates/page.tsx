@@ -5,11 +5,11 @@ import { FileSpreadsheet, Download, ArrowRight, ShieldCheck } from "lucide-react
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Enterprise Shift, Roster & Payroll Policy Templates | Workforce360",
+  title: "Enterprise Shift, Roster & Payroll Policy Templates | SpotSign AI",
   description:
-    "Free production-ready operational templates: 3-shift rotation rosters, Indian statutory salary structures, Form 12BB proof review checklists, and IT asset offboarding handovers.",
+    "Download operational templates for 3-shift rosters, Indian salary structures, Form 12BB reviews, and IT asset offboarding handovers.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/resources/templates",
+    canonical: "https://spotsign.ai/resources/templates",
   },
 };
 
@@ -19,7 +19,7 @@ export default function TemplatesPage() {
       category: "ROSTERING & SHIFTS",
       title: "24/7 3-Shift Plant Rotational Roster Matrix",
       desc: "Standardized rotational 8-hour shift calendar with built-in rest interval formulas, weekly off balancing, and Factories Act 50-hour overtime cap guardrails.",
-      format: "Excel & Workforce360 Import Template",
+      format: "Excel & SpotSign AI Import Template",
     },
     {
       category: "STATUTORY PAYROLL",

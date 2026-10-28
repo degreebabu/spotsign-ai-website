@@ -5,32 +5,32 @@ import { BookOpen, Download, ArrowRight, ShieldCheck, Cpu } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Enterprise Architecture Whitepapers | Workforce360",
+  title: "Enterprise Whitepapers & Guides | SpotSign AI",
   description:
-    "Technical whitepapers on multi-tenant sovereign data isolation, 40 Genkit AI flows, and the Workforce Digital Twin mathematical simulation framework.",
+    "Whitepapers on data protection, workflow automation, and workforce planning for enterprise technology and operations leaders.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/resources/whitepapers",
+    canonical: "https://spotsign.ai/resources/whitepapers",
   },
 };
 
 export default function WhitepapersPage() {
   const whitepapers = [
     {
-      badge: "DATA ARCHITECTURE",
-      title: "Multi-Tenant Sovereign Database Isolation & Enterprise RBAC",
-      desc: "An architectural review of tenant-scoped query execution, cryptographic separation, immutable audit logs, and multi-entity consolidation in modern cloud operating systems.",
+      badge: "DATA GOVERNANCE",
+      title: "Data Protection, Access Controls & Enterprise Governance",
+      desc: "A practical guide to secure data handling, role-based access, audit logs, and multi-entity reporting in modern workforce systems.",
       pages: "28 Pages",
     },
     {
-      badge: "SIMULATION ENGINE",
-      title: "The Mathematical Foundations of the Workforce Digital Twin",
-      desc: "How non-destructive graph simulation models organizational restructurings, severance reserves, and monthly P&L delta without altering production employee databases.",
+      badge: "WORKFORCE PLANNING",
+      title: "The Practical Foundations of Workforce Planning",
+      desc: "How scenario modeling helps teams evaluate organizational restructuring, severance reserves, and monthly P&L impact before making changes.",
       pages: "36 Pages",
     },
     {
-      badge: "EMBEDDED AI",
-      title: "Zero-Retention Operational AI: 40 Genkit Flows in Production",
-      desc: "Technical implementation patterns for executing domain AI flows inside high-throughput attendance, ATS resume ranking, and payroll anomaly detection without training external LLMs on enterprise data.",
+      badge: "WORKFLOW AUTOMATION",
+      title: "Workflow Automation with Zero Data Retention",
+      desc: "How attendance, recruitment, and payroll workflows can run efficiently while keeping enterprise data within your environment.",
       pages: "24 Pages",
     },
   ];
@@ -49,13 +49,13 @@ export default function WhitepapersPage() {
           <div className="max-w-4xl space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold">
               <Cpu className="w-3.5 h-3.5 text-blue-600" />
-              <span>TECHNICAL WHITE PAPERS</span>
+              <span>WHITEPAPERS & GUIDES</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              Enterprise Architecture Whitepapers.
+              Enterprise Whitepapers & Practical Guides.
             </h1>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              In-depth technical papers written for Chief Technology Officers, enterprise architects, and Chief Information Security Officers evaluating Workforce360.
+              In-depth papers written for technology, security, and operations leaders evaluating SpotSign AI.
             </p>
           </div>
         </div>

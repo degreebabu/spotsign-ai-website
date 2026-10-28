@@ -192,13 +192,13 @@ export default function DigitalTwinSimulator() {
       {/* Simulator Footer Action */}
       <div className="relative z-10 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
         <span className="text-slate-400">
-          *Values represent illustrative architectural simulation calculations for demonstration purposes.
+          *Values represent illustrative planning simulation calculations for demonstration purposes.
         </span>
         <Link
-          href="/platform/digital-twin"
+          href="/ai"
           className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold shadow-md transition"
         >
-          <span>Explore Full Digital Twin Platform</span>
+          <span>Explore AI Capabilities</span>
           <ArrowRight className="w-4 h-4" />
         </Link>
       </div>

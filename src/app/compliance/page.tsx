@@ -1,15 +1,17 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { ShieldCheck, CheckCircle2, FileText, ArrowRight } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import AnimatedSection, { FloatingCard } from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Statutory & Labor Law Compliance | Workforce360 Enterprise",
+  title: "Statutory & Labor Law Compliance | SpotSign AI Enterprise",
   description:
-    "Explore Workforce360's automated statutory compliance: Indian Income Tax Section 192, EPFO ECR, ESIC, State PT, Factories Act muster rolls, and Maritime STCW rest rules.",
+    "Explore SpotSign AI statutory compliance for Section 192 TDS, EPFO ECR, ESIC, Professional Tax, Factories Act muster rolls, and STCW rest rules.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/compliance",
+    canonical: "https://spotsign.ai/compliance",
   },
 };
 
@@ -43,38 +45,75 @@ export default function CompliancePage() {
 
   return (
     <div className="bg-slate-50 min-h-screen">
-      <section className="bg-white border-b border-slate-200 pt-8 pb-16">
+      <AnimatedSection className="bg-white border-b border-slate-200 pt-8 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <Breadcrumbs items={[{ name: "Compliance", href: "/compliance" }]} />
 
-          <div className="max-w-4xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-              <span>LABOR LAW & STATUTORY MANDATES</span>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7 space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+                <span>LABOR LAW & STATUTORY MANDATES</span>
+              </div>
+              <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
+                Automated Statutory Compliance Across Desk, Field, and Factory Floor.
+              </h1>
+              <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
+                SpotSign AI eliminates compliance exposure by embedding labor regulations directly into daily time capture, shift rostering, and payroll processing.
+              </p>
+              <div className="flex flex-wrap items-center gap-4 pt-2">
+                <Link
+                  href="/demo"
+                  className="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md transition"
+                >
+                  Schedule Compliance Walkthrough
+                </Link>
+                <Link
+                  href="/security"
+                  className="px-6 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-sm transition"
+                >
+                  View Security Standards
+                </Link>
+              </div>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              Automated Statutory Compliance Across Desk, Field, and Factory Floor.
-            </h1>
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Workforce360 eliminates manual compliance risks by embedding labor regulations directly into daily time capture, shift rostering, and payroll processing.
-            </p>
+
+            <div className="lg:col-span-5">
+              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 group aspect-[16/10]">
+                <Image
+                  src="/images/statutory-compliance.jpg"
+                  alt="Enterprise statutory labor compliance audit and governance"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+                  <div className="text-white text-xs space-y-1">
+                    <span className="font-bold text-emerald-400 block uppercase tracking-wider text-[11px]">Audit-Ready Telemetry</span>
+                    <p className="text-slate-200 text-[11px] line-clamp-1">Automated Muster Rolls & Tax Filings</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {complianceAreas.map((area, idx) => (
-              <div key={idx} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm space-y-3">
+              <FloatingCard
+                key={idx}
+                delay={idx * 0.08}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition space-y-3"
+              >
                 <CheckCircle2 className="w-6 h-6 text-emerald-600" />
                 <h3 className="text-base font-bold text-slate-900">{area.title}</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">{area.desc}</p>
-              </div>
+              </FloatingCard>
             ))}
           </div>
 
-          <div className="rounded-3xl bg-slate-950 text-white p-8 sm:p-12 text-center space-y-6">
+          <AnimatedSection delay={0.2} className="rounded-3xl bg-slate-950 text-white p-8 sm:p-12 text-center space-y-6">
             <h3 className="text-2xl sm:text-3xl font-extrabold text-white">
               Stay 100% Audit-Ready for Labor Inspectorates
             </h3>
@@ -90,7 +129,7 @@ export default function CompliancePage() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-          </div>
+          </AnimatedSection>
         </div>
       </section>
     </div>

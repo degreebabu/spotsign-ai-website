@@ -2,50 +2,52 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://workforce360.dimension.com"),
-  title: {
-    default: "Workforce360 — AI-Native Workforce Operating System",
-    template: "%s | Workforce360",
-  },
+  metadataBase: new URL("https://spotsign.ai"),
+  title: "SpotSign AI — Enterprise Workforce Operating System",
   description:
-    "Run your entire workforce on one intelligent platform. Workforce360 brings HR, payroll, attendance, talent, compliance, finance, IT operations, and workforce intelligence together — powered by AI.",
+    "Run your entire workforce on one platform. SpotSign AI unifies HR, payroll, attendance, talent, compliance, finance, IT operations, and workforce analytics.",
   keywords: [
-    "AI HRMS software",
-    "AI-powered HRMS",
+    "HRMS software",
+    "enterprise HRMS",
     "workforce operating system",
     "enterprise HRMS",
     "payroll software India",
     "biometric attendance payroll",
-    "workforce digital twin",
+    "workforce planning",
     "workforce management platform",
+    "workforce analytics",
     "blue collar workforce software",
   ],
-  authors: [{ name: "DIMENSHION", url: "https://workforce360.dimension.com" }],
-  creator: "Powered by Spotsign • A DIMENSHION Product",
+  authors: [{ name: "DIMENSHION", url: "https://spotsign.ai" }],
+  creator: "Powered by Spotsign Workforce360",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://workforce360.dimension.com",
-    siteName: "Workforce360",
-    title: "Workforce360 — AI-Native Workforce Operating System",
+    url: "https://spotsign.ai",
+    siteName: "SpotSign AI",
+    title: "SpotSign AI — Enterprise Workforce Operating System",
     description:
-      "Run your entire workforce on one intelligent platform. Unified People, Work, Money, IT Operations, and AI across 19 specialized industries.",
+      "Run your entire workforce on one platform. Unified People, Work, Money, IT Operations, and Insights across 19 specialized industries.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Workforce360 Enterprise Platform",
+        alt: "SpotSign AI Enterprise Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Workforce360 — AI-Native Workforce Operating System",
+    title: "SpotSign AI — Enterprise Workforce Operating System",
     description:
-      "Run your entire workforce on one intelligent platform. Unified HR, payroll, shift operations, and embedded Digital Twin intelligence.",
+      "Run your entire workforce on one unified platform. Unified HR, payroll, shift operations, and executive workforce analytics.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -61,11 +63,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
       { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon.png", type: "image/png", sizes: "192x192" },
     ],
-    shortcut: "/favicon.ico",
-    apple: "/icon.svg",
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
 };
 
@@ -77,41 +78,44 @@ export default function RootLayout({
   const jsonLdOrg = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Workforce360",
-    url: "https://workforce360.dimension.com",
-    logo: "https://workforce360.dimension.com/logo.png",
+    "@id": "https://spotsign.ai/#organization",
+    name: "SpotSign AI",
+    url: "https://spotsign.ai",
+    logo: "https://spotsign.ai/logo.png",
+    description:
+      "Enterprise Workforce Operating System unifying HR, payroll, attendance, talent, compliance, finance, IT operations, and workforce analytics.",
     parentOrganization: {
       "@type": "Organization",
       name: "DIMENSHION",
     },
     brand: {
       "@type": "Brand",
-      name: "Workforce360",
-      slogan: "The AI-Native Workforce Operating System",
+      name: "SpotSign AI",
+      slogan: "The Enterprise Workforce Operating System",
     },
-    sameAs: [],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "sales",
+      url: "https://spotsign.ai/contact",
+      availableLanguage: "English",
+    },
   };
 
   const jsonLdSoftware = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "Workforce360",
+    "@id": "https://spotsign.ai/#software",
+    name: "SpotSign AI",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Cloud, Web, Progressive Web App (PWA)",
     description:
-      "AI-native, multi-tenant Workforce Operating System combining HRIS, workforce management, biometric attendance, Indian statutory payroll, talent, IT assets, and Workforce Digital Twin.",
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "USD",
-      description: "Enterprise pricing tailored by workforce size and industry pack.",
-    },
+      "Enterprise Workforce Operating System combining HRIS, workforce management, biometric attendance, Indian statutory payroll, talent, IT assets, and workforce analytics.",
     featureList: [
       "Core HR and Multi-Entity HRIS",
       "Biometric Attendance Sync with eSSL/ZKTeco",
       "Indian Statutory Payroll (TDS, PF, ESIC, Form 16)",
-      "40 Genkit AI Flows & Digital Brain",
-      "Workforce Digital Twin Scenario Simulator",
+      "Workflow Automation & Workforce Analytics",
+      "Executive Workforce Analytics & Reporting",
       "19 Pre-Built Industry Vertical Packs",
       "General Ledger & Payroll Journal Integration",
       "IT Asset Management & Offboarding Recovery Lock",
@@ -142,6 +146,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );

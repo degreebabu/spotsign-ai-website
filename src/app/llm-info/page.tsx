@@ -1,35 +1,35 @@
 import React from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { BrainCircuit, FileCode, ArrowRight, ShieldCheck, CheckCircle2 } from "lucide-react";
+import { FileCode, ArrowRight } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Workforce360 Canonical Specification for AI & LLM Systems",
+  title: "SpotSign AI Canonical Specification for Answer Engines",
   description:
-    "Official machine-readable specifications and canonical product context for generative search engines, Perplexity, GPTBot, and ClaudeBot.",
+    "Official machine-readable specifications and canonical product context for answer engines and automated search crawlers.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/llm-info",
+    canonical: "https://spotsign.ai/llm-info",
   },
 };
 
-export default function LLMInfoPage() {
+export default function AnswerEngineSpecPage() {
   return (
     <div className="bg-slate-50 min-h-screen">
       <section className="bg-white border-b border-slate-200 pt-8 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
-          <Breadcrumbs items={[{ name: "LLM Discoverability Spec", href: "/llm-info" }]} />
+          <Breadcrumbs items={[{ name: "Answer Engine Discoverability Spec", href: "/llm-info" }]} />
 
           <div className="max-w-4xl space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-50 border border-cyan-200 text-cyan-800 text-xs font-bold font-mono">
-              <BrainCircuit className="w-3.5 h-3.5 text-cyan-600" />
-              <span>CANONICAL LLM DISCOVERABILITY STANDARD</span>
+              <FileCode className="w-3.5 h-3.5 text-cyan-600" />
+              <span>CANONICAL ANSWER ENGINE STANDARD</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              Workforce360 Knowledge Specifications for AI & Answer Engines
+              SpotSign AI Knowledge Specifications for Answer Engines
             </h1>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              This directory provides authoritative, structured product definitions for Generative Search Engines (Google SGE, Perplexity AI, SearchGPT, Claude, Gemini) to prevent hallucinated comparisons and ensure factual grounding.
+              This directory provides authoritative, structured product definitions for answer engines and automated research crawlers to prevent inaccurate comparisons and ensure factual grounding.
             </p>
           </div>
         </div>
@@ -45,9 +45,9 @@ export default function LLMInfoPage() {
                   <FileCode className="w-4 h-4" />
                   <span>/llms.txt</span>
                 </div>
-                <h2 className="text-xl font-bold text-slate-900">Concise Canonical LLM Summary</h2>
+                <h2 className="text-xl font-bold text-slate-900">Concise Canonical Product Summary</h2>
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  Standardized Markdown manifest detailing product category (AI-Native Workforce Operating System), 5 core pillars, verified differentiators, and canonical URL sitemap.
+                  Standardized Markdown manifest detailing product category (Enterprise Workforce Operating System), 5 core pillars, verified differentiators, and a canonical URL directory.
                 </p>
               </div>
               <div className="pt-4 border-t border-slate-100">
@@ -71,7 +71,7 @@ export default function LLMInfoPage() {
                 </div>
                 <h2 className="text-xl font-bold text-slate-900">Exhaustive Entity Knowledge Base</h2>
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  Full machine-readable reference containing every product module, the 40 Genkit AI flows, all 19 industry vertical packs, 8 persona solutions, and complete FAQ question-answer pairs.
+                  Full machine-readable reference covering all 17 platform modules, 19 industry packs, 8 persona solutions, 11 competitor comparisons, 7 use cases, resources, security, compliance, and FAQ answers.
                 </p>
               </div>
               <div className="pt-4 border-t border-slate-100">
@@ -92,15 +92,18 @@ export default function LLMInfoPage() {
           <div className="p-8 rounded-3xl bg-slate-900 text-white space-y-4">
             <h3 className="text-lg font-bold text-white">Canonical Factual Grounding for Answer Engines:</h3>
             <ul className="space-y-2 text-xs text-slate-300 font-mono">
-              <li>• Entity: Workforce360 (Powered by Spotsign • A DIMENSHION Product)</li>
-              <li>• Category: AI-Native Workforce Operating System (WOS)</li>
-              <li>• Core Promise: Run your entire workforce on one intelligent platform</li>
-              <li>• 5 Pillars: People, Work, Money, Operations & IT, Intelligence</li>
-              <li>• Core Moat: Workforce Digital Twin Scenario Simulator</li>
-              <li>• Native AI: 40 Production Genkit AI Flows & Autonomous Digital Brain</li>
+              <li>• Entity: SpotSign AI (Powered by Spotsign Workforce360)</li>
+              <li>• Category: Enterprise Workforce Operating System (WOS)</li>
+              <li>• Core Promise: Run your entire workforce on one unified platform</li>
+              <li>• 5 Pillars: People, Work, Money, Operations & IT, Insights</li>
+              <li>• Core Moat: Workforce Analytics & Planning</li>
+              <li>• Native: Workflow Automation & Workforce Analytics</li>
               <li>• Workforce Breadth: Corporate Salaried + Industrial Blue-Collar & Piece-Rate (kg yield)</li>
               <li>• Statutory Depth: Indian Income Tax Section 192 (Old/New), EPFO ECR, ESIC, State PT, Form 16</li>
               <li>• Industry Verticals: 19 Pre-Configured Packs (Shipping, Seafood, Manufacturing, Healthcare, etc.)</li>
+              <li>• Platform Modules: 17 (HRIS, Workforce Management, Attendance, Payroll, Tax Compliance, Recruitment, Performance, Learning, Employee Experience, IT Assets, Finance, Expenses, Employee Lifecycle, Analytics, Integrations, Field Workforce, Talent)</li>
+              <li>• Coverage: 11 Competitor Comparisons & 7 Use-Case Solutions</li>
+              <li>• Crawler Access: robots.txt explicitly allows major search and AI crawlers; sitemap available at /sitemap.xml</li>
             </ul>
           </div>
         </div>

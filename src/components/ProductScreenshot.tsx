@@ -12,12 +12,11 @@ import {
   Filter,
   Layers,
   Sparkles,
-  Sliders,
   ChevronRight
 } from "lucide-react";
 
 interface ProductScreenshotProps {
-  type: "dashboard" | "attendance" | "payroll" | "ats" | "digital-twin";
+  type: "dashboard" | "attendance" | "payroll" | "ats";
   className?: string;
 }
 
@@ -31,14 +30,14 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
             <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/dashboard</span>
+            <span className="ml-3 font-mono text-[11px] text-slate-300">spotsign-ai/dashboard</span>
           </div>
           <div className="flex items-center space-x-3 text-slate-400 text-[11px]">
             <span className="flex items-center gap-1 text-emerald-400">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              Live Telemetry
+              Live Data
             </span>
-            <span className="bg-slate-800 px-2 py-0.5 rounded text-slate-300 font-mono">Tenant: ACME-GLOBAL</span>
+            <span className="bg-slate-800 px-2 py-0.5 rounded text-slate-300 font-mono">Workspace: ACME-GLOBAL</span>
           </div>
         </div>
 
@@ -51,7 +50,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
                 Enterprise WOS
               </span>
             </div>
-            <p className="text-xs text-slate-500">Real-time telemetry across 14 entities and 3 shifts</p>
+            <p className="text-xs text-slate-500">Real-time data across 14 entities and 3 shifts</p>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-xs text-slate-500 bg-white border border-slate-200 rounded-md px-3 py-1.5 flex items-center gap-1.5 font-medium shadow-sm">
@@ -60,7 +59,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
             </span>
             <span className="text-xs text-white bg-blue-600 rounded-md px-3 py-1.5 font-medium shadow-sm flex items-center gap-1">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>40 AI Flows Active</span>
+              <span>Workflow Automation Active</span>
             </span>
           </div>
         </div>
@@ -103,12 +102,12 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
 
           <div className="bg-white p-4 rounded-xl border border-slate-200/70 shadow-sm">
             <div className="flex items-center justify-between text-xs text-slate-500 mb-1">
-              <span>Digital Twin Sandbox</span>
+              <span>Attrition Risk Signals</span>
               <Sparkles className="w-4 h-4 text-indigo-600" />
             </div>
-            <div className="text-2xl font-extrabold text-indigo-600">Active</div>
+            <div className="text-2xl font-extrabold text-indigo-600">12</div>
             <div className="text-[11px] text-slate-500 font-medium mt-1">
-              <span>Q4 Reorg Model Staged</span>
+              <span>Retention reviews staged for Q4</span>
             </div>
           </div>
         </div>
@@ -169,112 +168,6 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
     );
   }
 
-  if (type === "digital-twin") {
-    return (
-      <div className={`rounded-2xl border border-indigo-900/60 bg-slate-950 text-slate-200 shadow-2xl overflow-hidden ${className}`}>
-        {/* Terminal Header */}
-        <div className="bg-slate-900/90 px-4 py-3 flex items-center justify-between border-b border-indigo-950 text-xs">
-          <div className="flex items-center space-x-2">
-            <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
-            <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
-            <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-            <span className="ml-3 font-mono text-[11px] text-cyan-300 font-semibold">workforce360/digital-twin</span>
-          </div>
-          <span className="text-[10px] bg-indigo-950/80 border border-indigo-700/60 text-indigo-300 px-2 py-0.5 rounded font-mono">
-            LIVE GRAPH: 3,482 NODES
-          </span>
-        </div>
-
-        {/* Simulator Controls & Scenario */}
-        <div className="p-6 grid grid-cols-1 lg:grid-cols-3 gap-6 bg-slate-950">
-          <div className="lg:col-span-1 space-y-4 bg-slate-900/60 p-4 rounded-xl border border-slate-800">
-            <div className="flex items-center justify-between">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Scenario Levers</span>
-              <Sliders className="w-4 h-4 text-indigo-400" />
-            </div>
-
-            <div className="space-y-3 text-xs">
-              <div>
-                <div className="flex justify-between text-slate-300 mb-1">
-                  <span>Sales & Commercial</span>
-                  <span className="text-rose-400 font-mono font-bold">-10% Headcount</span>
-                </div>
-                <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
-                  <div className="bg-rose-500 h-2 w-[70%]"></div>
-                </div>
-              </div>
-
-              <div>
-                <div className="flex justify-between text-slate-300 mb-1">
-                  <span>Software Engineering</span>
-                  <span className="text-emerald-400 font-mono font-bold">+15% Ramp</span>
-                </div>
-                <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
-                  <div className="bg-emerald-500 h-2 w-[85%]"></div>
-                </div>
-              </div>
-
-              <div>
-                <div className="flex justify-between text-slate-300 mb-1">
-                  <span>Factory Relay Shifts</span>
-                  <span className="text-amber-400 font-mono font-bold">Consolidate to 2 Rotas</span>
-                </div>
-                <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
-                  <div className="bg-amber-500 h-2 w-[55%]"></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="pt-2">
-              <span className="block text-[11px] text-slate-400 mb-1">Simulation Mode:</span>
-              <div className="bg-slate-800/80 p-2 rounded text-[11px] text-cyan-300 font-mono border border-cyan-800/40">
-                ✓ Non-Destructive Isolated Sandbox
-              </div>
-            </div>
-          </div>
-
-          {/* Real-Time Impact Projection */}
-          <div className="lg:col-span-2 grid grid-cols-2 gap-4">
-            <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
-              <span className="text-[11px] text-slate-400 uppercase tracking-wider font-semibold">Monthly Payroll Delta</span>
-              <div className="text-2xl font-extrabold text-emerald-400 mt-1 font-mono">-₹28.4 Lakhs</div>
-              <p className="text-[11px] text-slate-400 mt-1 leading-tight">Net monthly run-rate reduction after tech re-allocation.</p>
-            </div>
-
-            <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
-              <span className="text-[11px] text-slate-400 uppercase tracking-wider font-semibold">Severance Liability Reserve</span>
-              <div className="text-2xl font-extrabold text-amber-400 mt-1 font-mono">₹46.2 Lakhs</div>
-              <p className="text-[11px] text-slate-400 mt-1 leading-tight">Accrued gratuity + notice encashment modeled per tenure.</p>
-            </div>
-
-            <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
-              <span className="text-[11px] text-slate-400 uppercase tracking-wider font-semibold">Skills Deficit Risk</span>
-              <div className="text-2xl font-extrabold text-rose-400 mt-1 font-mono">2 Critical Roles</div>
-              <p className="text-[11px] text-slate-400 mt-1 leading-tight">Key account relationships identified without direct backup.</p>
-            </div>
-
-            <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-800">
-              <span className="text-[11px] text-slate-400 uppercase tracking-wider font-semibold">P&L Payback Horizon</span>
-              <div className="text-2xl font-extrabold text-cyan-400 mt-1 font-mono">1.6 Months</div>
-              <p className="text-[11px] text-slate-400 mt-1 leading-tight">Break-even timeline for proposed structural adjustment.</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Staging Workflow Footer */}
-        <div className="bg-slate-900 px-6 py-3 border-t border-slate-800 flex items-center justify-between text-xs">
-          <div className="flex items-center gap-2 text-slate-400">
-            <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-            <span>Scenario Validation: Staged for Board Review</span>
-          </div>
-          <button className="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-4 py-1.5 rounded-lg text-xs transition">
-            Export Executive Transition Plan →
-          </button>
-        </div>
-      </div>
-    );
-  }
-
   if (type === "payroll") {
     return (
       <div className={`rounded-2xl border border-slate-200 bg-white shadow-xl overflow-hidden text-slate-800 ${className}`}>
@@ -283,7 +176,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
             <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/payroll</span>
+            <span className="ml-3 font-mono text-[11px] text-slate-300">spotsign-ai/payroll</span>
           </div>
           <span className="bg-emerald-950 text-emerald-400 px-2 py-0.5 rounded text-[10px] font-mono border border-emerald-800">
             STATUS: 0 ANOMALIES
@@ -342,11 +235,11 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
             <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/recruitment</span>
+            <span className="ml-3 font-mono text-[11px] text-slate-300">spotsign-ai/recruitment</span>
           </div>
           <span className="bg-indigo-950 text-cyan-300 px-2 py-0.5 rounded text-[10px] font-mono border border-indigo-800 flex items-center gap-1">
             <Sparkles className="w-3 h-3 text-cyan-400" />
-            Genkit Flow 03: Resume Semantic Parser Active
+            Workflow Automation 03: Resume Screening Active
           </span>
         </div>
 
@@ -360,7 +253,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
           <div className="flex items-center gap-2">
             <span className="bg-white border border-slate-200 px-2.5 py-1 rounded text-slate-600 font-medium text-[11px] flex items-center gap-1">
               <Filter className="w-3 h-3 text-slate-400" />
-              Min AI Score: 85%+
+              Min Fit Score: 85%+
             </span>
             <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-3 py-1 rounded text-[11px] flex items-center gap-1">
               <Sparkles className="w-3 h-3" />
@@ -384,19 +277,8 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
               </div>
               <p className="text-[11px] text-slate-500">Ex-Razorpay • 6 yrs exp • Next.js, Go, PostgreSQL</p>
               <div className="flex items-center justify-between text-[10px] text-slate-400 pt-1 border-t border-slate-100">
-                <span className="text-cyan-600 font-medium">Genkit: Key Skills Match</span>
+                <span className="text-cyan-600 font-medium">Skills Match</span>
                 <span>Applied 2h ago</span>
-              </div>
-            </div>
-            <div className="p-3 bg-white rounded-xl border border-slate-200 shadow-sm space-y-2">
-              <div className="flex items-center justify-between">
-                <span className="font-bold text-slate-900">Ananya Sharma</span>
-                <span className="text-[10px] font-mono bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded font-bold">89% Fit</span>
-              </div>
-              <p className="text-[11px] text-slate-500">Ex-Flipkart • 5 yrs exp • React, TypeScript, Kafka</p>
-              <div className="flex items-center justify-between text-[10px] text-slate-400 pt-1 border-t border-slate-100">
-                <span className="text-slate-500">Notice: 30 Days</span>
-                <span>Applied 5h ago</span>
               </div>
             </div>
           </div>
@@ -404,7 +286,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
           {/* Column 2 */}
           <div className="space-y-2.5">
             <div className="flex items-center justify-between font-bold text-slate-700 px-1">
-              <span>AI Screening</span>
+              <span>Resume Screening</span>
               <span className="bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded text-[10px]">12</span>
             </div>
             <div className="p-3 bg-white rounded-xl border border-blue-300 shadow-sm space-y-2 ring-1 ring-blue-500/10">
@@ -412,7 +294,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
                 <span className="font-bold text-slate-900">Karthik Menon</span>
                 <span className="text-[10px] font-mono bg-emerald-50 text-emerald-700 px-1.5 py-0.5 rounded font-bold">96% Fit</span>
               </div>
-              <p className="text-[11px] text-slate-500">Genkit Interview Questions Generated (System Design)</p>
+              <p className="text-[11px] text-slate-500">Interview Questions Generated (System Design)</p>
               <div className="flex items-center justify-between text-[10px] text-slate-400 pt-1 border-t border-slate-100">
                 <span className="text-indigo-600 font-semibold">Ready for Panel</span>
                 <span className="text-emerald-600 font-medium">Resume Verified</span>
@@ -450,7 +332,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
                 <span className="font-bold text-slate-900">Rohan Iyer</span>
                 <span className="text-[10px] font-mono bg-emerald-600 text-white px-1.5 py-0.5 rounded font-bold">Approved</span>
               </div>
-              <p className="text-[11px] text-slate-600">CTC ₹38 LPA • Compensation parity validated in Digital Twin</p>
+              <p className="text-[11px] text-slate-600">CTC ₹38 LPA • Compensation parity validated against internal bands</p>
               <div className="flex items-center justify-between text-[10px] text-slate-500 pt-1 border-t border-emerald-200">
                 <span className="text-emerald-700 font-semibold">Auto-Draft Onboarding</span>
                 <span>Joining Nov 1</span>
@@ -471,7 +353,7 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
             <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-            <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/attendance</span>
+            <span className="ml-3 font-mono text-[11px] text-slate-300">spotsign-ai/attendance</span>
           </div>
           <span className="bg-emerald-950 text-emerald-300 px-2 py-0.5 rounded text-[10px] font-mono border border-emerald-800">
             SYNCED: 42 BIOMETRIC TERMINALS LIVE
@@ -555,11 +437,11 @@ export default function ProductScreenshot({ type, className = "" }: ProductScree
           <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
           <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
           <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-          <span className="ml-3 font-mono text-[11px] text-slate-300">workforce360/dashboard</span>
+          <span className="ml-3 font-mono text-[11px] text-slate-300">spotsign-ai/dashboard</span>
         </div>
-        <span className="text-emerald-400 text-[11px]">Live Multi-Tenant Instance</span>
+        <span className="text-emerald-400 text-[11px]">Live Workspace</span>
       </div>
-      <div className="p-8 text-center text-xs text-slate-500">Enterprise Module Telemetry Configured</div>
+      <div className="p-8 text-center text-xs text-slate-500">Enterprise Module Configured</div>
     </div>
   );
 }

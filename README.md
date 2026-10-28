@@ -1,18 +1,18 @@
-# Workforce360 — AI-Native Workforce Operating System
+# SpotSign AI — AI-Native Workforce Operating System
 
-> **Powered by Spotsign • A DIMENSHION Product**  
+> **Powered by Spotsign Workforce360**  
 > *"Run your entire workforce on one intelligent platform."*
 
-Workforce360 connects **People + Work + Money + Operations & IT + Intelligence** into a unified workforce operating layer engineered for both corporate desk and operational frontline/floor workforces.
+SpotSign AI connects **People + Work + Money + Operations & IT + Intelligence** into a unified workforce operating layer engineered for both corporate desk and operational frontline/floor workforces.
 
 ---
 
 ## 🏛️ Enterprise Architecture Overview
 
-Workforce360 departs from traditional record-keeping HRMS platforms by orchestrating the complete workforce operating lifecycle across five foundational pillars:
+SpotSign AI departs from traditional record-keeping HRMS platforms by orchestrating the complete workforce operating lifecycle across five foundational pillars:
 
 ```
-                         WORKFORCE360
+                         SPOTSIGN AI
                               │
       ┌──────────────┬────────┴─────┬──────────────┐
     PEOPLE          WORK          MONEY        OPERATIONS
@@ -137,4 +137,4 @@ npm run start -p 3005
 ## 📄 License & Attribution
 
 Copyright © 2026 **DIMENSHION**. All rights reserved.  
-Workforce360 is powered by Spotsign, a DIMENSHION product.
+SpotSign AI is powered by Spotsign Workforce360.

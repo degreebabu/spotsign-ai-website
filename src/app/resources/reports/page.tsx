@@ -5,11 +5,11 @@ import { BarChart3, Download, ArrowRight, ShieldCheck, Sparkles, TrendingUp } fr
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Enterprise Workforce Research & Benchmark Reports | Workforce360",
+  title: "Enterprise Workforce Research & Benchmark Reports | SpotSign AI",
   description:
-    "Authoritative data and executive benchmarks on workforce operating costs, shift scheduling efficiency, Indian statutory compliance, and AI operational adoption.",
+    "Authoritative data and executive benchmarks on workforce operating costs, shift scheduling efficiency, Indian statutory compliance, and operational adoption.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/resources/reports",
+    canonical: "https://spotsign.ai/resources/reports",
   },
 };
 
@@ -27,14 +27,14 @@ export default function ReportsPage() {
       title: "Indian Statutory Payroll & Labor Law Compliance Index",
       desc: "A comprehensive operational review of Section 192 TDS dual regimes, EPFO electronic challan automation, State Professional Tax variances, and Factories Act overtime caps across multi-state employers.",
       stats: ["Zero Statutory Notice Rate", "1-Click ECR Filing", "28 States Analyzed"],
-      format: "Technical Whitepaper • 32 Pages",
+      format: "Compliance Guide • 32 Pages",
     },
     {
-      badge: "AI INTELLIGENCE",
-      title: "Embedded AI vs Bolted-On Chatbots: The ROI of Genkit Flows",
-      desc: "Comparing the productivity output of embedded operational AI flows (ATS resume scoring, flight risk prediction, roster muster) against generic conversational chatbot add-ons in enterprise HCM environments.",
-      stats: ["40 Production Genkit Flows", "68% Early Churn Signal", "4.2x Faster Requisition Fill"],
-      format: "Architecture Briefing • 24 Pages",
+      badge: "WORKFORCE ANALYTICS",
+      title: "Embedded vs Bolt-On Tools: The ROI of Workflow Automations",
+      desc: "Comparing the productivity output of embedded operational workflow automations (ATS resume scoring, flight risk reporting, roster muster) against standalone add-on tools in enterprise HCM environments.",
+      stats: ["Workflow Automation", "68% Early Churn Signal", "4.2x Faster Requisition Fill"],
+      format: "Executive Briefing • 24 Pages",
     },
   ];
 
@@ -58,7 +58,7 @@ export default function ReportsPage() {
               Enterprise Workforce Research & Benchmark Reports.
             </h1>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Data-backed research and empirical benchmarks on labor cost containment, shift rostering efficiency, and AI adoption across corporate and industrial organizations.
+              Data-backed research and empirical benchmarks on labor cost containment, shift rostering efficiency, and adoption across corporate and industrial organizations.
             </p>
           </div>
         </div>

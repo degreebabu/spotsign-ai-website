@@ -5,11 +5,11 @@ import { Video, Play, ArrowRight, Clock, Users, Calendar } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "On-Demand Enterprise Webinars & Technical Briefings | Workforce360",
+  title: "On-Demand Enterprise Webinars & Briefings | SpotSign AI",
   description:
-    "Watch recorded architectural briefings and practitioner discussions on Workforce Digital Twin modeling, Indian statutory payroll automation, and shift rostering.",
+    "Watch recorded product briefings and practitioner discussions on Workforce Planning modeling, Indian statutory payroll automation, and shift rostering.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/resources/webinars",
+    canonical: "https://spotsign.ai/resources/webinars",
   },
 };
 
@@ -17,15 +17,15 @@ export default function WebinarsPage() {
   const webinars = [
     {
       badge: "EXECUTIVE BRIEFING",
-      title: "Modeling Organizational Restructuring with the Workforce Digital Twin",
+      title: "Modeling Organizational Restructuring with Workforce Planning",
       desc: "Learn how enterprise CHROs and CFOs use non-destructive scenario simulations to model headcount additions, severance reserves, and monthly P&L delta before board approval.",
       duration: "42 Mins",
-      speaker: "Enterprise Solutions Architecture Team",
+      speaker: "Enterprise Solutions Team",
     },
     {
       badge: "PAYROLL & COMPLIANCE",
       title: "Mastering Indian Statutory Payroll: TDS, EPFO ECR & Form 16 Automation",
-      desc: "A hands-on technical walkthrough of dual-regime Section 192 tax optimization, Form 12BB proof OCR, and automated General Ledger double-entry posting into SAP and NetSuite.",
+      desc: "A practical walkthrough of dual-regime Section 192 tax optimization, Form 12BB proof verification, and automated General Ledger posting into SAP and NetSuite.",
       duration: "55 Mins",
       speaker: "Statutory Compliance Practice Lead",
     },
@@ -52,13 +52,13 @@ export default function WebinarsPage() {
           <div className="max-w-4xl space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold">
               <Video className="w-3.5 h-3.5 text-blue-600" />
-              <span>ON-DEMAND TECHNICAL SESSIONS</span>
+              <span>ON-DEMAND SESSIONS</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              Enterprise Webinars & Technical Briefings.
+              Enterprise Webinars & Practical Briefings.
             </h1>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Watch recorded architectural demonstrations, compliance deep dives, and workforce management masterclasses delivered by enterprise solutions engineers.
+              Watch recorded product demonstrations, compliance deep dives, and workforce management masterclasses delivered by enterprise solutions specialists.
             </p>
           </div>
         </div>

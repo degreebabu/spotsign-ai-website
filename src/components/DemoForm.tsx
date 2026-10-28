@@ -17,7 +17,7 @@ export default function DemoForm() {
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({...formData, [e.target.name]: e.target.value });
   };
 
   const handleNext = (e: React.FormEvent) => {
@@ -41,7 +41,7 @@ export default function DemoForm() {
         <div className="space-y-2">
           <h3 className="text-2xl font-bold text-slate-900">Demonstration Request Received</h3>
           <p className="text-sm text-slate-600 max-w-md mx-auto">
-            Thank you, {formData.fullName}. A Workforce360 enterprise solutions architect specializing in the{" "}
+            Thank you, {formData.fullName}. A SpotSign AI enterprise solutions architect specializing in the{" "}
             <span className="font-semibold text-blue-600">
               {navData.industries.find((i) => i.slug === formData.industry)?.name || formData.industry}
             </span>{" "}
@@ -51,7 +51,7 @@ export default function DemoForm() {
         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 max-w-sm mx-auto text-left space-y-1">
           <div><strong>Configured Scope:</strong> {formData.primaryInterest}</div>
           <div><strong>Workforce Size:</strong> {formData.workforceSize} Employees</div>
-          <div><strong>Enterprise SLA:</strong> Dedicated architectural walkthrough</div>
+          <div><strong>Enterprise SLA:</strong> Dedicated guided walkthrough</div>
         </div>
       </div>
     );
@@ -65,11 +65,11 @@ export default function DemoForm() {
           <h3 className="text-xl font-bold text-slate-900">Schedule a Tailored Demonstration</h3>
         </div>
         <div className="flex items-center space-x-2 text-xs font-semibold">
-          <span className={`w-6 h-6 rounded-full flex items-center justify-center ${step === 1 ? "bg-blue-600 text-white" : "bg-emerald-600 text-white"}`}>
+          <span className={`w-6 h-6 rounded-full flex items-center justify-center ${step === 1 ? "bg-blue-600 text-white": "bg-emerald-600 text-white"}`}>
             1
           </span>
           <span className="text-slate-300">──</span>
-          <span className={`w-6 h-6 rounded-full flex items-center justify-center ${step === 2 ? "bg-blue-600 text-white" : "bg-slate-100 text-slate-500"}`}>
+          <span className={`w-6 h-6 rounded-full flex items-center justify-center ${step === 2 ? "bg-blue-600 text-white": "bg-slate-100 text-slate-500"}`}>
             2
           </span>
         </div>
@@ -135,7 +135,7 @@ export default function DemoForm() {
             </button>
           </div>
         </form>
-      ) : (
+      ): (
         <form onSubmit={handleSubmit} className="space-y-4 text-xs sm:text-sm">
           <div>
             <label className="block font-semibold text-slate-700 mb-1.5" htmlFor="workforceSize">
@@ -201,11 +201,11 @@ export default function DemoForm() {
               className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 outline-none bg-white font-medium"
             >
               <option value="Full Workforce Operating System">Full Workforce Operating System (WOS)</option>
-              <option value="Workforce Digital Twin Simulator">Workforce Digital Twin Simulator</option>
-              <option value="40 Genkit AI Flows & Digital Brain">AI Workforce Intelligence / Digital Brain</option>
+              <option value="Workforce Planning Simulator">Workforce Planning Simulator</option>
+              <option value="Workflow Automation & Workforce Analytics">Workforce Analytics</option>
               <option value="Payroll, Indian Statutory & GL Sync">Payroll, Indian Statutory Tax & GL Sync</option>
               <option value="Workforce Management & Shift Rostering">Workforce Management & Biometrics</option>
-              <option value="AI Recruitment ATS">AI Recruitment & ATS</option>
+              <option value="Recruitment ATS">Recruitment & ATS</option>
               <option value="IT Asset & Software Governance">IT Asset Governance & Offboarding</option>
             </select>
           </div>

@@ -12,7 +12,7 @@ export default function NotFound() {
         <div className="space-y-2">
           <h1 className="text-2xl font-bold text-slate-900">Page Not Found</h1>
           <p className="text-xs sm:text-sm text-slate-600">
-            The requested workforce resource or platform route could not be found. Use the links below to return to the Workforce360 operating system directory.
+            The requested workforce resource or platform route could not be found. Use the links below to return to the SpotSign AI operating system directory.
           </p>
         </div>
 

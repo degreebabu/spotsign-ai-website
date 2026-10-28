@@ -13,11 +13,11 @@ import {
   AlertCircle,
   Cpu
 } from "lucide-react";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProductScreenshot from "@/components/ProductScreenshot";
-import DigitalTwinSimulator from "@/components/DigitalTwinSimulator";
-import AIWorkflowSection from "@/components/AIWorkflowSection";
 import FAQAccordion from "@/components/FAQAccordion";
+import AnimatedSection, { FloatingCard } from "@/components/AnimatedSection";
 import productsData from "../../../../content/products.json";
 import navData from "../../../../content/navigation.json";
 
@@ -41,12 +41,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: product.metaTitle,
     description: product.metaDescription,
     alternates: {
-      canonical: `https://workforce360.dimension.com/platform/${slug}`,
+      canonical: `https://spotsign.ai/platform/${slug}`,
     },
     openGraph: {
+      type: "website",
       title: product.metaTitle,
       description: product.metaDescription,
-      url: `https://workforce360.dimension.com/platform/${slug}`,
+      url: `https://spotsign.ai/platform/${slug}`,
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "SpotSign AI Enterprise Workforce Operating System",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: product.metaTitle,
+      description: product.metaDescription,
+      images: ["/og-image.png"],
     },
   };
 }
@@ -63,11 +78,54 @@ export default async function ProductDetailPage({ params }: PageProps) {
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: `Workforce360 ${product.title}`,
+    "@id": `https://spotsign.ai/platform/${slug}#software`,
+    isPartOf: { "@id": "https://spotsign.ai/#software" },
+    name: `SpotSign AI ${product.title}`,
     applicationCategory: "BusinessApplication",
     operatingSystem: "Cloud, Web, PWA",
     description: product.metaDescription,
     featureList: product.capabilities.map((c: any) => c.title),
+  };
+
+  const faqJsonLd = product.faqs && product.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": product.faqs.map((faq: any) => ({
+      "@type": "Question",
+      "name": faq.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.a,
+      },
+    })),
+  } : null;
+
+  const getPlatformModuleImage = (modSlug: string) => {
+    if (modSlug === "payroll" || modSlug === "tax-compliance" || modSlug === "finance" || modSlug === "expenses") {
+      return "/images/fintech-banking.jpg";
+    }
+    if (modSlug === "recruitment" || modSlug === "performance" || modSlug === "learning-lms") {
+      return "/images/recruitment-interview.jpg";
+    }
+    if (modSlug === "attendance" || modSlug === "shift-rostering" || modSlug === "leave-management") {
+      return "/images/frontline-workforce.jpg";
+    }
+    if (modSlug === "field-workforce" || modSlug === "travel-desk") {
+      return "/images/field-mobile-workforce.jpg";
+    }
+    if (modSlug === "contract-worker" || modSlug === "contract-worker-management") {
+      return "/images/construction-site.jpg";
+    }
+    if (modSlug === "statutory-compliance" || modSlug === "compliance") {
+      return "/images/statutory-compliance.jpg";
+    }
+    if (modSlug === "workforce-analytics" || modSlug === "pulse-surveys") {
+      return "/images/executive-analytics.jpg";
+    }
+    if (modSlug === "it-assets" || modSlug === "it-asset-management") {
+      return "/images/tech-software.jpg";
+    }
+    return "/images/corporate-workforce.jpg";
   };
 
   return (
@@ -76,9 +134,15 @@ export default async function ProductDetailPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       {/* Hero Section */}
-      <section className="bg-white border-b border-slate-200 pt-8 pb-16">
+      <AnimatedSection className="bg-white border-b border-slate-200 pt-8 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <Breadcrumbs
             items={[
@@ -87,59 +151,74 @@ export default async function ProductDetailPage({ params }: PageProps) {
             ]}
           />
 
-          <div className="max-w-4xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold">
-              <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-              <span>{product.badge}</span>
-            </div>
-            <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              {product.title}
-            </h1>
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              {product.subtitle}
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7 space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold">
+                <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+                <span>{product.badge}</span>
+              </div>
+              <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
+                {product.title}
+              </h1>
+              <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
+                {product.subtitle}
+              </p>
 
-            <div className="flex flex-wrap items-center gap-4 pt-4">
-              <Link
-                href="/demo"
-                className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md transition"
-              >
-                Request a Demonstration
-              </Link>
-              <Link
-                href="#capabilities"
-                className="px-6 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-sm transition"
-              >
-                Explore Capabilities
-              </Link>
+              <div className="flex flex-wrap items-center gap-4 pt-2">
+                <Link
+                  href="/demo"
+                  className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md transition"
+                >
+                  Request a Demonstration
+                </Link>
+                <Link
+                  href="#capabilities"
+                  className="px-6 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-sm transition"
+                >
+                  Explore Capabilities
+                </Link>
+              </div>
+            </div>
+
+            <div className="lg:col-span-5">
+              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 group aspect-[16/10]">
+                <Image
+                  src={getPlatformModuleImage(slug)}
+                  alt={`${product.title} enterprise module`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+                  <div className="text-white text-xs space-y-1">
+                    <span className="font-bold text-cyan-400 block uppercase tracking-wider text-[11px]">{product.badge}</span>
+                    <p className="text-slate-200 text-[11px] line-clamp-1">{product.title}</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Live Visual / UI Screenshot Showcase */}
-      <section className="py-12 bg-slate-100/60 border-b border-slate-200">
+      <AnimatedSection delay={0.1} className="py-12 bg-slate-100/60 border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          {slug === "digital-twin" ? (
-            <DigitalTwinSimulator />
-          ) : slug === "payroll" || slug === "tax-compliance" || slug === "finance" || slug === "expenses" ? (
+          {slug === "payroll" || slug === "tax-compliance" || slug === "finance" || slug === "expenses" ? (
             <ProductScreenshot type="payroll" />
           ) : slug === "recruitment" ? (
             <ProductScreenshot type="ats" />
           ) : slug === "attendance" || slug === "workforce-management" || slug === "field-workforce" ? (
             <ProductScreenshot type="attendance" />
-          ) : slug === "ai" ? (
-            <AIWorkflowSection />
           ) : (
             <ProductScreenshot type="dashboard" />
           )}
         </div>
-      </section>
+      </AnimatedSection>
 
-      {/* Problem & Architectural Solution */}
-      <section className="py-16 bg-white border-b border-slate-200">
+      {/* Problem & Solution */}
+      <AnimatedSection className="py-16 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <div className="p-8 rounded-3xl bg-rose-50/60 border border-rose-100 space-y-4">
               <div className="flex items-center gap-2 text-rose-700 font-bold text-xs uppercase tracking-wider">
                 <AlertCircle className="w-4 h-4 text-rose-600" />
@@ -156,7 +235,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
             <div className="p-8 rounded-3xl bg-blue-50/60 border border-blue-100 space-y-4">
               <div className="flex items-center gap-2 text-blue-700 font-bold text-xs uppercase tracking-wider">
                 <CheckCircle2 className="w-4 h-4 text-blue-600" />
-                <span>The Workforce360 Approach</span>
+                <span>The SpotSign AI Approach</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 How Our Operating System Solves It
@@ -167,10 +246,10 @@ export default async function ProductDetailPage({ params }: PageProps) {
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* 4-Step Operating Workflow Diagram */}
-      <section className="py-16 bg-slate-50 border-b border-slate-200">
+      <AnimatedSection className="py-16 bg-slate-50 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="max-w-3xl space-y-2">
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
@@ -180,39 +259,39 @@ export default async function ProductDetailPage({ params }: PageProps) {
               How Data Transitions Through {product.title}
             </h2>
             <p className="text-sm text-slate-600">
-              From event trigger to automated policy enforcement, AI verification, and financial ledger reflection.
+              From event trigger to automated policy enforcement, approval routing, and financial ledger reflection.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3">
+            <FloatingCard delay={0.05} className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3">
               <div className="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 font-bold text-xs flex items-center justify-center">
                 01
               </div>
               <h3 className="text-sm font-bold text-slate-900">Capture & Trigger</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Telemetry arrives via mobile punch, biometric terminal, recruiter ATS, or employee self-service portal.
+                Data arrives via mobile punch, biometric terminal, recruiter ATS, or employee self-service portal.
               </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3">
+            </FloatingCard>
+            <FloatingCard delay={0.1} className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3">
               <div className="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 font-bold text-xs flex items-center justify-center">
                 02
               </div>
-              <h3 className="text-sm font-bold text-slate-900">Embedded AI Screening</h3>
+              <h3 className="text-sm font-bold text-slate-900">Automated Policy Checks</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Genkit AI flows check shift guardrails, parse documents, flag payroll anomalies, or score candidate qualifications.
+                Automated checks validate shift guardrails, document completeness, payroll variances, or candidate qualifications.
               </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3">
+            </FloatingCard>
+            <FloatingCard delay={0.15} className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3">
               <div className="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 font-bold text-xs flex items-center justify-center">
                 03
               </div>
-              <h3 className="text-sm font-bold text-slate-900">Multi-Tier RBAC Approval</h3>
+              <h3 className="text-sm font-bold text-slate-900">Authorized Approval</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Authorized supervisors approve deviations with complete cryptographic audit logging and role separation.
+                Authorized supervisors approve deviations with role-based permissions and detailed audit logs.
               </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3">
+            </FloatingCard>
+            <FloatingCard delay={0.2} className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3">
               <div className="w-8 h-8 rounded-lg bg-purple-50 text-purple-600 font-bold text-xs flex items-center justify-center">
                 04
               </div>
@@ -220,10 +299,10 @@ export default async function ProductDetailPage({ params }: PageProps) {
               <p className="text-xs text-slate-600 leading-relaxed">
                 Instant sync across payroll, leave balances, IT permissions, and General Ledger double-entry journals.
               </p>
-            </div>
+            </FloatingCard>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Key Capabilities */}
       <section id="capabilities" className="py-20 bg-white border-b border-slate-200">
@@ -239,38 +318,24 @@ export default async function ProductDetailPage({ params }: PageProps) {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {product.capabilities.map((cap: any, idx: number) => (
-              <div key={idx} className="rounded-2xl border border-slate-200 bg-slate-50/50 p-6 shadow-sm hover:shadow-md transition space-y-3">
+              <FloatingCard
+                key={idx}
+                delay={idx * 0.08}
+                className="rounded-2xl border border-slate-200 bg-slate-50/50 p-6 shadow-sm hover:shadow-md transition space-y-3"
+              >
                 <div className="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 font-bold text-xs flex items-center justify-center">
                   {idx + 1}
                 </div>
                 <h3 className="text-base font-bold text-slate-900">{cap.title}</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">{cap.desc}</p>
-              </div>
+              </FloatingCard>
             ))}
           </div>
-
-          {/* AI Intelligence Inside This Workflow */}
-          {product.aiCapabilities && product.aiCapabilities.length > 0 && (
-            <div className="rounded-3xl bg-slate-950 text-white p-8 sm:p-10 border border-indigo-950 space-y-6">
-              <div className="flex items-center gap-2">
-                <Sparkles className="w-5 h-5 text-cyan-400" />
-                <h3 className="text-lg font-bold text-white">AI Intelligence Embedded in This Workflow</h3>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {product.aiCapabilities.map((ai: any, i: number) => (
-                  <div key={i} className="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 space-y-2">
-                    <h4 className="text-sm font-bold text-cyan-300">{ai.title}</h4>
-                    <p className="text-xs text-slate-300 leading-relaxed">{ai.desc}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       </section>
 
-      {/* Personas, Related Industries & Connected Modules */}
-      <section className="py-16 bg-slate-50 border-b border-slate-200">
+      {/* Personas & Related Industries */}
+      <AnimatedSection className="py-16 bg-slate-50 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Personas */}
@@ -322,7 +387,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* FAQs */}
       {product.faqs && product.faqs.length > 0 && (
@@ -330,13 +395,13 @@ export default async function ProductDetailPage({ params }: PageProps) {
       )}
 
       {/* Final Module CTA */}
-      <section className="py-20 bg-slate-950 text-white text-center">
+      <AnimatedSection className="py-20 bg-slate-950 text-white text-center">
         <div className="max-w-4xl mx-auto px-4 space-y-6">
           <h2 className="text-2xl sm:text-4xl font-extrabold text-white">
             Ready to integrate {product.title.toLowerCase()} into your workforce?
           </h2>
           <p className="text-sm text-slate-400 max-w-xl mx-auto">
-            Schedule an architectural walkthrough to explore how Workforce360 connects this capability directly with your payroll, attendance, and corporate ledger.
+            Schedule a tailored walkthrough to explore how SpotSign AI connects this capability with your payroll, attendance, and corporate ledger.
           </p>
           <div className="pt-2">
             <Link
@@ -348,7 +413,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
     </div>
   );
 }

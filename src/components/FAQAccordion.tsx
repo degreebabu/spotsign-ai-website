@@ -18,7 +18,7 @@ interface FAQAccordionProps {
 export default function FAQAccordion({ 
   items, 
   title = "Frequently Asked Questions", 
-  subtitle = "Direct, factual answers regarding Workforce360 platform architecture, compliance, and deployment."
+  subtitle = "Direct, factual answers regarding SpotSign AI security, compliance, and deployment."
 }: FAQAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
@@ -69,6 +69,7 @@ export default function FAQAccordion({
                 <button
                   onClick={() => toggleItem(idx)}
                   aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${idx}`}
                   className="w-full text-left p-5 flex items-center justify-between gap-4 font-semibold text-slate-900 hover:text-blue-600 transition"
                 >
                   <span className="text-sm sm:text-base">{item.q}</span>
@@ -78,11 +79,14 @@ export default function FAQAccordion({
                     }`}
                   />
                 </button>
-                {isOpen && (
-                  <div className="px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-                    {item.a}
-                  </div>
-                )}
+                <div
+                  id={`faq-answer-${idx}`}
+                  className={`px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3 ${
+                    isOpen ? "block" : "hidden"
+                  }`}
+                >
+                  {item.a}
+                </div>
               </div>
             );
           })}

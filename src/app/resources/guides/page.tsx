@@ -5,22 +5,22 @@ import { BookOpen, ArrowRight } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Workforce Architecture & Operational Guides | Workforce360",
+  title: "Workforce Operations & Practical Guides | SpotSign AI",
   description:
-    "In-depth architectural guides on workforce operating systems, dual-workforce payroll, and industrial shift rostering.",
+    "Practical guides on workforce operating systems, dual-workforce payroll, industrial shift rostering, and enterprise workforce planning.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/resources/guides",
+    canonical: "https://spotsign.ai/resources/guides",
   },
 };
 
 export default function GuidesPage() {
   const guides = [
     {
-      title: "The Architecture of a Workforce Operating System (WOS)",
-      desc: "Why modern enterprises are transitioning from disconnected HRMS records to integrated systems uniting People, Work, Money, IT Ops, and AI.",
+      title: "The Building Blocks of a Workforce Operating System (WOS)",
+      desc: "Why modern enterprises are transitioning from disconnected HRMS records to integrated systems uniting People, Work, Money, IT Ops, and Insights.",
       readTime: "8 min read",
-      category: "Architecture",
-      slug: "wos-architecture",
+      category: "Operations",
+      slug: "wos-overview",
     },
     {
       title: "The Dual-Workforce Playbook: Unifying Desk and Frontline Floor",
@@ -30,11 +30,11 @@ export default function GuidesPage() {
       slug: "dual-workforce-playbook",
     },
     {
-      title: "Strategic Workforce Simulation with the Digital Twin",
+      title: "Strategic Workforce Simulation with Workforce Planning",
       desc: "A framework for CHROs and CFOs to model organizational restructuring, calculate severance liabilities, and identify skill deficits.",
       readTime: "9 min read",
       category: "Strategy",
-      slug: "digital-twin-guide",
+      slug: "workforce-planning-guide",
     },
   ];
 
@@ -55,10 +55,10 @@ export default function GuidesPage() {
               <span>OPERATIONAL WHITEPAPERS & GUIDES</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              Workforce Architecture & Strategy Guides.
+              Workforce Operations & Strategy Guides.
             </h1>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Explore in-depth architectural guides on workforce operating systems, dual-workforce payroll, and industrial shift rostering.
+              Explore practical guides on workforce operating systems, dual-workforce payroll, and industrial shift rostering.
             </p>
           </div>
         </div>

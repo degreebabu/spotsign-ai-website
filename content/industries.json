@@ -6,23 +6,44 @@
       "badge": "STCW & MARITIME COMPLIANCE",
       "headline": "Maritime Crew Operations and STCW Rest-Hour Compliance",
       "tagline": "Automate crew rotations, CDC sea-service tracking, STCW/MLC rest-hour audit logs, and vessel port disbursement accounting on a unified maritime workforce platform.",
-      "metaTitle": "Maritime Crew Management & STCW Rest-Hour Software | Workforce360",
-      "metaDescription": "Enforce STCW 2010 rest-hour rules, track Continuous Discharge Certificates (CDC), and manage vessel crew payroll with Workforce360 Maritime.",
+      "metaTitle": "Maritime Crew Management & STCW Rest-Hour Software | SpotSign AI",
+      "metaDescription": "Enforce STCW 2010 rest-hour rules, track Continuous Discharge Certificates (CDC), and manage vessel crew payroll with SpotSign AI Maritime.",
       "workforceModel": "Seafaring officers, deck ratings, and engine crew operating across international waters with mandatory maritime safety certifications and strict international rest-hour regulations.",
       "challenges": [
         "Enforcing International Maritime Organization (IMO) STCW 2010 and MLC 2006 rest-hour regulations (minimum 10 hours rest in 24 hours, 77 hours in 7 days).",
         "Tracking Continuous Discharge Certificate (CDC) sea service logs and maritime safety training (BST, PSCRB, AFF) renewal dates.",
         "Disbursing multi-currency crew payroll with port-of-call cash advances, vessel allotment transfers, and overtime logs while disconnected from shore internet."
       ],
-      "solution": "Workforce360's Maritime Pack equips ship managers and crewing agencies with an offline-capable STCW Rest-Hour Engine, CDC verification vaults, and port disbursement accounting.",
+      "solution": "SpotSign AI's Maritime Pack equips ship managers and crewing agencies with an offline-capable STCW Rest-Hour Engine, CDC verification vaults, and port disbursement accounting.",
       "capabilities": [
-        { "title": "STCW 2010 / MLC 2006 Rule Engine", "desc": "Live rest-hour validator alerting master and shoreside superintendents before rest-hour non-conformities occur." },
-        { "title": "STCW Non-Conformity Audit Export", "desc": "One-click generation of official Port State Control (PSC) inspection-ready rest-hour audit sheets." },
-        { "title": "Crew CDC & Sea-Service Record Vault", "desc": "Maintains vessel sign-on, sign-off, rank progression, and verified sea-time days with certificate expiry alerts." },
-        { "title": "Vessel Allotment & Cash-to-Master Payroll", "desc": "Splits maritime compensation into monthly home remittances and master cash advances with exchange rate conversions." },
-        { "title": "Port Disbursement & Charter Billing", "desc": "Connects crew port expenses, agent fees, and berth labor directly into charter voyage financial ledgers." }
+        {
+          "title": "STCW 2010 / MLC 2006 Rule Engine",
+          "desc": "Live rest-hour validator alerting master and shoreside superintendents before rest-hour non-conformities occur."
+        },
+        {
+          "title": "STCW Non-Conformity Audit Export",
+          "desc": "One-click generation of official Port State Control (PSC) inspection-ready rest-hour audit sheets."
+        },
+        {
+          "title": "Crew CDC & Sea-Service Record Vault",
+          "desc": "Maintains vessel sign-on, sign-off, rank progression, and verified sea-time days with certificate expiry alerts."
+        },
+        {
+          "title": "Vessel Allotment & Cash-to-Master Payroll",
+          "desc": "Splits maritime compensation into monthly home remittances and master cash advances with exchange rate conversions."
+        },
+        {
+          "title": "Port Disbursement & Charter Billing",
+          "desc": "Connects crew port expenses, agent fees, and berth labor directly into charter voyage financial ledgers."
+        }
       ],
-      "roles": ["Captain / Master", "Chief Engineer", "Deck Officer", "Able Seaman", "Shoreside Crewing Superintendent"],
+      "roles": [
+        "Captain / Master",
+        "Chief Engineer",
+        "Deck Officer",
+        "Able Seaman",
+        "Shoreside Crewing Superintendent"
+      ],
       "attendanceModel": "Vessel bridge/engine watch rotas (4-on, 8-off) logged through local onboard terminals with offline buffering and shore sync.",
       "compensationModel": "Rank-based fixed wages, vessel performance bonuses, daily sea-risk allowances, and dual-currency crew allotments."
     },
@@ -32,8 +53,8 @@
       "badge": "COLD-CHAIN & PIECE-RATE OPERATIONS",
       "headline": "Piece-Rate Gang Rostering and Cold-Chain Safety Operations",
       "tagline": "Streamline raw material landing, peeling and filleting piece-rate wage calculation, sub-zero thermal break rotations, and HACCP yield compliance on one platform.",
-      "metaTitle": "Seafood Processing Workforce & Piece-Rate Payroll | Workforce360",
-      "metaDescription": "Calculate daily piece-rate wages for peeling gangs, schedule thermal breaks, and track catch yield with Workforce360 Seafood Processing.",
+      "metaTitle": "Seafood Processing Workforce & Piece-Rate Payroll | SpotSign AI",
+      "metaDescription": "Calculate daily piece-rate wages for peeling gangs, schedule thermal breaks, and track catch yield with SpotSign AI Seafood Processing.",
       "workforceModel": "High-volume seasonal processing workers, gang leaders, cold-storage operators, and quality inspectors working in refrigerated plant environments.",
       "challenges": [
         "Computing fair, accurate piece-rate wages across raw material batches (e.g., shrimp peeling by kilogram, fish filleting by grade).",
@@ -42,13 +63,34 @@
       ],
       "solution": "Our Seafood Pack connects raw material intake scales to workforce gang cards, automating daily piece-rate wage calculation while enforcing cold-chain safety schedules.",
       "capabilities": [
-        { "title": "Piece-Rate Gang Card & Weighment Sync", "desc": "Associates processing line output directly with worker gang tokens to compute verified daily piece-rate earnings." },
-        { "title": "Sub-Zero Thermal Break Safety Rostering", "desc": "Automated schedule rules mandating 15-minute thermal warming intervals after continuous cold-room shifts." },
-        { "title": "Catch Yield & Wastage Reconciliation", "desc": "Correlates total labor hours against raw fish intake and final packaged yield to isolate processing inefficiencies." },
-        { "title": "HACCP Food Safety Training & Health Logs", "desc": "Automated logs for hygiene certifications, medical fitness checks, and clean-room entry compliance." },
-        { "title": "Daily Wage Register & Cash Settlement", "desc": "Itemized export of processing earnings per contract worker for statutory wage audits and immediate payouts." }
+        {
+          "title": "Piece-Rate Gang Card & Weighment Sync",
+          "desc": "Associates processing line output directly with worker gang tokens to compute verified daily piece-rate earnings."
+        },
+        {
+          "title": "Sub-Zero Thermal Break Safety Rostering",
+          "desc": "Automated schedule rules mandating 15-minute thermal warming intervals after continuous cold-room shifts."
+        },
+        {
+          "title": "Catch Yield & Wastage Reconciliation",
+          "desc": "Correlates total labor hours against raw fish intake and final packaged yield to isolate processing inefficiencies."
+        },
+        {
+          "title": "HACCP Food Safety Training & Health Logs",
+          "desc": "Automated logs for hygiene certifications, medical fitness checks, and clean-room entry compliance."
+        },
+        {
+          "title": "Daily Wage Register & Cash Settlement",
+          "desc": "Itemized export of processing earnings per contract worker for statutory wage audits and immediate payouts."
+        }
       ],
-      "roles": ["Plant Supervisor", "Gang Leader", "Peeling / Filleting Worker", "Cold Storage Operator", "HACCP Quality Officer"],
+      "roles": [
+        "Plant Supervisor",
+        "Gang Leader",
+        "Peeling / Filleting Worker",
+        "Cold Storage Operator",
+        "HACCP Quality Officer"
+      ],
       "attendanceModel": "Waterproof RFID turnstiles and biometric tokens positioned at processing floor airlocks and sanitary checkpoints.",
       "compensationModel": "Piece-rate output (per kg yield) combined with minimum wage floor guarantees, night shift differentials, and attendance bonuses."
     },
@@ -58,23 +100,44 @@
       "badge": "FLEET & TRIP MANAGEMENT",
       "headline": "Driver Telemetry, Trip Allowances, and Fleet Workforce Operations",
       "tagline": "Connect driver rosters, GPS trip milestones, per-kilometer travel allowances, vehicle permits, and hub warehouse operations on a single unified freight platform.",
-      "metaTitle": "Logistics Workforce Management & Driver Payroll | Workforce360",
-      "metaDescription": "Manage long-haul driver rosters, calculate trip allowances, and automate logistics payroll with Workforce360 Freight & Fleet.",
+      "metaTitle": "Logistics Workforce Management & Driver Payroll | SpotSign AI",
+      "metaDescription": "Manage long-haul driver rosters, calculate trip allowances, and automate logistics payroll with SpotSign AI Freight & Fleet.",
       "workforceModel": "Long-haul truck drivers, delivery pilots, warehouse loaders, dispatch coordinators, and fleet maintenance technicians.",
       "challenges": [
         "Managing fatigue and driving-hour caps for cross-country freight operators across multiple state border checkpoints.",
         "Computing trip allowances (bata), fuel incentives, toll reimbursements, and demurrage penalties based on actual trip progress.",
         "Tracking driver license renewals, commercial vehicle fitness permits, and hazardous goods transport credentials."
       ],
-      "solution": "Workforce360 Logistics coordinates dispatch manifests with driver duty hours, automatically calculating trip allowances and preventing over-fatigued driver assignments.",
+      "solution": "SpotSign AI Logistics coordinates dispatch manifests with driver duty hours, automatically calculating trip allowances and preventing over-fatigued driver assignments.",
       "capabilities": [
-        { "title": "Trip Manifest & Driver Duty Roster", "desc": "Matches shipment departures with certified drivers within safe driving-hour limits and mandatory rest windows." },
-        { "title": "Automated Trip Allowance (Bata) Calculation", "desc": "Computes daily driver allowances, per-km incentives, and nighttime halt allowances linked directly to GPS waypoints." },
-        { "title": "Commercial License & Permit Expiry Sentinel", "desc": "Prevents dispatch assignment to drivers with expiring heavy-goods licenses or pending medical fitness renewals." },
-        { "title": "Hub Loading & Warehouse Shift Rotas", "desc": "Dynamic shift scheduling for cross-dock warehouse crews scaled to incoming freight arrivals." },
-        { "title": "Trip Profitability & Labor Cost Ledger", "desc": "Correlates freight revenue with driver wages, fuel spend, and maintenance labor for granular trip P&L visibility." }
+        {
+          "title": "Trip Manifest & Driver Duty Roster",
+          "desc": "Matches shipment departures with certified drivers within safe driving-hour limits and mandatory rest windows."
+        },
+        {
+          "title": "Automated Trip Allowance (Bata) Calculation",
+          "desc": "Computes daily driver allowances, per-km incentives, and nighttime halt allowances linked directly to GPS waypoints."
+        },
+        {
+          "title": "Commercial License & Permit Expiry Sentinel",
+          "desc": "Prevents dispatch assignment to drivers with expiring heavy-goods licenses or pending medical fitness renewals."
+        },
+        {
+          "title": "Hub Loading & Warehouse Shift Rotas",
+          "desc": "Dynamic shift scheduling for cross-dock warehouse crews scaled to incoming freight arrivals."
+        },
+        {
+          "title": "Trip Profitability & Labor Cost Ledger",
+          "desc": "Correlates freight revenue with driver wages, fuel spend, and maintenance labor for granular trip P&L visibility."
+        }
       ],
-      "roles": ["Fleet Manager", "Long-Haul Driver", "Dispatch Coordinator", "Warehouse Operations Head", "Vehicle Technician"],
+      "roles": [
+        "Fleet Manager",
+        "Long-Haul Driver",
+        "Dispatch Coordinator",
+        "Warehouse Operations Head",
+        "Vehicle Technician"
+      ],
       "attendanceModel": "Mobile GPS check-in at origin hub, geofenced route milestone triggers, and destination unloading scan verification.",
       "compensationModel": "Base salary combined with per-kilometer allowances, on-time delivery incentives, and damage-free cargo bonuses."
     },
@@ -84,23 +147,44 @@
       "badge": "PLANT OPERATIONS & 3-SHIFT ROTAS",
       "headline": "Plant Floor Scheduling, Muster Rolls, and Factories Act Compliance",
       "tagline": "Orchestrate 3-shift factory lines, automated overtime calculations, Form 25 muster rolls, and plant safety protocols for industrial workforces.",
-      "metaTitle": "Manufacturing HRMS & Factory Shift Rostering | Workforce360",
-      "metaDescription": "Automate 3-shift factory rotas, enforce Factories Act 48-hour overtime limits, and generate Form 25 muster rolls with Workforce360 Manufacturing.",
+      "metaTitle": "Manufacturing HRMS & Factory Shift Rostering | SpotSign AI",
+      "metaDescription": "Automate 3-shift factory rotas, enforce Factories Act 48-hour overtime limits, and generate Form 25 muster rolls with SpotSign AI Manufacturing.",
       "workforceModel": "Assembly line operators, CNC machinists, maintenance engineers, safety officers, and contractual factory labor.",
       "challenges": [
         "Managing complex 3-shift 24/7 rotational cycles without triggering illegal consecutive-shift violations under the Factories Act.",
         "Accurately reconciling bi-weekly and monthly overtime hours with double-rate pay formulas and supervisor authorizations.",
         "Maintaining official statutory muster rolls and daily attendance registers for factory inspectorate audits."
       ],
-      "solution": "Workforce360 Manufacturing links factory gate biometric turnstiles directly with production line rosters, automating overtime caps and generating compliance-ready muster rolls.",
+      "solution": "SpotSign AI Manufacturing links factory gate biometric turnstiles directly with production line rosters, automating overtime caps and generating compliance-ready muster rolls.",
       "capabilities": [
-        { "title": "3-Shift Rotational Schedule Engine", "desc": "Pre-configured Morning, General, Night, and Relay shift rotations with automated rest-day staggering." },
-        { "title": "Statutory Form 25 Muster Roll Automation", "desc": "One-click export of tamper-proof muster rolls and adult worker registers ready for state factory inspections." },
-        { "title": "Factories Act Overtime Rule Enforcement", "desc": "Prevents scheduling beyond the 48-hour statutory weekly cap and computes exact double-rate overtime wages." },
-        { "title": "Production Line Skill Balancing", "desc": "Ensures every operating line has certified machine operators and certified first-aid personnel before shifts start." },
-        { "title": "Contract Labor Regulation Act (CLRA) Compliance", "desc": "Audits contractor worker counts, minimum wage pass-throughs, and vendor PF/ESIC payment challans." }
+        {
+          "title": "3-Shift Rotational Schedule Engine",
+          "desc": "Pre-configured Morning, General, Night, and Relay shift rotations with automated rest-day staggering."
+        },
+        {
+          "title": "Statutory Form 25 Muster Roll Automation",
+          "desc": "One-click export of tamper-proof muster rolls and adult worker registers ready for state factory inspections."
+        },
+        {
+          "title": "Factories Act Overtime Rule Enforcement",
+          "desc": "Prevents scheduling beyond the 48-hour statutory weekly cap and computes exact double-rate overtime wages."
+        },
+        {
+          "title": "Production Line Skill Balancing",
+          "desc": "Ensures every operating line has certified machine operators and certified first-aid personnel before shifts start."
+        },
+        {
+          "title": "Contract Labor Regulation Act (CLRA) Compliance",
+          "desc": "Audits contractor worker counts, minimum wage pass-throughs, and vendor PF/ESIC payment challans."
+        }
       ],
-      "roles": ["Plant Head", "Shift In-Charge", "Line Supervisor", "Maintenance Technician", "Contract Worker"],
+      "roles": [
+        "Plant Head",
+        "Shift In-Charge",
+        "Line Supervisor",
+        "Maintenance Technician",
+        "Contract Worker"
+      ],
       "attendanceModel": "High-throughput optical turnstiles and biometric terminals positioned at plant security gates with backup selfie check-in.",
       "compensationModel": "Monthly CTC for permanent staff and daily/shift rates with double overtime rates for blue-collar production workers."
     },
@@ -110,23 +194,44 @@
       "badge": "EHS & SAFETY COMPLIANCE",
       "headline": "Environmental Health & Safety (EHS) Workforce Protection",
       "tagline": "Protect safety-sensitive personnel with automated exposure-break limits, hazardous substance certifications, PPE gate clearances, and plant safety audits.",
-      "metaTitle": "Chemical Plant Workforce Management & EHS Software | Workforce360",
-      "metaDescription": "Enforce hazardous area certifications, track chemical exposure limits, and manage industrial plant safety with Workforce360 Chemical Pack.",
+      "metaTitle": "Chemical Plant Workforce Management & EHS Software | SpotSign AI",
+      "metaDescription": "Enforce hazardous area certifications, track chemical exposure limits, and manage industrial plant safety with SpotSign AI Chemical Pack.",
       "workforceModel": "Process plant operators, chemical engineers, HAZMAT technicians, laboratory analysts, and EHS safety marshals.",
       "challenges": [
         "Preventing toxic exposure fatigue through strict limits on consecutive hours inside hazardous reaction areas.",
         "Ensuring zero workers enter restricted chemical zones without active HAZMAT training certifications.",
         "Managing safety incident reporting and medical check-up surveillance across refinery and chemical personnel."
       ],
-      "solution": "Workforce360 Chemical Pack enforces biometric zone access controls tied directly to safety training validity, preventing uncertified personnel from entering dangerous plant zones.",
+      "solution": "SpotSign AI Chemical Pack enforces biometric zone access controls tied directly to safety training validity, preventing uncertified personnel from entering dangerous plant zones.",
       "capabilities": [
-        { "title": "Zone-Based Hazardous Access Interlocks", "desc": "Biometric access gates open only if the worker holds valid training certificates for the specific chemical zone." },
-        { "title": "Mandatory Exposure-Break Rostering", "desc": "Limits continuous shifts in high-exposure units, automatically scheduling rotation to clean staging areas." },
-        { "title": "Periodic Health Surveillance Registry", "desc": "Tracks mandatory lung function, blood toxicology, and audiometric medical screenings with automated alerts." },
-        { "title": "Near-Miss & Safety Incident Logging", "desc": "Mobile EHS incident capture allowing frontline staff to photograph and report safety hazards instantly." },
-        { "title": "Hazardous Duty Allowance (Hazard Pay)", "desc": "Automatically credits hazardous duty pay components based on verified hours logged in designated high-risk zones." }
+        {
+          "title": "Zone-Based Hazardous Access Interlocks",
+          "desc": "Biometric access gates open only if the worker holds valid training certificates for the specific chemical zone."
+        },
+        {
+          "title": "Mandatory Exposure-Break Rostering",
+          "desc": "Limits continuous shifts in high-exposure units, automatically scheduling rotation to clean staging areas."
+        },
+        {
+          "title": "Periodic Health Surveillance Registry",
+          "desc": "Tracks mandatory lung function, blood toxicology, and audiometric medical screenings with automated alerts."
+        },
+        {
+          "title": "Near-Miss & Safety Incident Logging",
+          "desc": "Mobile EHS incident capture allowing frontline staff to photograph and report safety hazards instantly."
+        },
+        {
+          "title": "Hazardous Duty Allowance (Hazard Pay)",
+          "desc": "Automatically credits hazardous duty pay components based on verified hours logged in designated high-risk zones."
+        }
       ],
-      "roles": ["EHS Director", "Process Operator", "HAZMAT Specialist", "Lab Chemist", "Emergency Response Lead"],
+      "roles": [
+        "EHS Director",
+        "Process Operator",
+        "HAZMAT Specialist",
+        "Lab Chemist",
+        "Emergency Response Lead"
+      ],
       "attendanceModel": "Explosion-proof ATEX-certified RFID card readers and iris biometric scanners at hazardous area airlocks.",
       "compensationModel": "Base salary, continuous shift allowances, and duty-weighted hazardous risk pay."
     },
@@ -136,23 +241,44 @@
       "badge": "CLINICAL & SUPPORT STAFFING",
       "headline": "Clinical Scheduling, On-Call Rota, and Medical Credentialing",
       "tagline": "Manage doctor on-call rotas, nurse-to-patient staffing ratios, medical license renewals, and split-shift support services across multi-specialty hospitals.",
-      "metaTitle": "Hospital Staff Rostering & Clinical HRMS | Workforce360",
-      "metaDescription": "Manage doctor on-call shifts, maintain nurse staffing ratios, and track medical license compliance with Workforce360 Healthcare.",
+      "metaTitle": "Hospital Staff Rostering & Clinical HRMS | SpotSign AI",
+      "metaDescription": "Manage doctor on-call shifts, maintain nurse staffing ratios, and track medical license compliance with SpotSign AI Healthcare.",
       "workforceModel": "Doctors, specialist surgeons, ICU nurses, ward staff, radiographers, pharmacists, and hospital facilities crews.",
       "challenges": [
         "Balancing mandatory clinical staffing ratios across ICU, emergency, and inpatient wards 24/7/365.",
         "Tracking dynamic medical council registration renewals, BLS/ACLS certifications, and nursing licenses.",
         "Handling complex clinician compensation models including clinical fee shares, on-call allowances, and shift differentials."
       ],
-      "solution": "Workforce360 Healthcare equips hospital administrators with dynamic clinical auto-rostering, credential expiry alerts, and seamless doctor fee-share payroll integration.",
+      "solution": "SpotSign AI Healthcare equips hospital administrators with dynamic clinical auto-rostering, credential expiry alerts, and seamless doctor fee-share payroll integration.",
       "capabilities": [
-        { "title": "Nurse-to-Patient Ratio Ward Rostering", "desc": "Auto-schedules certified nursing staff to meet NABH/JCI clinical quality standards per ward occupancy." },
-        { "title": "Consultant On-Call & Emergency Rotas", "desc": "Specialist doctor on-call schedules with automated mobile alerts and rapid substitute replacement." },
-        { "title": "Medical License & Credential Sentinel", "desc": "Automated verification tracking for State Medical Council registrations and life-support certifications." },
-        { "title": "Clinical Fee-Share & IPD/OPD Payouts", "desc": "Integrates with Hospital Information Systems (HIS) to calculate doctor procedure shares and surgical fees." },
-        { "title": "Hospital Infection Control & Vaccination Records", "desc": "Maintains employee immunization logs (Hepatitis B, TB, Covid) and mandatory annual health clearances." }
+        {
+          "title": "Nurse-to-Patient Ratio Ward Rostering",
+          "desc": "Auto-schedules certified nursing staff to meet NABH/JCI clinical quality standards per ward occupancy."
+        },
+        {
+          "title": "Consultant On-Call & Emergency Rotas",
+          "desc": "Specialist doctor on-call schedules with automated mobile alerts and rapid substitute replacement."
+        },
+        {
+          "title": "Medical License & Credential Sentinel",
+          "desc": "Automated verification tracking for State Medical Council registrations and life-support certifications."
+        },
+        {
+          "title": "Clinical Fee-Share & IPD/OPD Payouts",
+          "desc": "Integrates with Hospital Information Systems (HIS) to calculate doctor procedure shares and surgical fees."
+        },
+        {
+          "title": "Hospital Infection Control & Vaccination Records",
+          "desc": "Maintains employee immunization logs (Hepatitis B, TB, Covid) and mandatory annual health clearances."
+        }
       ],
-      "roles": ["Chief Medical Officer", "Nursing Superintendent", "Resident Medical Officer", "Staff Nurse", "Hospital Administrator"],
+      "roles": [
+        "Chief Medical Officer",
+        "Nursing Superintendent",
+        "Resident Medical Officer",
+        "Staff Nurse",
+        "Hospital Administrator"
+      ],
       "attendanceModel": "Touchless facial recognition kiosks in scrub-in zones and ward entryways preventing cross-contamination.",
       "compensationModel": "Tiered salaries for nursing/support staff and professional retainer + procedure fee share for consultant specialists."
     },
@@ -162,23 +288,44 @@
       "badge": "HOTEL & F&B WORKFORCE",
       "headline": "Split Shifts, Banquet Casuals, and Seasonal Occupancy Staffing",
       "tagline": "Scale hotel workforce operations with split-shift scheduling, banquet casual labor billing, service charge distribution, and guest service tip accounting.",
-      "metaTitle": "Hotel Workforce Management & Banquet Staffing | Workforce360",
-      "metaDescription": "Schedule split shifts for F&B staff, disburse service charges, and manage seasonal banquet crews with Workforce360 Hospitality.",
+      "metaTitle": "Hotel Workforce Management & Banquet Staffing | SpotSign AI",
+      "metaDescription": "Schedule split shifts for F&B staff, disburse service charges, and manage seasonal banquet crews with SpotSign AI Hospitality.",
       "workforceModel": "Front desk executives, culinary chefs, F&B service staff, housekeeping attendants, and banquet casuals.",
       "challenges": [
         "Managing split-shift rosters (e.g., breakfast service, afternoon break, dinner service) without violating consecutive rest laws.",
         "Managing high-turnover casual staffing for large banquet weddings and conferences with daily payout needs.",
         "Fair, audited distribution of hotel service charges (tips pool) across front-of-house and heart-of-house employees."
       ],
-      "solution": "Workforce360 Hospitality provides specialized split-shift templates, rapid mobile onboarding for banquet casuals, and transparent point-based service charge payroll formulas.",
+      "solution": "SpotSign AI Hospitality provides specialized split-shift templates, rapid mobile onboarding for banquet casuals, and transparent point-based service charge payroll formulas.",
       "capabilities": [
-        { "title": "Split-Shift Roster Optimization", "desc": "Custom scheduling models tailored to hotel meal service hours with integrated rest intervals." },
-        { "title": "Banquet Casual Rapid Onboarding & Daily Cash Settlement", "desc": "Onboard event staff via mobile QR code and generate itemized daily wage registers for fast disbursement." },
-        { "title": "Points-Based Service Charge Distribution", "desc": "Automated pooling and monthly allocation of collected hotel service charge points across eligible staff." },
-        { "title": "Housekeeping Room-Credit Productivity Tracking", "desc": "Tracks daily room cleaning credits per attendant to compute fair productivity incentives." },
-        { "title": "Grooming & Hospitality Audit Checklists", "desc": "Daily shift briefing inspection checklists tracking grooming standards, attendance, and VIP guest assignments." }
+        {
+          "title": "Split-Shift Roster Optimization",
+          "desc": "Custom scheduling models tailored to hotel meal service hours with integrated rest intervals."
+        },
+        {
+          "title": "Banquet Casual Rapid Onboarding & Daily Cash Settlement",
+          "desc": "Onboard event staff via mobile QR code and generate itemized daily wage registers for fast disbursement."
+        },
+        {
+          "title": "Points-Based Service Charge Distribution",
+          "desc": "Automated pooling and monthly allocation of collected hotel service charge points across eligible staff."
+        },
+        {
+          "title": "Housekeeping Room-Credit Productivity Tracking",
+          "desc": "Tracks daily room cleaning credits per attendant to compute fair productivity incentives."
+        },
+        {
+          "title": "Grooming & Hospitality Audit Checklists",
+          "desc": "Daily shift briefing inspection checklists tracking grooming standards, attendance, and VIP guest assignments."
+        }
       ],
-      "roles": ["General Manager", "Executive Chef", "F&B Manager", "Front Desk Executive", "Housekeeping Attendant"],
+      "roles": [
+        "General Manager",
+        "Executive Chef",
+        "F&B Manager",
+        "Front Desk Executive",
+        "Housekeeping Attendant"
+      ],
       "attendanceModel": "Staff entrance biometric clocks, kitchen station check-ins, and mobile PWA facial verification for banquets.",
       "compensationModel": "Base salary, monthly service charge shares, night audit differentials, and banquet daily cash rates."
     },
@@ -188,23 +335,44 @@
       "badge": "AQUAFARM & HATCHERY OPERATIONS",
       "headline": "Aquafarm Labor Management, Hatchery Shifts, and Catch Settlements",
       "tagline": "Manage distributed pond operations, round-the-clock hatchery aeration shifts, harvest gang settlements, and biosecurity protocols across remote coastal sites.",
-      "metaTitle": "Aquaculture Workforce & Fish Farm Labor Management | Workforce360",
-      "metaDescription": "Manage pond technician rotas, automate harvest catch settlements, and track biosecurity compliance with Workforce360 Aquaculture.",
+      "metaTitle": "Aquaculture Workforce & Fish Farm Labor Management | SpotSign AI",
+      "metaDescription": "Manage pond technician rotas, automate harvest catch settlements, and track biosecurity compliance with SpotSign AI Aquaculture.",
       "workforceModel": "Hatchery biologists, pond technicians, aeration technicians, harvest crews, and feed logistics workers.",
       "challenges": [
         "Managing remote farm staff operating across hundreds of acres of coastal aquaculture ponds with limited connectivity.",
         "Ensuring 24/7 continuous aeration and water-quality shift coverage to prevent massive crop mortality.",
         "Settling harvest gang wages based on fluctuating harvest weight yields and ice-preservation speeds."
       ],
-      "solution": "Workforce360 Aquaculture provides offline GPS mobile check-ins, critical night-aeration shift rotas, and catch-weight settlement accounting.",
+      "solution": "SpotSign AI Aquaculture provides offline GPS mobile check-ins, critical night-aeration shift rotas, and catch-weight settlement accounting.",
       "capabilities": [
-        { "title": "Pond Sector GPS Geofenced Check-in", "desc": "Validates pond technician visits and feeding logs across remote coastal brackish water sites." },
-        { "title": "Critical 24/7 Aeration Night-Shift Rotas", "desc": "Ensures uninterrupted generator and paddle-wheel aeration staffing during high-risk pre-dawn hours." },
-        { "title": "Harvest Catch Settlement Ledger", "desc": "Computes harvest crew compensation per metric ton of netted shrimp/fish with ice packing allowances." },
-        { "title": "Biosecurity Footbath & Disinfection Compliance", "desc": "Mandatory hygiene check-in prompts before staff enter sensitive hatchery breeding tanks." },
-        { "title": "Feed Conversion & Labor Cost Correlation", "desc": "Correlates labor hours against pond feed conversion ratios (FCR) to evaluate farm operational efficiency." }
+        {
+          "title": "Pond Sector GPS Geofenced Check-in",
+          "desc": "Validates pond technician visits and feeding logs across remote coastal brackish water sites."
+        },
+        {
+          "title": "Critical 24/7 Aeration Night-Shift Rotas",
+          "desc": "Ensures uninterrupted generator and paddle-wheel aeration staffing during high-risk pre-dawn hours."
+        },
+        {
+          "title": "Harvest Catch Settlement Ledger",
+          "desc": "Computes harvest crew compensation per metric ton of netted shrimp/fish with ice packing allowances."
+        },
+        {
+          "title": "Biosecurity Footbath & Disinfection Compliance",
+          "desc": "Mandatory hygiene check-in prompts before staff enter sensitive hatchery breeding tanks."
+        },
+        {
+          "title": "Feed Conversion & Labor Cost Correlation",
+          "desc": "Correlates labor hours against pond feed conversion ratios (FCR) to evaluate farm operational efficiency."
+        }
       ],
-      "roles": ["Farm Operations Manager", "Hatchery Biologist", "Pond Technician", "Harvest Gang Leader", "Feed Warehouse Operator"],
+      "roles": [
+        "Farm Operations Manager",
+        "Hatchery Biologist",
+        "Pond Technician",
+        "Harvest Gang Leader",
+        "Feed Warehouse Operator"
+      ],
       "attendanceModel": "Mobile PWA with offline GPS geotagging and solar-powered biometric terminals at farm central command hubs.",
       "compensationModel": "Monthly salary, harvest yield volume bonuses, and survival rate performance incentives."
     },
@@ -214,22 +382,40 @@
       "badge": "AIR & OCEAN FREIGHT OPERATIONS",
       "headline": "Port Terminal Staffing, Customs Brokerage, and Freight Handling",
       "tagline": "Coordinate documentation agents, port clearing executives, container freight station (CFS) labor, and customs brokerage staff on one synchronized platform.",
-      "metaTitle": "Freight Forwarding Workforce & Port Clearing HRMS | Workforce360",
-      "metaDescription": "Manage customs documentation staff, container freight station labor, and air/ocean freight operations with Workforce360.",
+      "metaTitle": "Freight Forwarding Workforce & Port Clearing HRMS | SpotSign AI",
+      "metaDescription": "Manage customs documentation staff, container freight station labor, and air or ocean freight operations with SpotSign AI.",
       "workforceModel": "Customs documentation brokers, air cargo handling staff, port liaison officers, and CFS warehouse operators.",
       "challenges": [
         "Scheduling airport and seaport clearing staff around unpredictable cargo flight landings and vessel berthing schedules.",
         "Managing customs broker license requirements and bonded warehouse security clearance accreditations.",
         "Tracking client-billable document processing hours against specific Bill of Lading (BL) or Air Waybill (AWB) files."
       ],
-      "solution": "Workforce360 Freight Forwarding aligns operational staffing with shipping schedules, tracking port allowances and billable clearance hours.",
+      "solution": "SpotSign AI Freight Forwarding aligns operational staffing with shipping schedules, tracking port allowances and billable clearance hours.",
       "capabilities": [
-        { "title": "Flight & Vessel Berthing Shift Sync", "desc": "Adjusts airport and port terminal staff schedules to live cargo arrival notices to prevent demurrage." },
-        { "title": "Customs Broker & Port Pass Expiry Tracker", "desc": "Monitors customs pass credentials, port entry badges, and IATA cargo handling certificates." },
-        { "title": "Billable Hours Allocation by AWB / BL", "desc": "Employees tag customs clearance hours directly to shipping file numbers for precise client billing." },
-        { "title": "Port Pier & CFS Allowance Management", "desc": "Computes specialized port allowance rates, night inspection premiums, and hazardous cargo bonuses." }
+        {
+          "title": "Flight & Vessel Berthing Shift Sync",
+          "desc": "Adjusts airport and port terminal staff schedules to live cargo arrival notices to prevent demurrage."
+        },
+        {
+          "title": "Customs Broker & Port Pass Expiry Tracker",
+          "desc": "Monitors customs pass credentials, port entry badges, and IATA cargo handling certificates."
+        },
+        {
+          "title": "Billable Hours Allocation by AWB / BL",
+          "desc": "Employees tag customs clearance hours directly to shipping file numbers for precise client billing."
+        },
+        {
+          "title": "Port Pier & CFS Allowance Management",
+          "desc": "Computes specialized port allowance rates, night inspection premiums, and hazardous cargo bonuses."
+        }
       ],
-      "roles": ["Freight Operations Head", "Customs Broker", "Air Cargo Specialist", "Port Clearing Agent", "CFS Warehouse Lead"],
+      "roles": [
+        "Freight Operations Head",
+        "Customs Broker",
+        "Air Cargo Specialist",
+        "Port Clearing Agent",
+        "CFS Warehouse Lead"
+      ],
       "attendanceModel": "Geofenced mobile check-in at customs house, port gates, and airport cargo terminals.",
       "compensationModel": "Base salary, clearance volume incentives, and night terminal allowances."
     },
@@ -239,23 +425,44 @@
       "badge": "STORE & FULFILLMENT CENTERS",
       "headline": "Store Associate Scheduling, Peak Season Staffing, and Commission",
       "tagline": "Manage multi-store retail networks, warehouse fulfillment pick-and-pack crews, peak festive season hiring, and sales commission calculations.",
-      "metaTitle": "Retail Workforce Management & Store Associate Rostering | Workforce360",
-      "metaDescription": "Schedule store associates, manage warehouse pick-and-pack crews, and automate retail sales commissions with Workforce360 Retail.",
+      "metaTitle": "Retail Workforce Management & Store Associate Rostering | SpotSign AI",
+      "metaDescription": "Schedule store associates, manage warehouse pick-and-pack crews, and automate retail sales commissions with SpotSign AI Retail.",
       "workforceModel": "Store managers, sales associates, cashiers, visual merchandisers, and e-commerce warehouse fulfillment crews.",
       "challenges": [
         "Scheduling store associates to match peak hourly footfall traffic without overstaffing during quiet lulls.",
         "Handling massive temporary staffing surges during festival discount sales and holiday shopping periods.",
         "Calculating multi-tiered sales target commissions across individual sales reps and shared store targets."
       ],
-      "solution": "Workforce360 Retail optimizes retail staff rosters based on footfall data, onboards seasonal staff rapidly, and automates sales commission disbursements.",
+      "solution": "SpotSign AI Retail optimizes retail staff rosters based on footfall data, onboards seasonal staff rapidly, and automates sales commission disbursements.",
       "capabilities": [
-        { "title": "Footfall-Driven Store Roster Optimization", "desc": "Generates store shift schedules aligned with peak shopping hours and weekend footfall spikes." },
-        { "title": "Automated Retail Sales Commission Engine", "desc": "Computes individual and shared store sales commissions linked directly with monthly payroll." },
-        { "title": "Multi-Store Floating Staff Allocation", "desc": "Allows managers to transfer staff between neighboring mall stores during sudden staff shortages." },
-        { "title": "E-Commerce Fulfillment Pick & Pack Metrics", "desc": "Correlates warehouse fulfillment hours with units picked and packed to calculate warehouse incentives." },
-        { "title": "Rapid Seasonal Temp Onboarding", "desc": "QR-code mobile onboarding enabling temporary festive staff to be operational and compliance-verified in hours." }
+        {
+          "title": "Footfall-Driven Store Roster Optimization",
+          "desc": "Generates store shift schedules aligned with peak shopping hours and weekend footfall spikes."
+        },
+        {
+          "title": "Automated Retail Sales Commission Engine",
+          "desc": "Computes individual and shared store sales commissions linked directly with monthly payroll."
+        },
+        {
+          "title": "Multi-Store Floating Staff Allocation",
+          "desc": "Allows managers to transfer staff between neighboring mall stores during sudden staff shortages."
+        },
+        {
+          "title": "E-Commerce Fulfillment Pick & Pack Metrics",
+          "desc": "Correlates warehouse fulfillment hours with units picked and packed to calculate warehouse incentives."
+        },
+        {
+          "title": "Rapid Seasonal Temp Onboarding",
+          "desc": "QR-code mobile onboarding enabling temporary festive staff to be operational and compliance-verified in hours."
+        }
       ],
-      "roles": ["Retail Area Manager", "Store Manager", "Sales Associate", "Cashier", "Warehouse Picker"],
+      "roles": [
+        "Retail Area Manager",
+        "Store Manager",
+        "Sales Associate",
+        "Cashier",
+        "Warehouse Picker"
+      ],
       "attendanceModel": "Store POS biometric terminals and geofenced mobile check-ins restricted to retail mall store coordinates.",
       "compensationModel": "Fixed monthly base salary, store sales target incentives, and peak festive attendance bonuses."
     },
@@ -265,23 +472,44 @@
       "badge": "FORECOURT & CASH RECONCILIATION",
       "headline": "Forecourt Shift Rotas, Meter Reconciliation, and Cashier Auditing",
       "tagline": "Manage forecourt pump attendants, multi-shift cash collections, meter reading reconciliations, convenience store retail staff, and fuel safety compliance.",
-      "metaTitle": "Fuel Station Workforce Management & Pump Attendant HRMS | Workforce360",
-      "metaDescription": "Schedule 3-shift forecourt crews, reconcile shift cash collections, and automate fuel pump attendant payroll with Workforce360.",
+      "metaTitle": "Fuel Station Workforce Management & Pump Attendant HRMS | SpotSign AI",
+      "metaDescription": "Schedule 3-shift forecourt crews, reconcile shift cash collections, and automate fuel pump attendant payroll with SpotSign AI.",
       "workforceModel": "Pump attendants, forecourt supervisors, lube bay mechanics, cash office clerks, and convenience store staff.",
       "challenges": [
         "Managing 24/7 continuous 3-shift rotas with strict handover procedures between morning, evening, and night crews.",
         "Reconciling individual pump attendant cash collections against dispenser meter readings to identify cash shortages before shift handovers.",
         "Enforcing strict forecourt fire and hazardous petroleum handling safety compliance."
       ],
-      "solution": "Workforce360 Fuel Station Pack links attendant shift attendance directly with dispenser meter logs and cashier handover audits.",
+      "solution": "SpotSign AI Fuel Station Pack links attendant shift attendance directly with dispenser meter logs and cashier handover audits.",
       "capabilities": [
-        { "title": "Forecourt 3-Shift Handover Rota", "desc": "Smooth shift transition workflows with mandatory digital handover sign-offs between outgoing and incoming pump crews." },
-        { "title": "Dispenser Meter & Cash Shortage Audit", "desc": "Tracks individual attendant cash receipts against total fuel liters pumped, identifying variances for payroll settlement." },
-        { "title": "Petroleum Safety & Fire Extinguisher Training", "desc": "Monitors mandatory oil company safety certifications, static electricity protocols, and emergency drill records." },
-        { "title": "Lube Bay & Value-Add Service Commissions", "desc": "Computes attendant commissions for lubricant sales, tire pressure checks, and windshield cleaning services." },
-        { "title": "Daily Cash Advance & Uniform Deductions", "desc": "Tracks small daily advances, uniform deposits, and safety shoe allowances directly inside employee accounts." }
+        {
+          "title": "Forecourt 3-Shift Handover Rota",
+          "desc": "Smooth shift transition workflows with mandatory digital handover sign-offs between outgoing and incoming pump crews."
+        },
+        {
+          "title": "Dispenser Meter & Cash Shortage Audit",
+          "desc": "Tracks individual attendant cash receipts against total fuel liters pumped, identifying variances for payroll settlement."
+        },
+        {
+          "title": "Petroleum Safety & Fire Extinguisher Training",
+          "desc": "Monitors mandatory oil company safety certifications, static electricity protocols, and emergency drill records."
+        },
+        {
+          "title": "Lube Bay & Value-Add Service Commissions",
+          "desc": "Computes attendant commissions for lubricant sales, tire pressure checks, and windshield cleaning services."
+        },
+        {
+          "title": "Daily Cash Advance & Uniform Deductions",
+          "desc": "Tracks small daily advances, uniform deposits, and safety shoe allowances directly inside employee accounts."
+        }
       ],
-      "roles": ["Fuel Station Dealer / Manager", "Forecourt Supervisor", "Pump Attendant", "Cashier", "Lube Bay Technician"],
+      "roles": [
+        "Fuel Station Dealer / Manager",
+        "Forecourt Supervisor",
+        "Pump Attendant",
+        "Cashier",
+        "Lube Bay Technician"
+      ],
       "attendanceModel": "Biometric fingerprint terminal mounted in the cash office and supervisory facial check-in on the forecourt tablet.",
       "compensationModel": "Daily minimum wage floor, shift allowances, night duty premiums, and lubricant sales commissions."
     },
@@ -291,23 +519,44 @@
       "badge": "DRIVER FLEET & COMMISSIONS",
       "headline": "Driver Onboarding, Vehicle KYC, Permit Tracking, and Daily Payouts",
       "tagline": "Scale driver aggregator operations with digital KYC, vehicle commercial permit tracking, trip commission structures, and automated daily payout batches.",
-      "metaTitle": "Cab Fleet Management & Driver Payout Platform | Workforce360",
-      "metaDescription": "Onboard commercial drivers, track vehicle permits, and automate daily driver commission payouts with Workforce360 Cab Pack.",
+      "metaTitle": "Cab Fleet Management & Driver Payout Platform | SpotSign AI",
+      "metaDescription": "Onboard commercial drivers, track vehicle permits, and automate daily driver commission payouts with SpotSign AI Cab Pack.",
       "workforceModel": "Fleet drivers, contract cab operators, customer support agents, vehicle inspectors, and city hub operations leads.",
       "challenges": [
         "Managing ongoing validity of commercial driving licenses, tourist vehicle permits, pollution certificates (PUC), and commercial insurance.",
         "Disbursing high-volume daily and weekly driver earnings with automated fuel deductions and platform commission withholdings.",
         "Tracking driver safety ratings and passenger grievance investigations to manage account suspensions fairly."
       ],
-      "solution": "Workforce360 Cab Aggregator Pack provides digital driver onboarding, automated vehicle document expiry sentinels, and fast bank disbursement integration.",
+      "solution": "SpotSign AI Cab Aggregator Pack provides digital driver onboarding, automated vehicle document expiry sentinels, and fast bank disbursement integration.",
       "capabilities": [
-        { "title": "Digital Driver KYC & Background Verification", "desc": "Collects driving licenses, police verification reports, and Aadhaar/PAN documents with automated formatting validation." },
-        { "title": "Vehicle Commercial Permit & Fitness Tracker", "desc": "Sends alerts prior to vehicle fitness, insurance, and road permit expirations to keep fleets road-legal." },
-        { "title": "Automated Daily / Weekly Driver Payout Batches", "desc": "Generates bank batch files calculating net earnings after deducting fuel advances, vehicle leasing fees, and commissions." },
-        { "title": "Driver Safety Rating & Performance Tiers", "desc": "Categorizes drivers into incentive tiers based on completed trips, acceptance rates, and passenger safety ratings." },
-        { "title": "Grievance Redressal & Temporary Suspension Queue", "desc": "Documented workflows for safety incidents, customer disputes, and appeal hearings before deactivation." }
+        {
+          "title": "Digital Driver KYC & Background Verification",
+          "desc": "Collects driving licenses, police verification reports, and Aadhaar/PAN documents with automated formatting validation."
+        },
+        {
+          "title": "Vehicle Commercial Permit & Fitness Tracker",
+          "desc": "Sends alerts prior to vehicle fitness, insurance, and road permit expirations to keep fleets road-legal."
+        },
+        {
+          "title": "Automated Daily / Weekly Driver Payout Batches",
+          "desc": "Generates bank batch files calculating net earnings after deducting fuel advances, vehicle leasing fees, and commissions."
+        },
+        {
+          "title": "Driver Safety Rating & Performance Tiers",
+          "desc": "Categorizes drivers into incentive tiers based on completed trips, acceptance rates, and passenger safety ratings."
+        },
+        {
+          "title": "Grievance Redressal & Temporary Suspension Queue",
+          "desc": "Documented workflows for safety incidents, customer disputes, and appeal hearings before deactivation."
+        }
       ],
-      "roles": ["City Operations Manager", "Fleet Partner", "Commercial Driver", "Vehicle Inspector", "Support Agent"],
+      "roles": [
+        "City Operations Manager",
+        "Fleet Partner",
+        "Commercial Driver",
+        "Vehicle Inspector",
+        "Support Agent"
+      ],
       "attendanceModel": "Trip active-session logging via driver mobile app integration and periodic facial verification selfie checks.",
       "compensationModel": "Per-trip revenue share minus platform fee, peak surge incentives, and milestone trip completion bonuses."
     },
@@ -317,23 +566,44 @@
       "badge": "GPS ROUTES & MILESTONE PAYOUTS",
       "headline": "Field Sales, Technical Service, and Geofenced Milestone Tracking",
       "tagline": "Empower roaming field agents with GPS route tracking, battery-efficient geofenced customer check-ins, per-visit payout models, and offline reporting.",
-      "metaTitle": "Field Workforce Management & GPS Location Tracking | Workforce360",
-      "metaDescription": "Track field sales and service visits, calculate per-visit allowances, and verify GPS attendance with Workforce360 Field Pack.",
+      "metaTitle": "Field Workforce Management & GPS Location Tracking | SpotSign AI",
+      "metaDescription": "Track field sales and service visits, calculate per-visit allowances, and verify GPS attendance with SpotSign AI Field Pack.",
       "workforceModel": "Field sales executives, telecom repair technicians, solar installation engineers, FMCG beat distributors, and home medical reps.",
       "challenges": [
         "Verifying whether field executives actually visited designated client sites versus logging fraudulent remote check-ins.",
         "Computing fair travel reimbursements based on actual kilometers traveled during official client visits.",
         "Managing productivity across distributed mobile teams operating with intermittent internet connectivity."
       ],
-      "solution": "Workforce360 Field Pack provides battery-optimized GPS breadcrumb tracking, geofenced customer visit verification, and automated per-visit allowance calculations.",
+      "solution": "SpotSign AI Field Pack provides battery-optimized GPS breadcrumb tracking, geofenced customer visit verification, and automated per-visit allowance calculations.",
       "capabilities": [
-        { "title": "Geofenced Client Check-In with Photo Verification", "desc": "Field staff punch attendance only when inside client site boundaries, capturing mandatory storefront photos." },
-        { "title": "Automated Travel Distance (Kilometer) Reimbursement", "desc": "Calculates exact travel allowances by measuring GPS travel between client stops, eliminating inflated manual odometer claims." },
-        { "title": "Beat / Route Plan Optimization", "desc": "Assigns daily customer visit sequences to field reps to minimize travel time and maximize client meeting hours." },
-        { "title": "Per-Visit & Per-Installation Piece-Rate Incentives", "desc": "Credits milestone bonuses per completed technical service ticket or verified store order directly into monthly salary." },
-        { "title": "Offline-Capable Mobile Workflows", "desc": "Allows staff to complete visit reports and signature captures in basements or rural areas, syncing when connectivity resumes." }
+        {
+          "title": "Geofenced Client Check-In with Photo Verification",
+          "desc": "Field staff punch attendance only when inside client site boundaries, capturing mandatory storefront photos."
+        },
+        {
+          "title": "Automated Travel Distance (Kilometer) Reimbursement",
+          "desc": "Calculates exact travel allowances by measuring GPS travel between client stops, eliminating inflated manual odometer claims."
+        },
+        {
+          "title": "Beat / Route Plan Optimization",
+          "desc": "Assigns daily customer visit sequences to field reps to minimize travel time and maximize client meeting hours."
+        },
+        {
+          "title": "Per-Visit & Per-Installation Piece-Rate Incentives",
+          "desc": "Credits milestone bonuses per completed technical service ticket or verified store order directly into monthly salary."
+        },
+        {
+          "title": "Offline-Capable Mobile Workflows",
+          "desc": "Allows staff to complete visit reports and signature captures in basements or rural areas, syncing when connectivity resumes."
+        }
       ],
-      "roles": ["Territory Sales Manager", "Field Sales Executive", "Service Technician", "Installation Engineer", "Field Auditor"],
+      "roles": [
+        "Territory Sales Manager",
+        "Field Sales Executive",
+        "Service Technician",
+        "Installation Engineer",
+        "Field Auditor"
+      ],
       "attendanceModel": "Mobile PWA with geofenced client site check-ins and scheduled battery-efficient location breadcrumbs.",
       "compensationModel": "Base salary, verified per-kilometer fuel reimbursement, and milestone-based sales commission."
     },
@@ -343,23 +613,44 @@
       "badge": "SERVICE BAY & TECHNICIAN LOGS",
       "headline": "Service Bay Productivity, Technician Job Cards, and Tool Registries",
       "tagline": "Maximize dealership service revenue with bay-level technician scheduling, flat-rate labor hour tracking, tool registries, and diagnostic skill certifications.",
-      "metaTitle": "Auto Dealership HRMS & Service Bay Technician Scheduling | Workforce360",
-      "metaDescription": "Track service bay technician hours, calculate flat-rate labor efficiency, and manage tool registries with Workforce360 Auto Pack.",
+      "metaTitle": "Auto Dealership HRMS & Service Bay Technician Scheduling | SpotSign AI",
+      "metaDescription": "Track service bay technician hours, calculate flat-rate labor efficiency, and manage tool registries with SpotSign AI Auto Pack.",
       "workforceModel": "Master technicians, diagnostic mechanics, service advisors, body shop painters, and spare parts inventory coordinators.",
       "challenges": [
         "Measuring technician billable flat-rate hours versus actual clock hours on vehicle repair orders to compute technician efficiency.",
         "Preventing tool loss and damage across expensive diagnostic scanners and specialized workshop calibration equipment.",
         "Tracking OEM manufacturer technical training certifications required to maintain authorized dealership status."
       ],
-      "solution": "Workforce360 Auto Pack synchronizes service advisor repair orders with technician bay clocking, computing efficiency incentives and tracking tool handovers.",
+      "solution": "SpotSign AI Auto Pack synchronizes service advisor repair orders with technician bay clocking, computing efficiency incentives and tracking tool handovers.",
       "capabilities": [
-        { "title": "Technician Flat-Rate Efficiency Engine", "desc": "Calculates labor efficiency by comparing standard repair manual flat-rate hours against actual clocked job hours." },
-        { "title": "Bay-Level Digital Job Card Clocking", "desc": "Technicians scan repair order barcodes to clock in and out of specific vehicle jobs on bay touchscreens." },
-        { "title": "High-Value Workshop Tool Registry", "desc": "Tracks specialized diagnostic tools, torque wrenches, and OBD scanners checked out to specific mechanics." },
-        { "title": "OEM Manufacturer Technical Certification Tracker", "desc": "Maintains technician skill levels (e.g., Level 1 Apprentice to Master EV Tech) with mandatory manufacturer renewal dates." },
-        { "title": "Body Shop & Paint Booth Hazard Protection", "desc": "Enforces rotational rest breaks and respiratory health compliance for painters and sheet metal technicians." }
+        {
+          "title": "Technician Flat-Rate Efficiency Engine",
+          "desc": "Calculates labor efficiency by comparing standard repair manual flat-rate hours against actual clocked job hours."
+        },
+        {
+          "title": "Bay-Level Digital Job Card Clocking",
+          "desc": "Technicians scan repair order barcodes to clock in and out of specific vehicle jobs on bay touchscreens."
+        },
+        {
+          "title": "High-Value Workshop Tool Registry",
+          "desc": "Tracks specialized diagnostic tools, torque wrenches, and OBD scanners checked out to specific mechanics."
+        },
+        {
+          "title": "OEM Manufacturer Technical Certification Tracker",
+          "desc": "Maintains technician skill levels (e.g., Level 1 Apprentice to Master EV Tech) with mandatory manufacturer renewal dates."
+        },
+        {
+          "title": "Body Shop & Paint Booth Hazard Protection",
+          "desc": "Enforces rotational rest breaks and respiratory health compliance for painters and sheet metal technicians."
+        }
       ],
-      "roles": ["Dealership Service Manager", "Service Advisor", "Master Diagnostic Mechanic", "Body Shop Painter", "Parts Manager"],
+      "roles": [
+        "Dealership Service Manager",
+        "Service Advisor",
+        "Master Diagnostic Mechanic",
+        "Body Shop Painter",
+        "Parts Manager"
+      ],
       "attendanceModel": "Workshop biometric terminal and touchscreen job card barcode scanners in service bays.",
       "compensationModel": "Base salary, flat-rate labor efficiency bonuses, and customer satisfaction (CSI) bonus incentives."
     },
@@ -369,23 +660,44 @@
       "badge": "TOUR GUIDES & SEASONAL OPERATIONS",
       "headline": "Tour Guide Scheduling, Itinerary Allowances, and Seasonal Staffing",
       "tagline": "Coordinate multilingual tour guides, holiday itinerary allowances, seasonal fleet drivers, and hospitality coordinators across global tourist destinations.",
-      "metaTitle": "Tourism Workforce Management & Tour Guide Scheduling | Workforce360",
-      "metaDescription": "Manage seasonal tour operators, calculate multi-city itinerary allowances, and track guide licensing with Workforce360 Travel Pack.",
+      "metaTitle": "Tourism Workforce Management & Tour Guide Scheduling | SpotSign AI",
+      "metaDescription": "Manage seasonal tour operators, calculate multi-city itinerary allowances, and track guide licensing with SpotSign AI Travel Pack.",
       "workforceModel": "Multilingual tour guides, travel planners, transfer drivers, customer experience reps, and adventure safety instructors.",
       "challenges": [
         "Managing high seasonal staffing swings between peak tourist season and quiet monsoon/winter months.",
         "Disbursing complex multi-city itinerary allowances, foreign exchange per diems, and local entrance fee reimbursements.",
         "Ensuring adventure sports instructors hold active wilderness first-aid, diving, or mountaineering safety licenses."
       ],
-      "solution": "Workforce360 Travel Pack provides seasonal contract lifecycle management, automated tour per diem calculations, and guide credential tracking.",
+      "solution": "SpotSign AI Travel Pack provides seasonal contract lifecycle management, automated tour per diem calculations, and guide credential tracking.",
       "capabilities": [
-        { "title": "Itinerary-Based Rota & Guide Assignment", "desc": "Assigns certified multilingual guides to specific tour groups based on language preferences and destination expertise." },
-        { "title": "Multi-Currency Itinerary Allowance Wallet", "desc": "Disburses tour leader advances and reconciles hotel vouchers, transport bills, and meal per diems upon tour return." },
-        { "title": "Guide License & Safety Certification Vault", "desc": "Tracks Ministry of Tourism guide badges, CPR/First Aid credentials, and adventure safety certificates." },
-        { "title": "Seasonal Retainer & Variable Tour Pay", "desc": "Supports off-season retainer compensations coupled with per-tour daily rates during high season." },
-        { "title": "Customer Tour Feedback Incentive Multipliers", "desc": "Links tourist group review scores directly with guide tipping pools and company performance bonuses." }
+        {
+          "title": "Itinerary-Based Rota & Guide Assignment",
+          "desc": "Assigns certified multilingual guides to specific tour groups based on language preferences and destination expertise."
+        },
+        {
+          "title": "Multi-Currency Itinerary Allowance Wallet",
+          "desc": "Disburses tour leader advances and reconciles hotel vouchers, transport bills, and meal per diems upon tour return."
+        },
+        {
+          "title": "Guide License & Safety Certification Vault",
+          "desc": "Tracks Ministry of Tourism guide badges, CPR/First Aid credentials, and adventure safety certificates."
+        },
+        {
+          "title": "Seasonal Retainer & Variable Tour Pay",
+          "desc": "Supports off-season retainer compensations coupled with per-tour daily rates during high season."
+        },
+        {
+          "title": "Customer Tour Feedback Incentive Multipliers",
+          "desc": "Links tourist group review scores directly with guide tipping pools and company performance bonuses."
+        }
       ],
-      "roles": ["Tour Operations Director", "Senior Tour Leader", "Multilingual Guide", "Transfer Coordinator", "Safety Officer"],
+      "roles": [
+        "Tour Operations Director",
+        "Senior Tour Leader",
+        "Multilingual Guide",
+        "Transfer Coordinator",
+        "Safety Officer"
+      ],
       "attendanceModel": "Mobile PWA itinerary check-in at airports, monument gates, and hotel lobby checkpoints.",
       "compensationModel": "Off-season base retainers, per-day tour allowances, and customer review quality bonuses."
     },
@@ -395,23 +707,44 @@
       "badge": "ACADEMIC & FACULTY MANAGEMENT",
       "headline": "Academic Faculty Rostering, Substitution Rotas, and Term Calendars",
       "tagline": "Orchestrate professor lecture timetables, automated teacher substitution rotas, term-based academic contracts, and campus security staff on one education platform.",
-      "metaTitle": "Education HRMS & Faculty Timetable Rostering | Workforce360",
-      "metaDescription": "Schedule faculty lecture workloads, automate substitute teacher assignments, and manage academic term contracts with Workforce360 Education.",
+      "metaTitle": "Education HRMS & Faculty Timetable Rostering | SpotSign AI",
+      "metaDescription": "Schedule faculty lecture workloads, automate substitute teacher assignments, and manage academic term contracts with SpotSign AI Education.",
       "workforceModel": "Professors, teaching faculty, lab assistants, administrative staff, bus drivers, and campus security personnel.",
       "challenges": [
         "Managing timetable workload distributions across full-time professors, visiting faculty, and guest lecturers.",
         "Rapidly finding and assigning qualified substitute teachers when faculty take unexpected sick leave.",
         "Handling complex academic term contracts, summer vacation salary calculations, and non-teaching campus operations."
       ],
-      "solution": "Workforce360 Education aligns timetable lecture hours with faculty payroll, offering one-click substitute teacher matching and term contract management.",
+      "solution": "SpotSign AI Education aligns timetable lecture hours with faculty payroll, offering one-click substitute teacher matching and term contract management.",
       "capabilities": [
-        { "title": "Lecture Timetable & Workload Balancing", "desc": "Schedules teaching workloads ensuring compliance with UGC/CBSE teacher-student contact hour guidelines." },
-        { "title": "One-Click Automated Teacher Substitution Engine", "desc": "Instantly identifies available faculty qualified in the same subject to cover unexpected morning absences." },
-        { "title": "Guest Lecturer & Visiting Faculty Honorarium", "desc": "Tracks completed lecture hours and credits per-lecture honorarium fees directly into monthly bank files." },
-        { "title": "Academic Term & Summer Vacation Payroll Rules", "desc": "Manages vacation pay accruals, term-based research grants, and sabbatical leave workflows." },
-        { "title": "Campus Support Staff & Bus Route Roster", "desc": "Schedules school bus drivers, conductors, lab assistants, and security crews aligned with campus bell timings." }
+        {
+          "title": "Lecture Timetable & Workload Balancing",
+          "desc": "Schedules teaching workloads ensuring compliance with UGC/CBSE teacher-student contact hour guidelines."
+        },
+        {
+          "title": "One-Click Automated Teacher Substitution Engine",
+          "desc": "Instantly identifies available faculty qualified in the same subject to cover unexpected morning absences."
+        },
+        {
+          "title": "Guest Lecturer & Visiting Faculty Honorarium",
+          "desc": "Tracks completed lecture hours and credits per-lecture honorarium fees directly into monthly bank files."
+        },
+        {
+          "title": "Academic Term & Summer Vacation Payroll Rules",
+          "desc": "Manages vacation pay accruals, term-based research grants, and sabbatical leave workflows."
+        },
+        {
+          "title": "Campus Support Staff & Bus Route Roster",
+          "desc": "Schedules school bus drivers, conductors, lab assistants, and security crews aligned with campus bell timings."
+        }
       ],
-      "roles": ["Dean / Principal", "Department Head", "Tenured Professor", "Guest Faculty", "Administrative Registrar"],
+      "roles": [
+        "Dean / Principal",
+        "Department Head",
+        "Tenured Professor",
+        "Guest Faculty",
+        "Administrative Registrar"
+      ],
       "attendanceModel": "Campus gate biometric clocks, staff room facial scanners, and lecture hall mobile PWA check-in.",
       "compensationModel": "Monthly pay scale grades (e.g., 7th Pay Commission), visiting faculty hourly honorariums, and exam evaluation fees."
     },
@@ -421,23 +754,44 @@
       "badge": "24/7 SLA & SEAT UTILIZATION",
       "headline": "Seat Utilization, Night Allowances, and SLA Delivery Tracking",
       "tagline": "Optimize 24/7 technical support, content moderation, and back-office data processing operations with seat-sharing rosters, night shift allowances, and SLA metrics.",
-      "metaTitle": "ITES Workforce Management & 24/7 Shift Rostering | Workforce360",
-      "metaDescription": "Schedule 24/7 ITES shifts, manage desk seat-sharing ratios, and calculate night shift allowances with Workforce360 ITES Pack.",
+      "metaTitle": "ITES Workforce Management & 24/7 Shift Rostering | SpotSign AI",
+      "metaDescription": "Schedule 24/7 ITES shifts, manage desk seat-sharing ratios, and calculate night shift allowances with SpotSign AI ITES Pack.",
       "workforceModel": "Content moderators, technical support engineers, data transcriptionists, QA reviewers, and operations team leads.",
       "challenges": [
         "Maintaining round-the-clock shift coverage across multiple international client time zones with zero SLA drop-offs.",
         "Optimizing facility desk seat utilization through hot-desking rosters (e.g., 1.5 employees per physical seat across shifts).",
         "Accurately calculating night shift allowances, cab transport logistics, and compliance with women's night-shift safety mandates."
       ],
-      "solution": "Workforce360 ITES manages rotational shift coverage, automates night shift transport rosters with GPS drop verification, and calculates SLA performance bonuses.",
+      "solution": "SpotSign AI ITES manages rotational shift coverage, automates night shift transport rosters with GPS drop verification, and calculates SLA performance bonuses.",
       "capabilities": [
-        { "title": "24/7 Follow-the-Sun Rotational Shift Engine", "desc": "Schedules overlapping shift handover windows to maintain uninterrupted customer SLA support." },
-        { "title": "Hot-Desking Seat Utilization Planner", "desc": "Allocates physical office seats dynamically across shift cohorts to optimize facility real estate costs." },
-        { "title": "Night Shift Allowance & Cab Safety Compliance", "desc": "Automates statutory night shift allowances and verifies female employee escort cab security sign-offs." },
-        { "title": "SLA & Error-Rate Quality Incentive Linking", "desc": "Connects individual quality audit scores (QA scorecards) directly with monthly productivity bonuses." },
-        { "title": "Stress & Wellness Break Scheduling", "desc": "Mandatory scheduled micro-breaks for content moderation teams dealing with high-stress queues." }
+        {
+          "title": "24/7 Follow-the-Sun Rotational Shift Engine",
+          "desc": "Schedules overlapping shift handover windows to maintain uninterrupted customer SLA support."
+        },
+        {
+          "title": "Hot-Desking Seat Utilization Planner",
+          "desc": "Allocates physical office seats dynamically across shift cohorts to optimize facility real estate costs."
+        },
+        {
+          "title": "Night Shift Allowance & Cab Safety Compliance",
+          "desc": "Automates statutory night shift allowances and verifies female employee escort cab security sign-offs."
+        },
+        {
+          "title": "SLA & Error-Rate Quality Incentive Linking",
+          "desc": "Connects individual quality audit scores (QA scorecards) directly with monthly productivity bonuses."
+        },
+        {
+          "title": "Stress & Wellness Break Scheduling",
+          "desc": "Mandatory scheduled micro-breaks for content moderation teams dealing with high-stress queues."
+        }
       ],
-      "roles": ["Operations VP", "Shift Team Lead", "Technical Support Engineer", "Content Moderator", "Quality Assurance Analyst"],
+      "roles": [
+        "Operations VP",
+        "Shift Team Lead",
+        "Technical Support Engineer",
+        "Content Moderator",
+        "Quality Assurance Analyst"
+      ],
       "attendanceModel": "Access turnstiles integrated with virtual desktop (VDI) login session tracking.",
       "compensationModel": "Monthly base salary, night shift allowances, weekend differential pay, and quarterly SLA quality bonuses."
     },
@@ -447,23 +801,44 @@
       "badge": "CALL QUEUES & SHRINKAGE CONTROL",
       "headline": "Queue Adherence, Shrinkage Controls, and Incentive Payouts",
       "tagline": "Control call center labor costs with real-time schedule adherence monitoring, planned vs unplanned shrinkage tracking, and automated agent incentive calculations.",
-      "metaTitle": "BPO Workforce Management & Schedule Adherence Software | Workforce360",
-      "metaDescription": "Monitor call center schedule adherence, control shrinkage, and calculate monthly agent bonuses with Workforce360 BPO Pack.",
+      "metaTitle": "BPO Workforce Management & Schedule Adherence Software | SpotSign AI",
+      "metaDescription": "Monitor call center schedule adherence, control shrinkage, and calculate monthly agent bonuses with SpotSign AI BPO Pack.",
       "workforceModel": "Inbound/outbound call agents, team leads, workforce management (WFM) analysts, and quality monitoring coaches.",
       "challenges": [
         "Tracking minute-by-minute schedule adherence (logging into phone queues exactly at scheduled shift start times).",
         "Managing high planned and unplanned shrinkage (absenteeism, coaching breaks, team meetings) that degrades queue answer times.",
         "High agent turnover requiring continuous high-volume recruitment pipelines and rapid onboarding."
       ],
-      "solution": "Workforce360 BPO integrates telephony PBX queues with schedule rosters, generating real-time adherence alerts and computing performance bonuses.",
+      "solution": "SpotSign AI BPO integrates telephony PBX queues with schedule rosters, generating real-time adherence alerts and computing performance bonuses.",
       "capabilities": [
-        { "title": "Real-Time Schedule Adherence Sentinel", "desc": "Compares actual phone telephony status against scheduled shift intervals, highlighting out-of-adherence agents." },
-        { "title": "Planned & Unplanned Shrinkage Telemetry", "desc": "Categorizes leave, training, team huddles, and unscheduled breaks to help WFM analysts optimize staffing buffers." },
-        { "title": "Call Target & CSAT Incentive Engine", "desc": "Computes tiered monthly bonuses based on First Call Resolution (FCR), Average Handling Time (AHT), and CSAT." },
-        { "title": "Rapid Batch Onboarding & Assessment Pipeline", "desc": "Streamlines batch hiring of 100+ agents with automated voice assessment scoring and document verification." },
-        { "title": "Attrition Risk Early Warning for Agents", "desc": "Detects early signs of agent burnout from consecutive night shifts and call fatigue to prevent resignations." }
+        {
+          "title": "Real-Time Schedule Adherence Sentinel",
+          "desc": "Compares actual phone telephony status against scheduled shift intervals, highlighting out-of-adherence agents."
+        },
+        {
+          "title": "Planned & Unplanned Shrinkage Telemetry",
+          "desc": "Categorizes leave, training, team huddles, and unscheduled breaks to help WFM analysts optimize staffing buffers."
+        },
+        {
+          "title": "Call Target & CSAT Incentive Engine",
+          "desc": "Computes tiered monthly bonuses based on First Call Resolution (FCR), Average Handling Time (AHT), and CSAT."
+        },
+        {
+          "title": "Rapid Batch Onboarding & Assessment Pipeline",
+          "desc": "Streamlines batch hiring of 100+ agents with automated voice assessment scoring and document verification."
+        },
+        {
+          "title": "Attrition Risk Early Warning for Agents",
+          "desc": "Detects early signs of agent burnout from consecutive night shifts and call fatigue to prevent resignations."
+        }
       ],
-      "roles": ["Call Center Director", "WFM Roster Analyst", "Quality Coach", "Team Leader", "Customer Service Agent"],
+      "roles": [
+        "Call Center Director",
+        "WFM Roster Analyst",
+        "Quality Coach",
+        "Team Leader",
+        "Customer Service Agent"
+      ],
       "attendanceModel": "Biometric facility entry merged with ACD telephony login/logout timestamps.",
       "compensationModel": "Base monthly salary, attendance continuity incentives, night allowances, and KPI performance bonuses."
     },
@@ -473,23 +848,44 @@
       "badge": "AGILE SPRINTS & BILLABILITY",
       "headline": "Engineering Velocity, Client Billability, and Project Cost Centers",
       "tagline": "Unify software engineering teams, client project billability (T&M / Fixed Price), sprint utilization, tech asset allocation, and remote developer compliance.",
-      "metaTitle": "IT Company HRMS & Engineering Workforce Management | Workforce360",
-      "metaDescription": "Track project billability, manage engineering career ladders, and automate tech asset provisioning with Workforce360 IT Pack.",
+      "metaTitle": "IT Company HRMS & Engineering Workforce Management | SpotSign AI",
+      "metaDescription": "Track project billability, manage engineering career ladders, and automate tech asset provisioning with SpotSign AI IT Pack.",
       "workforceModel": "Software engineers, product managers, DevOps architects, UI/UX designers, QA automation engineers, and client delivery partners.",
       "challenges": [
         "Tracking billable versus bench utilization across cross-functional engineering pods and multiple client project accounts.",
         "Retaining top engineering talent amidst competitive salary pressures through transparent technical career pathways and OKRs.",
         "Managing remote and hybrid developer compliance, international tax withholding, and secure company laptop provisioning."
       ],
-      "solution": "Workforce360 IT connects project management cost centers with employee compensation, delivering real-time project profitability and seamless developer onboarding.",
+      "solution": "SpotSign AI IT connects project management cost centers with employee compensation, delivering real-time project profitability and seamless developer onboarding.",
       "capabilities": [
-        { "title": "Client Project Billability & Bench Telemetry", "desc": "Real-time tracking of billable developer hours, bench percentage, and effective gross billing rates." },
-        { "title": "Engineering Competency Ladders & OKRs", "desc": "Structured technical rubrics (Junior to Staff / Principal Architect) linked to objective OKR achievement." },
-        { "title": "Automated IT Asset & Cloud Account Handshake", "desc": "Provisions developer laptops and maps GitHub/Google Workspace accounts from the onboarding record." },
-        { "title": "Time & Material (T&M) Invoicing Integration", "desc": "Converts approved developer timesheets into client invoices and project revenue ledgers." },
-        { "title": "AI Skill Matrix & Internal Talent Mobility", "desc": "Indexes verified engineer competencies (React, Python, AWS, Kubernetes) to staff new client project bids rapidly." }
+        {
+          "title": "Client Project Billability & Bench Telemetry",
+          "desc": "Real-time tracking of billable developer hours, bench percentage, and effective gross billing rates."
+        },
+        {
+          "title": "Engineering Competency Ladders & OKRs",
+          "desc": "Structured technical rubrics (Junior to Staff / Principal Architect) linked to objective OKR achievement."
+        },
+        {
+          "title": "Automated IT Asset & Cloud Account Handshake",
+          "desc": "Provisions developer laptops and maps GitHub/Google Workspace accounts from the onboarding record."
+        },
+        {
+          "title": "Time & Material (T&M) Invoicing Integration",
+          "desc": "Converts approved developer timesheets into client invoices and project revenue ledgers."
+        },
+        {
+          "title": "Skill Matrix & Internal Talent Mobility",
+          "desc": "Indexes verified engineer competencies (React, Python, AWS, Kubernetes) to staff new client project bids rapidly."
+        }
       ],
-      "roles": ["VP of Engineering", "Technical Delivery Head", "Lead Architect", "Senior Full-Stack Engineer", "Scrum Master"],
+      "roles": [
+        "VP of Engineering",
+        "Technical Delivery Head",
+        "Lead Architect",
+        "Senior Full-Stack Engineer",
+        "Scrum Master"
+      ],
       "attendanceModel": "Flexible hybrid attendance with single-sign-on (SSO) browser check-in and optional IP-whitelisted developer portals.",
       "compensationModel": "Competitive CTC salaries, quarterly engineering performance bonuses, and long-term ESOP/retention allocations."
     }

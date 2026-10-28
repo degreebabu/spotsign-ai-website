@@ -7,67 +7,142 @@
       "headline": "Real-Time Executive Telemetry for the Boardroom",
       "subtitle": "Replace stale monthly PDF decks with real-time, tamper-proof workforce governance metrics across global entities, shift utilization, labor costs, and operational risk.",
       "metaTitle": "Board & Executive Dashboard | Real-Time Workforce Governance",
-      "metaDescription": "Unify executive headcount, labor cost run-rates, overtime variance, and attrition telemetry into an executive board cockpit with Workforce360.",
+      "metaDescription": "Unify executive headcount, labor cost run-rates, overtime variance, and attrition telemetry into an executive board cockpit with SpotSign AI.",
       "problem": "Board members and executive teams receive lagging 30-day-old workforce reports assembled manually via error-prone spreadsheets, obscuring sudden cost spikes, turnover risks, and compliance exposure.",
-      "solution": "Workforce360 unifies telemetry across People, Work, Money, and IT Operations into a live C-suite cockpit. Review real-time payroll variance, frontline shift muster, attrition risk alerts, and Digital Twin scenarios with one click.",
+      "solution": "SpotSign AI unifies telemetry across People, Work, Money, and IT Operations into a live C-suite cockpit. Review real-time payroll variance, frontline shift muster, attrition risk alerts, and workforce planning scenarios with one click.",
       "metrics": [
-        { "val": "100%", "label": "Real-Time Telemetry" },
-        { "val": "Zero", "label": "Manual Spreadsheet Prep" },
-        { "val": "14 Entities", "label": "Unified Global View" }
+        {
+          "val": "100%",
+          "label": "Real-Time Telemetry"
+        },
+        {
+          "val": "Zero",
+          "label": "Manual Spreadsheet Prep"
+        },
+        {
+          "val": "14 Entities",
+          "label": "Unified Global View"
+        }
       ],
       "capabilities": [
-        { "title": "Live Labor Cost Run-Rate", "desc": "Monitor annualized compensation, overtime spikes, and payroll variance vs approved operating budgets." },
-        { "title": "Headcount Velocity & Fill-Rates", "desc": "Track requisition fulfillment, critical role vacancy duration, and department growth trajectories." },
-        { "title": "Real-Time Flight Risk Index", "desc": "Genkit AI surfaces organizational attrition hotspots and flight risks among key talent." },
-        { "title": "Multi-Entity Compliance Sentinel", "desc": "Instant health check across statutory filings, PF/ESIC returns, and safety certifications." }
+        {
+          "title": "Live Labor Cost Run-Rate",
+          "desc": "Monitor annualized compensation, overtime spikes, and payroll variance vs approved operating budgets."
+        },
+        {
+          "title": "Headcount Velocity & Fill-Rates",
+          "desc": "Track requisition fulfillment, critical role vacancy duration, and department growth trajectories."
+        },
+        {
+          "title": "Real-Time Flight Risk Index",
+          "desc": "The analytics view highlights organizational attrition hotspots and flight risks among key talent."
+        },
+        {
+          "title": "Multi-Entity Compliance Sentinel",
+          "desc": "Instant health check across statutory filings, PF/ESIC returns, and safety certifications."
+        }
       ],
-      "connectedModules": ["digital-twin", "analytics", "finance", "hris"]
+      "connectedModules": [
+        "analytics",
+        "finance",
+        "hris"
+      ]
     },
     "workforce-planning": {
       "slug": "workforce-planning",
       "badge": "STRATEGIC PLANNING",
       "title": "Strategic Workforce Planning",
       "headline": "Plan, Model, and Execute Future Organizational Capacity",
-      "subtitle": "Bridge the gap between strategic business objectives and workforce realities using predictive demand forecasting and the Workforce Digital Twin simulator.",
-      "metaTitle": "Strategic Workforce Planning & Capacity Modeling | Workforce360",
-      "metaDescription": "Align headcount capacity, skills inventories, and labor budgets with long-term enterprise strategy using Workforce360's Workforce Digital Twin.",
+      "subtitle": "Bridge the gap between strategic business objectives and workforce realities using demand forecasting and the Workforce Planning simulator.",
+      "metaTitle": "Strategic Workforce Planning & Capacity Modeling | SpotSign AI",
+      "metaDescription": "Align headcount capacity, skills inventories, and labor budgets with long-term enterprise strategy using SpotSign AI's Workforce Planning.",
       "problem": "Workforce planning in spreadsheets fails because it cannot simulate organizational dependencies, skill scarcity, severance liabilities, or dynamic wage inflation.",
-      "solution": "Workforce360 provides a visual, non-destructive Digital Twin sandbox where leadership models structural changes, tests compensation shifts, and stress-tests headcount capacity before committing capital.",
+      "solution": "SpotSign AI provides a visual, non-destructive Workforce Planning sandbox where leadership models structural changes, tests compensation shifts, and stress-tests headcount capacity before committing capital.",
       "metrics": [
-        { "val": "1.6 Mo", "label": "Avg Break-Even Horizon" },
-        { "val": "40 Flows", "label": "AI Demand Forecasts" },
-        { "val": "Non-Destructive", "label": "Simulation Sandbox" }
+        {
+          "val": "1.6 Mo",
+          "label": "Avg Break-Even Horizon"
+        },
+        {
+          "val": "40 Flows",
+          "label": "Demand Forecasts"
+        },
+        {
+          "val": "Non-Destructive",
+          "label": "Simulation Sandbox"
+        }
       ],
       "capabilities": [
-        { "title": "Scenario Simulation Sandbox", "desc": "Model restructuring, departmental spin-offs, and geographic expansions with live P&L delta calculations." },
-        { "title": "Skills Inventory & Gap Mapping", "desc": "Map enterprise skill deficits against future product roadmaps and strategic initiatives." },
-        { "title": "Severance & Transition Reserve Modeling", "desc": "Accurate calculation of tenure-based severance liabilities and notice encashment reserves." },
-        { "title": "Capacity Demand Forecasting", "desc": "AI forecasting of operational labor needs based on historical seasonality and business pipeline." }
+        {
+          "title": "Scenario Simulation Sandbox",
+          "desc": "Model restructuring, departmental spin-offs, and geographic expansions with live P&L delta calculations."
+        },
+        {
+          "title": "Skills Inventory & Gap Mapping",
+          "desc": "Map enterprise skill deficits against future product roadmaps and strategic initiatives."
+        },
+        {
+          "title": "Severance & Transition Reserve Modeling",
+          "desc": "Accurate calculation of tenure-based severance liabilities and notice encashment reserves."
+        },
+        {
+          "title": "Capacity Demand Forecasting",
+          "desc": "Forecasts operational labor needs based on historical seasonality and business pipeline."
+        }
       ],
-      "connectedModules": ["digital-twin", "performance", "recruitment", "finance"]
+      "connectedModules": [
+        "performance",
+        "recruitment",
+        "finance"
+      ]
     },
     "attrition-retention": {
       "slug": "attrition-retention",
-      "badge": "TALENT INTELLIGENCE",
-      "title": "Attrition & Retention Prediction",
+      "badge": "TALENT INSIGHTS",
+      "title": "Attrition & Retention Analytics",
       "headline": "Surface Flight Risks Before Employees Hand in Resignations",
-      "subtitle": "Deploy specialized Genkit AI telemetry to detect behavioral disengagement, compensation compression, and burnout across corporate teams and frontline shifts.",
-      "metaTitle": "Predictive Attrition & Retention Intelligence | Workforce360",
-      "metaDescription": "Mitigate costly employee turnover with predictive AI flight risk signals, compensation parity analysis, and proactive retention playbooks.",
+      "subtitle": "Deploy specialized attrition analytics to identify disengagement, compensation compression, and burnout across corporate teams and frontline shifts.",
+      "metaTitle": "Attrition Risk & Retention Analytics | SpotSign AI",
+      "metaDescription": "Mitigate costly employee turnover with early flight risk signals, compensation parity analysis, and proactive retention playbooks.",
       "problem": "Exit interviews happen too late. Organizations spend 1.5x annual salary replacing high performers because management had no early warning of compensation compression or shift fatigue.",
-      "solution": "Workforce360's attrition sentinel continuously analyzes multi-dimensional telemetry—shift overtime patterns, manager review sentiment, tenure inflection points, and internal mobility delays—alerting leaders to intervene proactively.",
+      "solution": "SpotSign AI's attrition analytics continuously analyzes multi-dimensional workforce data—shift overtime patterns, manager review trends, tenure inflection points, and internal mobility delays—alerting leaders to intervene proactively.",
       "metrics": [
-        { "val": "68%", "label": "Flight Risk Identified Early" },
-        { "val": "35%", "label": "Reduction in Unplanned Churn" },
-        { "val": "Zero", "label": "External Data Leakage" }
+        {
+          "val": "68%",
+          "label": "Flight Risk Identified Early"
+        },
+        {
+          "val": "35%",
+          "label": "Reduction in Unplanned Churn"
+        },
+        {
+          "val": "Zero",
+          "label": "External Data Leakage"
+        }
       ],
       "capabilities": [
-        { "title": "Genkit AI Flight Risk Sentinel", "desc": "Identifies flight-risk probability across business units and critical leadership roles." },
-        { "title": "Compensation Parity & Compression Alerts", "desc": "Highlights tenured staff lagging new hire compensation bands to prevent equity churn." },
-        { "title": "Frontline Shift Fatigue Index", "desc": "Monitors consecutive night shifts and overtime muster to prevent factory and hospital burnout." },
-        { "title": "Proactive Retention Playbooks", "desc": "Generates recommended mobility options, role rotations, and compensation adjustments." }
+        {
+          "title": "Flight Risk Index",
+          "desc": "Identifies flight-risk indicators across business units and critical leadership roles."
+        },
+        {
+          "title": "Compensation Parity & Compression Alerts",
+          "desc": "Highlights tenured staff lagging new hire compensation bands to prevent equity churn."
+        },
+        {
+          "title": "Frontline Shift Fatigue Index",
+          "desc": "Monitors consecutive night shifts and overtime muster to prevent factory and hospital burnout."
+        },
+        {
+          "title": "Proactive Retention Playbooks",
+          "desc": "Generates recommended mobility options, role rotations, and compensation adjustments."
+        }
       ],
-      "connectedModules": ["analytics", "performance", "digital-twin", "workforce-management"]
+      "connectedModules": [
+        "analytics",
+        "performance",
+        "workforce-management"
+      ]
     },
     "dei-analytics": {
       "slug": "dei-analytics",
@@ -75,22 +150,48 @@
       "title": "DEI & Equal Pay Analytics",
       "headline": "Transparent, Data-Driven Diversity, Equity & Pay Parity",
       "subtitle": "Eliminate pay gaps and systemic promotion disparities with real-time demographic distribution, compensation parity auditing, and hiring pipeline fairness telemetry.",
-      "metaTitle": "DEI Analytics & Equal Pay Parity Auditing | Workforce360",
-      "metaDescription": "Measure representation, promotion velocity, and gender pay equity across corporate and operational tiers with Workforce360 DEI analytics.",
+      "metaTitle": "DEI Analytics & Equal Pay Parity Auditing | SpotSign AI",
+      "metaDescription": "Measure representation, promotion velocity, and gender pay equity across corporate and operational tiers with SpotSign AI DEI analytics.",
       "problem": "DEI reports are often treated as compliance checkbox exercises conducted once a year, failing to identify unaddressed pay disparities or promotion velocity bottlenecks.",
-      "solution": "Workforce360 provides continuous equal-pay telemetry, auditing compensation distributions across levels and departments to guarantee fair, compliant wage parity across all entities.",
+      "solution": "SpotSign AI provides continuous equal-pay telemetry, auditing compensation distributions across levels and departments to guarantee fair, compliant wage parity across all entities.",
       "metrics": [
-        { "val": "100%", "label": "Compensation Parity Audit" },
-        { "val": "Real-Time", "label": "Promotion Velocity Tracking" },
-        { "val": "Audit-Ready", "label": "Statutory Governance" }
+        {
+          "val": "100%",
+          "label": "Compensation Parity Audit"
+        },
+        {
+          "val": "Real-Time",
+          "label": "Promotion Velocity Tracking"
+        },
+        {
+          "val": "Audit-Ready",
+          "label": "Statutory Governance"
+        }
       ],
       "capabilities": [
-        { "title": "Equal Pay Sentinel", "desc": "Identifies statistically significant pay disparities across identical bands and job families." },
-        { "title": "Promotion Velocity Metrics", "desc": "Measures time-to-promotion distributions across diverse demographic cohorts." },
-        { "title": "ATS Pipeline Diversity Telemetry", "desc": "Tracks applicant pass-through rates to ensure interview panels evaluate balanced talent pools." },
-        { "title": "Executive Representation Dashboards", "desc": "Provides boardroom-ready visualizations of departmental representation." }
+        {
+          "title": "Equal Pay Sentinel",
+          "desc": "Identifies statistically significant pay disparities across identical bands and job families."
+        },
+        {
+          "title": "Promotion Velocity Metrics",
+          "desc": "Measures time-to-promotion distributions across diverse demographic cohorts."
+        },
+        {
+          "title": "ATS Pipeline Diversity Telemetry",
+          "desc": "Tracks applicant pass-through rates to ensure interview panels evaluate balanced talent pools."
+        },
+        {
+          "title": "Executive Representation Dashboards",
+          "desc": "Provides boardroom-ready visualizations of departmental representation."
+        }
       ],
-      "connectedModules": ["analytics", "payroll", "performance", "recruitment"]
+      "connectedModules": [
+        "analytics",
+        "payroll",
+        "performance",
+        "recruitment"
+      ]
     },
     "identity-audit": {
       "slug": "identity-audit",
@@ -98,45 +199,96 @@
       "title": "Identity & Hardware Asset Audit",
       "headline": "Zero-Trust Identity Governance & Hardware Serial Tracking",
       "subtitle": "Unify IT asset tracking, software license provisioning, and employee status. Automatically freeze access and withhold final settlement until physical laptops and credentials are recovered.",
-      "metaTitle": "Identity Governance & IT Asset Serial Audit | Workforce360",
-      "metaDescription": "Eliminate orphaned SaaS accounts and laptop loss with Workforce360's integrated IT asset governance and offboarding security lock.",
+      "metaTitle": "Identity Governance & IT Asset Serial Audit | SpotSign AI",
+      "metaDescription": "Eliminate orphaned SaaS accounts and laptop loss with SpotSign AI's integrated IT asset governance and offboarding security lock.",
       "problem": "Exited employees retain active SaaS access for weeks, and company-owned laptops vanish because HR offboarding is completely disconnected from IT inventory.",
-      "solution": "Workforce360 binds employee status to IT asset serial numbers and software seats. When an exit is initiated, SSO access is revoked automatically and Full & Final settlement is locked until IT signs off on physical hardware return.",
+      "solution": "SpotSign AI binds employee status to IT asset serial numbers and software seats. When an exit is initiated, SSO access is revoked automatically and Full & Final settlement is locked until IT signs off on physical hardware return.",
       "metrics": [
-        { "val": "100%", "label": "Hardware Recovery Rate" },
-        { "val": "Zero", "label": "Orphaned SaaS Licenses" },
-        { "val": "Auto", "label": "F&F Settlement Lock" }
+        {
+          "val": "100%",
+          "label": "Hardware Recovery Rate"
+        },
+        {
+          "val": "Zero",
+          "label": "Orphaned SaaS Licenses"
+        },
+        {
+          "val": "Auto",
+          "label": "F&F Settlement Lock"
+        }
       ],
       "capabilities": [
-        { "title": "Automated Offboarding Security Lock", "desc": "Halts payroll clearance until IT hardware serial numbers are physically verified in inventory." },
-        { "title": "SaaS License Reclamation", "desc": "Detects inactive software licenses to reclaim unutilized subscriptions and lower IT SaaS spend." },
-        { "title": "Hardware Serial Inventory", "desc": "Logs manufacturer serials, warranty dates, and custodian signatures across all devices." },
-        { "title": "Zero-Trust Access Revocation", "desc": "Instantaneous single-click de-provisioning across Google Workspace, Microsoft 365, and enterprise apps." }
+        {
+          "title": "Automated Offboarding Security Lock",
+          "desc": "Halts payroll clearance until IT hardware serial numbers are physically verified in inventory."
+        },
+        {
+          "title": "SaaS License Reclamation",
+          "desc": "Detects inactive software licenses to reclaim unutilized subscriptions and lower IT SaaS spend."
+        },
+        {
+          "title": "Hardware Serial Inventory",
+          "desc": "Logs manufacturer serials, warranty dates, and custodian signatures across all devices."
+        },
+        {
+          "title": "Zero-Trust Access Revocation",
+          "desc": "Instantaneous single-click de-provisioning across Google Workspace, Microsoft 365, and enterprise apps."
+        }
       ],
-      "connectedModules": ["it-assets", "employee-lifecycle", "payroll", "security"]
+      "connectedModules": [
+        "it-assets",
+        "employee-lifecycle",
+        "payroll",
+        "security"
+      ]
     },
     "m-and-a-integration": {
       "slug": "m-and-a-integration",
       "badge": "TRANSACTIONS & INTEGRATION",
       "title": "M&A Workforce Integration",
       "headline": "Harmonize Multi-Entity Workforces Post-Merger in Weeks",
-      "subtitle": "Consolidate acquired entities, reconcile divergent salary bands, align duplicate roles, and merge attendance rules onto one sovereign multi-tenant architecture.",
-      "metaTitle": "M&A Workforce Harmonization & Entity Integration | Workforce360",
-      "metaDescription": "Accelerate post-merger integration by harmonizing compensation bands, mapping duplicate roles, and unifying payroll on Workforce360.",
+      "subtitle": "Consolidate acquired entities, reconcile divergent salary bands, align duplicate roles, and merge attendance rules onto one unified platform.",
+      "metaTitle": "M&A Workforce Harmonization & Entity Integration | SpotSign AI",
+      "metaDescription": "Accelerate post-merger integration by harmonizing compensation bands, mapping duplicate roles, and unifying payroll on SpotSign AI.",
       "problem": "Post-merger integration stalls when HR teams must juggle 3 different HRMS systems, disparate payroll cutoffs, conflicting title hierarchies, and redundant staffing overhead.",
-      "solution": "Workforce360 ingests acquired entity data within days, utilizing the Workforce Digital Twin to simulate title harmonizations, severance overlap costs, and consolidated payroll variance on a single unified platform.",
+      "solution": "SpotSign AI ingests acquired entity data within days, utilizing Workforce Planning to simulate title harmonizations, severance overlap costs, and consolidated payroll variance on a single unified platform.",
       "metrics": [
-        { "val": "6 Weeks", "label": "Average M&A Cutover" },
-        { "val": "Multi-Entity", "label": "Sovereign Partitioning" },
-        { "val": "Unified", "label": "Consolidated Reporting" }
+        {
+          "val": "6 Weeks",
+          "label": "Average M&A Cutover"
+        },
+        {
+          "val": "Multi-Entity",
+          "label": "Entity Separation"
+        },
+        {
+          "val": "Unified",
+          "label": "Consolidated Reporting"
+        }
       ],
       "capabilities": [
-        { "title": "Entity Partitioning & Rollup", "desc": "Maintain separate legal entity tax structures while rolling up operational telemetry to parent holding." },
-        { "title": "Title & Compensation Harmonization", "desc": "Map acquired job levels onto standard corporate bands with automatic disparity detection." },
-        { "title": "Redundancy & Severance Modeling", "desc": "Model synergies and restructuring liabilities in the Digital Twin simulator before execution." },
-        { "title": "Consolidated General Ledger Export", "desc": "Generate unified double-entry journals for parent ERP systems." }
+        {
+          "title": "Entity Separation & Rollup",
+          "desc": "Maintain separate legal entity tax structures while providing consolidated reporting to the parent company."
+        },
+        {
+          "title": "Title & Compensation Harmonization",
+          "desc": "Map acquired job levels onto standard corporate bands with automatic disparity detection."
+        },
+        {
+          "title": "Redundancy & Severance Modeling",
+          "desc": "Model synergies and restructuring liabilities in Workforce Planning simulator before execution."
+        },
+        {
+          "title": "Consolidated General Ledger Export",
+          "desc": "Generate unified double-entry journals for parent ERP systems."
+        }
       ],
-      "connectedModules": ["digital-twin", "hris", "finance", "security"]
+      "connectedModules": [
+        "hris",
+        "finance",
+        "security"
+      ]
     },
     "payroll-accuracy": {
       "slug": "payroll-accuracy",
@@ -144,22 +296,48 @@
       "title": "Zero-Leakage Payroll Accuracy",
       "headline": "Connect Time, Overtime, Tax, and General Ledger with Zero Leakage",
       "subtitle": "Eliminate payroll leakage caused by manual timesheet handoffs. Biometric punches, piece-rate wages, and leave deductions feed directly into Indian statutory calculations.",
-      "metaTitle": "Zero-Leakage Payroll Accuracy & Indian Statutory Sentinel | Workforce360",
+      "metaTitle": "Zero-Leakage Payroll Accuracy & Indian Statutory Sentinel | SpotSign AI",
       "metaDescription": "Achieve 100% payroll accuracy by directly connecting biometric timecards, statutory withholdings, and General Ledger accounting.",
       "problem": "Organizations lose 1.2% to 3.5% of total payroll annually to phantom overtime, unrecorded leave taken, incorrect tax slab application, and manual data transcription errors.",
-      "solution": "Workforce360's closed-loop engine directly connects biometric terminals and shift rosters to the statutory payroll engine, executing pre-run anomaly checks to ensure 100% payout accuracy.",
+      "solution": "SpotSign AI's closed-loop engine directly connects biometric terminals and shift rosters to the statutory payroll engine, executing pre-run anomaly checks to ensure 100% payout accuracy.",
       "metrics": [
-        { "val": "99.98%", "label": "First-Pass Payout Accuracy" },
-        { "val": "1-Click", "label": "EPFO ECR & ESIC Files" },
-        { "val": "Zero", "label": "Double-Entry Bookkeeping" }
+        {
+          "val": "99.98%",
+          "label": "First-Pass Payout Accuracy"
+        },
+        {
+          "val": "1-Click",
+          "label": "EPFO ECR & ESIC Files"
+        },
+        {
+          "val": "Zero",
+          "label": "Double-Entry Bookkeeping"
+        }
       ],
       "capabilities": [
-        { "title": "Pre-Run Payroll Anomaly Sentinel", "desc": "Flags sudden variance anomalies (+/- 15%) and duplicate bank records before disbursement." },
-        { "title": "Direct Biometric-to-Pay Computation", "desc": "Calculates overtime, night-shift allowances, and piece-rates directly from biometric punch logs." },
-        { "title": "Automated Dual-Regime Tax Withholding", "desc": "Selects optimal tax deduction regime (Old vs New 115BAC) with digital Form 12BB OCR validation." },
-        { "title": "Automated GL Journal Generation", "desc": "Generates balanced debit/credit journals mapped to cost centers and synced directly to ERP." }
+        {
+          "title": "Pre-Run Payroll Anomaly Sentinel",
+          "desc": "Flags sudden variance anomalies (+/- 15%) and duplicate bank records before disbursement."
+        },
+        {
+          "title": "Direct Biometric-to-Pay Computation",
+          "desc": "Calculates overtime, night-shift allowances, and piece-rates directly from biometric punch logs."
+        },
+        {
+          "title": "Automated Dual-Regime Tax Withholding",
+          "desc": "Selects optimal tax deduction regime (Old vs New 115BAC) with digital Form 12BB OCR validation."
+        },
+        {
+          "title": "Automated GL Journal Generation",
+          "desc": "Generates balanced debit/credit journals mapped to cost centers and synced directly to ERP."
+        }
       ],
-      "connectedModules": ["payroll", "tax-compliance", "attendance", "finance"]
+      "connectedModules": [
+        "payroll",
+        "tax-compliance",
+        "attendance",
+        "finance"
+      ]
     }
   }
 }

@@ -117,7 +117,7 @@ export default function AIWorkflowSection() {
             AI That Works Across the Workforce — Not Just in a Chatbot.
           </h2>
           <p className="text-base sm:text-lg text-slate-400">
-            Workforce360 embeds 40 purpose-built Google Genkit AI flows directly into daily operations. From surfacing payroll anomalies before bank payout to predicting attrition and generating interview scorecards, AI operates natively inside the flow of work.
+            SpotSign AI embeds 40 purpose-built Google Genkit AI flows directly into daily operations. From surfacing payroll anomalies before bank payout to predicting attrition and generating interview scorecards, AI operates natively inside the flow of work.
           </p>
         </div>
 
@@ -213,8 +213,8 @@ export default function AIWorkflowSection() {
                 <ShieldCheck className="w-4 h-4" />
                 <span>Zero Training on Public Foundation Models</span>
               </span>
-              <Link href="/platform/ai" className="text-indigo-400 hover:text-indigo-300 font-semibold flex items-center gap-1">
-                <span>View All 40 Genkit Flows</span>
+              <Link href="/ai" className="text-indigo-400 hover:text-indigo-300 font-semibold flex items-center gap-1">
+                <span>View All 40 AI Flows</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>

@@ -4,12 +4,14 @@ import type { Metadata } from "next";
 import { CheckCircle2, ArrowRight, ShieldCheck, Sparkles, HelpCircle } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
+import AnimatedSection, { FloatingCard } from "@/components/AnimatedSection";
+
 export const metadata: Metadata = {
-  title: "Enterprise Transparent Pricing & Plans | Workforce360",
+  title: "Enterprise Transparent Pricing & Plans | SpotSign AI",
   description:
-    "Explore Workforce360's transparent enterprise pricing tiers tailored by workforce size, legal entities, and specialized industry vertical pack requirements.",
+    "Explore SpotSign AI's transparent enterprise pricing tiers tailored by workforce size, legal entities, and specialized industry vertical pack requirements.",
   alternates: {
-    canonical: "https://workforce360.dimension.com/pricing",
+    canonical: "https://spotsign.ai/pricing",
   },
 };
 
@@ -37,11 +39,11 @@ export default function PricingPage() {
       features: [
         "Everything in Starter, plus:",
         "24/7 Shift Scheduling & Overtime Guardrails",
-        "AI Recruitment & ATS Candidate Scoring",
+        "Recruitment & ATS Candidate Scoring",
         "Performance Management & Continuous OKRs",
         "IT Asset Governance & Offboarding Return Lock",
         "1 Specialized Industry Vertical Pack Included",
-        "20 Production Genkit AI Flows",
+        "20 Production Workflow Automations",
       ],
       ctaText: "Request Professional Pricing",
       popular: true,
@@ -52,13 +54,13 @@ export default function PricingPage() {
       target: "Complex, multi-entity, or multinational workforces (1,000+ headcount)",
       features: [
         "Everything in Professional, plus:",
-        "Workforce Digital Twin Scenario Simulator",
-        "All 40 Production Genkit AI Flows Active",
+        "Workforce Planning Scenario Simulator",
+        "All Workflow Automation Active",
         "General Ledger Journal Sync (SAP, Oracle, NetSuite)",
         "Blue-Collar Piece-Rate Gang Cards (Weighment Sync)",
         "Multiple Industry Vertical Packs",
-        "19 Granular RBAC Permission Tiers",
-        "Dedicated Enterprise Solutions Architect & 99.9% SLA",
+        "Granular Role-Based Permissions",
+        "Dedicated Enterprise Solutions Specialist & 99.9% SLA",
       ],
       ctaText: "Request Enterprise Pricing",
       popular: false,
@@ -68,7 +70,7 @@ export default function PricingPage() {
   return (
     <div className="bg-slate-50 min-h-screen">
       {/* Hero */}
-      <section className="bg-white border-b border-slate-200 pt-8 pb-16">
+      <AnimatedSection className="bg-white border-b border-slate-200 pt-8 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <Breadcrumbs items={[{ name: "Pricing", href: "/pricing" }]} />
 
@@ -81,19 +83,20 @@ export default function PricingPage() {
               Predictable Pricing Scaled to Your Workforce Footprint.
             </h1>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              Workforce360 licensing is tailored based on your active headcount, number of operational shift workers, legal entities, and specialized industry vertical packs. Zero hidden implementation fees.
+              SpotSign AI licensing is tailored based on your active headcount, number of operational shift workers, legal entities, and specialized industry vertical packs. Zero hidden implementation fees.
             </p>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Pricing Tiers Grid */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
             {tiers.map((tier, idx) => (
-              <div
+              <FloatingCard
                 key={idx}
+                delay={idx * 0.12}
                 className={`rounded-3xl p-8 flex flex-col justify-between transition-all ${
                   tier.popular
                     ? "bg-slate-900 text-white shadow-2xl border-2 border-blue-500 relative"
@@ -114,25 +117,25 @@ export default function PricingPage() {
                       </span>
                     )}
                     <h2 className="text-2xl font-extrabold">{tier.name}</h2>
-                    <p className={`text-xs mt-2 ${tier.popular ? "text-slate-300" : "text-slate-500"}`}>
+                    <p className={`text-xs mt-2 ${tier.popular ? "text-slate-300": "text-slate-500"}`}>
                       {tier.target}
                     </p>
                   </div>
 
                   <div className="pt-2 pb-4 border-b border-slate-200/40">
                     <div className="text-xl font-bold font-mono">Custom Enterprise Quote</div>
-                    <span className={`text-[11px] block mt-0.5 ${tier.popular ? "text-slate-400" : "text-slate-500"}`}>
+                    <span className={`text-[11px] block mt-0.5 ${tier.popular ? "text-slate-400": "text-slate-500"}`}>
                       Billed annually per employee per month (PEPM)
                     </span>
                   </div>
 
                   <div className="space-y-3 text-xs">
-                    <span className={`font-bold uppercase tracking-wider block ${tier.popular ? "text-slate-300" : "text-slate-700"}`}>
+                    <span className={`font-bold uppercase tracking-wider block ${tier.popular ? "text-slate-300": "text-slate-700"}`}>
                       Included Capabilities:
                     </span>
                     {tier.features.map((f, i) => (
                       <div key={i} className="flex items-start gap-2">
-                        <CheckCircle2 className={`w-4 h-4 flex-shrink-0 mt-0.5 ${tier.popular ? "text-cyan-400" : "text-emerald-600"}`} />
+                        <CheckCircle2 className={`w-4 h-4 flex-shrink-0 mt-0.5 ${tier.popular ? "text-cyan-400": "text-emerald-600"}`} />
                         <span>{f}</span>
                       </div>
                     ))}
@@ -152,13 +155,13 @@ export default function PricingPage() {
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
-              </div>
+              </FloatingCard>
             ))}
           </div>
 
           {/* Pricing FAQ Card */}
-          <div className="mt-16 p-8 rounded-3xl bg-white border border-slate-200 space-y-4">
-            <h3 className="text-lg font-bold text-slate-900">How Does Workforce360 Pricing Work?</h3>
+          <AnimatedSection delay={0.2} className="mt-16 p-8 rounded-3xl bg-white border border-slate-200 space-y-4">
+            <h3 className="text-lg font-bold text-slate-900">How Does SpotSign AI Pricing Work?</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-slate-600">
               <div>
                 <strong className="text-slate-900 block mb-1">Per Employee Per Month (PEPM)</strong>
@@ -170,10 +173,10 @@ export default function PricingPage() {
               </div>
               <div>
                 <strong className="text-slate-900 block mb-1">Zero Hidden Infrastructure Surcharges</strong>
-                Multi-tenant data isolation, regular security upgrades, mobile PWA access, and standard statutory tax updates are included in your subscription.
+                Secure data separation, regular security upgrades, mobile PWA access, and standard statutory tax updates are included in your subscription.
               </div>
             </div>
-          </div>
+          </AnimatedSection>
         </div>
       </section>
     </div>

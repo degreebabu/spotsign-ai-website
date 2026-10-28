@@ -13,7 +13,9 @@ import {
   Layers,
   Sparkles
 } from "lucide-react";
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import AnimatedSection, { FloatingCard } from "@/components/AnimatedSection";
 import personasData from "../../../../content/personas.json";
 import navData from "../../../../content/navigation.json";
 
@@ -35,12 +37,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: persona.metaTitle,
     description: persona.metaDescription,
     alternates: {
-      canonical: `https://workforce360.dimension.com/solutions/${slug}`,
+      canonical: `https://spotsign.ai/solutions/${slug}`,
     },
     openGraph: {
+      type: "website",
       title: persona.metaTitle,
       description: persona.metaDescription,
-      url: `https://workforce360.dimension.com/solutions/${slug}`,
+      url: `https://spotsign.ai/solutions/${slug}`,
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "SpotSign AI Enterprise Workforce Operating System",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: persona.metaTitle,
+      description: persona.metaDescription,
+      images: ["/og-image.png"],
     },
   };
 }
@@ -56,7 +73,7 @@ export default async function PersonaDetailPage({ params }: PageProps) {
   return (
     <div className="bg-slate-50 min-h-screen">
       {/* Hero */}
-      <section className="bg-white border-b border-slate-200 pt-8 pb-16">
+      <AnimatedSection className="bg-white border-b border-slate-200 pt-8 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <Breadcrumbs
             items={[
@@ -65,40 +82,75 @@ export default async function PersonaDetailPage({ params }: PageProps) {
             ]}
           />
 
-          <div className="max-w-4xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-bold">
-              <Users className="w-3.5 h-3.5 text-indigo-600" />
-              <span>{persona.badge}</span>
-            </div>
-            <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              {persona.headline}
-            </h1>
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              {persona.subtitle}
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7 space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-bold">
+                <Users className="w-3.5 h-3.5 text-indigo-600" />
+                <span>{persona.badge}</span>
+              </div>
+              <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
+                {persona.headline}
+              </h1>
+              <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
+                {persona.subtitle}
+              </p>
 
-            <div className="flex flex-wrap items-center gap-4 pt-4">
-              <Link
-                href="/demo"
-                className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md transition"
-              >
-                Schedule a {persona.title.split("(")[0].trim()} Walkthrough
-              </Link>
-              <Link
-                href="#capabilities"
-                className="px-6 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-sm transition"
-              >
-                Explore Capabilities
-              </Link>
+              <div className="flex flex-wrap items-center gap-4 pt-2">
+                <Link
+                  href="/demo"
+                  className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md transition"
+                >
+                  Schedule a {persona.title.split("(")[0].trim()} Walkthrough
+                </Link>
+                <Link
+                  href="#capabilities"
+                  className="px-6 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-sm transition"
+                >
+                  Explore Capabilities
+                </Link>
+              </div>
+            </div>
+
+            <div className="lg:col-span-5">
+              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 group aspect-[16/10]">
+                <Image
+                  src={
+                    slug === "recruiter"
+                      ? "/images/recruitment-interview.jpg"
+                      : slug === "chro"
+                      ? "/images/executive-analytics.jpg"
+                      : slug === "cfo" || slug === "cfo-finance" || slug === "payroll-manager"
+                      ? "/images/fintech-banking.jpg"
+                      : slug === "operations" || slug === "operations-vp" || slug === "plant-head"
+                      ? "/images/manufacturing-plant.jpg"
+                      : slug === "ciso"
+                      ? "/images/security-compliance.jpg"
+                      : slug === "hr-leader"
+                      ? "/images/corporate-workforce.jpg"
+                      : slug === "employee"
+                      ? "/images/field-mobile-workforce.jpg"
+                      : "/images/tech-software.jpg"
+                  }
+                  alt={`${persona.title} executive workforce management`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-5">
+                  <div className="text-white text-xs space-y-1">
+                    <span className="font-bold text-cyan-400 block uppercase tracking-wider text-[11px]">{persona.title}</span>
+                    <p className="text-slate-200 text-[11px] line-clamp-1">{persona.headline}</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
-      {/* Pain Points vs Workforce360 Solution */}
-      <section className="py-16 bg-white border-b border-slate-200">
+      {/* Pain Points vs SpotSign AI Solution */}
+      <AnimatedSection className="py-16 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             {/* Core Concerns */}
             <div className="p-8 rounded-3xl bg-rose-50/60 border border-rose-100 space-y-4">
               <div className="flex items-center gap-2 text-rose-700 font-bold text-xs uppercase tracking-wider">
@@ -118,11 +170,11 @@ export default async function PersonaDetailPage({ params }: PageProps) {
               </ul>
             </div>
 
-            {/* How Workforce360 Helps */}
+            {/* How SpotSign AI Helps */}
             <div className="p-8 rounded-3xl bg-blue-50/60 border border-blue-100 space-y-4">
               <div className="flex items-center gap-2 text-blue-700 font-bold text-xs uppercase tracking-wider">
                 <CheckCircle2 className="w-4 h-4 text-blue-600" />
-                <span>The Workforce360 Solution</span>
+                <span>The SpotSign AI Solution</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 How Our Operating System Transforms the Role
@@ -132,9 +184,9 @@ export default async function PersonaDetailPage({ params }: PageProps) {
               </p>
 
               {/* Metrics Grid */}
-              <div className="grid grid-cols-3 gap-3 pt-4">
+              <div className="grid grid-cols-3 gap-3 pt-2">
                 {persona.metrics.map((m: any, i: number) => (
-                  <div key={i} className="bg-white p-3 rounded-xl border border-blue-100 text-center">
+                  <div key={i} className="bg-white p-3 rounded-xl border border-blue-100 text-center shadow-sm">
                     <div className="text-lg font-extrabold text-blue-600">{m.val}</div>
                     <span className="text-[10px] text-slate-500 font-medium block mt-0.5">{m.label}</span>
                   </div>
@@ -143,7 +195,7 @@ export default async function PersonaDetailPage({ params }: PageProps) {
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Role Capabilities */}
       <section id="capabilities" className="py-20 bg-slate-50 border-b border-slate-200">
@@ -159,18 +211,22 @@ export default async function PersonaDetailPage({ params }: PageProps) {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {persona.keyCapabilities.map((cap: any, idx: number) => (
-              <div key={idx} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition space-y-3">
+              <FloatingCard
+                key={idx}
+                delay={idx * 0.08}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition space-y-3"
+              >
                 <div className="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-700 font-bold text-xs flex items-center justify-center">
                   {idx + 1}
                 </div>
                 <h3 className="text-base font-bold text-slate-900">{cap.title}</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">{cap.desc}</p>
-              </div>
+              </FloatingCard>
             ))}
           </div>
 
           {/* Connected Modules */}
-          <div className="p-8 rounded-3xl bg-white border border-slate-200 space-y-4">
+          <AnimatedSection delay={0.2} className="p-8 rounded-3xl bg-white border border-slate-200 space-y-4">
             <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
               <Layers className="w-4 h-4 text-blue-600" />
               <span>Connected Platform Modules for This Role</span>
@@ -187,11 +243,11 @@ export default async function PersonaDetailPage({ params }: PageProps) {
                 </Link>
               ))}
             </div>
-          </div>
+          </AnimatedSection>
 
-          {/* Role Architectural Design Mandate */}
+          {/* Role Design Mandate */}
           {persona.quote && (
-            <div className="rounded-3xl bg-slate-900 text-white p-8 sm:p-10 border border-slate-800 flex items-start gap-4">
+            <AnimatedSection delay={0.25} className="rounded-3xl bg-slate-900 text-white p-8 sm:p-10 border border-slate-800 flex items-start gap-4">
               <Quote className="w-8 h-8 text-blue-400 flex-shrink-0" />
               <div className="space-y-2">
                 <span className="text-xs font-bold uppercase tracking-wider text-cyan-400 block">
@@ -201,19 +257,19 @@ export default async function PersonaDetailPage({ params }: PageProps) {
                   &ldquo;{persona.quote}&rdquo;
                 </p>
                 <div className="text-xs font-semibold text-slate-400">
-                  — Workforce360 Enterprise Architecture Standard
+                  — SpotSign AI Enterprise Design Standard
                 </div>
               </div>
-            </div>
+            </AnimatedSection>
           )}
         </div>
       </section>
 
       {/* Final Persona CTA */}
-      <section className="py-20 bg-slate-950 text-white text-center">
+      <AnimatedSection className="py-20 bg-slate-950 text-white text-center">
         <div className="max-w-4xl mx-auto px-4 space-y-6">
           <h2 className="text-2xl sm:text-4xl font-extrabold text-white">
-            See how Workforce360 empowers {persona.title.split("(")[0].trim().toLowerCase()}s
+            See how SpotSign AI empowers {persona.title.split("(")[0].trim().toLowerCase()}s
           </h2>
           <p className="text-sm text-slate-400 max-w-xl mx-auto">
             Book an executive briefing to evaluate the platform workflows, security controls, and operational dashboards built for your role.
@@ -228,7 +284,7 @@ export default async function PersonaDetailPage({ params }: PageProps) {
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
     </div>
   );
 }

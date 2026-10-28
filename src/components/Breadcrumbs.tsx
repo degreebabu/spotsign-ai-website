@@ -20,13 +20,13 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://workforce360.dimension.com/",
+        item: "https://spotsign.ai/",
       },
       ...items.map((item, idx) => ({
         "@type": "ListItem",
         position: idx + 2,
         name: item.name,
-        item: `https://workforce360.dimension.com${item.href}`,
+        item: `https://spotsign.ai${item.href}`,
       })),
     ],
   };
@@ -53,7 +53,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
                 <span className="font-semibold text-slate-900" aria-current="page">
                   {item.name}
                 </span>
-              ) : (
+              ): (
                 <Link href={item.href} className="hover:text-blue-600 transition">
                   {item.name}
                 </Link>

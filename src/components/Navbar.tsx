@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { 
   ChevronDown, 
@@ -12,12 +13,12 @@ import {
   Clock, 
   DollarSign, 
   Cpu, 
-  BrainCircuit, 
   Building2, 
   ArrowRight,
   ShieldCheck,
   Layers,
-  Scale
+  Scale,
+  TrendingUp
 } from "lucide-react";
 import navData from "../../content/navigation.json";
 
@@ -36,7 +37,7 @@ export default function Navbar() {
   // Click outside to close desktop flyouts
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
-      if (navRef.current && !navRef.current.contains(event.target as Node)) {
+      if (navRef.current &&!navRef.current.contains(event.target as Node)) {
         setActiveFlyout(null);
       }
     }
@@ -54,7 +55,7 @@ export default function Navbar() {
       case "work": return <Clock className="w-4 h-4 text-emerald-600" />;
       case "money": return <DollarSign className="w-4 h-4 text-amber-600" />;
       case "operations": return <Cpu className="w-4 h-4 text-purple-600" />;
-      case "intelligence": return <BrainCircuit className="w-4 h-4 text-cyan-600" />;
+      case "insights": return <TrendingUp className="w-4 h-4 text-cyan-600" />;
       default: return <Layers className="w-4 h-4 text-blue-600" />;
     }
   };
@@ -65,16 +66,16 @@ export default function Navbar() {
       <div className="hidden lg:block bg-slate-900 text-slate-300 py-1.5 px-4 text-xs">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <span className="font-semibold tracking-wide text-white">Workforce360</span>
+            <span className="font-semibold tracking-wide text-white">SpotSign AI</span>
             <span className="text-slate-600">•</span>
-            <span className="text-slate-300">The AI-Native Workforce Operating System</span>
+            <span className="text-slate-300">The Enterprise Workforce Operating System</span>
             <span className="text-slate-600">•</span>
-            <span className="text-slate-400">Powered by Spotsign</span>
+            <span className="text-slate-400">Powered by Spotsign Workforce360</span>
           </div>
           <div className="flex items-center space-x-6">
             <Link href="/security" className="text-slate-300 hover:text-white transition flex items-center gap-1.5 font-medium">
               <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-              <span>Trust & Architecture</span>
+              <span>Security & Trust</span>
             </Link>
             <Link href="/contact" className="text-slate-400 hover:text-slate-200 transition">
               Enterprise Sales
@@ -88,20 +89,25 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Brand Logo */}
           <Link href="/" className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-blue-600 rounded-lg p-1">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 via-indigo-600 to-navy-900 flex items-center justify-center text-white font-bold text-xl shadow-md group-hover:shadow-blue-500/20 transition">
-              W
-            </div>
+            <Image
+              src="/logo.png"
+              alt="SpotSign AI Logo"
+              width={40}
+              height={40}
+              className="w-10 h-10 object-contain drop-shadow-sm group-hover:scale-105 transition-transform"
+              priority
+            />
             <div className="flex flex-col">
               <span className="text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-blue-600 transition">
-                Workforce<span className="text-blue-600">360</span>
+                SpotSign<span className="text-blue-600"> AI</span>
               </span>
               <span className="text-[10px] font-medium tracking-wider uppercase text-slate-500">
-                A DIMENSHION Product
+                by Spotsign Workforce360
               </span>
             </div>
           </Link>
 
-          {/* Desktop Navigation Links: Platform, Solutions, AI & Brain, Digital Twin, Industries, Resources, Pricing */}
+          {/* Desktop Navigation Links: Platform, Solutions, Analytics, Workforce Planning, Industries, Resources, Pricing */}
           <nav className="hidden lg:flex items-center space-x-1" aria-label="Main Navigation">
             {/* 1. Platform Mega Menu */}
             <div className="relative">
@@ -109,11 +115,11 @@ export default function Navbar() {
                 onClick={() => toggleFlyout("platform")}
                 aria-expanded={activeFlyout === "platform"}
                 className={`px-3 py-2 text-sm font-semibold rounded-md flex items-center gap-1 transition ${
-                  activeFlyout === "platform" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
+                  activeFlyout === "platform"? "text-blue-600 bg-blue-50/50": "text-slate-700 hover:text-blue-600"
                 }`}
               >
                 <span>Platform</span>
-                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "platform" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
+                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "platform"? "rotate-180 text-blue-600": "text-slate-400"}`} />
               </button>
 
               {activeFlyout === "platform" && (
@@ -147,18 +153,14 @@ export default function Navbar() {
                   {/* Bottom strip in mega menu */}
                   <div className="col-span-5 pt-4 mt-2 border-t border-slate-100 flex items-center justify-between text-xs bg-slate-50 -mx-6 -mb-6 p-4 rounded-b-2xl">
                     <div className="flex items-center gap-6">
-                      <span className="font-semibold text-slate-700">Flagship Capabilities:</span>
-                      <Link href="/platform/digital-twin" className="flex items-center gap-1.5 text-blue-600 font-medium hover:underline">
-                        <Sparkles className="w-3.5 h-3.5" />
-                        <span>Workforce Digital Twin Simulator</span>
-                      </Link>
-                      <Link href="/platform/ai" className="flex items-center gap-1.5 text-indigo-600 font-medium hover:underline">
-                        <BrainCircuit className="w-3.5 h-3.5" />
-                        <span>40 Genkit AI Flows & Digital Brain</span>
+                      <span className="font-semibold text-slate-700">Executive Visibility:</span>
+                      <Link href="/platform/analytics" className="flex items-center gap-1.5 text-blue-600 font-medium hover:underline">
+                        <TrendingUp className="w-3.5 h-3.5" />
+                        <span>Workforce Analytics & Reporting</span>
                       </Link>
                     </div>
                     <Link href="/platform" className="text-slate-600 font-semibold hover:text-blue-600 flex items-center gap-1">
-                      <span>View All Architecture</span>
+                      <span>View the Full Platform</span>
                       <ArrowRight className="w-3.5 h-3.5" />
                     </Link>
                   </div>
@@ -172,11 +174,11 @@ export default function Navbar() {
                 onClick={() => toggleFlyout("solutions")}
                 aria-expanded={activeFlyout === "solutions"}
                 className={`px-3 py-2 text-sm font-semibold rounded-md flex items-center gap-1 transition ${
-                  activeFlyout === "solutions" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
+                  activeFlyout === "solutions"? "text-blue-600 bg-blue-50/50": "text-slate-700 hover:text-blue-600"
                 }`}
               >
                 <span>Solutions</span>
-                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "solutions" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
+                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "solutions"? "rotate-180 text-blue-600": "text-slate-400"}`} />
               </button>
 
               {activeFlyout === "solutions" && (
@@ -236,21 +238,22 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* 3. AI & Brain Direct Link */}
+            {/* 3. Analytics Direct Link */}
             <Link
-              href="/platform/ai"
+              href="/platform/analytics"
               className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition flex items-center gap-1.5"
             >
-              <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-              <span>AI & Brain</span>
+              <TrendingUp className="w-3.5 h-3.5 text-blue-600" />
+              <span>Analytics</span>
             </Link>
 
-            {/* 4. Digital Twin Direct Link */}
+            {/* 4. Dedicated AI Page */}
             <Link
-              href="/platform/digital-twin"
-              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition"
+              href="/ai"
+              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-blue-600 rounded-md transition flex items-center gap-1.5"
             >
-              Digital Twin
+              <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
+              <span>AI</span>
             </Link>
 
             {/* 5. Industries Mega Menu (All 19) */}
@@ -259,12 +262,12 @@ export default function Navbar() {
                 onClick={() => toggleFlyout("industries")}
                 aria-expanded={activeFlyout === "industries"}
                 className={`px-3 py-2 text-sm font-semibold rounded-md flex items-center gap-1 transition ${
-                  activeFlyout === "industries" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
+                  activeFlyout === "industries"? "text-blue-600 bg-blue-50/50": "text-slate-700 hover:text-blue-600"
                 }`}
               >
                 <span>Industries</span>
                 <span className="bg-blue-100 text-blue-700 text-[10px] px-1.5 py-0.5 rounded-full font-bold">19</span>
-                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "industries" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
+                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "industries"? "rotate-180 text-blue-600": "text-slate-400"}`} />
               </button>
 
               {activeFlyout === "industries" && (
@@ -306,11 +309,11 @@ export default function Navbar() {
                 onClick={() => toggleFlyout("resources")}
                 aria-expanded={activeFlyout === "resources"}
                 className={`px-3 py-2 text-sm font-semibold rounded-md flex items-center gap-1 transition ${
-                  activeFlyout === "resources" ? "text-blue-600 bg-blue-50/50" : "text-slate-700 hover:text-blue-600"
+                  activeFlyout === "resources"? "text-blue-600 bg-blue-50/50": "text-slate-700 hover:text-blue-600"
                 }`}
               >
                 <span>Resources</span>
-                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "resources" ? "rotate-180 text-blue-600" : "text-slate-400"}`} />
+                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeFlyout === "resources"? "rotate-180 text-blue-600": "text-slate-400"}`} />
               </button>
 
               {activeFlyout === "resources" && (
@@ -383,7 +386,7 @@ export default function Navbar() {
           <div className="space-y-1">
             <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2 pt-2">Platform</div>
             <Link href="/platform" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
-              Platform Architecture Overview
+              Platform Overview
             </Link>
             <Link href="/platform/hris" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100">
               Core HR & HRIS
@@ -410,14 +413,14 @@ export default function Navbar() {
           </div>
 
           <div className="space-y-1 pt-2 border-t border-slate-100">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Intelligence & Flagship</div>
-            <Link href="/platform/ai" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100 flex items-center justify-between">
-              <span>AI & Brain (40 Genkit Flows)</span>
-              <Sparkles className="w-4 h-4 text-indigo-600" />
+            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider px-2">Insights</div>
+            <Link href="/platform/analytics" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100 flex items-center justify-between">
+              <span>Workforce Analytics & Reporting</span>
+              <TrendingUp className="w-4 h-4 text-blue-600" />
             </Link>
-            <Link href="/platform/digital-twin" className="block px-3 py-2 text-sm font-medium text-blue-600 rounded-md hover:bg-slate-100 flex items-center justify-between">
-              <span>Digital Twin Simulator</span>
-              <Sparkles className="w-4 h-4 text-blue-600" />
+            <Link href="/ai" className="block px-3 py-2 text-sm font-medium text-slate-900 rounded-md hover:bg-slate-100 flex items-center justify-between">
+              <span>AI Capabilities</span>
+              <Sparkles className="w-4 h-4 text-indigo-600" />
             </Link>
           </div>
 
@@ -443,7 +446,7 @@ export default function Navbar() {
               Enterprise Plans & Pricing
             </Link>
             <Link href="/security" className="block px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100">
-              Trust & Architecture
+              Security & Trust
             </Link>
           </div>
 

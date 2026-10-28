@@ -1,115 +1,110 @@
 {
   "default": {
-    "title": "Workforce360 — AI-Native Workforce Operating System",
-    "description": "Run your entire workforce on one intelligent platform. Workforce360 brings HR, payroll, attendance, talent, compliance, finance, IT operations, and workforce intelligence together.",
-    "canonical": "https://workforce360.dimension.com",
+    "title": "SpotSign AI — Enterprise Workforce Operating System",
+    "description": "Run your entire workforce on one unified platform. SpotSign AI brings HR, payroll, attendance, talent, compliance, finance, IT operations, and workforce analytics together.",
+    "canonical": "https://spotsign.ai",
     "ogImage": "/og-image.png"
   },
   "pages": {
     "/": {
-      "title": "Workforce360 — AI-Native Workforce Operating System | Powered by Spotsign",
-      "description": "Run your entire workforce on one intelligent platform. Connecting People, Work, Money, IT Operations, and AI for corporate and operational workforces.",
-      "canonical": "https://workforce360.dimension.com/"
+      "title": "SpotSign AI — Enterprise Workforce Operating System | Powered by Spotsign Workforce360",
+      "description": "Run your entire workforce on one unified platform. SpotSign AI connects People, Work, Money, IT Operations, and Insights for corporate and operational workforces.",
+      "canonical": "https://spotsign.ai/"
     },
     "/platform": {
-      "title": "Workforce360 Platform Architecture | Unified Workforce Operating System",
-      "description": "Explore Workforce360's five unified pillars: People, Work, Money, Operations & IT, and Intelligence across 19 specialized industry packs.",
-      "canonical": "https://workforce360.dimension.com/platform"
-    },
-    "/platform/digital-twin": {
-      "title": "Workforce Digital Twin & Strategic Restructure Simulator | Workforce360",
-      "description": "Simulate organizational reorgs, model headcount shifts, and project real-time P&L delta, severance impact, and skill deficits before committing change.",
-      "canonical": "https://workforce360.dimension.com/platform/digital-twin"
-    },
-    "/platform/ai": {
-      "title": "AI Workforce Intelligence & Digital Brain (40 Genkit Flows) | Workforce360",
-      "description": "Explore 40 production Genkit AI flows across predictive attrition detection, pre-payroll anomaly scans, AI resume scoring, and demand forecasting.",
-      "canonical": "https://workforce360.dimension.com/platform/ai"
+      "title": "SpotSign AI Platform | Unified Workforce Operating System",
+      "description": "Explore SpotSign AI's five unified pillars: People, Work, Money, Operations & IT, and Insights across 19 specialized industry packs.",
+      "canonical": "https://spotsign.ai/platform"
     },
     "/platform/payroll": {
-      "title": "Enterprise Payroll Software India & Piece-Rate Engine | Workforce360",
+      "title": "Enterprise Payroll Software India & Piece-Rate Engine | SpotSign AI",
       "description": "Automated payroll connected to attendance, overtime, piece-rate wages, Indian statutory compliance (TDS, PF, ESIC, PT), and General Ledger accounting.",
-      "canonical": "https://workforce360.dimension.com/platform/payroll"
+      "canonical": "https://spotsign.ai/platform/payroll"
     },
     "/platform/tax-compliance": {
-      "title": "Statutory Compliance & Indian Payroll Tax Software | Workforce360",
+      "title": "Statutory Compliance & Indian Payroll Tax Software | SpotSign AI",
       "description": "Automate Section 192 TDS under Old & New regimes, Form 12BB verification, EPFO ECR files, ESIC, State PT, and digitally signed Form 16s.",
-      "canonical": "https://workforce360.dimension.com/platform/tax-compliance"
+      "canonical": "https://spotsign.ai/platform/tax-compliance"
     },
     "/platform/workforce-management": {
-      "title": "Workforce Management, Shift Rostering & Factories Act WFM | Workforce360",
+      "title": "Workforce Management, Shift Rostering & Factories Act WFM | SpotSign AI",
       "description": "Schedule 24/7 rotational shifts, split shifts, overtime guardrails, and operational attendance across desk, field, and floor workforces.",
-      "canonical": "https://workforce360.dimension.com/platform/workforce-management"
+      "canonical": "https://spotsign.ai/platform/workforce-management"
     },
     "/platform/attendance": {
-      "title": "Biometric Attendance, Facial Recognition & Geofencing | Workforce360",
+      "title": "Biometric Attendance, Facial Recognition & Geofencing | SpotSign AI",
       "description": "Eliminate buddy punching with eSSL/ZKTeco biometric hardware sync, mobile facial check-in with liveness detection, and GPS geofences.",
-      "canonical": "https://workforce360.dimension.com/platform/attendance"
+      "canonical": "https://spotsign.ai/platform/attendance"
     },
     "/platform/hris": {
-      "title": "Core HRMS & HRIS Software | Single Source of Workforce Truth | Workforce360",
-      "description": "Centralize employee records, organizational hierarchies, multi-entity compliance records, and self-service with Workforce360 Core HRIS.",
-      "canonical": "https://workforce360.dimension.com/platform/hris"
+      "title": "Core HRMS & HRIS Software | Single Source of Workforce Truth | SpotSign AI",
+      "description": "Centralize employee records, organizational hierarchies, multi-entity compliance records, and self-service with SpotSign AI Core HRIS.",
+      "canonical": "https://spotsign.ai/platform/hris"
     },
     "/platform/recruitment": {
-      "title": "AI Recruitment ATS & Candidate Scoring Software | Workforce360",
-      "description": "Screen resumes in seconds, score competency fit, auto-generate interview rubrics, and manage hiring pipelines with Workforce360's AI ATS.",
-      "canonical": "https://workforce360.dimension.com/platform/recruitment"
+      "title": "Recruitment ATS & Candidate Scoring Software | SpotSign AI",
+      "description": "Screen resumes in seconds, score competency fit, auto-generate interview rubrics, and manage hiring pipelines with SpotSign AI's ATS.",
+      "canonical": "https://spotsign.ai/platform/recruitment"
     },
     "/platform/performance": {
-      "title": "Performance Management, OKRs & 9-Box Calibration Software | Workforce360",
-      "description": "Manage cascading OKRs, 360 reviews, Bell Curve normalization, 9-box talent matrices, and PIP workflows with Workforce360.",
-      "canonical": "https://workforce360.dimension.com/platform/performance"
+      "title": "Performance Management, OKRs & 9-Box Calibration Software | SpotSign AI",
+      "description": "Manage cascading OKRs, 360 reviews, Bell Curve normalization, 9-box talent matrices, and PIP workflows with SpotSign AI.",
+      "canonical": "https://spotsign.ai/platform/performance"
     },
     "/platform/learning": {
-      "title": "Enterprise LMS & Employee Training Software | Workforce360",
-      "description": "Deliver SCORM learning paths, mandatory statutory compliance courses, skill assessments, and AI-generated training modules.",
-      "canonical": "https://workforce360.dimension.com/platform/learning"
+      "title": "Enterprise LMS & Employee Training Software | SpotSign AI",
+      "description": "Deliver SCORM learning paths, mandatory statutory compliance courses, skill assessments, and pre-built training modules.",
+      "canonical": "https://spotsign.ai/platform/learning"
     },
     "/platform/it-assets": {
-      "title": "IT Asset Management & Software License Governance | Workforce360",
+      "title": "IT Asset Management & Software License Governance | SpotSign AI",
       "description": "Track corporate laptops, software licenses, access provisioning, and enforce strict offboarding asset return locks prior to payroll settlement.",
-      "canonical": "https://workforce360.dimension.com/platform/it-assets"
+      "canonical": "https://spotsign.ai/platform/it-assets"
     },
     "/platform/finance": {
-      "title": "Workforce Finance & General Ledger Sync | Workforce360",
+      "title": "Workforce Finance & General Ledger Sync | SpotSign AI",
       "description": "Sync balanced payroll journal entries directly into General Ledger (SAP, NetSuite, Oracle, Tally) and allocate multi-dimension cost centers.",
-      "canonical": "https://workforce360.dimension.com/platform/finance"
+      "canonical": "https://spotsign.ai/platform/finance"
     },
     "/industries": {
-      "title": "19 Specialized Industry Vertical Packs | Workforce360",
+      "title": "19 Specialized Industry Vertical Packs | SpotSign AI",
       "description": "Explore 19 pre-configured industry packs: Maritime STCW, Seafood piece-rate, Logistics, Manufacturing 3-shift rotas, Healthcare, Retail, and more.",
-      "canonical": "https://workforce360.dimension.com/industries"
+      "canonical": "https://spotsign.ai/industries"
     },
     "/solutions": {
-      "title": "Enterprise Persona Solutions | CHRO, Payroll, Finance & Operations | Workforce360",
+      "title": "Enterprise Persona Solutions | CHRO, Payroll, Finance & Operations | SpotSign AI",
       "description": "Role-specific solutions for CHROs, HR Leaders, Payroll Managers, CFOs, Operations Heads, IT Directors, Recruiters, and Employees.",
-      "canonical": "https://workforce360.dimension.com/solutions"
+      "canonical": "https://spotsign.ai/solutions"
     },
     "/compare": {
-      "title": "Capability Comparison: Workforce360 vs Workday, Keka, UKG & Rippling",
-      "description": "An objective architectural comparison of Workforce360 against enterprise HCM and mid-market HRMS across AI, statutory depth, and WFM.",
-      "canonical": "https://workforce360.dimension.com/compare"
+      "title": "Capability Comparison: SpotSign AI vs Workday, Keka, UKG & Rippling",
+      "description": "An objective comparison of SpotSign AI against enterprise HCM and mid-market HRMS across statutory depth and WFM.",
+      "canonical": "https://spotsign.ai/compare"
     },
     "/security": {
-      "title": "Enterprise Trust, Security & Multi-Tenant Architecture | Workforce360",
-      "description": "Multi-tenant data isolation, 19 granular RBAC security tiers, Firebase enterprise SSO, and immutable audit logging.",
-      "canonical": "https://workforce360.dimension.com/security"
+      "title": "Enterprise Security & Trust | SpotSign AI",
+      "description": "Secure access controls, enterprise SSO, encryption, and detailed audit logging for workforce data.",
+      "canonical": "https://spotsign.ai/security"
     },
     "/pricing": {
-      "title": "Enterprise Transparent Pricing & Plans | Workforce360",
+      "title": "Enterprise Transparent Pricing & Plans | SpotSign AI",
       "description": "Request transparent enterprise pricing tailored to your workforce size, geographic entities, and specialized industry vertical pack requirements.",
-      "canonical": "https://workforce360.dimension.com/pricing"
+      "canonical": "https://spotsign.ai/pricing"
     },
     "/demo": {
-      "title": "Request an Enterprise Demonstration | Workforce360",
-      "description": "Schedule a tailored live demonstration of the Workforce360 AI-Native Workforce Operating System with an enterprise solutions architect.",
-      "canonical": "https://workforce360.dimension.com/demo"
+      "title": "Request an Enterprise Demonstration | SpotSign AI",
+      "description": "Schedule a tailored live demonstration of SpotSign AI, the Enterprise Workforce Operating System, with an enterprise solutions specialist.",
+      "canonical": "https://spotsign.ai/demo"
     },
     "/llm-info": {
-      "title": "Workforce360 Canonical Specification for AI & LLM Systems",
-      "description": "Public machine-readable reference documenting Workforce360's entity model, platform capabilities, industries, and canonical URLs.",
-      "canonical": "https://workforce360.dimension.com/llm-info"
+      "title": "SpotSign AI Canonical Specification for Answer Engines",
+      "description": "Public machine-readable reference documenting SpotSign AI's entity model, platform capabilities, industries, and canonical URLs.",
+      "canonical": "https://spotsign.ai/llm-info"
+    },
+    "/ai": {
+      "title": "AI-Powered Workforce Automation & Planning | SpotSign AI",
+      "description": "Explore SpotSign AI capabilities for workflow automation, predictive workforce intelligence, and non-destructive organizational planning.",
+      "canonical": "https://spotsign.ai/ai"
     }
   }
 }
